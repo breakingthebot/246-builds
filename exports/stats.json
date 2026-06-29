@@ -1,0 +1,90 @@
+{
+  "total_builds": 16,
+  "latest_build": {
+    "build_number": 16,
+    "date": "2026-06-28",
+    "project_name": "File Duplicate Finder"
+  },
+  "by_category": [
+    {
+      "label": "Languages",
+      "count": 16
+    }
+  ],
+  "by_technology": [
+    {
+      "label": "ES Modules",
+      "count": 1
+    },
+    {
+      "label": "Go",
+      "count": 1
+    },
+    {
+      "label": "JS async",
+      "count": 1
+    },
+    {
+      "label": "JS testing",
+      "count": 1
+    },
+    {
+      "label": "PHP",
+      "count": 1
+    },
+    {
+      "label": "Python (async)",
+      "count": 1
+    },
+    {
+      "label": "Python (automation)",
+      "count": 1
+    },
+    {
+      "label": "Python (CLI tools)",
+      "count": 1
+    },
+    {
+      "label": "Python (Core)",
+      "count": 1
+    },
+    {
+      "label": "Python (data)",
+      "count": 1
+    },
+    {
+      "label": "Python (ML)",
+      "count": 1
+    },
+    {
+      "label": "Python (networking)",
+      "count": 1
+    },
+    {
+      "label": "Python (testing)",
+      "count": 1
+    },
+    {
+      "label": "Rust",
+      "count": 1
+    },
+    {
+      "label": "TypeScript",
+      "count": 1
+    },
+    {
+      "label": "Vanilla JS",
+      "count": 1
+    }
+  ],
+  "by_depth": [
+    {
+      "label": "Deep",
+      "count": 9
+    },
+    {
+      "label": "Expanded",
+      "count": 7
+    }
+  ]
+}

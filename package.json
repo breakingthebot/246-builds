@@ -1,0 +1,14 @@
+{
+  "name": "286-builds",
+  "version": "1.0.0",
+  "description": "Index repo for the 286 daily coding builds.",
+  "private": true,
+  "scripts": {
+    "add-build": "node add-build.js",
+    "audit-builds": "node audit-builds.js",
+    "generate-readme": "node generate-readme.js",
+    "release-day": "node release-day.js",
+    "sync-github-builds": "node sync-github-builds.js",
+    "test": "node --test"
+  }
+}

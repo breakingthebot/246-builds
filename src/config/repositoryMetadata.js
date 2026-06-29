@@ -1,0 +1,30 @@
+/*
+ * src/config/repositoryMetadata.js
+ * Stores the static copy used when generating the index README.
+ * Connects to: src/services/readmeService.js
+ * Created: 2026-06-28
+ */
+
+const REPOSITORY_TITLE = "286 Builds";
+const INTRO_PARAGRAPH =
+  "A public log of daily coding builds, each pulled from the 286-project list and built end-to-end in a single day, iterated on multiple times with a full commit history pushed live. The goal is learning breadth across languages and domains, not a portfolio of polished products.";
+const WHATS_IN_EACH_BUILD_REPO = [
+  "Every repo has a full README.",
+  "Every repo has a full changelog.",
+  "Every repo keeps a real sequential commit history on one branch.",
+  "Every repo includes either a live deployment link or exact local run instructions.",
+];
+const ARCHITECTURE_NOTES =
+  "This repo is the front door for the full build series. The reference files stay in `reference/`, the published build entries live in `builds.json`, and the README is generated from that JSON so the public index stays consistent. I kept the automation small on purpose: one CLI to add a build, one CLI to regenerate the README, and a handful of focused modules so the data, validation, formatting, and file writes stay separate and easy to audit.";
+const NOTES = [
+  "The tracker and README are synced to the 16 public build repos currently published under the `breakingthebot` GitHub account.",
+  "The tracker workbook currently contains 246 build rows even though the PDF is described as a 286-item master list. The automation uses the tracker rows that are actually marked complete.",
+];
+
+module.exports = {
+  ARCHITECTURE_NOTES,
+  INTRO_PARAGRAPH,
+  NOTES,
+  REPOSITORY_TITLE,
+  WHATS_IN_EACH_BUILD_REPO,
+};

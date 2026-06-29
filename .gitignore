@@ -1,0 +1,18 @@
+# .gitignore
+# Excludes local environment files, dependency folders, logs, and generated noise for this repo.
+# Connects to: package.json, reference/, tests/
+# Created: 2026-06-28
+
+.env
+venv/
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+*.log
+dist/
+build/
+coverage/
+tmp/
+~$*.xlsx
+286_projects_tracker - with dropdowns.xlsx
