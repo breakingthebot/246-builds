@@ -1,4 +1,5 @@
 build_number,date,project_name,description,repo_url,technology,category,depth,notes
+17,2026-06-29,Log File Analyzer,"Ruby CLI that analyzes common and JSON log files with batch input, time filters, trend buckets, config support, and text/JSON/CSV exports.",https://github.com/breakingthebot/log-file-analyzer-ruby,Ruby,Languages,Deep,"Multi-format Ruby CLI with batch analysis, per-file auto detection, time-window filtering, time-bucket summaries, YAML config defaults, CSV/JSON export, and direct file output."
 16,2026-06-28,File Duplicate Finder,CLI tool that walks a directory tree and finds duplicate files by hash.,https://github.com/breakingthebot/file-duplicate-finder-rust,Rust,Languages,Expanded,
 15,2026-06-28,URL Shortener API,Go URL shortener API with PostgreSQL storage and click tracking.,https://github.com/breakingthebot/url-shortener-api,Go,Languages,Expanded,
 14,2026-06-28,Contact Form Backend,"Modular PHP backend for validating, storing, and emailing contact form submissions.",https://github.com/breakingthebot/php-contact-form-backend,PHP,Languages,Deep,

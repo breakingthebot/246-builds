@@ -1,14 +1,14 @@
 {
-  "total_builds": 16,
+  "total_builds": 17,
   "latest_build": {
-    "build_number": 16,
-    "date": "2026-06-28",
-    "project_name": "File Duplicate Finder"
+    "build_number": 17,
+    "date": "2026-06-29",
+    "project_name": "Log File Analyzer"
   },
   "by_category": [
     {
       "label": "Languages",
-      "count": 16
+      "count": 17
     }
   ],
   "by_technology": [
@@ -65,6 +65,10 @@
       "count": 1
     },
     {
+      "label": "Ruby",
+      "count": 1
+    },
+    {
       "label": "Rust",
       "count": 1
     },
@@ -80,7 +84,7 @@
   "by_depth": [
     {
       "label": "Deep",
-      "count": 9
+      "count": 10
     },
     {
       "label": "Expanded",
