@@ -65,7 +65,7 @@ A public log of daily coding builds, each pulled from the 286-project list and b
 
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 17 | 2026-06-29 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI that analyzes common and JSON log files with batch input, time filters, trend buckets, config support, and text/JSON/CSV exports. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
+| 17 | 2026-06-29 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
 | 16 | 2026-06-28 | [File Duplicate Finder](builds/016-file-duplicate-finder.md) | CLI tool that walks a directory tree and finds duplicate files by hash. | [Repo](https://github.com/breakingthebot/file-duplicate-finder-rust) | Rust | Languages | `Expanded` |
 | 15 | 2026-06-28 | [URL Shortener API](builds/015-url-shortener-api.md) | Go URL shortener API with PostgreSQL storage and click tracking. | [Repo](https://github.com/breakingthebot/url-shortener-api) | Go | Languages | `Expanded` |
 | 14 | 2026-06-28 | [Contact Form Backend](builds/014-contact-form-backend.md) | Modular PHP backend for validating, storing, and emailing contact form submissions. | [Repo](https://github.com/breakingthebot/php-contact-form-backend) | PHP | Languages | `Deep` |
@@ -87,7 +87,7 @@ A public log of daily coding builds, each pulled from the 286-project list and b
 ### Most Recent 10
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 17 | 2026-06-29 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI that analyzes common and JSON log files with batch input, time filters, trend buckets, config support, and text/JSON/CSV exports. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
+| 17 | 2026-06-29 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
 | 16 | 2026-06-28 | [File Duplicate Finder](builds/016-file-duplicate-finder.md) | CLI tool that walks a directory tree and finds duplicate files by hash. | [Repo](https://github.com/breakingthebot/file-duplicate-finder-rust) | Rust | Languages | `Expanded` |
 | 15 | 2026-06-28 | [URL Shortener API](builds/015-url-shortener-api.md) | Go URL shortener API with PostgreSQL storage and click tracking. | [Repo](https://github.com/breakingthebot/url-shortener-api) | Go | Languages | `Expanded` |
 | 14 | 2026-06-28 | [Contact Form Backend](builds/014-contact-form-backend.md) | Modular PHP backend for validating, storing, and emailing contact form submissions. | [Repo](https://github.com/breakingthebot/php-contact-form-backend) | PHP | Languages | `Deep` |
@@ -101,7 +101,7 @@ A public log of daily coding builds, each pulled from the 286-project list and b
 ### Deep Builds
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 17 | 2026-06-29 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI that analyzes common and JSON log files with batch input, time filters, trend buckets, config support, and text/JSON/CSV exports. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
+| 17 | 2026-06-29 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
 | 14 | 2026-06-28 | [Contact Form Backend](builds/014-contact-form-backend.md) | Modular PHP backend for validating, storing, and emailing contact form submissions. | [Repo](https://github.com/breakingthebot/php-contact-form-backend) | PHP | Languages | `Deep` |
 | 12 | 2026-06-27 | [GitHub Profile Viewer](builds/012-github-profile-viewer.md) | Vanilla JS GitHub explorer with profile, repo, and activity views plus search, filter, sort, and full E2E coverage. | [Repo](https://github.com/breakingthebot/github-profile-viewer-vanilla-js) | JS async | Languages | `Deep` |
 | 11 | 2026-06-26 | [Music Player](builds/011-music-player.md) | No-bundler ES module music player with queue, shuffle/repeat, favorites, local file import, and CI/E2E coverage. | [Repo](https://github.com/breakingthebot/music-player-es-modules) | ES Modules | Languages | `Deep` |
@@ -116,7 +116,7 @@ A public log of daily coding builds, each pulled from the 286-project list and b
 ### Languages
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 17 | 2026-06-29 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI that analyzes common and JSON log files with batch input, time filters, trend buckets, config support, and text/JSON/CSV exports. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
+| 17 | 2026-06-29 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
 | 16 | 2026-06-28 | [File Duplicate Finder](builds/016-file-duplicate-finder.md) | CLI tool that walks a directory tree and finds duplicate files by hash. | [Repo](https://github.com/breakingthebot/file-duplicate-finder-rust) | Rust | Languages | `Expanded` |
 | 15 | 2026-06-28 | [URL Shortener API](builds/015-url-shortener-api.md) | Go URL shortener API with PostgreSQL storage and click tracking. | [Repo](https://github.com/breakingthebot/url-shortener-api) | Go | Languages | `Expanded` |
 | 14 | 2026-06-28 | [Contact Form Backend](builds/014-contact-form-backend.md) | Modular PHP backend for validating, storing, and emailing contact form submissions. | [Repo](https://github.com/breakingthebot/php-contact-form-backend) | PHP | Languages | `Deep` |
@@ -203,7 +203,7 @@ A public log of daily coding builds, each pulled from the 286-project list and b
 ### Ruby
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 17 | 2026-06-29 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI that analyzes common and JSON log files with batch input, time filters, trend buckets, config support, and text/JSON/CSV exports. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
+| 17 | 2026-06-29 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
 
 ### Rust
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |

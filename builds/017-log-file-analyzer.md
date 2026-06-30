@@ -1,6 +1,6 @@
 # Build 17: Log File Analyzer
 
-Ruby CLI that analyzes common and JSON log files with batch input, time filters, trend buckets, config support, and text/JSON/CSV exports.
+Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support.
 
 ## Snapshot
 - Date Pushed: 2026-06-29
@@ -10,4 +10,4 @@ Ruby CLI that analyzes common and JSON log files with batch input, time filters,
 - Repo: https://github.com/breakingthebot/log-file-analyzer-ruby
 
 ## Notes
-Multi-format Ruby CLI with batch analysis, per-file auto detection, time-window filtering, time-bucket summaries, YAML config defaults, CSV/JSON export, and direct file output.
+Streaming Ruby CLI with common/JSON and gzip input, batch analysis, per-file auto detection, time-window filtering, threshold exits, comparison mode, trend buckets, YAML config defaults, packaged install flow, and CSV/JSON export.
