@@ -1,6 +1,6 @@
 # 286 Builds
 
-A public log of daily coding builds, each pulled from the 286-project list and built end-to-end in a single day, iterated on multiple times with a full commit history pushed live. The goal is learning breadth across languages and domains, not a portfolio of polished products.
+A public index of daily coding builds, each pulled from the 286-project list and built end-to-end in a single day, then expanded through multiple iterations with a full commit history pushed live. Together, the repos form a broad portfolio spanning multiple languages, problem types, and build depths.
 
 ## What's in each build's repo
 - Every repo has a full README.
@@ -259,3 +259,4 @@ This repo is the front door for the full build series. The reference files stay 
 ## Notes
 - The tracker and README are synced to the 16 public build repos currently published under the `breakingthebot` GitHub account.
 - The tracker workbook currently contains 246 build rows even though the PDF is described as a 286-item master list. The automation uses the tracker rows that are actually marked complete.
+- The remaining unpublished build slots are intentionally left open for future custom build designs and additional portfolio work.
