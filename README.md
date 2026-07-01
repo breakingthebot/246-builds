@@ -17,7 +17,7 @@ A public index of daily coding builds, each pulled from the 286-project list and
 ## Summary
 | Completed | Latest Build | Deep Builds | Expanded Builds | Standard Builds |
 | ---: | --- | ---: | ---: | ---: |
-| 17 | #17 Log File Analyzer | 10 | 7 | 0 |
+| 19 | #19 Budget Tracker Console App | 10 | 9 | 0 |
 
 ### Jump To
 - [Build Index](#build-index)
@@ -32,19 +32,21 @@ A public index of daily coding builds, each pulled from the 286-project list and
 #### By Category
 | Label | Count |
 | --- | ---: |
-| Languages | 17 |
+| Languages | 19 |
 
 #### By Depth
 | Label | Count |
 | --- | ---: |
 | Deep | 10 |
-| Expanded | 7 |
+| Expanded | 9 |
 
 #### By Technology
 | Label | Count |
 | --- | ---: |
+| C# | 1 |
 | ES Modules | 1 |
 | Go | 1 |
+| Java | 1 |
 | JS async | 1 |
 | JS testing | 1 |
 | PHP | 1 |
@@ -65,7 +67,9 @@ A public index of daily coding builds, each pulled from the 286-project list and
 
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 17 | 2026-06-29 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
+| 19 | 2026-07-01 | [Budget Tracker Console App](builds/019-budget-tracker-console-app.md) | A .NET 8 console budget tracker with categories, monthly reports, and CSV export. | [Repo](https://github.com/breakingthebot/budget-tracker-console-app) | C# | Languages | `Expanded` |
+| 18 | 2026-06-30 | [Library Catalog](builds/018-library-catalog.md) | Java library catalog with Book and Member classes, checkout flows, file persistence, and JUnit coverage. | [Repo](https://github.com/breakingthebot/library-catalog-java) | Java | Languages | `Expanded` |
+| 17 | 2026-06-30 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
 | 16 | 2026-06-28 | [File Duplicate Finder](builds/016-file-duplicate-finder.md) | CLI tool that walks a directory tree and finds duplicate files by hash. | [Repo](https://github.com/breakingthebot/file-duplicate-finder-rust) | Rust | Languages | `Expanded` |
 | 15 | 2026-06-28 | [URL Shortener API](builds/015-url-shortener-api.md) | Go URL shortener API with PostgreSQL storage and click tracking. | [Repo](https://github.com/breakingthebot/url-shortener-api) | Go | Languages | `Expanded` |
 | 14 | 2026-06-28 | [Contact Form Backend](builds/014-contact-form-backend.md) | Modular PHP backend for validating, storing, and emailing contact form submissions. | [Repo](https://github.com/breakingthebot/php-contact-form-backend) | PHP | Languages | `Deep` |
@@ -87,7 +91,9 @@ A public index of daily coding builds, each pulled from the 286-project list and
 ### Most Recent 10
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 17 | 2026-06-29 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
+| 19 | 2026-07-01 | [Budget Tracker Console App](builds/019-budget-tracker-console-app.md) | A .NET 8 console budget tracker with categories, monthly reports, and CSV export. | [Repo](https://github.com/breakingthebot/budget-tracker-console-app) | C# | Languages | `Expanded` |
+| 18 | 2026-06-30 | [Library Catalog](builds/018-library-catalog.md) | Java library catalog with Book and Member classes, checkout flows, file persistence, and JUnit coverage. | [Repo](https://github.com/breakingthebot/library-catalog-java) | Java | Languages | `Expanded` |
+| 17 | 2026-06-30 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
 | 16 | 2026-06-28 | [File Duplicate Finder](builds/016-file-duplicate-finder.md) | CLI tool that walks a directory tree and finds duplicate files by hash. | [Repo](https://github.com/breakingthebot/file-duplicate-finder-rust) | Rust | Languages | `Expanded` |
 | 15 | 2026-06-28 | [URL Shortener API](builds/015-url-shortener-api.md) | Go URL shortener API with PostgreSQL storage and click tracking. | [Repo](https://github.com/breakingthebot/url-shortener-api) | Go | Languages | `Expanded` |
 | 14 | 2026-06-28 | [Contact Form Backend](builds/014-contact-form-backend.md) | Modular PHP backend for validating, storing, and emailing contact form submissions. | [Repo](https://github.com/breakingthebot/php-contact-form-backend) | PHP | Languages | `Deep` |
@@ -95,13 +101,11 @@ A public index of daily coding builds, each pulled from the 286-project list and
 | 12 | 2026-06-27 | [GitHub Profile Viewer](builds/012-github-profile-viewer.md) | Vanilla JS GitHub explorer with profile, repo, and activity views plus search, filter, sort, and full E2E coverage. | [Repo](https://github.com/breakingthebot/github-profile-viewer-vanilla-js) | JS async | Languages | `Deep` |
 | 11 | 2026-06-26 | [Music Player](builds/011-music-player.md) | No-bundler ES module music player with queue, shuffle/repeat, favorites, local file import, and CI/E2E coverage. | [Repo](https://github.com/breakingthebot/music-player-es-modules) | ES Modules | Languages | `Deep` |
 | 10 | 2026-06-20 | [Typed Task Manager](builds/010-typed-task-manager.md) | Strict TypeScript task manager with status-grouped views, import/export, backup history, bulk actions, and browser tests. | [Repo](https://github.com/breakingthebot/Typed-Task-Manager) | TypeScript | Languages | `Deep` |
-| 9 | 2026-06-19 | [Kanban Board](builds/009-kanban-board.md) | Dependency-free drag-and-drop Kanban board with labels, due dates, undo/redo, and accessibility-tested E2E coverage. | [Repo](https://github.com/breakingthebot/Kanban-Board-Vanilla-JS) | Vanilla JS | Languages | `Deep` |
-| 8 | 2026-06-18 | [Tested Calculator Library](builds/008-tested-calculator-library.md) | Installable Python calculator package with CLI, batch processing, history, precision controls, and full pytest coverage. | [Repo](https://github.com/breakingthebot/Python-testing) | Python (testing) | Languages | `Deep` |
 
 ### Deep Builds
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 17 | 2026-06-29 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
+| 17 | 2026-06-30 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
 | 14 | 2026-06-28 | [Contact Form Backend](builds/014-contact-form-backend.md) | Modular PHP backend for validating, storing, and emailing contact form submissions. | [Repo](https://github.com/breakingthebot/php-contact-form-backend) | PHP | Languages | `Deep` |
 | 12 | 2026-06-27 | [GitHub Profile Viewer](builds/012-github-profile-viewer.md) | Vanilla JS GitHub explorer with profile, repo, and activity views plus search, filter, sort, and full E2E coverage. | [Repo](https://github.com/breakingthebot/github-profile-viewer-vanilla-js) | JS async | Languages | `Deep` |
 | 11 | 2026-06-26 | [Music Player](builds/011-music-player.md) | No-bundler ES module music player with queue, shuffle/repeat, favorites, local file import, and CI/E2E coverage. | [Repo](https://github.com/breakingthebot/music-player-es-modules) | ES Modules | Languages | `Deep` |
@@ -116,7 +120,9 @@ A public index of daily coding builds, each pulled from the 286-project list and
 ### Languages
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 17 | 2026-06-29 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
+| 19 | 2026-07-01 | [Budget Tracker Console App](builds/019-budget-tracker-console-app.md) | A .NET 8 console budget tracker with categories, monthly reports, and CSV export. | [Repo](https://github.com/breakingthebot/budget-tracker-console-app) | C# | Languages | `Expanded` |
+| 18 | 2026-06-30 | [Library Catalog](builds/018-library-catalog.md) | Java library catalog with Book and Member classes, checkout flows, file persistence, and JUnit coverage. | [Repo](https://github.com/breakingthebot/library-catalog-java) | Java | Languages | `Expanded` |
+| 17 | 2026-06-30 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
 | 16 | 2026-06-28 | [File Duplicate Finder](builds/016-file-duplicate-finder.md) | CLI tool that walks a directory tree and finds duplicate files by hash. | [Repo](https://github.com/breakingthebot/file-duplicate-finder-rust) | Rust | Languages | `Expanded` |
 | 15 | 2026-06-28 | [URL Shortener API](builds/015-url-shortener-api.md) | Go URL shortener API with PostgreSQL storage and click tracking. | [Repo](https://github.com/breakingthebot/url-shortener-api) | Go | Languages | `Expanded` |
 | 14 | 2026-06-28 | [Contact Form Backend](builds/014-contact-form-backend.md) | Modular PHP backend for validating, storing, and emailing contact form submissions. | [Repo](https://github.com/breakingthebot/php-contact-form-backend) | PHP | Languages | `Deep` |
@@ -135,6 +141,11 @@ A public index of daily coding builds, each pulled from the 286-project list and
 | 1 | 2026-06-06 | [Expense Tracker](builds/001-expense-tracker.md) | Standard-library-only expense tracker with budgets, recurring templates, monthly reports, and CSV export. | [Repo](https://github.com/breakingthebot/expense-tracker) | Python (Core) | Languages | `Expanded` |
 
 ## By Technology
+### C#
+| Build # | Date | Project | Description | Repo | Technology | Category | Depth |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 19 | 2026-07-01 | [Budget Tracker Console App](builds/019-budget-tracker-console-app.md) | A .NET 8 console budget tracker with categories, monthly reports, and CSV export. | [Repo](https://github.com/breakingthebot/budget-tracker-console-app) | C# | Languages | `Expanded` |
+
 ### ES Modules
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -144,6 +155,11 @@ A public index of daily coding builds, each pulled from the 286-project list and
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 15 | 2026-06-28 | [URL Shortener API](builds/015-url-shortener-api.md) | Go URL shortener API with PostgreSQL storage and click tracking. | [Repo](https://github.com/breakingthebot/url-shortener-api) | Go | Languages | `Expanded` |
+
+### Java
+| Build # | Date | Project | Description | Repo | Technology | Category | Depth |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 18 | 2026-06-30 | [Library Catalog](builds/018-library-catalog.md) | Java library catalog with Book and Member classes, checkout flows, file persistence, and JUnit coverage. | [Repo](https://github.com/breakingthebot/library-catalog-java) | Java | Languages | `Expanded` |
 
 ### JS async
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
@@ -203,7 +219,7 @@ A public index of daily coding builds, each pulled from the 286-project list and
 ### Ruby
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 17 | 2026-06-29 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
+| 17 | 2026-06-30 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
 
 ### Rust
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |

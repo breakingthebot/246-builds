@@ -191,10 +191,26 @@ function createTrackerReadScript(trackerPath) {
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 $trackerPath = '${trackerPath.replace(/'/g, "''")}'
 $zip = [System.IO.Compression.ZipFile]::OpenRead($trackerPath)
-$entry = $zip.GetEntry('xl/worksheets/sheet1.xml')
-$reader = New-Object System.IO.StreamReader($entry.Open())
-$content = $reader.ReadToEnd()
-$reader.Dispose()
+$sheetEntry = $zip.GetEntry('xl\\worksheets\\sheet1.xml')
+$sheetReader = New-Object System.IO.StreamReader($sheetEntry.Open())
+$content = $sheetReader.ReadToEnd()
+$sheetReader.Dispose()
+$sharedStrings = @()
+$sharedStringsEntry = $zip.GetEntry('xl\\sharedStrings.xml')
+if ($sharedStringsEntry) {
+  $sharedStringsReader = New-Object System.IO.StreamReader($sharedStringsEntry.Open())
+  [xml]$sharedStringsXml = $sharedStringsReader.ReadToEnd()
+  $sharedStringsReader.Dispose()
+  foreach ($stringItem in $sharedStringsXml.sst.si) {
+    if ($stringItem.t) {
+      $sharedStrings += [string]$stringItem.t
+    } elseif ($stringItem.r) {
+      $sharedStrings += (($stringItem.r | ForEach-Object { $_.t }) -join '')
+    } else {
+      $sharedStrings += ''
+    }
+  }
+}
 $zip.Dispose()
 [xml]$sheetXml = $content
 $ns = New-Object System.Xml.XmlNamespaceManager($sheetXml.NameTable)
@@ -206,6 +222,8 @@ foreach ($row in $sheetXml.SelectNodes('//a:sheetData/a:row[position()>1]', $ns)
     $columnName = ($cell.r -replace '\\d', '')
     if ($cell.t -eq 'inlineStr' -and $cell.is -and $cell.is.t) {
       $cells[$columnName] = [string]$cell.is.t
+    } elseif ($cell.t -eq 's' -and $cell.v) {
+      $cells[$columnName] = $sharedStrings[[int]$cell.v]
     } elseif ($cell.v) {
       $cells[$columnName] = [string]$cell.v
     } else {

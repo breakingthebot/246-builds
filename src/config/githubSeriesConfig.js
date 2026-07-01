@@ -5,7 +5,7 @@
  * Created: 2026-06-28
  */
 
-const IGNORED_PUBLIC_REPOSITORIES = ["solar-system"];
+const IGNORED_PUBLIC_REPOSITORIES = ["286-builds", "solar-system"];
 
 module.exports = {
   IGNORED_PUBLIC_REPOSITORIES,

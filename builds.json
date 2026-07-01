@@ -1,7 +1,37 @@
 [
   {
+    "build_number": 19,
+    "date": "2026-07-01",
+    "project_name": "Budget Tracker Console App",
+    "description": "A .NET 8 console budget tracker with categories, monthly reports, and CSV export.",
+    "repo_url": "https://github.com/breakingthebot/budget-tracker-console-app",
+    "technology": "C#",
+    "category": "Languages",
+    "stack": [
+      "C#",
+      "Languages"
+    ],
+    "depth": "Expanded",
+    "notes": ""
+  },
+  {
+    "build_number": 18,
+    "date": "2026-06-30",
+    "project_name": "Library Catalog",
+    "description": "Java library catalog with Book and Member classes, checkout flows, file persistence, and JUnit coverage.",
+    "repo_url": "https://github.com/breakingthebot/library-catalog-java",
+    "technology": "Java",
+    "category": "Languages",
+    "stack": [
+      "Java",
+      "Languages"
+    ],
+    "depth": "Expanded",
+    "notes": ""
+  },
+  {
     "build_number": 17,
-    "date": "2026-06-29",
+    "date": "2026-06-30",
     "project_name": "Log File Analyzer",
     "description": "Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support.",
     "repo_url": "https://github.com/breakingthebot/log-file-analyzer-ruby",

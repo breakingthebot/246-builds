@@ -46,5 +46,6 @@ test("createTrackerUpdateScript includes the target row and tracker fields", () 
 test("createTrackerReadScript targets the canonical tracker path", () => {
   const script = createTrackerReadScript(TRACKER_PRIMARY_FILE);
   assert.match(script, /sheet1\.xml/);
+  assert.match(script, /sharedStrings\.xml/);
   assert.match(script, /ConvertTo-Json/);
 });
