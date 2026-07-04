@@ -1,7 +1,37 @@
 [
   {
+    "build_number": 21,
+    "date": "2026-07-04",
+    "project_name": "Quick Notes Android App",
+    "description": "Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage.",
+    "repo_url": "https://github.com/breakingthebot/quick-notes-android-compose",
+    "technology": "Kotlin",
+    "category": "Languages",
+    "stack": [
+      "Kotlin",
+      "Languages"
+    ],
+    "depth": "Deep",
+    "notes": "Kotlin Android notes app with Jetpack Compose Material 3, Room persistence, tags, archive/restore flows, search, sort, home screen widgets, accessibility polish, and automated UI regression coverage."
+  },
+  {
+    "build_number": 20,
+    "date": "2026-07-03",
+    "project_name": "Habit Tracker iOS App",
+    "description": "SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a weekly dashboard, home screen widgets, and XCTest coverage.",
+    "repo_url": "https://github.com/breakingthebot/habit-tracker-ios-swiftui",
+    "technology": "Swift",
+    "category": "Languages",
+    "stack": [
+      "Swift",
+      "Languages"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
     "build_number": 19,
-    "date": "2026-07-01",
+    "date": "2026-07-02",
     "project_name": "Budget Tracker Console App",
     "description": "A .NET 8 console budget tracker with categories, monthly reports, and CSV export.",
     "repo_url": "https://github.com/breakingthebot/budget-tracker-console-app",

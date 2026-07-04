@@ -17,7 +17,7 @@ A public index of daily coding builds, each pulled from the 286-project list and
 ## Summary
 | Completed | Latest Build | Deep Builds | Expanded Builds | Standard Builds |
 | ---: | --- | ---: | ---: | ---: |
-| 19 | #19 Budget Tracker Console App | 10 | 9 | 0 |
+| 21 | #21 Quick Notes Android App | 12 | 9 | 0 |
 
 ### Jump To
 - [Build Index](#build-index)
@@ -32,12 +32,12 @@ A public index of daily coding builds, each pulled from the 286-project list and
 #### By Category
 | Label | Count |
 | --- | ---: |
-| Languages | 19 |
+| Languages | 21 |
 
 #### By Depth
 | Label | Count |
 | --- | ---: |
-| Deep | 10 |
+| Deep | 12 |
 | Expanded | 9 |
 
 #### By Technology
@@ -49,6 +49,7 @@ A public index of daily coding builds, each pulled from the 286-project list and
 | Java | 1 |
 | JS async | 1 |
 | JS testing | 1 |
+| Kotlin | 1 |
 | PHP | 1 |
 | Python (async) | 1 |
 | Python (automation) | 1 |
@@ -60,6 +61,7 @@ A public index of daily coding builds, each pulled from the 286-project list and
 | Python (testing) | 1 |
 | Ruby | 1 |
 | Rust | 1 |
+| Swift | 1 |
 | TypeScript | 1 |
 | Vanilla JS | 1 |
 
@@ -67,7 +69,9 @@ A public index of daily coding builds, each pulled from the 286-project list and
 
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 19 | 2026-07-01 | [Budget Tracker Console App](builds/019-budget-tracker-console-app.md) | A .NET 8 console budget tracker with categories, monthly reports, and CSV export. | [Repo](https://github.com/breakingthebot/budget-tracker-console-app) | C# | Languages | `Expanded` |
+| 21 | 2026-07-04 | [Quick Notes Android App](builds/021-quick-notes-android-app.md) | Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage. | [Repo](https://github.com/breakingthebot/quick-notes-android-compose) | Kotlin | Languages | `Deep` |
+| 20 | 2026-07-03 | [Habit Tracker iOS App](builds/020-habit-tracker-ios-app.md) | SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a weekly dashboard, home screen widgets, and XCTest coverage. | [Repo](https://github.com/breakingthebot/habit-tracker-ios-swiftui) | Swift | Languages | `Deep` |
+| 19 | 2026-07-02 | [Budget Tracker Console App](builds/019-budget-tracker-console-app.md) | A .NET 8 console budget tracker with categories, monthly reports, and CSV export. | [Repo](https://github.com/breakingthebot/budget-tracker-console-app) | C# | Languages | `Expanded` |
 | 18 | 2026-06-30 | [Library Catalog](builds/018-library-catalog.md) | Java library catalog with Book and Member classes, checkout flows, file persistence, and JUnit coverage. | [Repo](https://github.com/breakingthebot/library-catalog-java) | Java | Languages | `Expanded` |
 | 17 | 2026-06-30 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
 | 16 | 2026-06-28 | [File Duplicate Finder](builds/016-file-duplicate-finder.md) | CLI tool that walks a directory tree and finds duplicate files by hash. | [Repo](https://github.com/breakingthebot/file-duplicate-finder-rust) | Rust | Languages | `Expanded` |
@@ -91,7 +95,9 @@ A public index of daily coding builds, each pulled from the 286-project list and
 ### Most Recent 10
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 19 | 2026-07-01 | [Budget Tracker Console App](builds/019-budget-tracker-console-app.md) | A .NET 8 console budget tracker with categories, monthly reports, and CSV export. | [Repo](https://github.com/breakingthebot/budget-tracker-console-app) | C# | Languages | `Expanded` |
+| 21 | 2026-07-04 | [Quick Notes Android App](builds/021-quick-notes-android-app.md) | Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage. | [Repo](https://github.com/breakingthebot/quick-notes-android-compose) | Kotlin | Languages | `Deep` |
+| 20 | 2026-07-03 | [Habit Tracker iOS App](builds/020-habit-tracker-ios-app.md) | SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a weekly dashboard, home screen widgets, and XCTest coverage. | [Repo](https://github.com/breakingthebot/habit-tracker-ios-swiftui) | Swift | Languages | `Deep` |
+| 19 | 2026-07-02 | [Budget Tracker Console App](builds/019-budget-tracker-console-app.md) | A .NET 8 console budget tracker with categories, monthly reports, and CSV export. | [Repo](https://github.com/breakingthebot/budget-tracker-console-app) | C# | Languages | `Expanded` |
 | 18 | 2026-06-30 | [Library Catalog](builds/018-library-catalog.md) | Java library catalog with Book and Member classes, checkout flows, file persistence, and JUnit coverage. | [Repo](https://github.com/breakingthebot/library-catalog-java) | Java | Languages | `Expanded` |
 | 17 | 2026-06-30 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
 | 16 | 2026-06-28 | [File Duplicate Finder](builds/016-file-duplicate-finder.md) | CLI tool that walks a directory tree and finds duplicate files by hash. | [Repo](https://github.com/breakingthebot/file-duplicate-finder-rust) | Rust | Languages | `Expanded` |
@@ -99,12 +105,12 @@ A public index of daily coding builds, each pulled from the 286-project list and
 | 14 | 2026-06-28 | [Contact Form Backend](builds/014-contact-form-backend.md) | Modular PHP backend for validating, storing, and emailing contact form submissions. | [Repo](https://github.com/breakingthebot/php-contact-form-backend) | PHP | Languages | `Deep` |
 | 13 | 2026-06-28 | [Tested String Utility Library](builds/013-tested-string-utility-library.md) | JavaScript string utility library with 20 modular helpers and a full Jest test suite. | [Repo](https://github.com/breakingthebot/string-utils-jest) | JS testing | Languages | `Expanded` |
 | 12 | 2026-06-27 | [GitHub Profile Viewer](builds/012-github-profile-viewer.md) | Vanilla JS GitHub explorer with profile, repo, and activity views plus search, filter, sort, and full E2E coverage. | [Repo](https://github.com/breakingthebot/github-profile-viewer-vanilla-js) | JS async | Languages | `Deep` |
-| 11 | 2026-06-26 | [Music Player](builds/011-music-player.md) | No-bundler ES module music player with queue, shuffle/repeat, favorites, local file import, and CI/E2E coverage. | [Repo](https://github.com/breakingthebot/music-player-es-modules) | ES Modules | Languages | `Deep` |
-| 10 | 2026-06-20 | [Typed Task Manager](builds/010-typed-task-manager.md) | Strict TypeScript task manager with status-grouped views, import/export, backup history, bulk actions, and browser tests. | [Repo](https://github.com/breakingthebot/Typed-Task-Manager) | TypeScript | Languages | `Deep` |
 
 ### Deep Builds
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 21 | 2026-07-04 | [Quick Notes Android App](builds/021-quick-notes-android-app.md) | Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage. | [Repo](https://github.com/breakingthebot/quick-notes-android-compose) | Kotlin | Languages | `Deep` |
+| 20 | 2026-07-03 | [Habit Tracker iOS App](builds/020-habit-tracker-ios-app.md) | SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a weekly dashboard, home screen widgets, and XCTest coverage. | [Repo](https://github.com/breakingthebot/habit-tracker-ios-swiftui) | Swift | Languages | `Deep` |
 | 17 | 2026-06-30 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
 | 14 | 2026-06-28 | [Contact Form Backend](builds/014-contact-form-backend.md) | Modular PHP backend for validating, storing, and emailing contact form submissions. | [Repo](https://github.com/breakingthebot/php-contact-form-backend) | PHP | Languages | `Deep` |
 | 12 | 2026-06-27 | [GitHub Profile Viewer](builds/012-github-profile-viewer.md) | Vanilla JS GitHub explorer with profile, repo, and activity views plus search, filter, sort, and full E2E coverage. | [Repo](https://github.com/breakingthebot/github-profile-viewer-vanilla-js) | JS async | Languages | `Deep` |
@@ -120,7 +126,9 @@ A public index of daily coding builds, each pulled from the 286-project list and
 ### Languages
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 19 | 2026-07-01 | [Budget Tracker Console App](builds/019-budget-tracker-console-app.md) | A .NET 8 console budget tracker with categories, monthly reports, and CSV export. | [Repo](https://github.com/breakingthebot/budget-tracker-console-app) | C# | Languages | `Expanded` |
+| 21 | 2026-07-04 | [Quick Notes Android App](builds/021-quick-notes-android-app.md) | Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage. | [Repo](https://github.com/breakingthebot/quick-notes-android-compose) | Kotlin | Languages | `Deep` |
+| 20 | 2026-07-03 | [Habit Tracker iOS App](builds/020-habit-tracker-ios-app.md) | SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a weekly dashboard, home screen widgets, and XCTest coverage. | [Repo](https://github.com/breakingthebot/habit-tracker-ios-swiftui) | Swift | Languages | `Deep` |
+| 19 | 2026-07-02 | [Budget Tracker Console App](builds/019-budget-tracker-console-app.md) | A .NET 8 console budget tracker with categories, monthly reports, and CSV export. | [Repo](https://github.com/breakingthebot/budget-tracker-console-app) | C# | Languages | `Expanded` |
 | 18 | 2026-06-30 | [Library Catalog](builds/018-library-catalog.md) | Java library catalog with Book and Member classes, checkout flows, file persistence, and JUnit coverage. | [Repo](https://github.com/breakingthebot/library-catalog-java) | Java | Languages | `Expanded` |
 | 17 | 2026-06-30 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
 | 16 | 2026-06-28 | [File Duplicate Finder](builds/016-file-duplicate-finder.md) | CLI tool that walks a directory tree and finds duplicate files by hash. | [Repo](https://github.com/breakingthebot/file-duplicate-finder-rust) | Rust | Languages | `Expanded` |
@@ -144,7 +152,7 @@ A public index of daily coding builds, each pulled from the 286-project list and
 ### C#
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 19 | 2026-07-01 | [Budget Tracker Console App](builds/019-budget-tracker-console-app.md) | A .NET 8 console budget tracker with categories, monthly reports, and CSV export. | [Repo](https://github.com/breakingthebot/budget-tracker-console-app) | C# | Languages | `Expanded` |
+| 19 | 2026-07-02 | [Budget Tracker Console App](builds/019-budget-tracker-console-app.md) | A .NET 8 console budget tracker with categories, monthly reports, and CSV export. | [Repo](https://github.com/breakingthebot/budget-tracker-console-app) | C# | Languages | `Expanded` |
 
 ### ES Modules
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
@@ -170,6 +178,11 @@ A public index of daily coding builds, each pulled from the 286-project list and
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 13 | 2026-06-28 | [Tested String Utility Library](builds/013-tested-string-utility-library.md) | JavaScript string utility library with 20 modular helpers and a full Jest test suite. | [Repo](https://github.com/breakingthebot/string-utils-jest) | JS testing | Languages | `Expanded` |
+
+### Kotlin
+| Build # | Date | Project | Description | Repo | Technology | Category | Depth |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 21 | 2026-07-04 | [Quick Notes Android App](builds/021-quick-notes-android-app.md) | Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage. | [Repo](https://github.com/breakingthebot/quick-notes-android-compose) | Kotlin | Languages | `Deep` |
 
 ### PHP
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
@@ -225,6 +238,11 @@ A public index of daily coding builds, each pulled from the 286-project list and
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 16 | 2026-06-28 | [File Duplicate Finder](builds/016-file-duplicate-finder.md) | CLI tool that walks a directory tree and finds duplicate files by hash. | [Repo](https://github.com/breakingthebot/file-duplicate-finder-rust) | Rust | Languages | `Expanded` |
+
+### Swift
+| Build # | Date | Project | Description | Repo | Technology | Category | Depth |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 20 | 2026-07-03 | [Habit Tracker iOS App](builds/020-habit-tracker-ios-app.md) | SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a weekly dashboard, home screen widgets, and XCTest coverage. | [Repo](https://github.com/breakingthebot/habit-tracker-ios-swiftui) | Swift | Languages | `Deep` |
 
 ### TypeScript
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
