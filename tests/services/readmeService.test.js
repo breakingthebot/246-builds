@@ -14,6 +14,7 @@ const {
   buildSnapshotTable,
   createReadme,
   createDepthBadge,
+  createCollapsibleFilteredSection,
 } = require("../../src/services/readmeService");
 
 test("buildEnhancedTableRows renders one markdown row per build", () => {
@@ -99,4 +100,46 @@ test("createReadme includes build data when entries exist", () => {
   assert.match(readme, /\[CSV Export\]\(exports\/builds\.csv\)/);
   assert.match(readme, /## By Technology/);
   assert.match(readme, /`Deep`/);
+});
+
+test("createReadme wraps By Category and By Technology groups in collapsible accordions", () => {
+  const readme = createReadme([
+    {
+      build_number: 14,
+      date: "2026-06-28",
+      project_name: "Contact Form Backend",
+      description: "Receives form data, validates, sends email, and stores records.",
+      repo_url: "https://github.com/breakingthebot/contact-form-backend",
+      technology: "PHP",
+      category: "Languages",
+      depth: "Deep",
+      notes: "",
+      stack: ["PHP", "MySQL"],
+    },
+  ]);
+
+  assert.match(readme, /<summary>Languages \(1\)<\/summary>/);
+  assert.match(readme, /<summary>PHP \(1\)<\/summary>/);
+});
+
+test("createCollapsibleFilteredSection wraps a table in a <details> accordion with a count in the summary", () => {
+  const lines = createCollapsibleFilteredSection("Languages", [
+    {
+      build_number: 16,
+      date: "2026-06-28",
+      project_name: "Duplicate Finder",
+      description: "Finds duplicate files by hash.",
+      repo_url: "https://github.com/breakingthebot/file-duplicate-finder",
+      technology: "Rust",
+      category: "Languages",
+      depth: "Deep",
+      notes: "",
+      stack: ["Rust", "CLI"],
+    },
+  ]);
+
+  assert.equal(lines[0], "<details>");
+  assert.equal(lines[1], "<summary>Languages (1)</summary>");
+  assert.equal(lines[2], "");
+  assert.equal(lines[lines.length - 2], "</details>");
 });

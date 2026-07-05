@@ -123,7 +123,9 @@ A public index of daily coding builds, each pulled from the 286-project list and
 | 3 | 2026-06-09 | [Sales Dashboard](builds/003-sales-dashboard.md) | CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, and a Streamlit app. | [Repo](https://github.com/breakingthebot/Sales-Dashboard) | Python (data) | Languages | `Deep` |
 
 ## By Category
-### Languages
+<details>
+<summary>Languages (21)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 21 | 2026-07-04 | [Quick Notes Android App](builds/021-quick-notes-android-app.md) | Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage. | [Repo](https://github.com/breakingthebot/quick-notes-android-compose) | Kotlin | Languages | `Deep` |
@@ -147,112 +149,198 @@ A public index of daily coding builds, each pulled from the 286-project list and
 | 3 | 2026-06-09 | [Sales Dashboard](builds/003-sales-dashboard.md) | CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, and a Streamlit app. | [Repo](https://github.com/breakingthebot/Sales-Dashboard) | Python (data) | Languages | `Deep` |
 | 2 | 2026-06-07 | [Async News Aggregator](builds/002-async-news-aggregator.md) | Async Python CLI that fetches and merges headlines from 5 live news sources concurrently. | [Repo](https://github.com/breakingthebot/Async-News-Aggregator) | Python (async) | Languages | `Expanded` |
 | 1 | 2026-06-06 | [Expense Tracker](builds/001-expense-tracker.md) | Standard-library-only expense tracker with budgets, recurring templates, monthly reports, and CSV export. | [Repo](https://github.com/breakingthebot/expense-tracker) | Python (Core) | Languages | `Expanded` |
+
+</details>
 
 ## By Technology
-### C#
+<details>
+<summary>C# (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 19 | 2026-07-02 | [Budget Tracker Console App](builds/019-budget-tracker-console-app.md) | A .NET 8 console budget tracker with categories, monthly reports, and CSV export. | [Repo](https://github.com/breakingthebot/budget-tracker-console-app) | C# | Languages | `Expanded` |
 
-### ES Modules
+</details>
+
+<details>
+<summary>ES Modules (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 11 | 2026-06-26 | [Music Player](builds/011-music-player.md) | No-bundler ES module music player with queue, shuffle/repeat, favorites, local file import, and CI/E2E coverage. | [Repo](https://github.com/breakingthebot/music-player-es-modules) | ES Modules | Languages | `Deep` |
 
-### Go
+</details>
+
+<details>
+<summary>Go (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 15 | 2026-06-28 | [URL Shortener API](builds/015-url-shortener-api.md) | Go URL shortener API with PostgreSQL storage and click tracking. | [Repo](https://github.com/breakingthebot/url-shortener-api) | Go | Languages | `Expanded` |
 
-### Java
+</details>
+
+<details>
+<summary>Java (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 18 | 2026-06-30 | [Library Catalog](builds/018-library-catalog.md) | Java library catalog with Book and Member classes, checkout flows, file persistence, and JUnit coverage. | [Repo](https://github.com/breakingthebot/library-catalog-java) | Java | Languages | `Expanded` |
 
-### JS async
+</details>
+
+<details>
+<summary>JS async (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12 | 2026-06-27 | [GitHub Profile Viewer](builds/012-github-profile-viewer.md) | Vanilla JS GitHub explorer with profile, repo, and activity views plus search, filter, sort, and full E2E coverage. | [Repo](https://github.com/breakingthebot/github-profile-viewer-vanilla-js) | JS async | Languages | `Deep` |
 
-### JS testing
+</details>
+
+<details>
+<summary>JS testing (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 13 | 2026-06-28 | [Tested String Utility Library](builds/013-tested-string-utility-library.md) | JavaScript string utility library with 20 modular helpers and a full Jest test suite. | [Repo](https://github.com/breakingthebot/string-utils-jest) | JS testing | Languages | `Expanded` |
 
-### Kotlin
+</details>
+
+<details>
+<summary>Kotlin (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 21 | 2026-07-04 | [Quick Notes Android App](builds/021-quick-notes-android-app.md) | Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage. | [Repo](https://github.com/breakingthebot/quick-notes-android-compose) | Kotlin | Languages | `Deep` |
 
-### PHP
+</details>
+
+<details>
+<summary>PHP (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14 | 2026-06-28 | [Contact Form Backend](builds/014-contact-form-backend.md) | Modular PHP backend for validating, storing, and emailing contact form submissions. | [Repo](https://github.com/breakingthebot/php-contact-form-backend) | PHP | Languages | `Deep` |
 
-### Python (async)
+</details>
+
+<details>
+<summary>Python (async) (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2 | 2026-06-07 | [Async News Aggregator](builds/002-async-news-aggregator.md) | Async Python CLI that fetches and merges headlines from 5 live news sources concurrently. | [Repo](https://github.com/breakingthebot/Async-News-Aggregator) | Python (async) | Languages | `Expanded` |
 
-### Python (automation)
+</details>
+
+<details>
+<summary>Python (automation) (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 4 | 2026-06-09 | [Folder Organizer](builds/004-folder-organizer.md) | Standard-library-only file watcher that auto-sorts downloads by type with reports and config support. | [Repo](https://github.com/breakingthebot/file-organizer) | Python (automation) | Languages | `Expanded` |
 
-### Python (CLI tools)
+</details>
+
+<details>
+<summary>Python (CLI tools) (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | 2026-06-17 | [Dev Toolkit](builds/007-dev-toolkit.md) | Click-based Python CLI bundling UUID, password, base64, hashing, timestamp, and file/clipboard utilities. | [Repo](https://github.com/breakingthebot/Dev-toolkit) | Python (CLI tools) | Languages | `Expanded` |
 
-### Python (Core)
+</details>
+
+<details>
+<summary>Python (Core) (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 2026-06-06 | [Expense Tracker](builds/001-expense-tracker.md) | Standard-library-only expense tracker with budgets, recurring templates, monthly reports, and CSV export. | [Repo](https://github.com/breakingthebot/expense-tracker) | Python (Core) | Languages | `Expanded` |
 
-### Python (data)
+</details>
+
+<details>
+<summary>Python (data) (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 3 | 2026-06-09 | [Sales Dashboard](builds/003-sales-dashboard.md) | CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, and a Streamlit app. | [Repo](https://github.com/breakingthebot/Sales-Dashboard) | Python (data) | Languages | `Deep` |
 
-### Python (ML)
+</details>
+
+<details>
+<summary>Python (ML) (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6 | 2026-06-12 | [House Price Predictor](builds/006-house-price-predictor.md) | California housing prediction toolkit with selectable models, batch validation, model cards, and a Streamlit UI. | [Repo](https://github.com/breakingthebot/House-price-predictor) | Python (ML) | Languages | `Deep` |
 
-### Python (networking)
+</details>
+
+<details>
+<summary>Python (networking) (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5 | 2026-06-10 | [Chat Server](builds/005-chat-server.md) | Multi-user TCP socket chat server with slash commands, audit logging, and integration-tested protocol flows. | [Repo](https://github.com/breakingthebot/chat-server) | Python (networking) | Languages | `Deep` |
 
-### Python (testing)
+</details>
+
+<details>
+<summary>Python (testing) (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8 | 2026-06-18 | [Tested Calculator Library](builds/008-tested-calculator-library.md) | Installable Python calculator package with CLI, batch processing, history, precision controls, and full pytest coverage. | [Repo](https://github.com/breakingthebot/Python-testing) | Python (testing) | Languages | `Deep` |
 
-### Ruby
+</details>
+
+<details>
+<summary>Ruby (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 17 | 2026-06-30 | [Log File Analyzer](builds/017-log-file-analyzer.md) | Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support. | [Repo](https://github.com/breakingthebot/log-file-analyzer-ruby) | Ruby | Languages | `Deep` |
 
-### Rust
+</details>
+
+<details>
+<summary>Rust (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 16 | 2026-06-28 | [File Duplicate Finder](builds/016-file-duplicate-finder.md) | CLI tool that walks a directory tree and finds duplicate files by hash. | [Repo](https://github.com/breakingthebot/file-duplicate-finder-rust) | Rust | Languages | `Expanded` |
 
-### Swift
+</details>
+
+<details>
+<summary>Swift (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 20 | 2026-07-03 | [Habit Tracker iOS App](builds/020-habit-tracker-ios-app.md) | SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a weekly dashboard, home screen widgets, and XCTest coverage. | [Repo](https://github.com/breakingthebot/habit-tracker-ios-swiftui) | Swift | Languages | `Deep` |
 
-### TypeScript
+</details>
+
+<details>
+<summary>TypeScript (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10 | 2026-06-20 | [Typed Task Manager](builds/010-typed-task-manager.md) | Strict TypeScript task manager with status-grouped views, import/export, backup history, bulk actions, and browser tests. | [Repo](https://github.com/breakingthebot/Typed-Task-Manager) | TypeScript | Languages | `Deep` |
 
-### Vanilla JS
+</details>
+
+<details>
+<summary>Vanilla JS (1)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 9 | 2026-06-19 | [Kanban Board](builds/009-kanban-board.md) | Dependency-free drag-and-drop Kanban board with labels, due dates, undo/redo, and accessibility-tested E2E coverage. | [Repo](https://github.com/breakingthebot/Kanban-Board-Vanilla-JS) | Vanilla JS | Languages | `Deep` |
+
+</details>
 
 ## Build Pages
 Every build also gets a generated detail page under `builds/` for cleaner per-build reading.

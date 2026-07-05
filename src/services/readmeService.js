@@ -150,6 +150,28 @@ function createFilteredSection(heading, entries) {
 }
 
 /**
+ * Creates a collapsible <details> accordion wrapping a filtered section's
+ * table, with a summary line showing the group label and entry count.
+ *
+ * @param {string} heading - The group label (e.g. a category or technology name).
+ * @param {Array<{build_number: number, date: string, project_name: string, description: string, repo_url: string, technology: string, category: string, depth: string}>} entries - The entries to render inside the accordion.
+ * @returns {string[]} The markdown/HTML lines.
+ */
+function createCollapsibleFilteredSection(heading, entries) {
+  return [
+    "<details>",
+    `<summary>${heading} (${entries.length})</summary>`,
+    "",
+    "| Build # | Date | Project | Description | Repo | Technology | Category | Depth |",
+    "| --- | --- | --- | --- | --- | --- | --- | --- |",
+    buildEnhancedTableRows(entries),
+    "",
+    "</details>",
+    "",
+  ];
+}
+
+/**
  * Creates the full README markdown document.
  *
  * @param {Array<{build_number: number, date: string, project_name: string, description: string, repo_url: string, technology: string, category: string, stack: string[]}>} entries - The entries to render.
@@ -213,10 +235,12 @@ function createReadme(entries) {
     ...createFilteredSection("Most Recent 10", recentEntries),
     ...createFilteredSection("Deep Builds", deepEntries),
     "## By Category",
-    ...categoryGroups.flatMap((group) => createFilteredSection(group.label, group.entries)),
+    ...categoryGroups.flatMap((group) =>
+      createCollapsibleFilteredSection(group.label, group.entries),
+    ),
     "## By Technology",
     ...technologyGroups.flatMap((group) =>
-      createFilteredSection(group.label, group.entries),
+      createCollapsibleFilteredSection(group.label, group.entries),
     ),
     "## Build Pages",
     "Every build also gets a generated detail page under `builds/` for cleaner per-build reading.",
@@ -282,6 +306,7 @@ module.exports = {
   buildCountList,
   createDepthBadge,
   createFilteredSection,
+  createCollapsibleFilteredSection,
   createReadme,
   getReadmeFilePath,
   writeReadme,
