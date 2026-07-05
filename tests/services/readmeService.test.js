@@ -122,6 +122,26 @@ test("createReadme wraps By Category and By Technology groups in collapsible acc
   assert.match(readme, /<summary>PHP \(1\)<\/summary>/);
 });
 
+test("createReadme wraps Quick Views (Most Recent 10, Deep Builds) in collapsible accordions", () => {
+  const readme = createReadme([
+    {
+      build_number: 14,
+      date: "2026-06-28",
+      project_name: "Contact Form Backend",
+      description: "Receives form data, validates, sends email, and stores records.",
+      repo_url: "https://github.com/breakingthebot/contact-form-backend",
+      technology: "PHP",
+      category: "Languages",
+      depth: "Deep",
+      notes: "",
+      stack: ["PHP", "MySQL"],
+    },
+  ]);
+
+  assert.match(readme, /<summary>Most Recent 10 \(1\)<\/summary>/);
+  assert.match(readme, /<summary>Deep Builds \(1\)<\/summary>/);
+});
+
 test("createCollapsibleFilteredSection wraps a table in a <details> accordion with a count in the summary", () => {
   const lines = createCollapsibleFilteredSection("Languages", [
     {

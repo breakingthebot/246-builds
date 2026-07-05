@@ -133,23 +133,6 @@ function buildSnapshotTable(stats) {
 }
 
 /**
- * Creates a filtered section with a table.
- *
- * @param {string} heading - The section heading.
- * @param {Array<{build_number: number, date: string, project_name: string, description: string, repo_url: string, technology: string, category: string, depth: string}>} entries - The entries to render.
- * @returns {string[]} The markdown lines.
- */
-function createFilteredSection(heading, entries) {
-  return [
-    `### ${heading}`,
-    "| Build # | Date | Project | Description | Repo | Technology | Category | Depth |",
-    "| --- | --- | --- | --- | --- | --- | --- | --- |",
-    buildEnhancedTableRows(entries),
-    "",
-  ];
-}
-
-/**
  * Creates a collapsible <details> accordion wrapping a filtered section's
  * table, with a summary line showing the group label and entry count.
  *
@@ -232,8 +215,8 @@ function createReadme(entries) {
     tableRows,
     "",
     "## Quick Views",
-    ...createFilteredSection("Most Recent 10", recentEntries),
-    ...createFilteredSection("Deep Builds", deepEntries),
+    ...createCollapsibleFilteredSection("Most Recent 10", recentEntries),
+    ...createCollapsibleFilteredSection("Deep Builds", deepEntries),
     "## By Category",
     ...categoryGroups.flatMap((group) =>
       createCollapsibleFilteredSection(group.label, group.entries),
@@ -305,7 +288,6 @@ module.exports = {
   buildEnhancedTableRows,
   buildCountList,
   createDepthBadge,
-  createFilteredSection,
   createCollapsibleFilteredSection,
   createReadme,
   getReadmeFilePath,

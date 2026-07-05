@@ -92,7 +92,9 @@ A public index of daily coding builds, each pulled from the 286-project list and
 | 1 | 2026-06-06 | [Expense Tracker](builds/001-expense-tracker.md) | Standard-library-only expense tracker with budgets, recurring templates, monthly reports, and CSV export. | [Repo](https://github.com/breakingthebot/expense-tracker) | Python (Core) | Languages | `Expanded` |
 
 ## Quick Views
-### Most Recent 10
+<details>
+<summary>Most Recent 10 (10)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 21 | 2026-07-04 | [Quick Notes Android App](builds/021-quick-notes-android-app.md) | Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage. | [Repo](https://github.com/breakingthebot/quick-notes-android-compose) | Kotlin | Languages | `Deep` |
@@ -106,7 +108,11 @@ A public index of daily coding builds, each pulled from the 286-project list and
 | 13 | 2026-06-28 | [Tested String Utility Library](builds/013-tested-string-utility-library.md) | JavaScript string utility library with 20 modular helpers and a full Jest test suite. | [Repo](https://github.com/breakingthebot/string-utils-jest) | JS testing | Languages | `Expanded` |
 | 12 | 2026-06-27 | [GitHub Profile Viewer](builds/012-github-profile-viewer.md) | Vanilla JS GitHub explorer with profile, repo, and activity views plus search, filter, sort, and full E2E coverage. | [Repo](https://github.com/breakingthebot/github-profile-viewer-vanilla-js) | JS async | Languages | `Deep` |
 
-### Deep Builds
+</details>
+
+<details>
+<summary>Deep Builds (12)</summary>
+
 | Build # | Date | Project | Description | Repo | Technology | Category | Depth |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 21 | 2026-07-04 | [Quick Notes Android App](builds/021-quick-notes-android-app.md) | Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage. | [Repo](https://github.com/breakingthebot/quick-notes-android-compose) | Kotlin | Languages | `Deep` |
@@ -121,6 +127,8 @@ A public index of daily coding builds, each pulled from the 286-project list and
 | 6 | 2026-06-12 | [House Price Predictor](builds/006-house-price-predictor.md) | California housing prediction toolkit with selectable models, batch validation, model cards, and a Streamlit UI. | [Repo](https://github.com/breakingthebot/House-price-predictor) | Python (ML) | Languages | `Deep` |
 | 5 | 2026-06-10 | [Chat Server](builds/005-chat-server.md) | Multi-user TCP socket chat server with slash commands, audit logging, and integration-tested protocol flows. | [Repo](https://github.com/breakingthebot/chat-server) | Python (networking) | Languages | `Deep` |
 | 3 | 2026-06-09 | [Sales Dashboard](builds/003-sales-dashboard.md) | CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, and a Streamlit app. | [Repo](https://github.com/breakingthebot/Sales-Dashboard) | Python (data) | Languages | `Deep` |
+
+</details>
 
 ## By Category
 <details>
