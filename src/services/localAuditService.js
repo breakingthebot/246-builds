@@ -11,55 +11,87 @@ const { loadBuildEntries } = require("./buildRepository");
 const { getReadmeFilePath } = require("./readmeService");
 const { readTrackerRows } = require("./trackerSyncService");
 
-const README_TABLE_HEADER =
-  "| Build # | Date | Project | Description | Repo | Technology | Category | Depth |";
+const BUILD_INDEX_SUMMARY_PATTERN = /^<summary>All Builds \(\d+\)<\/summary>$/;
+const CARD_TITLE_PATTERN = /^#### \[#(\d+) — (.+?)\]\([^)]+\)$/;
+const BADGE_PATTERN = /!\[(.*?)\]\(https:\/\/img\.shields\.io\/badge\/[^)]+\)/g;
+const BADGE_DATE_PATTERN = /· (\d{4}-\d{2}-\d{2})/;
+const REPO_LINK_PATTERN = /^\[Repo →\]\((https:\/\/github\.com\/[^)]+)\)$/;
 
 /**
- * Parses README table rows into normalized audit entries.
+ * Parses the Build Index accordion's build cards into normalized audit
+ * entries. Only reads the "All Builds" section (identified by its
+ * <summary> line) so entries repeated elsewhere in the README (Quick
+ * Views, By Category, By Technology) are not double-counted.
  *
  * @param {string} readmeContents - The README markdown.
  * @returns {Array<{build_number: number, date: string, project_name: string, description: string, repo_url: string, technology: string, category: string, depth: string}>} The parsed rows.
  */
 function parseReadmeBuildRows(readmeContents) {
   const lines = readmeContents.split(/\r?\n/);
-  const headerIndex = lines.indexOf(README_TABLE_HEADER);
+  const summaryIndex = lines.findIndex((line) =>
+    BUILD_INDEX_SUMMARY_PATTERN.test(line),
+  );
 
-  if (headerIndex === -1) {
+  if (summaryIndex === -1) {
     return [];
   }
 
+  const closingIndex = lines.indexOf("</details>", summaryIndex);
+  const sectionLines =
+    closingIndex === -1
+      ? lines.slice(summaryIndex + 1)
+      : lines.slice(summaryIndex + 1, closingIndex);
+
   const rows = [];
+  let current = null;
 
-  for (let index = headerIndex + 2; index < lines.length; index += 1) {
-    const line = lines[index];
+  for (const line of sectionLines) {
+    const titleMatch = line.match(CARD_TITLE_PATTERN);
 
-    if (!line.startsWith("|")) {
-      break;
-    }
-
-    const columns = line
-      .split("|")
-      .slice(1, -1)
-      .map((value) => value.trim());
-
-    if (columns.length !== 8) {
+    if (titleMatch) {
+      if (current) {
+        rows.push(current);
+      }
+      current = {
+        build_number: Number(titleMatch[1]),
+        date: "",
+        project_name: titleMatch[2],
+        description: "",
+        repo_url: "",
+        technology: "",
+        category: "",
+        depth: "",
+      };
       continue;
     }
 
-    const projectMatch = columns[2].match(/\[(.+?)\]\(/);
-    const repoUrlMatch = columns[4].match(/\((https:\/\/github\.com\/[^)]+)\)/);
-    const depthMatch = columns[7].match(/`(.+?)`/);
+    if (!current) {
+      continue;
+    }
 
-    rows.push({
-      build_number: Number(columns[0]),
-      date: columns[1],
-      project_name: projectMatch ? projectMatch[1] : columns[2],
-      description: columns[3],
-      repo_url: repoUrlMatch ? repoUrlMatch[1] : "",
-      technology: columns[5],
-      category: columns[6],
-      depth: depthMatch ? depthMatch[1] : columns[7],
-    });
+    const badgeMatches = [...line.matchAll(BADGE_PATTERN)];
+    if (badgeMatches.length >= 3) {
+      current.technology = badgeMatches[0][1];
+      current.category = badgeMatches[1][1];
+      current.depth = badgeMatches[2][1];
+      const dateMatch = line.match(BADGE_DATE_PATTERN);
+      current.date = dateMatch ? dateMatch[1] : "";
+      continue;
+    }
+
+    const repoMatch = line.match(REPO_LINK_PATTERN);
+    if (repoMatch) {
+      current.repo_url = repoMatch[1];
+      continue;
+    }
+
+    if (line !== "" && line !== "---" && !current.description) {
+      current.description = line;
+    }
+  }
+
+  if (current) {
+    rows.push(current);
   }
 
   return rows;
@@ -163,5 +195,4 @@ function auditLocalBuildSources() {
 module.exports = {
   auditLocalBuildSources,
   parseReadmeBuildRows,
-  README_TABLE_HEADER,
 };

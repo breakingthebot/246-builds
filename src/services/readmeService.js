@@ -28,66 +28,89 @@ function getReadmeFilePath() {
   return path.join(process.cwd(), "README.md");
 }
 
+const DEPTH_BADGE_COLORS = {
+  Standard: "6b7280",
+  Expanded: "0284c7",
+  Deep: "7c3aed",
+};
+
+const TECHNOLOGY_BADGE_COLOR = "334155";
+const CATEGORY_BADGE_COLOR = "0f766e";
+
 /**
- * Builds the markdown rows for the public build table.
+ * Escapes a badge label for the shields.io static-badge URL scheme
+ * (literal dashes must be doubled, spaces become underscores).
  *
- * @param {Array<{build_number: number, date: string, project_name: string, description: string, repo_url: string, technology: string, category: string, stack: string[]}>} entries - The entries to render.
- * @returns {string} The markdown table rows.
+ * @param {string} label - The raw label text.
+ * @returns {string} The shields.io-safe label.
  */
-function buildTableRows(entries) {
-  if (entries.length === 0) {
-    return "";
-  }
-
-  return entries
-    .map((entry) => {
-      const stackLabel = `${entry.technology}, ${entry.category}`;
-      const linkLabel = `[Repo](${entry.repo_url})`;
-
-      return `| ${entry.build_number} | ${entry.date} | ${entry.project_name} | ${entry.description} | ${linkLabel} | ${stackLabel} |`;
-    })
-    .join("\n");
+function encodeBadgeLabel(label) {
+  return String(label).replace(/-/g, "--").replace(/ /g, "_");
 }
 
 /**
- * Creates a compact markdown badge for a depth label.
+ * Creates a shields.io badge image in markdown.
+ *
+ * @param {string} label - The badge text.
+ * @param {string} color - The hex color, without a leading #.
+ * @returns {string} The markdown image badge.
+ */
+function createBadge(label, color) {
+  return `![${label}](https://img.shields.io/badge/${encodeBadgeLabel(label)}-${color})`;
+}
+
+/**
+ * Creates a shields.io badge image for a build depth label.
  *
  * @param {string} depth - The build depth label.
- * @returns {string} The markdown badge text.
+ * @returns {string} The markdown image badge.
  */
 function createDepthBadge(depth) {
-  return `\`${depth}\``;
+  const color = DEPTH_BADGE_COLORS[depth] || DEPTH_BADGE_COLORS.Standard;
+  return createBadge(depth, color);
 }
 
 /**
- * Builds markdown rows for richer table views.
+ * Creates a single markdown "card" for one build entry: a linked title,
+ * technology/category/depth badges, the description, and a repo link.
+ * Used instead of table rows throughout the README.
+ *
+ * @param {{build_number: number, date: string, project_name: string, description: string, repo_url: string, technology: string, category: string, depth: string}} entry - The build entry to render.
+ * @returns {string[]} The markdown lines for this card.
+ */
+function createBuildCard(entry) {
+  const detailPath = `builds/${String(entry.build_number).padStart(3, "0")}-${slugifyProjectName(entry.project_name)}.md`;
+  const badges = [
+    createBadge(entry.technology, TECHNOLOGY_BADGE_COLOR),
+    createBadge(entry.category, CATEGORY_BADGE_COLOR),
+    createDepthBadge(entry.depth),
+  ].join(" ");
+
+  return [
+    `#### [#${entry.build_number} — ${entry.project_name}](${detailPath})`,
+    `${badges} · ${entry.date}`,
+    "",
+    entry.description,
+    "",
+    `[Repo →](${entry.repo_url})`,
+  ];
+}
+
+/**
+ * Creates a list of build cards separated by horizontal rules.
  *
  * @param {Array<{build_number: number, date: string, project_name: string, description: string, repo_url: string, technology: string, category: string, depth: string}>} entries - The entries to render.
- * @returns {string} The markdown table rows.
+ * @returns {string[]} The markdown lines for the full card list.
  */
-function buildEnhancedTableRows(entries) {
-  if (entries.length === 0) {
-    return "";
-  }
-
+function createCardList(entries) {
   return entries
-    .map((entry) => {
-      const detailPath = `builds/${String(entry.build_number).padStart(3, "0")}-${slugifyProjectName(entry.project_name)}.md`;
-      const linkLabel = `[${entry.project_name}](${detailPath})`;
-
-      return `| ${entry.build_number} | ${entry.date} | ${linkLabel} | ${entry.description} | [Repo](${entry.repo_url}) | ${entry.technology} | ${entry.category} | ${createDepthBadge(entry.depth)} |`;
-    })
-    .join("\n");
-}
-
-/**
- * Builds a markdown list for summary counts.
- *
- * @param {Array<{label: string, count: number}>} counts - The grouped counts.
- * @returns {string[]} The markdown lines.
- */
-function buildCountList(counts) {
-  return counts.map((item) => `- ${item.label}: ${item.count}`);
+    .map((entry) => createBuildCard(entry))
+    .reduce((lines, card, index) => {
+      if (index > 0) {
+        lines.push("", "---", "");
+      }
+      return lines.concat(card);
+    }, []);
 }
 
 /**
@@ -134,7 +157,7 @@ function buildSnapshotTable(stats) {
 
 /**
  * Creates a collapsible <details> accordion wrapping a filtered section's
- * table, with a summary line showing the group label and entry count.
+ * build cards, with a summary line showing the group label and entry count.
  *
  * @param {string} heading - The group label (e.g. a category or technology name).
  * @param {Array<{build_number: number, date: string, project_name: string, description: string, repo_url: string, technology: string, category: string, depth: string}>} entries - The entries to render inside the accordion.
@@ -145,9 +168,7 @@ function createCollapsibleFilteredSection(heading, entries) {
     "<details>",
     `<summary>${heading} (${entries.length})</summary>`,
     "",
-    "| Build # | Date | Project | Description | Repo | Technology | Category | Depth |",
-    "| --- | --- | --- | --- | --- | --- | --- | --- |",
-    buildEnhancedTableRows(entries),
+    ...createCardList(entries),
     "",
     "</details>",
     "",
@@ -161,7 +182,6 @@ function createCollapsibleFilteredSection(heading, entries) {
  * @returns {string} The full README contents.
  */
 function createReadme(entries) {
-  const tableRows = buildEnhancedTableRows(entries);
   const stats = createBuildStats(entries);
   const recentEntries = entries.slice(0, 10);
   const deepEntries = entries.filter((entry) => entry.depth === "Deep");
@@ -169,8 +189,12 @@ function createReadme(entries) {
   const technologyGroups = groupBy(entries, "technology");
   const emptyStateMessage =
     entries.length === 0
-      ? "Current tracker state: no rows are marked completed or pushed yet, so the table is intentionally empty."
+      ? "Current tracker state: no rows are marked completed or pushed yet, so the list is intentionally empty."
       : "";
+  const buildIndexLines =
+    entries.length === 0
+      ? [emptyStateMessage, ""]
+      : createCollapsibleFilteredSection("All Builds", entries);
 
   return [
     `# ${REPOSITORY_TITLE}`,
@@ -209,11 +233,7 @@ function createReadme(entries) {
     ...buildCountTable(stats.by_technology),
     "",
     "## Build Index",
-    emptyStateMessage,
-    "| Build # | Date | Project | Description | Repo | Technology | Category | Depth |",
-    "| --- | --- | --- | --- | --- | --- | --- | --- |",
-    tableRows,
-    "",
+    ...buildIndexLines,
     "## Quick Views",
     ...createCollapsibleFilteredSection("Most Recent 10", recentEntries),
     ...createCollapsibleFilteredSection("Deep Builds", deepEntries),
@@ -282,12 +302,12 @@ function writeReadme(entries) {
 }
 
 module.exports = {
-  buildTableRows,
   buildCountTable,
   buildSnapshotTable,
-  buildEnhancedTableRows,
-  buildCountList,
   createDepthBadge,
+  createBadge,
+  createBuildCard,
+  createCardList,
   createCollapsibleFilteredSection,
   createReadme,
   getReadmeFilePath,
