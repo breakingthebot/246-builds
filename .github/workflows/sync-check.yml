@@ -1,0 +1,25 @@
+name: Sync Check
+
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  sync-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+
+      # SYNC_GH_TOKEN is a PAT with repo-list scope, since the default
+      # GITHUB_TOKEN can only see this repo, not every public repo under
+      # the account. If this job fails, GitHub emails the repo owner
+      # automatically -- that's the notification, no extra step needed.
+      - name: Check for public repos untracked in builds.json
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_GH_TOKEN }}
+        run: npm run sync-github-builds
