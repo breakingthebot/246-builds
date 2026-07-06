@@ -6,6 +6,9 @@
 
 A public index of daily coding builds, each pulled from the 286-project list and built end-to-end in a single day, then expanded through multiple iterations with a full commit history pushed live. Together, the repos form a broad portfolio spanning multiple languages, problem types, and build depths.
 
+## Tech Stack
+![C#](https://img.shields.io/badge/C%23-178600) ![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Go](https://img.shields.io/badge/Go-00ADD8) ![Java](https://img.shields.io/badge/Java-B07219) ![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Lua](https://img.shields.io/badge/Lua-000080) ![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![Ruby](https://img.shields.io/badge/Ruby-701516) ![Rust](https://img.shields.io/badge/Rust-DEA584) ![Shell](https://img.shields.io/badge/Shell-89E051) ![Swift](https://img.shields.io/badge/Swift-F05138) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A)
+
 ## Latest Build
 #### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
 ![Lua](https://img.shields.io/badge/Lua-000080) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05

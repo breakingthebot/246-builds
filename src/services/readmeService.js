@@ -277,6 +277,27 @@ function createLatestBuildSpotlight(entries) {
 }
 
 /**
+ * Creates a one-line "tech cloud" of every distinct technology badge used
+ * across all builds, for an instant breadth-of-skills impression before
+ * scrolling down to the Build Index. Returns an empty array when there are
+ * no technologies yet.
+ *
+ * @param {string[]} technologyLabels - The distinct technology labels.
+ * @returns {string[]} The markdown lines, or an empty array if there are none.
+ */
+function createTechCloud(technologyLabels) {
+  if (technologyLabels.length === 0) {
+    return [];
+  }
+
+  const badges = technologyLabels
+    .map((label) => createBadge(label, resolveTechnologyBadgeColor(label)))
+    .join(" ");
+
+  return ["## Tech Stack", badges, ""];
+}
+
+/**
  * Creates a collapsible <details> accordion wrapping a filtered section's
  * build cards, with a summary line showing the group label and entry count.
  *
@@ -318,6 +339,7 @@ function createReadme(entries) {
       ? [emptyStateMessage, ""]
       : createCollapsibleFilteredSection("All Builds", entries);
   const latestBuildSpotlight = createLatestBuildSpotlight(entries);
+  const techCloud = createTechCloud(technologyGroups.map((group) => group.label));
 
   return [
     `# ${REPOSITORY_TITLE}`,
@@ -328,6 +350,7 @@ function createReadme(entries) {
     "",
     INTRO_PARAGRAPH,
     "",
+    ...techCloud,
     ...latestBuildSpotlight,
     "## What's in each build's repo",
     ...WHATS_IN_EACH_BUILD_REPO.map((item) => `- ${item}`),
@@ -442,6 +465,7 @@ module.exports = {
   createLatestBuildSpotlight,
   createStatBadges,
   createSyncNote,
+  createTechCloud,
   createReadme,
   getReadmeFilePath,
   resolveTechnologyBadgeColor,

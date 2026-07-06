@@ -21,6 +21,7 @@ const {
   createLatestBuildSpotlight,
   createStatBadges,
   createSyncNote,
+  createTechCloud,
   resolveTechnologyBadgeColor,
 } = require("../../src/services/readmeService");
 
@@ -210,6 +211,27 @@ test("createReadme shows the Latest Build spotlight right after the intro, ahead
 
   assert.notEqual(spotlightIndex, -1, "expected a Latest Build section");
   assert.ok(spotlightIndex < buildIndexIndex, "spotlight should appear before the Build Index accordion");
+});
+
+test("createTechCloud renders one badge per distinct technology on a single line", () => {
+  const lines = createTechCloud(["Rust", "Kotlin"]);
+
+  assert.equal(lines[0], "## Tech Stack");
+  assert.match(lines[1], /!\[Rust\]\(https:\/\/img\.shields\.io\/badge\/Rust-DEA584\)/);
+  assert.match(lines[1], /!\[Kotlin\]\(https:\/\/img\.shields\.io\/badge\/Kotlin-A97BFF\)/);
+});
+
+test("createTechCloud returns an empty array when there are no technologies", () => {
+  assert.deepEqual(createTechCloud([]), []);
+});
+
+test("createReadme shows the Tech Stack cloud before the Latest Build spotlight", () => {
+  const readme = createReadme([SAMPLE_ENTRY]);
+  const techCloudIndex = readme.indexOf("## Tech Stack");
+  const spotlightIndex = readme.indexOf("## Latest Build");
+
+  assert.notEqual(techCloudIndex, -1, "expected a Tech Stack section");
+  assert.ok(techCloudIndex < spotlightIndex, "tech cloud should appear before the Latest Build spotlight");
 });
 
 test("createReadme includes the stat badge row near the top", () => {
