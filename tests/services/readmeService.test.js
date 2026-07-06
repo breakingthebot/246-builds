@@ -17,6 +17,7 @@ const {
   createBuildCard,
   createCardList,
   createCollapsibleFilteredSection,
+  createSyncNote,
 } = require("../../src/services/readmeService");
 
 const SAMPLE_ENTRY = {
@@ -153,6 +154,32 @@ test("createReadme includes the CI test badge linked to the Actions workflow", (
     readme,
     /\[!\[Test\]\(https:\/\/github\.com\/breakingthebot\/286-builds\/actions\/workflows\/test\.yml\/badge\.svg\)\]\(https:\/\/github\.com\/breakingthebot\/286-builds\/actions\/workflows\/test\.yml\)/,
   );
+});
+
+test("createSyncNote computes the published repo count instead of using a hardcoded number", () => {
+  assert.equal(
+    createSyncNote(23),
+    "The tracker and README are synced to the 23 public build repos currently published under the `breakingthebot` GitHub account.",
+  );
+});
+
+test("createReadme's Notes section reflects the actual entry count, not a stale hardcoded one", () => {
+  const readme = createReadme([
+    {
+      build_number: 1,
+      date: "2026-06-28",
+      project_name: "Solo Build",
+      description: "A single build entry.",
+      repo_url: "https://github.com/breakingthebot/solo-build",
+      technology: "Rust",
+      category: "Languages",
+      depth: "Standard",
+      notes: "",
+      stack: ["Rust"],
+    },
+  ]);
+
+  assert.match(readme, /synced to the 1 public build repos/);
 });
 
 test("createReadme wraps Build Index, Quick Views, By Category, and By Technology in collapsible accordions", () => {

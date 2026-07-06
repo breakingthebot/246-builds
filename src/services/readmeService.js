@@ -14,7 +14,7 @@ const { createBuildStats, groupBy } = require("./buildStatsService");
 const {
   ARCHITECTURE_NOTES,
   INTRO_PARAGRAPH,
-  NOTES,
+  STATIC_NOTES,
   REPOSITORY_TITLE,
   WHATS_IN_EACH_BUILD_REPO,
 } = require("../config/repositoryMetadata");
@@ -156,6 +156,18 @@ function buildSnapshotTable(stats) {
 }
 
 /**
+ * Creates the note describing how many public build repos are currently
+ * synced, computed from the real entry count so it can't go stale the way
+ * a hardcoded number would as builds get added.
+ *
+ * @param {number} entryCount - The number of published build entries.
+ * @returns {string} The sync note text.
+ */
+function createSyncNote(entryCount) {
+  return `The tracker and README are synced to the ${entryCount} public build repos currently published under the \`breakingthebot\` GitHub account.`;
+}
+
+/**
  * Creates a collapsible <details> accordion wrapping a filtered section's
  * build cards, with a summary line showing the group label and entry count.
  *
@@ -284,7 +296,8 @@ function createReadme(entries) {
     ARCHITECTURE_NOTES,
     "",
     "## Notes",
-    ...NOTES.map((note) => `- ${note}`),
+    `- ${createSyncNote(entries.length)}`,
+    ...STATIC_NOTES.map((note) => `- ${note}`),
     "",
   ]
     .filter((line, index, lines) => !(line === "" && lines[index - 1] === ""))
@@ -311,6 +324,7 @@ module.exports = {
   createBuildCard,
   createCardList,
   createCollapsibleFilteredSection,
+  createSyncNote,
   createReadme,
   getReadmeFilePath,
   writeReadme,
