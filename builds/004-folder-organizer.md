@@ -5,7 +5,7 @@ Standard-library-only file watcher that auto-sorts downloads by type with report
 ## Snapshot
 - Date Pushed: 2026-06-09
 - Technology: Python (automation)
-- Category: Languages
+- Category: CLI Tools
 - Depth: Expanded
 - Repo: https://github.com/breakingthebot/file-organizer
 

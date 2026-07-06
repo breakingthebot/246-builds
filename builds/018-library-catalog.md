@@ -5,7 +5,7 @@ Java library catalog with Book and Member classes, checkout flows, file persiste
 ## Snapshot
 - Date Pushed: 2026-06-30
 - Technology: Java
-- Category: Languages
+- Category: Desktop & Console Apps
 - Depth: Expanded
 - Repo: https://github.com/breakingthebot/library-catalog-java
 

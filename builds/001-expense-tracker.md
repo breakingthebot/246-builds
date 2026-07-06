@@ -5,7 +5,7 @@ Standard-library-only expense tracker with budgets, recurring templates, monthly
 ## Snapshot
 - Date Pushed: 2026-06-06
 - Technology: Python (Core)
-- Category: Languages
+- Category: CLI Tools
 - Depth: Expanded
 - Repo: https://github.com/breakingthebot/expense-tracker
 

@@ -55,7 +55,29 @@ const TECHNOLOGY_BADGE_COLORS = {
 };
 const PYTHON_BADGE_COLOR = "3572A5";
 const DEFAULT_TECHNOLOGY_BADGE_COLOR = "334155";
-const CATEGORY_BADGE_COLOR = "0f766e";
+
+const CATEGORY_BADGE_COLORS = {
+  "CLI Tools": "0f766e",
+  "Web Frontend": "2563eb",
+  "Backend & Networking": "be185d",
+  "Data & Analytics": "ca8a04",
+  "Libraries & Packages": "4d7c0f",
+  "Desktop & Console Apps": "c2410c",
+  "Mobile Apps": "0891b2",
+  "Automation & DevOps": "78350f",
+};
+const DEFAULT_CATEGORY_BADGE_COLOR = "0f766e";
+
+/**
+ * Resolves the badge color for a category label: an exact match against
+ * known categories, or a neutral default for anything not yet mapped.
+ *
+ * @param {string} category - The category label.
+ * @returns {string} The hex color, without a leading #.
+ */
+function resolveCategoryBadgeColor(category) {
+  return CATEGORY_BADGE_COLORS[category] || DEFAULT_CATEGORY_BADGE_COLOR;
+}
 
 /**
  * Resolves the badge color for a technology label: an exact match against
@@ -142,7 +164,7 @@ function createBuildCard(entry) {
   const detailPath = `builds/${String(entry.build_number).padStart(3, "0")}-${slugifyProjectName(entry.project_name)}.md`;
   const badges = [
     createBadge(entry.technology, resolveTechnologyBadgeColor(entry.technology)),
-    createBadge(entry.category, CATEGORY_BADGE_COLOR),
+    createBadge(entry.category, resolveCategoryBadgeColor(entry.category)),
     createDepthBadge(entry.depth),
   ].join(" ");
 
@@ -411,6 +433,7 @@ module.exports = {
   createTechCloud,
   createReadme,
   getReadmeFilePath,
+  resolveCategoryBadgeColor,
   resolveTechnologyBadgeColor,
   writeReadme,
 };

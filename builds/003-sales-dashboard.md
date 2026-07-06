@@ -5,7 +5,7 @@ CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, a
 ## Snapshot
 - Date Pushed: 2026-06-09
 - Technology: Python (data)
-- Category: Languages
+- Category: Data & Analytics
 - Depth: Deep
 - Repo: https://github.com/breakingthebot/Sales-Dashboard
 

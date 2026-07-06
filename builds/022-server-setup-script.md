@@ -5,7 +5,7 @@ Bash server-setup automation with dependency install/verification, environment c
 ## Snapshot
 - Date Pushed: 2026-07-05
 - Technology: Shell
-- Category: Languages
+- Category: Automation & DevOps
 - Depth: Deep
 - Repo: https://github.com/breakingthebot/server-setup-script
 

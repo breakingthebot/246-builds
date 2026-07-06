@@ -5,7 +5,7 @@ No-bundler ES module music player with queue, shuffle/repeat, favorites, local f
 ## Snapshot
 - Date Pushed: 2026-06-26
 - Technology: ES Modules
-- Category: Languages
+- Category: Web Frontend
 - Depth: Deep
 - Repo: https://github.com/breakingthebot/music-player-es-modules
 

@@ -5,7 +5,7 @@ Python library of 20 complex analytical SQL queries against a mock e-commerce SQ
 ## Snapshot
 - Date Pushed: 2026-07-06
 - Technology: Python (SQL)
-- Category: Languages
+- Category: Data & Analytics
 - Depth: Deep
 - Repo: https://github.com/breakingthebot/sql-analytics-library
 

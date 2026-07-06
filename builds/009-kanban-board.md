@@ -5,7 +5,7 @@ Dependency-free drag-and-drop Kanban board with labels, due dates, undo/redo, an
 ## Snapshot
 - Date Pushed: 2026-06-19
 - Technology: Vanilla JS
-- Category: Languages
+- Category: Web Frontend
 - Depth: Deep
 - Repo: https://github.com/breakingthebot/Kanban-Board-Vanilla-JS
 

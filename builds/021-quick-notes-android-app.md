@@ -5,7 +5,7 @@ Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows
 ## Snapshot
 - Date Pushed: 2026-07-05
 - Technology: Kotlin
-- Category: Languages
+- Category: Mobile Apps
 - Depth: Deep
 - Repo: https://github.com/breakingthebot/quick-notes-android-compose
 

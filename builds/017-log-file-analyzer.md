@@ -5,7 +5,7 @@ Ruby CLI for streaming server log analysis with gzip input, thresholds, trend bu
 ## Snapshot
 - Date Pushed: 2026-06-30
 - Technology: Ruby
-- Category: Languages
+- Category: CLI Tools
 - Depth: Deep
 - Repo: https://github.com/breakingthebot/log-file-analyzer-ruby
 

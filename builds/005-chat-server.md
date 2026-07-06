@@ -5,7 +5,7 @@ Multi-user TCP socket chat server with slash commands, audit logging, and integr
 ## Snapshot
 - Date Pushed: 2026-06-10
 - Technology: Python (networking)
-- Category: Languages
+- Category: Backend & Networking
 - Depth: Deep
 - Repo: https://github.com/breakingthebot/chat-server
 

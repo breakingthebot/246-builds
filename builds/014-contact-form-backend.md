@@ -5,7 +5,7 @@ Modular PHP backend for validating, storing, and emailing contact form submissio
 ## Snapshot
 - Date Pushed: 2026-06-28
 - Technology: PHP
-- Category: Languages
+- Category: Backend & Networking
 - Depth: Deep
 - Repo: https://github.com/breakingthebot/php-contact-form-backend
 

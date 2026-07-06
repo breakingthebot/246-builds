@@ -1,14 +1,42 @@
 {
-  "total_builds": 24,
+  "total_builds": 25,
   "latest_build": {
-    "build_number": 24,
+    "build_number": 25,
     "date": "2026-07-06",
-    "project_name": "SQL Analytics Query Library"
+    "project_name": "FlavorFind Recipe Finder"
   },
   "by_category": [
     {
-      "label": "Languages",
-      "count": 24
+      "label": "CLI Tools",
+      "count": 6
+    },
+    {
+      "label": "Web Frontend",
+      "count": 5
+    },
+    {
+      "label": "Backend & Networking",
+      "count": 3
+    },
+    {
+      "label": "Data & Analytics",
+      "count": 3
+    },
+    {
+      "label": "Automation & DevOps",
+      "count": 2
+    },
+    {
+      "label": "Desktop & Console Apps",
+      "count": 2
+    },
+    {
+      "label": "Libraries & Packages",
+      "count": 2
+    },
+    {
+      "label": "Mobile Apps",
+      "count": 2
     }
   ],
   "by_technology": [
@@ -85,6 +113,10 @@
       "count": 1
     },
     {
+      "label": "React",
+      "count": 1
+    },
+    {
       "label": "Ruby",
       "count": 1
     },
@@ -112,7 +144,7 @@
   "by_depth": [
     {
       "label": "Deep",
-      "count": 15
+      "count": 16
     },
     {
       "label": "Expanded",

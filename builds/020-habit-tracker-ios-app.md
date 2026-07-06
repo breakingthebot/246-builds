@@ -5,7 +5,7 @@ SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a w
 ## Snapshot
 - Date Pushed: 2026-07-03
 - Technology: Swift
-- Category: Languages
+- Category: Mobile Apps
 - Depth: Deep
 - Repo: https://github.com/breakingthebot/habit-tracker-ios-swiftui
 

@@ -5,7 +5,7 @@ A .NET 8 console budget tracker with categories, monthly reports, and CSV export
 ## Snapshot
 - Date Pushed: 2026-07-02
 - Technology: C#
-- Category: Languages
+- Category: Desktop & Console Apps
 - Depth: Expanded
 - Repo: https://github.com/breakingthebot/budget-tracker-console-app
 

@@ -5,7 +5,7 @@ Strict TypeScript task manager with status-grouped views, import/export, backup 
 ## Snapshot
 - Date Pushed: 2026-06-20
 - Technology: TypeScript
-- Category: Languages
+- Category: Web Frontend
 - Depth: Deep
 - Repo: https://github.com/breakingthebot/Typed-Task-Manager
 

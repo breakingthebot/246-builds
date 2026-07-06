@@ -5,7 +5,7 @@ Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-a
 ## Snapshot
 - Date Pushed: 2026-07-05
 - Technology: Lua
-- Category: Languages
+- Category: Automation & DevOps
 - Depth: Deep
 - Repo: https://github.com/breakingthebot/hammerspoon-config
 

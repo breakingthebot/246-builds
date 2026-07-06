@@ -5,7 +5,7 @@ Async Python CLI that fetches and merges headlines from 5 live news sources conc
 ## Snapshot
 - Date Pushed: 2026-06-07
 - Technology: Python (async)
-- Category: Languages
+- Category: CLI Tools
 - Depth: Expanded
 - Repo: https://github.com/breakingthebot/Async-News-Aggregator
 

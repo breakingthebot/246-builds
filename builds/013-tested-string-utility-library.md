@@ -5,7 +5,7 @@ JavaScript string utility library with 20 modular helpers and a full Jest test s
 ## Snapshot
 - Date Pushed: 2026-06-28
 - Technology: JS testing
-- Category: Languages
+- Category: Libraries & Packages
 - Depth: Expanded
 - Repo: https://github.com/breakingthebot/string-utils-jest
 

@@ -5,7 +5,7 @@ Installable Python calculator package with CLI, batch processing, history, preci
 ## Snapshot
 - Date Pushed: 2026-06-18
 - Technology: Python (testing)
-- Category: Languages
+- Category: Libraries & Packages
 - Depth: Deep
 - Repo: https://github.com/breakingthebot/Python-testing
 

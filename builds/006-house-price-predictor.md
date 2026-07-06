@@ -5,7 +5,7 @@ California housing prediction toolkit with selectable models, batch validation, 
 ## Snapshot
 - Date Pushed: 2026-06-12
 - Technology: Python (ML)
-- Category: Languages
+- Category: Data & Analytics
 - Depth: Deep
 - Repo: https://github.com/breakingthebot/House-price-predictor
 

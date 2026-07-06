@@ -20,6 +20,7 @@ const {
   createStatBadges,
   createSyncNote,
   createTechCloud,
+  resolveCategoryBadgeColor,
   resolveTechnologyBadgeColor,
 } = require("../../src/services/readmeService");
 
@@ -91,6 +92,16 @@ test("resolveTechnologyBadgeColor groups every Python variant under one color", 
 
 test("resolveTechnologyBadgeColor falls back to a neutral default for unmapped technologies", () => {
   assert.equal(resolveTechnologyBadgeColor("COBOL"), "334155");
+});
+
+test("resolveCategoryBadgeColor returns each known category's color", () => {
+  assert.equal(resolveCategoryBadgeColor("CLI Tools"), "0f766e");
+  assert.equal(resolveCategoryBadgeColor("Mobile Apps"), "0891b2");
+  assert.equal(resolveCategoryBadgeColor("Automation & DevOps"), "78350f");
+});
+
+test("resolveCategoryBadgeColor falls back to a neutral default for an unmapped category", () => {
+  assert.equal(resolveCategoryBadgeColor("Some New Category"), "0f766e");
 });
 
 test("createBuildCard renders a linked title, badges, description, and repo link", () => {
