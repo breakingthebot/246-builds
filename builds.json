@@ -1,5 +1,20 @@
 [
   {
+    "build_number": 24,
+    "date": "2026-07-06",
+    "project_name": "SQL Analytics Query Library",
+    "description": "Python library of 20 complex analytical SQL queries against a mock e-commerce SQLite database, with a realistic data generator, benchmarking/profiling, an HTML dashboard, and an interactive CLI REPL.",
+    "repo_url": "https://github.com/breakingthebot/sql-analytics-library",
+    "technology": "Python (SQL)",
+    "category": "Languages",
+    "stack": [
+      "Python (SQL)",
+      "Languages"
+    ],
+    "depth": "Deep",
+    "notes": "20-query analytical SQL library over a mock e-commerce SQLite DB: high-fidelity data generator (VIP/corporate discounts, inventory logs), query benchmarking/profiler, HTML portfolio dashboard, interactive SQL REPL shell, and pytest coverage."
+  },
+  {
     "build_number": 23,
     "date": "2026-07-05",
     "project_name": "Hammerspoon Config",

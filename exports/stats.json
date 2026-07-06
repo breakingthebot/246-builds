@@ -1,14 +1,14 @@
 {
-  "total_builds": 23,
+  "total_builds": 24,
   "latest_build": {
-    "build_number": 23,
-    "date": "2026-07-05",
-    "project_name": "Hammerspoon Config"
+    "build_number": 24,
+    "date": "2026-07-06",
+    "project_name": "SQL Analytics Query Library"
   },
   "by_category": [
     {
       "label": "Languages",
-      "count": 23
+      "count": 24
     }
   ],
   "by_technology": [
@@ -77,6 +77,10 @@
       "count": 1
     },
     {
+      "label": "Python (SQL)",
+      "count": 1
+    },
+    {
       "label": "Python (testing)",
       "count": 1
     },
@@ -108,7 +112,7 @@
   "by_depth": [
     {
       "label": "Deep",
-      "count": 14
+      "count": 15
     },
     {
       "label": "Expanded",

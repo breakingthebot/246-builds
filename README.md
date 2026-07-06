@@ -2,20 +2,20 @@
 
 [![Test](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml/badge.svg)](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml)
 
-![Builds: 23](https://img.shields.io/badge/Builds-23-0ea5e9) ![Latest: #23](https://img.shields.io/badge/Latest-%2323-16a34a) ![Languages: 23](https://img.shields.io/badge/Languages-23-f59e0b) ![Deep Builds: 14](https://img.shields.io/badge/Deep_Builds-14-7c3aed)
+![Builds: 24](https://img.shields.io/badge/Builds-24-0ea5e9) ![Latest: #24](https://img.shields.io/badge/Latest-%2324-16a34a) ![Languages: 24](https://img.shields.io/badge/Languages-24-f59e0b) ![Deep Builds: 15](https://img.shields.io/badge/Deep_Builds-15-7c3aed)
 
 A public index of daily coding builds, each pulled from the 286-project list and built end-to-end in a single day, then expanded through multiple iterations with a full commit history pushed live. Together, the repos form a broad portfolio spanning multiple languages, problem types, and build depths.
 
 ## Tech Stack
-![C#](https://img.shields.io/badge/C%23-178600) ![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Go](https://img.shields.io/badge/Go-00ADD8) ![Java](https://img.shields.io/badge/Java-B07219) ![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Lua](https://img.shields.io/badge/Lua-000080) ![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![Ruby](https://img.shields.io/badge/Ruby-701516) ![Rust](https://img.shields.io/badge/Rust-DEA584) ![Shell](https://img.shields.io/badge/Shell-89E051) ![Swift](https://img.shields.io/badge/Swift-F05138) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A)
+![C#](https://img.shields.io/badge/C%23-178600) ![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Go](https://img.shields.io/badge/Go-00ADD8) ![Java](https://img.shields.io/badge/Java-B07219) ![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Lua](https://img.shields.io/badge/Lua-000080) ![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![Ruby](https://img.shields.io/badge/Ruby-701516) ![Rust](https://img.shields.io/badge/Rust-DEA584) ![Shell](https://img.shields.io/badge/Shell-89E051) ![Swift](https://img.shields.io/badge/Swift-F05138) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A)
 
 ## Latest Build
-#### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
-![Lua](https://img.shields.io/badge/Lua-000080) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+#### [#24 — SQL Analytics Query Library](builds/024-sql-analytics-query-library.md)
+![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
 
-Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
+Python library of 20 complex analytical SQL queries against a mock e-commerce SQLite database, with a realistic data generator, benchmarking/profiling, an HTML dashboard, and an interactive CLI REPL.
 
-[Repo →](https://github.com/breakingthebot/hammerspoon-config)
+[Repo →](https://github.com/breakingthebot/sql-analytics-library)
 
 ## What's in each build's repo
 - Every repo has a full README.
@@ -40,7 +40,16 @@ Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-a
 
 ## Build Index
 <details>
-<summary>All Builds (23)</summary>
+<summary>All Builds (24)</summary>
+
+#### [#24 — SQL Analytics Query Library](builds/024-sql-analytics-query-library.md)
+![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
+
+Python library of 20 complex analytical SQL queries against a mock e-commerce SQLite database, with a realistic data generator, benchmarking/profiling, an HTML dashboard, and an interactive CLI REPL.
+
+[Repo →](https://github.com/breakingthebot/sql-analytics-library)
+
+---
 
 #### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
 ![Lua](https://img.shields.io/badge/Lua-000080) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
@@ -253,6 +262,15 @@ Standard-library-only expense tracker with budgets, recurring templates, monthly
 <details>
 <summary>Most Recent 10 (10)</summary>
 
+#### [#24 — SQL Analytics Query Library](builds/024-sql-analytics-query-library.md)
+![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
+
+Python library of 20 complex analytical SQL queries against a mock e-commerce SQLite database, with a realistic data generator, benchmarking/profiling, an HTML dashboard, and an interactive CLI REPL.
+
+[Repo →](https://github.com/breakingthebot/sql-analytics-library)
+
+---
+
 #### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
 ![Lua](https://img.shields.io/badge/Lua-000080) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
@@ -332,19 +350,19 @@ Go URL shortener API with PostgreSQL storage and click tracking.
 
 [Repo →](https://github.com/breakingthebot/url-shortener-api)
 
----
-
-#### [#14 — Contact Form Backend](builds/014-contact-form-backend.md)
-![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-28
-
-Modular PHP backend for validating, storing, and emailing contact form submissions.
-
-[Repo →](https://github.com/breakingthebot/php-contact-form-backend)
-
 </details>
 
 <details>
-<summary>Deep Builds (14)</summary>
+<summary>Deep Builds (15)</summary>
+
+#### [#24 — SQL Analytics Query Library](builds/024-sql-analytics-query-library.md)
+![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
+
+Python library of 20 complex analytical SQL queries against a mock e-commerce SQLite database, with a realistic data generator, benchmarking/profiling, an HTML dashboard, and an interactive CLI REPL.
+
+[Repo →](https://github.com/breakingthebot/sql-analytics-library)
+
+---
 
 #### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
 ![Lua](https://img.shields.io/badge/Lua-000080) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
@@ -474,7 +492,16 @@ CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, a
 
 ## By Category
 <details>
-<summary>Languages (23)</summary>
+<summary>Languages (24)</summary>
+
+#### [#24 — SQL Analytics Query Library](builds/024-sql-analytics-query-library.md)
+![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
+
+Python library of 20 complex analytical SQL queries against a mock e-commerce SQLite database, with a realistic data generator, benchmarking/profiling, an HTML dashboard, and an interactive CLI REPL.
+
+[Repo →](https://github.com/breakingthebot/sql-analytics-library)
+
+---
 
 #### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
 ![Lua](https://img.shields.io/badge/Lua-000080) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
@@ -877,6 +904,18 @@ Multi-user TCP socket chat server with slash commands, audit logging, and integr
 </details>
 
 <details>
+<summary>Python (SQL) (1)</summary>
+
+#### [#24 — SQL Analytics Query Library](builds/024-sql-analytics-query-library.md)
+![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
+
+Python library of 20 complex analytical SQL queries against a mock e-commerce SQLite database, with a realistic data generator, benchmarking/profiling, an HTML dashboard, and an interactive CLI REPL.
+
+[Repo →](https://github.com/breakingthebot/sql-analytics-library)
+
+</details>
+
+<details>
 <summary>Python (testing) (1)</summary>
 
 #### [#8 — Tested Calculator Library](builds/008-tested-calculator-library.md)
@@ -997,6 +1036,6 @@ This repo is an index repo and does not require a live deployment.
 This repo is the front door for the full build series. The reference files stay in `reference/`, the published build entries live in `builds.json`, and the README is generated from that JSON so the public index stays consistent. I kept the automation small on purpose: one CLI to add a build, one CLI to regenerate the README, and a handful of focused modules so the data, validation, formatting, and file writes stay separate and easy to audit.
 
 ## Notes
-- The tracker and README are synced to the 23 public build repos currently published under the `breakingthebot` GitHub account.
+- The tracker and README are synced to the 24 public build repos currently published under the `breakingthebot` GitHub account.
 - The tracker workbook currently contains 246 build rows even though the PDF is described as a 286-item master list. The automation uses the tracker rows that are actually marked complete.
 - The remaining unpublished build slots are intentionally left open for future custom build designs and additional portfolio work.
