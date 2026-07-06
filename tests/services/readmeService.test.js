@@ -14,9 +14,11 @@ const {
   createReadme,
   createDepthBadge,
   createBadge,
+  createLabeledBadge,
   createBuildCard,
   createCardList,
   createCollapsibleFilteredSection,
+  createStatBadges,
   createSyncNote,
   resolveTechnologyBadgeColor,
 } = require("../../src/services/readmeService");
@@ -39,6 +41,25 @@ test("createBadge renders a shields.io badge image with an escaped label", () =>
     createBadge("JS testing", "334155"),
     "![JS testing](https://img.shields.io/badge/JS_testing-334155)",
   );
+});
+
+test("createLabeledBadge renders a two-segment label:message badge", () => {
+  assert.equal(
+    createLabeledBadge("Builds", "23", "0ea5e9"),
+    "![Builds: 23](https://img.shields.io/badge/Builds-23-0ea5e9)",
+  );
+});
+
+test("createLabeledBadge percent-encodes '#' so it isn't misread as a URL fragment", () => {
+  // A raw "#" in the URL truncates everything after it (including the
+  // color) as a fragment, breaking the badge. Regression test for that.
+  const badge = createLabeledBadge("Latest", "#23", "16a34a");
+
+  assert.equal(
+    badge,
+    "![Latest: #23](https://img.shields.io/badge/Latest-%2323-16a34a)",
+  );
+  assert.doesNotMatch(badge.split("(")[1], /#/, "the URL itself must not contain a raw #");
 });
 
 test("createDepthBadge renders a colored badge per depth level", () => {
@@ -133,6 +154,55 @@ test("buildSnapshotTable renders summary metrics", () => {
       "| 16 | #16 File Duplicate Finder | 9 | 7 | 0 |",
     ],
   );
+});
+
+test("createStatBadges renders Builds/Latest/Languages/Deep Builds as one badge row", () => {
+  const badges = createStatBadges(
+    {
+      total_builds: 23,
+      latest_build: { build_number: 23, project_name: "Hammerspoon Config" },
+      by_depth: [
+        { label: "Deep", count: 14 },
+        { label: "Expanded", count: 9 },
+      ],
+    },
+    14,
+  );
+
+  assert.match(badges, /!\[Builds: 23\]/);
+  assert.match(badges, /!\[Latest: #23\]/);
+  assert.match(badges, /!\[Languages: 14\]/);
+  assert.match(badges, /!\[Deep Builds: 14\]/);
+});
+
+test("createStatBadges shows 'None yet' for Latest when there is no latest build", () => {
+  const badges = createStatBadges(
+    { total_builds: 0, latest_build: null, by_depth: [] },
+    0,
+  );
+
+  assert.match(badges, /!\[Latest: None yet\]/);
+});
+
+test("createReadme includes the stat badge row near the top", () => {
+  const readme = createReadme([
+    {
+      build_number: 1,
+      date: "2026-06-28",
+      project_name: "Solo Build",
+      description: "A single build entry.",
+      repo_url: "https://github.com/breakingthebot/solo-build",
+      technology: "Rust",
+      category: "Languages",
+      depth: "Deep",
+      notes: "",
+      stack: ["Rust"],
+    },
+  ]);
+
+  assert.match(readme, /!\[Builds: 1\]/);
+  assert.match(readme, /!\[Latest: #1\]/);
+  assert.match(readme, /!\[Languages: 1\]/);
 });
 
 test("createReadme includes an empty-state note when there are no published builds", () => {

@@ -78,14 +78,20 @@ function resolveTechnologyBadgeColor(technology) {
 }
 
 /**
- * Escapes a badge label for the shields.io static-badge URL scheme
- * (literal dashes must be doubled, spaces become underscores).
+ * Escapes a badge label for the shields.io static-badge URL scheme: literal
+ * dashes/underscores are doubled, spaces become underscores, and anything
+ * else unsafe in a URL path (e.g. "#", parentheses) is percent-encoded so
+ * it can't be misread as a URL fragment or break the request.
  *
  * @param {string} label - The raw label text.
- * @returns {string} The shields.io-safe label.
+ * @returns {string} The shields.io-safe, URL-safe label.
  */
 function encodeBadgeLabel(label) {
-  return String(label).replace(/-/g, "--").replace(/ /g, "_");
+  const shieldsEscaped = String(label)
+    .replace(/-/g, "--")
+    .replace(/_/g, "__")
+    .replace(/ /g, "_");
+  return encodeURIComponent(shieldsEscaped);
 }
 
 /**
@@ -97,6 +103,20 @@ function encodeBadgeLabel(label) {
  */
 function createBadge(label, color) {
   return `![${label}](https://img.shields.io/badge/${encodeBadgeLabel(label)}-${color})`;
+}
+
+/**
+ * Creates a two-segment shields.io badge image (a label plus a separate
+ * message), e.g. "Builds: 23".
+ *
+ * @param {string} label - The badge's left-hand label text.
+ * @param {string} message - The badge's right-hand message text.
+ * @param {string} color - The hex color, without a leading #.
+ * @returns {string} The markdown image badge.
+ */
+function createLabeledBadge(label, message, color) {
+  const path = `${encodeBadgeLabel(label)}-${encodeBadgeLabel(message)}-${color}`;
+  return `![${label}: ${message}](https://img.shields.io/badge/${path})`;
 }
 
 /**
@@ -195,6 +215,37 @@ function buildSnapshotTable(stats) {
   ];
 }
 
+const STAT_BADGE_COLORS = {
+  builds: "0ea5e9",
+  latest: "16a34a",
+  languages: "f59e0b",
+  deep: "7c3aed",
+};
+
+/**
+ * Creates a one-line row of headline stat badges (Builds, Latest,
+ * Languages, Deep Builds) for the top of the README, ahead of the
+ * more detailed Summary table further down.
+ *
+ * @param {{total_builds: number, latest_build: ({build_number: number}|null), by_depth: Array<{label: string, count: number}>}} stats - The computed build stats.
+ * @param {number} languageCount - The number of distinct technologies used.
+ * @returns {string} The markdown line of badges.
+ */
+function createStatBadges(stats, languageCount) {
+  const deepCount =
+    stats.by_depth.find((item) => item.label === "Deep")?.count || 0;
+  const latestLabel = stats.latest_build
+    ? `#${stats.latest_build.build_number}`
+    : "None yet";
+
+  return [
+    createLabeledBadge("Builds", String(stats.total_builds), STAT_BADGE_COLORS.builds),
+    createLabeledBadge("Latest", latestLabel, STAT_BADGE_COLORS.latest),
+    createLabeledBadge("Languages", String(languageCount), STAT_BADGE_COLORS.languages),
+    createLabeledBadge("Deep Builds", String(deepCount), STAT_BADGE_COLORS.deep),
+  ].join(" ");
+}
+
 /**
  * Creates the note describing how many public build repos are currently
  * synced, computed from the real entry count so it can't go stale the way
@@ -239,6 +290,7 @@ function createReadme(entries) {
   const deepEntries = entries.filter((entry) => entry.depth === "Deep");
   const categoryGroups = groupBy(entries, "category");
   const technologyGroups = groupBy(entries, "technology");
+  const statBadges = createStatBadges(stats, technologyGroups.length);
   const emptyStateMessage =
     entries.length === 0
       ? "Current tracker state: no rows are marked completed or pushed yet, so the list is intentionally empty."
@@ -252,6 +304,8 @@ function createReadme(entries) {
     `# ${REPOSITORY_TITLE}`,
     "",
     "[![Test](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml/badge.svg)](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml)",
+    "",
+    statBadges,
     "",
     INTRO_PARAGRAPH,
     "",
@@ -361,9 +415,11 @@ module.exports = {
   buildSnapshotTable,
   createDepthBadge,
   createBadge,
+  createLabeledBadge,
   createBuildCard,
   createCardList,
   createCollapsibleFilteredSection,
+  createStatBadges,
   createSyncNote,
   createReadme,
   getReadmeFilePath,

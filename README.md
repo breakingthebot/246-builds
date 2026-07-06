@@ -2,6 +2,8 @@
 
 [![Test](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml/badge.svg)](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml)
 
+![Builds: 23](https://img.shields.io/badge/Builds-23-0ea5e9) ![Latest: #23](https://img.shields.io/badge/Latest-%2323-16a34a) ![Languages: 23](https://img.shields.io/badge/Languages-23-f59e0b) ![Deep Builds: 14](https://img.shields.io/badge/Deep_Builds-14-7c3aed)
+
 A public index of daily coding builds, each pulled from the 286-project list and built end-to-end in a single day, then expanded through multiple iterations with a full commit history pushed live. Together, the repos form a broad portfolio spanning multiple languages, problem types, and build depths.
 
 ## What's in each build's repo
@@ -110,7 +112,7 @@ SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a w
 ---
 
 #### [#19 — Budget Tracker Console App](builds/019-budget-tracker-console-app.md)
-![C#](https://img.shields.io/badge/C#-178600) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-02
+![C#](https://img.shields.io/badge/C%23-178600) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-02
 
 A .NET 8 console budget tracker with categories, monthly reports, and CSV export.
 
@@ -321,7 +323,7 @@ SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a w
 ---
 
 #### [#19 — Budget Tracker Console App](builds/019-budget-tracker-console-app.md)
-![C#](https://img.shields.io/badge/C#-178600) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-02
+![C#](https://img.shields.io/badge/C%23-178600) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-02
 
 A .NET 8 console budget tracker with categories, monthly reports, and CSV export.
 
@@ -544,7 +546,7 @@ SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a w
 ---
 
 #### [#19 — Budget Tracker Console App](builds/019-budget-tracker-console-app.md)
-![C#](https://img.shields.io/badge/C#-178600) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-02
+![C#](https://img.shields.io/badge/C%23-178600) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-02
 
 A .NET 8 console budget tracker with categories, monthly reports, and CSV export.
 
@@ -719,7 +721,7 @@ Standard-library-only expense tracker with budgets, recurring templates, monthly
 <summary>C# (1)</summary>
 
 #### [#19 — Budget Tracker Console App](builds/019-budget-tracker-console-app.md)
-![C#](https://img.shields.io/badge/C#-178600) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-02
+![C#](https://img.shields.io/badge/C%23-178600) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-02
 
 A .NET 8 console budget tracker with categories, monthly reports, and CSV export.
 
