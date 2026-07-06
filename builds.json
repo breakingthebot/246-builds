@@ -31,7 +31,7 @@
   },
   {
     "build_number": 23,
-    "date": "2026-07-05",
+    "date": "2026-07-06",
     "project_name": "Hammerspoon Config",
     "description": "Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.",
     "repo_url": "https://github.com/breakingthebot/hammerspoon-config",

@@ -63,7 +63,7 @@ Python library of 20 complex analytical SQL queries against a mock e-commerce SQ
 ---
 
 #### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
-![Lua](https://img.shields.io/badge/Lua-000080) ![Automation & DevOps](https://img.shields.io/badge/Automation_%26_DevOps-78350f) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Lua](https://img.shields.io/badge/Lua-000080) ![Automation & DevOps](https://img.shields.io/badge/Automation_%26_DevOps-78350f) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
 
 Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
 
@@ -292,7 +292,7 @@ Python library of 20 complex analytical SQL queries against a mock e-commerce SQ
 ---
 
 #### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
-![Lua](https://img.shields.io/badge/Lua-000080) ![Automation & DevOps](https://img.shields.io/badge/Automation_%26_DevOps-78350f) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Lua](https://img.shields.io/badge/Lua-000080) ![Automation & DevOps](https://img.shields.io/badge/Automation_%26_DevOps-78350f) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
 
 Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
 
@@ -385,7 +385,7 @@ Python library of 20 complex analytical SQL queries against a mock e-commerce SQ
 ---
 
 #### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
-![Lua](https://img.shields.io/badge/Lua-000080) ![Automation & DevOps](https://img.shields.io/badge/Automation_%26_DevOps-78350f) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Lua](https://img.shields.io/badge/Lua-000080) ![Automation & DevOps](https://img.shields.io/badge/Automation_%26_DevOps-78350f) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
 
 Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
 
@@ -515,7 +515,7 @@ CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, a
 <summary>Automation & DevOps (2)</summary>
 
 #### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
-![Lua](https://img.shields.io/badge/Lua-000080) ![Automation & DevOps](https://img.shields.io/badge/Automation_%26_DevOps-78350f) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Lua](https://img.shields.io/badge/Lua-000080) ![Automation & DevOps](https://img.shields.io/badge/Automation_%26_DevOps-78350f) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
 
 Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
 
@@ -849,7 +849,7 @@ Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows
 <summary>Lua (1)</summary>
 
 #### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
-![Lua](https://img.shields.io/badge/Lua-000080) ![Automation & DevOps](https://img.shields.io/badge/Automation_%26_DevOps-78350f) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Lua](https://img.shields.io/badge/Lua-000080) ![Automation & DevOps](https://img.shields.io/badge/Automation_%26_DevOps-78350f) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
 
 Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
 
