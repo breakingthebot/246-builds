@@ -18,6 +18,7 @@ const {
   createCardList,
   createCollapsibleFilteredSection,
   createSyncNote,
+  resolveTechnologyBadgeColor,
 } = require("../../src/services/readmeService");
 
 const SAMPLE_ENTRY = {
@@ -53,6 +54,22 @@ test("createDepthBadge renders a colored badge per depth level", () => {
     createDepthBadge("Standard"),
     "![Standard](https://img.shields.io/badge/Standard-6b7280)",
   );
+});
+
+test("resolveTechnologyBadgeColor returns each language's GitHub Linguist color", () => {
+  assert.equal(resolveTechnologyBadgeColor("Rust"), "DEA584");
+  assert.equal(resolveTechnologyBadgeColor("Kotlin"), "A97BFF");
+  assert.equal(resolveTechnologyBadgeColor("TypeScript"), "3178C6");
+});
+
+test("resolveTechnologyBadgeColor groups every Python variant under one color", () => {
+  assert.equal(resolveTechnologyBadgeColor("Python (ML)"), "3572A5");
+  assert.equal(resolveTechnologyBadgeColor("Python (CLI tools)"), "3572A5");
+  assert.equal(resolveTechnologyBadgeColor("Python (a brand new category)"), "3572A5");
+});
+
+test("resolveTechnologyBadgeColor falls back to a neutral default for unmapped technologies", () => {
+  assert.equal(resolveTechnologyBadgeColor("COBOL"), "334155");
 });
 
 test("createBuildCard renders a linked title, badges, description, and repo link", () => {

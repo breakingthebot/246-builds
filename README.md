@@ -74,7 +74,7 @@ A public index of daily coding builds, each pulled from the 286-project list and
 <summary>All Builds (23)</summary>
 
 #### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
-![Lua](https://img.shields.io/badge/Lua-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Lua](https://img.shields.io/badge/Lua-000080) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
 
@@ -83,7 +83,7 @@ Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-a
 ---
 
 #### [#22 — Server Setup Script](builds/022-server-setup-script.md)
-![Shell](https://img.shields.io/badge/Shell-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Shell](https://img.shields.io/badge/Shell-89E051) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Bash server-setup automation with dependency install/verification, environment config templating, cron-scheduled health checks, systemd service generation, webhook failure notifications, and automatic rollback on error.
 
@@ -92,7 +92,7 @@ Bash server-setup automation with dependency install/verification, environment c
 ---
 
 #### [#21 — Quick Notes Android App](builds/021-quick-notes-android-app.md)
-![Kotlin](https://img.shields.io/badge/Kotlin-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage.
 
@@ -101,7 +101,7 @@ Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows
 ---
 
 #### [#20 — Habit Tracker iOS App](builds/020-habit-tracker-ios-app.md)
-![Swift](https://img.shields.io/badge/Swift-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-03
+![Swift](https://img.shields.io/badge/Swift-F05138) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-03
 
 SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a weekly dashboard, home screen widgets, and XCTest coverage.
 
@@ -110,7 +110,7 @@ SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a w
 ---
 
 #### [#19 — Budget Tracker Console App](builds/019-budget-tracker-console-app.md)
-![C#](https://img.shields.io/badge/C#-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-02
+![C#](https://img.shields.io/badge/C#-178600) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-02
 
 A .NET 8 console budget tracker with categories, monthly reports, and CSV export.
 
@@ -119,7 +119,7 @@ A .NET 8 console budget tracker with categories, monthly reports, and CSV export
 ---
 
 #### [#18 — Library Catalog](builds/018-library-catalog.md)
-![Java](https://img.shields.io/badge/Java-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-30
+![Java](https://img.shields.io/badge/Java-B07219) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-30
 
 Java library catalog with Book and Member classes, checkout flows, file persistence, and JUnit coverage.
 
@@ -128,7 +128,7 @@ Java library catalog with Book and Member classes, checkout flows, file persiste
 ---
 
 #### [#17 — Log File Analyzer](builds/017-log-file-analyzer.md)
-![Ruby](https://img.shields.io/badge/Ruby-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-30
+![Ruby](https://img.shields.io/badge/Ruby-701516) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-30
 
 Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support.
 
@@ -137,7 +137,7 @@ Ruby CLI for streaming server log analysis with gzip input, thresholds, trend bu
 ---
 
 #### [#16 — File Duplicate Finder](builds/016-file-duplicate-finder.md)
-![Rust](https://img.shields.io/badge/Rust-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
+![Rust](https://img.shields.io/badge/Rust-DEA584) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
 
 CLI tool that walks a directory tree and finds duplicate files by hash.
 
@@ -146,7 +146,7 @@ CLI tool that walks a directory tree and finds duplicate files by hash.
 ---
 
 #### [#15 — URL Shortener API](builds/015-url-shortener-api.md)
-![Go](https://img.shields.io/badge/Go-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
+![Go](https://img.shields.io/badge/Go-00ADD8) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
 
 Go URL shortener API with PostgreSQL storage and click tracking.
 
@@ -155,7 +155,7 @@ Go URL shortener API with PostgreSQL storage and click tracking.
 ---
 
 #### [#14 — Contact Form Backend](builds/014-contact-form-backend.md)
-![PHP](https://img.shields.io/badge/PHP-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-28
+![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-28
 
 Modular PHP backend for validating, storing, and emailing contact form submissions.
 
@@ -164,7 +164,7 @@ Modular PHP backend for validating, storing, and emailing contact form submissio
 ---
 
 #### [#13 — Tested String Utility Library](builds/013-tested-string-utility-library.md)
-![JS testing](https://img.shields.io/badge/JS_testing-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
+![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
 
 JavaScript string utility library with 20 modular helpers and a full Jest test suite.
 
@@ -173,7 +173,7 @@ JavaScript string utility library with 20 modular helpers and a full Jest test s
 ---
 
 #### [#12 — GitHub Profile Viewer](builds/012-github-profile-viewer.md)
-![JS async](https://img.shields.io/badge/JS_async-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-27
+![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-27
 
 Vanilla JS GitHub explorer with profile, repo, and activity views plus search, filter, sort, and full E2E coverage.
 
@@ -182,7 +182,7 @@ Vanilla JS GitHub explorer with profile, repo, and activity views plus search, f
 ---
 
 #### [#11 — Music Player](builds/011-music-player.md)
-![ES Modules](https://img.shields.io/badge/ES_Modules-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-26
+![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-26
 
 No-bundler ES module music player with queue, shuffle/repeat, favorites, local file import, and CI/E2E coverage.
 
@@ -191,7 +191,7 @@ No-bundler ES module music player with queue, shuffle/repeat, favorites, local f
 ---
 
 #### [#10 — Typed Task Manager](builds/010-typed-task-manager.md)
-![TypeScript](https://img.shields.io/badge/TypeScript-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-20
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-20
 
 Strict TypeScript task manager with status-grouped views, import/export, backup history, bulk actions, and browser tests.
 
@@ -200,7 +200,7 @@ Strict TypeScript task manager with status-grouped views, import/export, backup 
 ---
 
 #### [#9 — Kanban Board](builds/009-kanban-board.md)
-![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-19
+![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-19
 
 Dependency-free drag-and-drop Kanban board with labels, due dates, undo/redo, and accessibility-tested E2E coverage.
 
@@ -209,7 +209,7 @@ Dependency-free drag-and-drop Kanban board with labels, due dates, undo/redo, an
 ---
 
 #### [#8 — Tested Calculator Library](builds/008-tested-calculator-library.md)
-![Python (testing)](https://img.shields.io/badge/Python_(testing)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-18
+![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-18
 
 Installable Python calculator package with CLI, batch processing, history, precision controls, and full pytest coverage.
 
@@ -218,7 +218,7 @@ Installable Python calculator package with CLI, batch processing, history, preci
 ---
 
 #### [#7 — Dev Toolkit](builds/007-dev-toolkit.md)
-![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-17
+![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-17
 
 Click-based Python CLI bundling UUID, password, base64, hashing, timestamp, and file/clipboard utilities.
 
@@ -227,7 +227,7 @@ Click-based Python CLI bundling UUID, password, base64, hashing, timestamp, and 
 ---
 
 #### [#6 — House Price Predictor](builds/006-house-price-predictor.md)
-![Python (ML)](https://img.shields.io/badge/Python_(ML)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-12
+![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-12
 
 California housing prediction toolkit with selectable models, batch validation, model cards, and a Streamlit UI.
 
@@ -236,7 +236,7 @@ California housing prediction toolkit with selectable models, batch validation, 
 ---
 
 #### [#5 — Chat Server](builds/005-chat-server.md)
-![Python (networking)](https://img.shields.io/badge/Python_(networking)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-10
+![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-10
 
 Multi-user TCP socket chat server with slash commands, audit logging, and integration-tested protocol flows.
 
@@ -245,7 +245,7 @@ Multi-user TCP socket chat server with slash commands, audit logging, and integr
 ---
 
 #### [#4 — Folder Organizer](builds/004-folder-organizer.md)
-![Python (automation)](https://img.shields.io/badge/Python_(automation)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-09
+![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-09
 
 Standard-library-only file watcher that auto-sorts downloads by type with reports and config support.
 
@@ -254,7 +254,7 @@ Standard-library-only file watcher that auto-sorts downloads by type with report
 ---
 
 #### [#3 — Sales Dashboard](builds/003-sales-dashboard.md)
-![Python (data)](https://img.shields.io/badge/Python_(data)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-09
+![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-09
 
 CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, and a Streamlit app.
 
@@ -263,7 +263,7 @@ CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, a
 ---
 
 #### [#2 — Async News Aggregator](builds/002-async-news-aggregator.md)
-![Python (async)](https://img.shields.io/badge/Python_(async)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-07
+![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-07
 
 Async Python CLI that fetches and merges headlines from 5 live news sources concurrently.
 
@@ -272,7 +272,7 @@ Async Python CLI that fetches and merges headlines from 5 live news sources conc
 ---
 
 #### [#1 — Expense Tracker](builds/001-expense-tracker.md)
-![Python (Core)](https://img.shields.io/badge/Python_(Core)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-06
+![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-06
 
 Standard-library-only expense tracker with budgets, recurring templates, monthly reports, and CSV export.
 
@@ -285,7 +285,7 @@ Standard-library-only expense tracker with budgets, recurring templates, monthly
 <summary>Most Recent 10 (10)</summary>
 
 #### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
-![Lua](https://img.shields.io/badge/Lua-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Lua](https://img.shields.io/badge/Lua-000080) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
 
@@ -294,7 +294,7 @@ Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-a
 ---
 
 #### [#22 — Server Setup Script](builds/022-server-setup-script.md)
-![Shell](https://img.shields.io/badge/Shell-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Shell](https://img.shields.io/badge/Shell-89E051) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Bash server-setup automation with dependency install/verification, environment config templating, cron-scheduled health checks, systemd service generation, webhook failure notifications, and automatic rollback on error.
 
@@ -303,7 +303,7 @@ Bash server-setup automation with dependency install/verification, environment c
 ---
 
 #### [#21 — Quick Notes Android App](builds/021-quick-notes-android-app.md)
-![Kotlin](https://img.shields.io/badge/Kotlin-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage.
 
@@ -312,7 +312,7 @@ Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows
 ---
 
 #### [#20 — Habit Tracker iOS App](builds/020-habit-tracker-ios-app.md)
-![Swift](https://img.shields.io/badge/Swift-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-03
+![Swift](https://img.shields.io/badge/Swift-F05138) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-03
 
 SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a weekly dashboard, home screen widgets, and XCTest coverage.
 
@@ -321,7 +321,7 @@ SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a w
 ---
 
 #### [#19 — Budget Tracker Console App](builds/019-budget-tracker-console-app.md)
-![C#](https://img.shields.io/badge/C#-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-02
+![C#](https://img.shields.io/badge/C#-178600) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-02
 
 A .NET 8 console budget tracker with categories, monthly reports, and CSV export.
 
@@ -330,7 +330,7 @@ A .NET 8 console budget tracker with categories, monthly reports, and CSV export
 ---
 
 #### [#18 — Library Catalog](builds/018-library-catalog.md)
-![Java](https://img.shields.io/badge/Java-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-30
+![Java](https://img.shields.io/badge/Java-B07219) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-30
 
 Java library catalog with Book and Member classes, checkout flows, file persistence, and JUnit coverage.
 
@@ -339,7 +339,7 @@ Java library catalog with Book and Member classes, checkout flows, file persiste
 ---
 
 #### [#17 — Log File Analyzer](builds/017-log-file-analyzer.md)
-![Ruby](https://img.shields.io/badge/Ruby-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-30
+![Ruby](https://img.shields.io/badge/Ruby-701516) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-30
 
 Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support.
 
@@ -348,7 +348,7 @@ Ruby CLI for streaming server log analysis with gzip input, thresholds, trend bu
 ---
 
 #### [#16 — File Duplicate Finder](builds/016-file-duplicate-finder.md)
-![Rust](https://img.shields.io/badge/Rust-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
+![Rust](https://img.shields.io/badge/Rust-DEA584) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
 
 CLI tool that walks a directory tree and finds duplicate files by hash.
 
@@ -357,7 +357,7 @@ CLI tool that walks a directory tree and finds duplicate files by hash.
 ---
 
 #### [#15 — URL Shortener API](builds/015-url-shortener-api.md)
-![Go](https://img.shields.io/badge/Go-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
+![Go](https://img.shields.io/badge/Go-00ADD8) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
 
 Go URL shortener API with PostgreSQL storage and click tracking.
 
@@ -366,7 +366,7 @@ Go URL shortener API with PostgreSQL storage and click tracking.
 ---
 
 #### [#14 — Contact Form Backend](builds/014-contact-form-backend.md)
-![PHP](https://img.shields.io/badge/PHP-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-28
+![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-28
 
 Modular PHP backend for validating, storing, and emailing contact form submissions.
 
@@ -378,7 +378,7 @@ Modular PHP backend for validating, storing, and emailing contact form submissio
 <summary>Deep Builds (14)</summary>
 
 #### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
-![Lua](https://img.shields.io/badge/Lua-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Lua](https://img.shields.io/badge/Lua-000080) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
 
@@ -387,7 +387,7 @@ Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-a
 ---
 
 #### [#22 — Server Setup Script](builds/022-server-setup-script.md)
-![Shell](https://img.shields.io/badge/Shell-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Shell](https://img.shields.io/badge/Shell-89E051) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Bash server-setup automation with dependency install/verification, environment config templating, cron-scheduled health checks, systemd service generation, webhook failure notifications, and automatic rollback on error.
 
@@ -396,7 +396,7 @@ Bash server-setup automation with dependency install/verification, environment c
 ---
 
 #### [#21 — Quick Notes Android App](builds/021-quick-notes-android-app.md)
-![Kotlin](https://img.shields.io/badge/Kotlin-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage.
 
@@ -405,7 +405,7 @@ Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows
 ---
 
 #### [#20 — Habit Tracker iOS App](builds/020-habit-tracker-ios-app.md)
-![Swift](https://img.shields.io/badge/Swift-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-03
+![Swift](https://img.shields.io/badge/Swift-F05138) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-03
 
 SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a weekly dashboard, home screen widgets, and XCTest coverage.
 
@@ -414,7 +414,7 @@ SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a w
 ---
 
 #### [#17 — Log File Analyzer](builds/017-log-file-analyzer.md)
-![Ruby](https://img.shields.io/badge/Ruby-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-30
+![Ruby](https://img.shields.io/badge/Ruby-701516) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-30
 
 Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support.
 
@@ -423,7 +423,7 @@ Ruby CLI for streaming server log analysis with gzip input, thresholds, trend bu
 ---
 
 #### [#14 — Contact Form Backend](builds/014-contact-form-backend.md)
-![PHP](https://img.shields.io/badge/PHP-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-28
+![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-28
 
 Modular PHP backend for validating, storing, and emailing contact form submissions.
 
@@ -432,7 +432,7 @@ Modular PHP backend for validating, storing, and emailing contact form submissio
 ---
 
 #### [#12 — GitHub Profile Viewer](builds/012-github-profile-viewer.md)
-![JS async](https://img.shields.io/badge/JS_async-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-27
+![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-27
 
 Vanilla JS GitHub explorer with profile, repo, and activity views plus search, filter, sort, and full E2E coverage.
 
@@ -441,7 +441,7 @@ Vanilla JS GitHub explorer with profile, repo, and activity views plus search, f
 ---
 
 #### [#11 — Music Player](builds/011-music-player.md)
-![ES Modules](https://img.shields.io/badge/ES_Modules-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-26
+![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-26
 
 No-bundler ES module music player with queue, shuffle/repeat, favorites, local file import, and CI/E2E coverage.
 
@@ -450,7 +450,7 @@ No-bundler ES module music player with queue, shuffle/repeat, favorites, local f
 ---
 
 #### [#10 — Typed Task Manager](builds/010-typed-task-manager.md)
-![TypeScript](https://img.shields.io/badge/TypeScript-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-20
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-20
 
 Strict TypeScript task manager with status-grouped views, import/export, backup history, bulk actions, and browser tests.
 
@@ -459,7 +459,7 @@ Strict TypeScript task manager with status-grouped views, import/export, backup 
 ---
 
 #### [#9 — Kanban Board](builds/009-kanban-board.md)
-![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-19
+![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-19
 
 Dependency-free drag-and-drop Kanban board with labels, due dates, undo/redo, and accessibility-tested E2E coverage.
 
@@ -468,7 +468,7 @@ Dependency-free drag-and-drop Kanban board with labels, due dates, undo/redo, an
 ---
 
 #### [#8 — Tested Calculator Library](builds/008-tested-calculator-library.md)
-![Python (testing)](https://img.shields.io/badge/Python_(testing)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-18
+![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-18
 
 Installable Python calculator package with CLI, batch processing, history, precision controls, and full pytest coverage.
 
@@ -477,7 +477,7 @@ Installable Python calculator package with CLI, batch processing, history, preci
 ---
 
 #### [#6 — House Price Predictor](builds/006-house-price-predictor.md)
-![Python (ML)](https://img.shields.io/badge/Python_(ML)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-12
+![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-12
 
 California housing prediction toolkit with selectable models, batch validation, model cards, and a Streamlit UI.
 
@@ -486,7 +486,7 @@ California housing prediction toolkit with selectable models, batch validation, 
 ---
 
 #### [#5 — Chat Server](builds/005-chat-server.md)
-![Python (networking)](https://img.shields.io/badge/Python_(networking)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-10
+![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-10
 
 Multi-user TCP socket chat server with slash commands, audit logging, and integration-tested protocol flows.
 
@@ -495,7 +495,7 @@ Multi-user TCP socket chat server with slash commands, audit logging, and integr
 ---
 
 #### [#3 — Sales Dashboard](builds/003-sales-dashboard.md)
-![Python (data)](https://img.shields.io/badge/Python_(data)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-09
+![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-09
 
 CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, and a Streamlit app.
 
@@ -508,7 +508,7 @@ CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, a
 <summary>Languages (23)</summary>
 
 #### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
-![Lua](https://img.shields.io/badge/Lua-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Lua](https://img.shields.io/badge/Lua-000080) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
 
@@ -517,7 +517,7 @@ Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-a
 ---
 
 #### [#22 — Server Setup Script](builds/022-server-setup-script.md)
-![Shell](https://img.shields.io/badge/Shell-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Shell](https://img.shields.io/badge/Shell-89E051) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Bash server-setup automation with dependency install/verification, environment config templating, cron-scheduled health checks, systemd service generation, webhook failure notifications, and automatic rollback on error.
 
@@ -526,7 +526,7 @@ Bash server-setup automation with dependency install/verification, environment c
 ---
 
 #### [#21 — Quick Notes Android App](builds/021-quick-notes-android-app.md)
-![Kotlin](https://img.shields.io/badge/Kotlin-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage.
 
@@ -535,7 +535,7 @@ Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows
 ---
 
 #### [#20 — Habit Tracker iOS App](builds/020-habit-tracker-ios-app.md)
-![Swift](https://img.shields.io/badge/Swift-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-03
+![Swift](https://img.shields.io/badge/Swift-F05138) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-03
 
 SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a weekly dashboard, home screen widgets, and XCTest coverage.
 
@@ -544,7 +544,7 @@ SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a w
 ---
 
 #### [#19 — Budget Tracker Console App](builds/019-budget-tracker-console-app.md)
-![C#](https://img.shields.io/badge/C#-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-02
+![C#](https://img.shields.io/badge/C#-178600) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-02
 
 A .NET 8 console budget tracker with categories, monthly reports, and CSV export.
 
@@ -553,7 +553,7 @@ A .NET 8 console budget tracker with categories, monthly reports, and CSV export
 ---
 
 #### [#18 — Library Catalog](builds/018-library-catalog.md)
-![Java](https://img.shields.io/badge/Java-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-30
+![Java](https://img.shields.io/badge/Java-B07219) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-30
 
 Java library catalog with Book and Member classes, checkout flows, file persistence, and JUnit coverage.
 
@@ -562,7 +562,7 @@ Java library catalog with Book and Member classes, checkout flows, file persiste
 ---
 
 #### [#17 — Log File Analyzer](builds/017-log-file-analyzer.md)
-![Ruby](https://img.shields.io/badge/Ruby-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-30
+![Ruby](https://img.shields.io/badge/Ruby-701516) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-30
 
 Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support.
 
@@ -571,7 +571,7 @@ Ruby CLI for streaming server log analysis with gzip input, thresholds, trend bu
 ---
 
 #### [#16 — File Duplicate Finder](builds/016-file-duplicate-finder.md)
-![Rust](https://img.shields.io/badge/Rust-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
+![Rust](https://img.shields.io/badge/Rust-DEA584) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
 
 CLI tool that walks a directory tree and finds duplicate files by hash.
 
@@ -580,7 +580,7 @@ CLI tool that walks a directory tree and finds duplicate files by hash.
 ---
 
 #### [#15 — URL Shortener API](builds/015-url-shortener-api.md)
-![Go](https://img.shields.io/badge/Go-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
+![Go](https://img.shields.io/badge/Go-00ADD8) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
 
 Go URL shortener API with PostgreSQL storage and click tracking.
 
@@ -589,7 +589,7 @@ Go URL shortener API with PostgreSQL storage and click tracking.
 ---
 
 #### [#14 — Contact Form Backend](builds/014-contact-form-backend.md)
-![PHP](https://img.shields.io/badge/PHP-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-28
+![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-28
 
 Modular PHP backend for validating, storing, and emailing contact form submissions.
 
@@ -598,7 +598,7 @@ Modular PHP backend for validating, storing, and emailing contact form submissio
 ---
 
 #### [#13 — Tested String Utility Library](builds/013-tested-string-utility-library.md)
-![JS testing](https://img.shields.io/badge/JS_testing-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
+![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
 
 JavaScript string utility library with 20 modular helpers and a full Jest test suite.
 
@@ -607,7 +607,7 @@ JavaScript string utility library with 20 modular helpers and a full Jest test s
 ---
 
 #### [#12 — GitHub Profile Viewer](builds/012-github-profile-viewer.md)
-![JS async](https://img.shields.io/badge/JS_async-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-27
+![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-27
 
 Vanilla JS GitHub explorer with profile, repo, and activity views plus search, filter, sort, and full E2E coverage.
 
@@ -616,7 +616,7 @@ Vanilla JS GitHub explorer with profile, repo, and activity views plus search, f
 ---
 
 #### [#11 — Music Player](builds/011-music-player.md)
-![ES Modules](https://img.shields.io/badge/ES_Modules-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-26
+![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-26
 
 No-bundler ES module music player with queue, shuffle/repeat, favorites, local file import, and CI/E2E coverage.
 
@@ -625,7 +625,7 @@ No-bundler ES module music player with queue, shuffle/repeat, favorites, local f
 ---
 
 #### [#10 — Typed Task Manager](builds/010-typed-task-manager.md)
-![TypeScript](https://img.shields.io/badge/TypeScript-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-20
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-20
 
 Strict TypeScript task manager with status-grouped views, import/export, backup history, bulk actions, and browser tests.
 
@@ -634,7 +634,7 @@ Strict TypeScript task manager with status-grouped views, import/export, backup 
 ---
 
 #### [#9 — Kanban Board](builds/009-kanban-board.md)
-![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-19
+![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-19
 
 Dependency-free drag-and-drop Kanban board with labels, due dates, undo/redo, and accessibility-tested E2E coverage.
 
@@ -643,7 +643,7 @@ Dependency-free drag-and-drop Kanban board with labels, due dates, undo/redo, an
 ---
 
 #### [#8 — Tested Calculator Library](builds/008-tested-calculator-library.md)
-![Python (testing)](https://img.shields.io/badge/Python_(testing)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-18
+![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-18
 
 Installable Python calculator package with CLI, batch processing, history, precision controls, and full pytest coverage.
 
@@ -652,7 +652,7 @@ Installable Python calculator package with CLI, batch processing, history, preci
 ---
 
 #### [#7 — Dev Toolkit](builds/007-dev-toolkit.md)
-![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-17
+![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-17
 
 Click-based Python CLI bundling UUID, password, base64, hashing, timestamp, and file/clipboard utilities.
 
@@ -661,7 +661,7 @@ Click-based Python CLI bundling UUID, password, base64, hashing, timestamp, and 
 ---
 
 #### [#6 — House Price Predictor](builds/006-house-price-predictor.md)
-![Python (ML)](https://img.shields.io/badge/Python_(ML)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-12
+![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-12
 
 California housing prediction toolkit with selectable models, batch validation, model cards, and a Streamlit UI.
 
@@ -670,7 +670,7 @@ California housing prediction toolkit with selectable models, batch validation, 
 ---
 
 #### [#5 — Chat Server](builds/005-chat-server.md)
-![Python (networking)](https://img.shields.io/badge/Python_(networking)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-10
+![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-10
 
 Multi-user TCP socket chat server with slash commands, audit logging, and integration-tested protocol flows.
 
@@ -679,7 +679,7 @@ Multi-user TCP socket chat server with slash commands, audit logging, and integr
 ---
 
 #### [#4 — Folder Organizer](builds/004-folder-organizer.md)
-![Python (automation)](https://img.shields.io/badge/Python_(automation)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-09
+![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-09
 
 Standard-library-only file watcher that auto-sorts downloads by type with reports and config support.
 
@@ -688,7 +688,7 @@ Standard-library-only file watcher that auto-sorts downloads by type with report
 ---
 
 #### [#3 — Sales Dashboard](builds/003-sales-dashboard.md)
-![Python (data)](https://img.shields.io/badge/Python_(data)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-09
+![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-09
 
 CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, and a Streamlit app.
 
@@ -697,7 +697,7 @@ CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, a
 ---
 
 #### [#2 — Async News Aggregator](builds/002-async-news-aggregator.md)
-![Python (async)](https://img.shields.io/badge/Python_(async)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-07
+![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-07
 
 Async Python CLI that fetches and merges headlines from 5 live news sources concurrently.
 
@@ -706,7 +706,7 @@ Async Python CLI that fetches and merges headlines from 5 live news sources conc
 ---
 
 #### [#1 — Expense Tracker](builds/001-expense-tracker.md)
-![Python (Core)](https://img.shields.io/badge/Python_(Core)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-06
+![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-06
 
 Standard-library-only expense tracker with budgets, recurring templates, monthly reports, and CSV export.
 
@@ -719,7 +719,7 @@ Standard-library-only expense tracker with budgets, recurring templates, monthly
 <summary>C# (1)</summary>
 
 #### [#19 — Budget Tracker Console App](builds/019-budget-tracker-console-app.md)
-![C#](https://img.shields.io/badge/C#-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-02
+![C#](https://img.shields.io/badge/C#-178600) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-02
 
 A .NET 8 console budget tracker with categories, monthly reports, and CSV export.
 
@@ -731,7 +731,7 @@ A .NET 8 console budget tracker with categories, monthly reports, and CSV export
 <summary>ES Modules (1)</summary>
 
 #### [#11 — Music Player](builds/011-music-player.md)
-![ES Modules](https://img.shields.io/badge/ES_Modules-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-26
+![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-26
 
 No-bundler ES module music player with queue, shuffle/repeat, favorites, local file import, and CI/E2E coverage.
 
@@ -743,7 +743,7 @@ No-bundler ES module music player with queue, shuffle/repeat, favorites, local f
 <summary>Go (1)</summary>
 
 #### [#15 — URL Shortener API](builds/015-url-shortener-api.md)
-![Go](https://img.shields.io/badge/Go-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
+![Go](https://img.shields.io/badge/Go-00ADD8) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
 
 Go URL shortener API with PostgreSQL storage and click tracking.
 
@@ -755,7 +755,7 @@ Go URL shortener API with PostgreSQL storage and click tracking.
 <summary>Java (1)</summary>
 
 #### [#18 — Library Catalog](builds/018-library-catalog.md)
-![Java](https://img.shields.io/badge/Java-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-30
+![Java](https://img.shields.io/badge/Java-B07219) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-30
 
 Java library catalog with Book and Member classes, checkout flows, file persistence, and JUnit coverage.
 
@@ -767,7 +767,7 @@ Java library catalog with Book and Member classes, checkout flows, file persiste
 <summary>JS async (1)</summary>
 
 #### [#12 — GitHub Profile Viewer](builds/012-github-profile-viewer.md)
-![JS async](https://img.shields.io/badge/JS_async-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-27
+![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-27
 
 Vanilla JS GitHub explorer with profile, repo, and activity views plus search, filter, sort, and full E2E coverage.
 
@@ -779,7 +779,7 @@ Vanilla JS GitHub explorer with profile, repo, and activity views plus search, f
 <summary>JS testing (1)</summary>
 
 #### [#13 — Tested String Utility Library](builds/013-tested-string-utility-library.md)
-![JS testing](https://img.shields.io/badge/JS_testing-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
+![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
 
 JavaScript string utility library with 20 modular helpers and a full Jest test suite.
 
@@ -791,7 +791,7 @@ JavaScript string utility library with 20 modular helpers and a full Jest test s
 <summary>Kotlin (1)</summary>
 
 #### [#21 — Quick Notes Android App](builds/021-quick-notes-android-app.md)
-![Kotlin](https://img.shields.io/badge/Kotlin-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage.
 
@@ -803,7 +803,7 @@ Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows
 <summary>Lua (1)</summary>
 
 #### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
-![Lua](https://img.shields.io/badge/Lua-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Lua](https://img.shields.io/badge/Lua-000080) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
 
@@ -815,7 +815,7 @@ Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-a
 <summary>PHP (1)</summary>
 
 #### [#14 — Contact Form Backend](builds/014-contact-form-backend.md)
-![PHP](https://img.shields.io/badge/PHP-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-28
+![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-28
 
 Modular PHP backend for validating, storing, and emailing contact form submissions.
 
@@ -827,7 +827,7 @@ Modular PHP backend for validating, storing, and emailing contact form submissio
 <summary>Python (async) (1)</summary>
 
 #### [#2 — Async News Aggregator](builds/002-async-news-aggregator.md)
-![Python (async)](https://img.shields.io/badge/Python_(async)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-07
+![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-07
 
 Async Python CLI that fetches and merges headlines from 5 live news sources concurrently.
 
@@ -839,7 +839,7 @@ Async Python CLI that fetches and merges headlines from 5 live news sources conc
 <summary>Python (automation) (1)</summary>
 
 #### [#4 — Folder Organizer](builds/004-folder-organizer.md)
-![Python (automation)](https://img.shields.io/badge/Python_(automation)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-09
+![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-09
 
 Standard-library-only file watcher that auto-sorts downloads by type with reports and config support.
 
@@ -851,7 +851,7 @@ Standard-library-only file watcher that auto-sorts downloads by type with report
 <summary>Python (CLI tools) (1)</summary>
 
 #### [#7 — Dev Toolkit](builds/007-dev-toolkit.md)
-![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-17
+![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-17
 
 Click-based Python CLI bundling UUID, password, base64, hashing, timestamp, and file/clipboard utilities.
 
@@ -863,7 +863,7 @@ Click-based Python CLI bundling UUID, password, base64, hashing, timestamp, and 
 <summary>Python (Core) (1)</summary>
 
 #### [#1 — Expense Tracker](builds/001-expense-tracker.md)
-![Python (Core)](https://img.shields.io/badge/Python_(Core)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-06
+![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-06
 
 Standard-library-only expense tracker with budgets, recurring templates, monthly reports, and CSV export.
 
@@ -875,7 +875,7 @@ Standard-library-only expense tracker with budgets, recurring templates, monthly
 <summary>Python (data) (1)</summary>
 
 #### [#3 — Sales Dashboard](builds/003-sales-dashboard.md)
-![Python (data)](https://img.shields.io/badge/Python_(data)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-09
+![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-09
 
 CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, and a Streamlit app.
 
@@ -887,7 +887,7 @@ CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, a
 <summary>Python (ML) (1)</summary>
 
 #### [#6 — House Price Predictor](builds/006-house-price-predictor.md)
-![Python (ML)](https://img.shields.io/badge/Python_(ML)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-12
+![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-12
 
 California housing prediction toolkit with selectable models, batch validation, model cards, and a Streamlit UI.
 
@@ -899,7 +899,7 @@ California housing prediction toolkit with selectable models, batch validation, 
 <summary>Python (networking) (1)</summary>
 
 #### [#5 — Chat Server](builds/005-chat-server.md)
-![Python (networking)](https://img.shields.io/badge/Python_(networking)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-10
+![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-10
 
 Multi-user TCP socket chat server with slash commands, audit logging, and integration-tested protocol flows.
 
@@ -911,7 +911,7 @@ Multi-user TCP socket chat server with slash commands, audit logging, and integr
 <summary>Python (testing) (1)</summary>
 
 #### [#8 — Tested Calculator Library](builds/008-tested-calculator-library.md)
-![Python (testing)](https://img.shields.io/badge/Python_(testing)-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-18
+![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-18
 
 Installable Python calculator package with CLI, batch processing, history, precision controls, and full pytest coverage.
 
@@ -923,7 +923,7 @@ Installable Python calculator package with CLI, batch processing, history, preci
 <summary>Ruby (1)</summary>
 
 #### [#17 — Log File Analyzer](builds/017-log-file-analyzer.md)
-![Ruby](https://img.shields.io/badge/Ruby-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-30
+![Ruby](https://img.shields.io/badge/Ruby-701516) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-30
 
 Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support.
 
@@ -935,7 +935,7 @@ Ruby CLI for streaming server log analysis with gzip input, thresholds, trend bu
 <summary>Rust (1)</summary>
 
 #### [#16 — File Duplicate Finder](builds/016-file-duplicate-finder.md)
-![Rust](https://img.shields.io/badge/Rust-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
+![Rust](https://img.shields.io/badge/Rust-DEA584) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
 
 CLI tool that walks a directory tree and finds duplicate files by hash.
 
@@ -947,7 +947,7 @@ CLI tool that walks a directory tree and finds duplicate files by hash.
 <summary>Shell (1)</summary>
 
 #### [#22 — Server Setup Script](builds/022-server-setup-script.md)
-![Shell](https://img.shields.io/badge/Shell-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+![Shell](https://img.shields.io/badge/Shell-89E051) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Bash server-setup automation with dependency install/verification, environment config templating, cron-scheduled health checks, systemd service generation, webhook failure notifications, and automatic rollback on error.
 
@@ -959,7 +959,7 @@ Bash server-setup automation with dependency install/verification, environment c
 <summary>Swift (1)</summary>
 
 #### [#20 — Habit Tracker iOS App](builds/020-habit-tracker-ios-app.md)
-![Swift](https://img.shields.io/badge/Swift-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-03
+![Swift](https://img.shields.io/badge/Swift-F05138) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-03
 
 SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a weekly dashboard, home screen widgets, and XCTest coverage.
 
@@ -971,7 +971,7 @@ SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a w
 <summary>TypeScript (1)</summary>
 
 #### [#10 — Typed Task Manager](builds/010-typed-task-manager.md)
-![TypeScript](https://img.shields.io/badge/TypeScript-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-20
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-20
 
 Strict TypeScript task manager with status-grouped views, import/export, backup history, bulk actions, and browser tests.
 
@@ -983,7 +983,7 @@ Strict TypeScript task manager with status-grouped views, import/export, backup 
 <summary>Vanilla JS (1)</summary>
 
 #### [#9 — Kanban Board](builds/009-kanban-board.md)
-![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-19
+![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-19
 
 Dependency-free drag-and-drop Kanban board with labels, due dates, undo/redo, and accessibility-tested E2E coverage.
 

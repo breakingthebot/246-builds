@@ -34,8 +34,48 @@ const DEPTH_BADGE_COLORS = {
   Deep: "7c3aed",
 };
 
-const TECHNOLOGY_BADGE_COLOR = "334155";
+// GitHub Linguist's per-language colors, so tech badges match the color
+// dot GitHub already shows next to each language elsewhere on the site.
+const TECHNOLOGY_BADGE_COLORS = {
+  "C#": "178600",
+  "ES Modules": "F1E05A",
+  Go: "00ADD8",
+  Java: "B07219",
+  "JS async": "F1E05A",
+  "JS testing": "F1E05A",
+  Kotlin: "A97BFF",
+  Lua: "000080",
+  PHP: "4F5D95",
+  Ruby: "701516",
+  Rust: "DEA584",
+  Shell: "89E051",
+  Swift: "F05138",
+  TypeScript: "3178C6",
+  "Vanilla JS": "F1E05A",
+};
+const PYTHON_BADGE_COLOR = "3572A5";
+const DEFAULT_TECHNOLOGY_BADGE_COLOR = "334155";
 const CATEGORY_BADGE_COLOR = "0f766e";
+
+/**
+ * Resolves the badge color for a technology label: an exact match against
+ * known languages, a family fallback for "Python (...)" variants, or a
+ * neutral default for anything not yet mapped.
+ *
+ * @param {string} technology - The technology label.
+ * @returns {string} The hex color, without a leading #.
+ */
+function resolveTechnologyBadgeColor(technology) {
+  if (TECHNOLOGY_BADGE_COLORS[technology]) {
+    return TECHNOLOGY_BADGE_COLORS[technology];
+  }
+
+  if (technology.startsWith("Python")) {
+    return PYTHON_BADGE_COLOR;
+  }
+
+  return DEFAULT_TECHNOLOGY_BADGE_COLOR;
+}
 
 /**
  * Escapes a badge label for the shields.io static-badge URL scheme
@@ -81,7 +121,7 @@ function createDepthBadge(depth) {
 function createBuildCard(entry) {
   const detailPath = `builds/${String(entry.build_number).padStart(3, "0")}-${slugifyProjectName(entry.project_name)}.md`;
   const badges = [
-    createBadge(entry.technology, TECHNOLOGY_BADGE_COLOR),
+    createBadge(entry.technology, resolveTechnologyBadgeColor(entry.technology)),
     createBadge(entry.category, CATEGORY_BADGE_COLOR),
     createDepthBadge(entry.depth),
   ].join(" ");
@@ -327,5 +367,6 @@ module.exports = {
   createSyncNote,
   createReadme,
   getReadmeFilePath,
+  resolveTechnologyBadgeColor,
   writeReadme,
 };
