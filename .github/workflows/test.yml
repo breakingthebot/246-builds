@@ -19,5 +19,18 @@ jobs:
       - name: Run test suite
         run: npm test
 
+  audit:
+    # windows-latest: audit-builds.js reads the tracker .xlsx via
+    # trackerSyncService.js, which shells out to native Windows
+    # PowerShell (spawnSync("powershell", ...)) to read/write the
+    # OOXML zip directly. That binary isn't present on Linux runners.
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
       - name: Audit builds.json / README / tracker consistency
         run: npm run audit-builds
