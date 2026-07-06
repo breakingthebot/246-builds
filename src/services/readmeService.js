@@ -199,6 +199,8 @@ function createReadme(entries) {
   return [
     `# ${REPOSITORY_TITLE}`,
     "",
+    "[![Test](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml/badge.svg)](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml)",
+    "",
     INTRO_PARAGRAPH,
     "",
     "## What's in each build's repo",

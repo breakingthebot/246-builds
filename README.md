@@ -1,5 +1,7 @@
 # 286 Builds
 
+[![Test](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml/badge.svg)](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml)
+
 A public index of daily coding builds, each pulled from the 286-project list and built end-to-end in a single day, then expanded through multiple iterations with a full commit history pushed live. Together, the repos form a broad portfolio spanning multiple languages, problem types, and build depths.
 
 ## What's in each build's repo

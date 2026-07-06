@@ -146,6 +146,15 @@ test("createReadme includes build data when entries exist", () => {
   assert.match(readme, /!\[Deep\]/);
 });
 
+test("createReadme includes the CI test badge linked to the Actions workflow", () => {
+  const readme = createReadme([]);
+
+  assert.match(
+    readme,
+    /\[!\[Test\]\(https:\/\/github\.com\/breakingthebot\/286-builds\/actions\/workflows\/test\.yml\/badge\.svg\)\]\(https:\/\/github\.com\/breakingthebot\/286-builds\/actions\/workflows\/test\.yml\)/,
+  );
+});
+
 test("createReadme wraps Build Index, Quick Views, By Category, and By Technology in collapsible accordions", () => {
   const readme = createReadme([
     {
