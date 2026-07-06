@@ -59,16 +59,27 @@ function groupBy(entries, key) {
 }
 
 /**
+ * Finds the entry with the highest build number.
+ *
+ * @param {Array<{build_number: number}>} entries - The build entries.
+ * @returns {Record<string, string | number> | null} The latest entry, or null if empty.
+ */
+function findLatestEntry(entries) {
+  if (entries.length === 0) {
+    return null;
+  }
+
+  return [...entries].sort((left, right) => right.build_number - left.build_number)[0];
+}
+
+/**
  * Computes summary statistics for the build index.
  *
  * @param {Array<{build_number: number, date: string, project_name: string, technology: string, category: string, depth: string}>} entries - The build entries.
  * @returns {{total_builds: number, latest_build: ({build_number: number, date: string, project_name: string}|null), by_category: Array<{label: string, count: number}>, by_technology: Array<{label: string, count: number}>, by_depth: Array<{label: string, count: number}>}} The computed statistics.
  */
 function createBuildStats(entries) {
-  const latestBuild =
-    entries.length > 0
-      ? [...entries].sort((left, right) => right.build_number - left.build_number)[0]
-      : null;
+  const latestBuild = findLatestEntry(entries);
 
   return {
     total_builds: entries.length,
@@ -88,5 +99,6 @@ function createBuildStats(entries) {
 module.exports = {
   countBy,
   createBuildStats,
+  findLatestEntry,
   groupBy,
 };

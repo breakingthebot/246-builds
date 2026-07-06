@@ -18,6 +18,7 @@ const {
   createBuildCard,
   createCardList,
   createCollapsibleFilteredSection,
+  createLatestBuildSpotlight,
   createStatBadges,
   createSyncNote,
   resolveTechnologyBadgeColor,
@@ -182,6 +183,33 @@ test("createStatBadges shows 'None yet' for Latest when there is no latest build
   );
 
   assert.match(badges, /!\[Latest: None yet\]/);
+});
+
+test("createLatestBuildSpotlight renders a heading and card for the highest build number", () => {
+  const lines = createLatestBuildSpotlight([
+    { ...SAMPLE_ENTRY, build_number: 16 },
+    { ...SAMPLE_ENTRY, build_number: 20, project_name: "Newer Build" },
+    { ...SAMPLE_ENTRY, build_number: 5 },
+  ]);
+
+  assert.equal(lines[0], "## Latest Build");
+  assert.equal(
+    lines[1],
+    "#### [#20 — Newer Build](builds/020-newer-build.md)",
+  );
+});
+
+test("createLatestBuildSpotlight returns an empty array when there are no entries", () => {
+  assert.deepEqual(createLatestBuildSpotlight([]), []);
+});
+
+test("createReadme shows the Latest Build spotlight right after the intro, ahead of any accordion", () => {
+  const readme = createReadme([SAMPLE_ENTRY]);
+  const spotlightIndex = readme.indexOf("## Latest Build");
+  const buildIndexIndex = readme.indexOf("## Build Index");
+
+  assert.notEqual(spotlightIndex, -1, "expected a Latest Build section");
+  assert.ok(spotlightIndex < buildIndexIndex, "spotlight should appear before the Build Index accordion");
 });
 
 test("createReadme includes the stat badge row near the top", () => {

@@ -6,6 +6,14 @@
 
 A public index of daily coding builds, each pulled from the 286-project list and built end-to-end in a single day, then expanded through multiple iterations with a full commit history pushed live. Together, the repos form a broad portfolio spanning multiple languages, problem types, and build depths.
 
+## Latest Build
+#### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
+![Lua](https://img.shields.io/badge/Lua-000080) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+
+Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
+
+[Repo →](https://github.com/breakingthebot/hammerspoon-config)
+
 ## What's in each build's repo
 - Every repo has a full README.
 - Every repo has a full changelog.

@@ -9,7 +9,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const { slugifyProjectName } = require("./buildExportService");
-const { createBuildStats, groupBy } = require("./buildStatsService");
+const { createBuildStats, findLatestEntry, groupBy } = require("./buildStatsService");
 
 const {
   ARCHITECTURE_NOTES,
@@ -259,6 +259,24 @@ function createSyncNote(entryCount) {
 }
 
 /**
+ * Creates an always-visible spotlight section for the single most recent
+ * build, so it's seen without expanding any accordion. Returns an empty
+ * array when there are no entries yet.
+ *
+ * @param {Array<{build_number: number, date: string, project_name: string, description: string, repo_url: string, technology: string, category: string, depth: string}>} entries - The entries to consider.
+ * @returns {string[]} The markdown lines, or an empty array if there are no entries.
+ */
+function createLatestBuildSpotlight(entries) {
+  const latestEntry = findLatestEntry(entries);
+
+  if (!latestEntry) {
+    return [];
+  }
+
+  return ["## Latest Build", ...createBuildCard(latestEntry), ""];
+}
+
+/**
  * Creates a collapsible <details> accordion wrapping a filtered section's
  * build cards, with a summary line showing the group label and entry count.
  *
@@ -299,6 +317,7 @@ function createReadme(entries) {
     entries.length === 0
       ? [emptyStateMessage, ""]
       : createCollapsibleFilteredSection("All Builds", entries);
+  const latestBuildSpotlight = createLatestBuildSpotlight(entries);
 
   return [
     `# ${REPOSITORY_TITLE}`,
@@ -309,6 +328,7 @@ function createReadme(entries) {
     "",
     INTRO_PARAGRAPH,
     "",
+    ...latestBuildSpotlight,
     "## What's in each build's repo",
     ...WHATS_IN_EACH_BUILD_REPO.map((item) => `- ${item}`),
     "",
@@ -419,6 +439,7 @@ module.exports = {
   createBuildCard,
   createCardList,
   createCollapsibleFilteredSection,
+  createLatestBuildSpotlight,
   createStatBadges,
   createSyncNote,
   createReadme,

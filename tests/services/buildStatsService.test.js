@@ -11,6 +11,7 @@ const assert = require("node:assert/strict");
 const {
   countBy,
   createBuildStats,
+  findLatestEntry,
   groupBy,
 } = require("../../src/services/buildStatsService");
 
@@ -73,4 +74,19 @@ test("createBuildStats summarizes latest build and depth counts", () => {
     { label: "Deep", count: 1 },
     { label: "Expanded", count: 1 },
   ]);
+});
+
+test("findLatestEntry returns the full entry with the highest build number", () => {
+  const entry = findLatestEntry([
+    { build_number: 4, project_name: "Folder Organizer" },
+    { build_number: 5, project_name: "Chat Server" },
+    { build_number: 2, project_name: "Expense Tracker" },
+  ]);
+
+  assert.equal(entry.build_number, 5);
+  assert.equal(entry.project_name, "Chat Server");
+});
+
+test("findLatestEntry returns null for an empty entry list", () => {
+  assert.equal(findLatestEntry([]), null);
 });
