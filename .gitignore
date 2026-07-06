@@ -3,6 +3,8 @@
 # Connects to: package.json, reference/, tests/
 # Created: 2026-06-28
 
+AGENTS.md
+BUILD_NOTES.md
 .env
 venv/
 __pycache__/
