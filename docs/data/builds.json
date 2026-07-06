@@ -1,0 +1,377 @@
+[
+  {
+    "build_number": 25,
+    "date": "2026-07-06",
+    "project_name": "FlavorFind Recipe Finder",
+    "description": "React recipe search app to discover meals by ingredients, filter by dietary restrictions, manage custom recipes, use a step-by-step cook mode, and compile a consolidated shopping checklist.",
+    "repo_url": "https://github.com/breakingthebot/flavorfind-recipe-finder",
+    "technology": "React",
+    "category": "Web Frontend",
+    "stack": [
+      "React",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Recipe search/filter app with dietary restriction filters, custom recipe CRUD synced to localStorage, cook-mode step timers parsed via regex, and a shopping list aggregator that normalizes units and merges duplicate ingredients across recipes."
+  },
+  {
+    "build_number": 24,
+    "date": "2026-07-06",
+    "project_name": "SQL Analytics Query Library",
+    "description": "Python library of 20 complex analytical SQL queries against a mock e-commerce SQLite database, with a realistic data generator, benchmarking/profiling, an HTML dashboard, and an interactive CLI REPL.",
+    "repo_url": "https://github.com/breakingthebot/sql-analytics-library",
+    "technology": "Python (SQL)",
+    "category": "Data & Analytics",
+    "stack": [
+      "Python (SQL)",
+      "Data & Analytics"
+    ],
+    "depth": "Deep",
+    "notes": "20-query analytical SQL library over a mock e-commerce SQLite DB: high-fidelity data generator (VIP/corporate discounts, inventory logs), query benchmarking/profiler, HTML portfolio dashboard, interactive SQL REPL shell, and pytest coverage."
+  },
+  {
+    "build_number": 23,
+    "date": "2026-07-05",
+    "project_name": "Hammerspoon Config",
+    "description": "Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.",
+    "repo_url": "https://github.com/breakingthebot/hammerspoon-config",
+    "technology": "Lua",
+    "category": "Automation & DevOps",
+    "stack": [
+      "Lua",
+      "Automation & DevOps"
+    ],
+    "depth": "Deep",
+    "notes": "Window halves/thirds/maximize/center hotkeys, move-to-next/previous-screen with proportional resize across different-resolution monitors, app focus/launch/hide toggle, and GitHub Actions CI running the Lua test suite."
+  },
+  {
+    "build_number": 22,
+    "date": "2026-07-05",
+    "project_name": "Server Setup Script",
+    "description": "Bash server-setup automation with dependency install/verification, environment config templating, cron-scheduled health checks, systemd service generation, webhook failure notifications, and automatic rollback on error.",
+    "repo_url": "https://github.com/breakingthebot/server-setup-script",
+    "technology": "Shell",
+    "category": "Automation & DevOps",
+    "stack": [
+      "Shell",
+      "Automation & DevOps"
+    ],
+    "depth": "Deep",
+    "notes": "Bash automation script: package-manager-agnostic dependency install/verify, env.conf generation, config templating, cron-scheduled health checks, systemd service generator, Slack/Discord/webhook notifications, dry-run mode, and fail-safe rollback with diagnostic archiving."
+  },
+  {
+    "build_number": 21,
+    "date": "2026-07-05",
+    "project_name": "Quick Notes Android App",
+    "description": "Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage.",
+    "repo_url": "https://github.com/breakingthebot/quick-notes-android-compose",
+    "technology": "Kotlin",
+    "category": "Mobile Apps",
+    "stack": [
+      "Kotlin",
+      "Mobile Apps"
+    ],
+    "depth": "Deep",
+    "notes": "Kotlin Android notes app with Jetpack Compose Material 3, Room persistence, tags, archive/restore flows, search, sort, home screen widgets, accessibility polish, and automated UI regression coverage."
+  },
+  {
+    "build_number": 20,
+    "date": "2026-07-03",
+    "project_name": "Habit Tracker iOS App",
+    "description": "SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a weekly dashboard, home screen widgets, and XCTest coverage.",
+    "repo_url": "https://github.com/breakingthebot/habit-tracker-ios-swiftui",
+    "technology": "Swift",
+    "category": "Mobile Apps",
+    "stack": [
+      "Swift",
+      "Mobile Apps"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 19,
+    "date": "2026-07-02",
+    "project_name": "Budget Tracker Console App",
+    "description": "A .NET 8 console budget tracker with categories, monthly reports, and CSV export.",
+    "repo_url": "https://github.com/breakingthebot/budget-tracker-console-app",
+    "technology": "C#",
+    "category": "Desktop & Console Apps",
+    "stack": [
+      "C#",
+      "Desktop & Console Apps"
+    ],
+    "depth": "Expanded",
+    "notes": ""
+  },
+  {
+    "build_number": 18,
+    "date": "2026-06-30",
+    "project_name": "Library Catalog",
+    "description": "Java library catalog with Book and Member classes, checkout flows, file persistence, and JUnit coverage.",
+    "repo_url": "https://github.com/breakingthebot/library-catalog-java",
+    "technology": "Java",
+    "category": "Desktop & Console Apps",
+    "stack": [
+      "Java",
+      "Desktop & Console Apps"
+    ],
+    "depth": "Expanded",
+    "notes": ""
+  },
+  {
+    "build_number": 17,
+    "date": "2026-06-30",
+    "project_name": "Log File Analyzer",
+    "description": "Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support.",
+    "repo_url": "https://github.com/breakingthebot/log-file-analyzer-ruby",
+    "technology": "Ruby",
+    "category": "CLI Tools",
+    "stack": [
+      "Ruby",
+      "CLI Tools"
+    ],
+    "depth": "Deep",
+    "notes": "Streaming Ruby CLI with common/JSON and gzip input, batch analysis, per-file auto detection, time-window filtering, threshold exits, comparison mode, trend buckets, YAML config defaults, packaged install flow, and CSV/JSON export."
+  },
+  {
+    "build_number": 16,
+    "date": "2026-06-28",
+    "project_name": "File Duplicate Finder",
+    "description": "CLI tool that walks a directory tree and finds duplicate files by hash.",
+    "repo_url": "https://github.com/breakingthebot/file-duplicate-finder-rust",
+    "technology": "Rust",
+    "category": "CLI Tools",
+    "stack": [
+      "Rust",
+      "CLI Tools"
+    ],
+    "depth": "Expanded",
+    "notes": ""
+  },
+  {
+    "build_number": 15,
+    "date": "2026-06-28",
+    "project_name": "URL Shortener API",
+    "description": "Go URL shortener API with PostgreSQL storage and click tracking.",
+    "repo_url": "https://github.com/breakingthebot/url-shortener-api",
+    "technology": "Go",
+    "category": "Backend & Networking",
+    "stack": [
+      "Go",
+      "Backend & Networking"
+    ],
+    "depth": "Expanded",
+    "notes": ""
+  },
+  {
+    "build_number": 14,
+    "date": "2026-06-28",
+    "project_name": "Contact Form Backend",
+    "description": "Modular PHP backend for validating, storing, and emailing contact form submissions.",
+    "repo_url": "https://github.com/breakingthebot/php-contact-form-backend",
+    "technology": "PHP",
+    "category": "Backend & Networking",
+    "stack": [
+      "PHP",
+      "Backend & Networking"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 13,
+    "date": "2026-06-28",
+    "project_name": "Tested String Utility Library",
+    "description": "JavaScript string utility library with 20 modular helpers and a full Jest test suite.",
+    "repo_url": "https://github.com/breakingthebot/string-utils-jest",
+    "technology": "JS testing",
+    "category": "Libraries & Packages",
+    "stack": [
+      "JS testing",
+      "Libraries & Packages"
+    ],
+    "depth": "Expanded",
+    "notes": ""
+  },
+  {
+    "build_number": 12,
+    "date": "2026-06-27",
+    "project_name": "GitHub Profile Viewer",
+    "description": "Vanilla JS GitHub explorer with profile, repo, and activity views plus search, filter, sort, and full E2E coverage.",
+    "repo_url": "https://github.com/breakingthebot/github-profile-viewer-vanilla-js",
+    "technology": "JS async",
+    "category": "Web Frontend",
+    "stack": [
+      "JS async",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 11,
+    "date": "2026-06-26",
+    "project_name": "Music Player",
+    "description": "No-bundler ES module music player with queue, shuffle/repeat, favorites, local file import, and CI/E2E coverage.",
+    "repo_url": "https://github.com/breakingthebot/music-player-es-modules",
+    "technology": "ES Modules",
+    "category": "Web Frontend",
+    "stack": [
+      "ES Modules",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 10,
+    "date": "2026-06-20",
+    "project_name": "Typed Task Manager",
+    "description": "Strict TypeScript task manager with status-grouped views, import/export, backup history, bulk actions, and browser tests.",
+    "repo_url": "https://github.com/breakingthebot/Typed-Task-Manager",
+    "technology": "TypeScript",
+    "category": "Web Frontend",
+    "stack": [
+      "TypeScript",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 9,
+    "date": "2026-06-19",
+    "project_name": "Kanban Board",
+    "description": "Dependency-free drag-and-drop Kanban board with labels, due dates, undo/redo, and accessibility-tested E2E coverage.",
+    "repo_url": "https://github.com/breakingthebot/Kanban-Board-Vanilla-JS",
+    "technology": "Vanilla JS",
+    "category": "Web Frontend",
+    "stack": [
+      "Vanilla JS",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 8,
+    "date": "2026-06-18",
+    "project_name": "Tested Calculator Library",
+    "description": "Installable Python calculator package with CLI, batch processing, history, precision controls, and full pytest coverage.",
+    "repo_url": "https://github.com/breakingthebot/Python-testing",
+    "technology": "Python (testing)",
+    "category": "Libraries & Packages",
+    "stack": [
+      "Python (testing)",
+      "Libraries & Packages"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 7,
+    "date": "2026-06-17",
+    "project_name": "Dev Toolkit",
+    "description": "Click-based Python CLI bundling UUID, password, base64, hashing, timestamp, and file/clipboard utilities.",
+    "repo_url": "https://github.com/breakingthebot/Dev-toolkit",
+    "technology": "Python (CLI tools)",
+    "category": "CLI Tools",
+    "stack": [
+      "Python (CLI tools)",
+      "CLI Tools"
+    ],
+    "depth": "Expanded",
+    "notes": ""
+  },
+  {
+    "build_number": 6,
+    "date": "2026-06-12",
+    "project_name": "House Price Predictor",
+    "description": "California housing prediction toolkit with selectable models, batch validation, model cards, and a Streamlit UI.",
+    "repo_url": "https://github.com/breakingthebot/House-price-predictor",
+    "technology": "Python (ML)",
+    "category": "Data & Analytics",
+    "stack": [
+      "Python (ML)",
+      "Data & Analytics"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 5,
+    "date": "2026-06-10",
+    "project_name": "Chat Server",
+    "description": "Multi-user TCP socket chat server with slash commands, audit logging, and integration-tested protocol flows.",
+    "repo_url": "https://github.com/breakingthebot/chat-server",
+    "technology": "Python (networking)",
+    "category": "Backend & Networking",
+    "stack": [
+      "Python (networking)",
+      "Backend & Networking"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 4,
+    "date": "2026-06-09",
+    "project_name": "Folder Organizer",
+    "description": "Standard-library-only file watcher that auto-sorts downloads by type with reports and config support.",
+    "repo_url": "https://github.com/breakingthebot/file-organizer",
+    "technology": "Python (automation)",
+    "category": "CLI Tools",
+    "stack": [
+      "Python (automation)",
+      "CLI Tools"
+    ],
+    "depth": "Expanded",
+    "notes": ""
+  },
+  {
+    "build_number": 3,
+    "date": "2026-06-09",
+    "project_name": "Sales Dashboard",
+    "description": "CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, and a Streamlit app.",
+    "repo_url": "https://github.com/breakingthebot/Sales-Dashboard",
+    "technology": "Python (data)",
+    "category": "Data & Analytics",
+    "stack": [
+      "Python (data)",
+      "Data & Analytics"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 2,
+    "date": "2026-06-07",
+    "project_name": "Async News Aggregator",
+    "description": "Async Python CLI that fetches and merges headlines from 5 live news sources concurrently.",
+    "repo_url": "https://github.com/breakingthebot/Async-News-Aggregator",
+    "technology": "Python (async)",
+    "category": "CLI Tools",
+    "stack": [
+      "Python (async)",
+      "CLI Tools"
+    ],
+    "depth": "Expanded",
+    "notes": ""
+  },
+  {
+    "build_number": 1,
+    "date": "2026-06-06",
+    "project_name": "Expense Tracker",
+    "description": "Standard-library-only expense tracker with budgets, recurring templates, monthly reports, and CSV export.",
+    "repo_url": "https://github.com/breakingthebot/expense-tracker",
+    "technology": "Python (Core)",
+    "category": "CLI Tools",
+    "stack": [
+      "Python (Core)",
+      "CLI Tools"
+    ],
+    "depth": "Expanded",
+    "notes": ""
+  }
+]

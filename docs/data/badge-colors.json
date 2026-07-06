@@ -1,0 +1,37 @@
+{
+  "technology": {
+    "C#": "178600",
+    "ES Modules": "F1E05A",
+    "Go": "00ADD8",
+    "Java": "B07219",
+    "JS async": "F1E05A",
+    "JS testing": "F1E05A",
+    "Kotlin": "A97BFF",
+    "Lua": "000080",
+    "PHP": "4F5D95",
+    "Ruby": "701516",
+    "Rust": "DEA584",
+    "Shell": "89E051",
+    "Swift": "F05138",
+    "TypeScript": "3178C6",
+    "Vanilla JS": "F1E05A"
+  },
+  "technology_python_default": "3572A5",
+  "technology_default": "334155",
+  "category": {
+    "CLI Tools": "0f766e",
+    "Web Frontend": "2563eb",
+    "Backend & Networking": "be185d",
+    "Data & Analytics": "ca8a04",
+    "Libraries & Packages": "4d7c0f",
+    "Desktop & Console Apps": "c2410c",
+    "Mobile Apps": "0891b2",
+    "Automation & DevOps": "78350f"
+  },
+  "category_default": "0f766e",
+  "depth": {
+    "Standard": "6b7280",
+    "Expanded": "0284c7",
+    "Deep": "7c3aed"
+  }
+}

@@ -9,6 +9,14 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const { createBuildStats } = require("./buildStatsService");
+const {
+  CATEGORY_BADGE_COLORS,
+  DEFAULT_CATEGORY_BADGE_COLOR,
+  DEFAULT_TECHNOLOGY_BADGE_COLOR,
+  DEPTH_BADGE_COLORS,
+  PYTHON_BADGE_COLOR,
+  TECHNOLOGY_BADGE_COLORS,
+} = require("../config/badgeColors");
 
 /**
  * Resolves the generated exports directory.
@@ -26,6 +34,15 @@ function getExportsDirectoryPath() {
  */
 function getBuildDetailsDirectoryPath() {
   return path.join(process.cwd(), "builds");
+}
+
+/**
+ * Resolves the directory the GitHub Pages site fetches its data from.
+ *
+ * @returns {string} The absolute docs/data directory path.
+ */
+function getSiteDataDirectoryPath() {
+  return path.join(process.cwd(), "docs", "data");
 }
 
 /**
@@ -125,10 +142,51 @@ function createBuildDetailPage(entry) {
 }
 
 /**
+ * Writes the build entries as JSON data for the GitHub Pages site to fetch.
+ *
+ * @param {Array<{build_number: number, date: string, project_name: string, description: string, repo_url: string, technology: string, category: string, depth: string, notes: string}>} entries - The build entries.
+ * @returns {string} The written data file path.
+ */
+function writeSiteData(entries) {
+  const siteDataDirectoryPath = getSiteDataDirectoryPath();
+  fs.mkdirSync(siteDataDirectoryPath, { recursive: true });
+
+  const dataPath = path.join(siteDataDirectoryPath, "builds.json");
+  fs.writeFileSync(dataPath, `${JSON.stringify(entries, null, 2)}\n`);
+
+  return dataPath;
+}
+
+/**
+ * Writes the badge color config as JSON so the GitHub Pages site renders
+ * technology/category/depth badges in the exact same colors as the README.
+ *
+ * @returns {string} The written badge-colors file path.
+ */
+function writeSiteBadgeColors() {
+  const siteDataDirectoryPath = getSiteDataDirectoryPath();
+  fs.mkdirSync(siteDataDirectoryPath, { recursive: true });
+
+  const badgeColorsPath = path.join(siteDataDirectoryPath, "badge-colors.json");
+  const payload = {
+    technology: TECHNOLOGY_BADGE_COLORS,
+    technology_python_default: PYTHON_BADGE_COLOR,
+    technology_default: DEFAULT_TECHNOLOGY_BADGE_COLOR,
+    category: CATEGORY_BADGE_COLORS,
+    category_default: DEFAULT_CATEGORY_BADGE_COLOR,
+    depth: DEPTH_BADGE_COLORS,
+  };
+
+  fs.writeFileSync(badgeColorsPath, `${JSON.stringify(payload, null, 2)}\n`);
+
+  return badgeColorsPath;
+}
+
+/**
  * Writes all generated secondary artifacts.
  *
  * @param {Array<{build_number: number, date: string, project_name: string, description: string, repo_url: string, technology: string, category: string, depth: string, notes: string}>} entries - The build entries.
- * @returns {{csv_path: string, stats_path: string, detail_pages: string[]}} The written artifact paths.
+ * @returns {{csv_path: string, stats_path: string, detail_pages: string[], site_data_path: string}} The written artifact paths.
  */
 function writeBuildArtifacts(entries) {
   const exportsDirectoryPath = getExportsDirectoryPath();
@@ -153,10 +211,15 @@ function writeBuildArtifacts(entries) {
     return filePath;
   });
 
+  const siteDataPath = writeSiteData(entries);
+  const siteBadgeColorsPath = writeSiteBadgeColors();
+
   return {
     csv_path: csvPath,
     stats_path: statsPath,
     detail_pages: detailPages,
+    site_data_path: siteDataPath,
+    site_badge_colors_path: siteBadgeColorsPath,
   };
 }
 
@@ -165,6 +228,9 @@ module.exports = {
   createBuildDetailPage,
   getBuildDetailsDirectoryPath,
   getExportsDirectoryPath,
+  getSiteDataDirectoryPath,
   slugifyProjectName,
   writeBuildArtifacts,
+  writeSiteBadgeColors,
+  writeSiteData,
 };

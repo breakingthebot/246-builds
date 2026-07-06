@@ -1,0 +1,226 @@
+/*
+ * docs/styles.css
+ * Styles for the 286 Builds searchable index page.
+ * Connects to: docs/index.html, docs/app.js
+ * Created: 2026-07-06
+ */
+
+:root {
+  color-scheme: light dark;
+  --bg: #ffffff;
+  --bg-subtle: #f8fafc;
+  --text: #0f172a;
+  --text-muted: #475569;
+  --border: #e2e8f0;
+  --accent: #2563eb;
+  --card-bg: #ffffff;
+  --card-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b1220;
+    --bg-subtle: #121a2b;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --border: #263449;
+    --accent: #60a5fa;
+    --card-bg: #121a2b;
+    --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 1.25rem 3rem;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.page-header {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2.5rem 0 1rem;
+}
+
+.page-header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+}
+
+.intro {
+  color: var(--text-muted);
+  max-width: 65ch;
+}
+
+.index-link a,
+.page-footer a {
+  color: var(--accent);
+}
+
+.stats {
+  max-width: 960px;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.stat-pill {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.stat-pill strong {
+  color: var(--text);
+}
+
+.controls {
+  max-width: 960px;
+  margin: 0 auto 1.5rem;
+}
+
+#search-input {
+  width: 100%;
+  padding: 0.65rem 0.9rem;
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  background: var(--bg-subtle);
+  color: var(--text);
+  margin-bottom: 0.75rem;
+}
+
+#search-input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-row select,
+.filter-row button {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  background: var(--bg-subtle);
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.filter-row button {
+  cursor: pointer;
+}
+
+.filter-row button:hover {
+  border-color: var(--accent);
+}
+
+.result-count {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin: 0.75rem 0 0;
+}
+
+.card-grid {
+  max-width: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.build-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1rem 1.1rem;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.build-card h2 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.build-card h2 a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.build-card h2 a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.build-date {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+}
+
+.build-description {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.build-repo-link {
+  font-size: 0.85rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.build-repo-link:hover {
+  text-decoration: underline;
+}
+
+.empty-state {
+  max-width: 960px;
+  margin: 3rem auto;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.page-footer {
+  max-width: 960px;
+  margin: 3rem auto 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}

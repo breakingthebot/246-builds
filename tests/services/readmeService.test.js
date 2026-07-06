@@ -293,6 +293,12 @@ test("createReadme includes the CI test badge linked to the Actions workflow", (
   );
 });
 
+test("createReadme links to the live GitHub Pages site", () => {
+  const readme = createReadme([]);
+
+  assert.match(readme, /\[Browse & filter every build on the live site →\]\(https:\/\/breakingthebot\.github\.io\/286-builds\/\)/);
+});
+
 test("createSyncNote computes the published repo count instead of using a hardcoded number", () => {
   assert.equal(
     createSyncNote(23),

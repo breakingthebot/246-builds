@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>286 Builds</title>
+  <meta name="description" content="Searchable index of the 286-build daily coding series." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="page-header">
+    <h1>286 Builds</h1>
+    <p class="intro">
+      A searchable index of the daily coding build series. Filter by technology, category, or depth,
+      or search by name/description. Full details, changelogs, and commit history live in each build's own repo.
+    </p>
+    <p class="index-link"><a href="https://github.com/breakingthebot/286-builds">View the index repo on GitHub →</a></p>
+  </header>
+
+  <section class="stats" id="stats" aria-label="Summary stats"></section>
+
+  <section class="controls">
+    <input
+      type="search"
+      id="search-input"
+      placeholder="Search by name or description…"
+      aria-label="Search builds"
+    />
+    <div class="filter-row">
+      <select id="technology-filter" aria-label="Filter by technology">
+        <option value="">All Technologies</option>
+      </select>
+      <select id="category-filter" aria-label="Filter by category">
+        <option value="">All Categories</option>
+      </select>
+      <select id="depth-filter" aria-label="Filter by depth">
+        <option value="">All Depths</option>
+      </select>
+      <button type="button" id="clear-filters">Clear filters</button>
+    </div>
+    <p class="result-count" id="result-count" aria-live="polite"></p>
+  </section>
+
+  <main id="card-grid" class="card-grid" aria-label="Build results"></main>
+  <p id="empty-state" class="empty-state" hidden>No builds match these filters.</p>
+
+  <footer class="page-footer">
+    <p>Generated from <code>builds.json</code> — kept in sync automatically. Source: <a href="https://github.com/breakingthebot/286-builds">breakingthebot/286-builds</a>.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
