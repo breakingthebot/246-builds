@@ -29,11 +29,6 @@ Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-a
 - The index is generated from `builds.json` and kept in sync with the tracker workbook.
 - Build dates shown here use the public GitHub push date.
 
-## Summary
-| Completed | Latest Build | Deep Builds | Expanded Builds | Standard Builds |
-| ---: | --- | ---: | ---: | ---: |
-| 23 | #23 Hammerspoon Config | 14 | 9 | 0 |
-
 ### Jump To
 - [Build Index](#build-index)
 - [Quick Views](#quick-views)
@@ -42,45 +37,6 @@ Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-a
 - [Build Pages](#build-pages)
 - [CSV Export](exports/builds.csv)
 - [Stats JSON](exports/stats.json)
-
-### Distribution
-#### By Category
-| Label | Count |
-| --- | ---: |
-| Languages | 23 |
-
-#### By Depth
-| Label | Count |
-| --- | ---: |
-| Deep | 14 |
-| Expanded | 9 |
-
-#### By Technology
-| Label | Count |
-| --- | ---: |
-| C# | 1 |
-| ES Modules | 1 |
-| Go | 1 |
-| Java | 1 |
-| JS async | 1 |
-| JS testing | 1 |
-| Kotlin | 1 |
-| Lua | 1 |
-| PHP | 1 |
-| Python (async) | 1 |
-| Python (automation) | 1 |
-| Python (CLI tools) | 1 |
-| Python (Core) | 1 |
-| Python (data) | 1 |
-| Python (ML) | 1 |
-| Python (networking) | 1 |
-| Python (testing) | 1 |
-| Ruby | 1 |
-| Rust | 1 |
-| Shell | 1 |
-| Swift | 1 |
-| TypeScript | 1 |
-| Vanilla JS | 1 |
 
 ## Build Index
 <details>

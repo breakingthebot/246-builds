@@ -9,8 +9,6 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 
 const {
-  buildCountTable,
-  buildSnapshotTable,
   createReadme,
   createDepthBadge,
   createBadge,
@@ -126,36 +124,6 @@ test("createCardList separates multiple cards with a horizontal rule and has no 
 
 test("createCardList returns an empty array for an empty entry list", () => {
   assert.deepEqual(createCardList([]), []);
-});
-
-test("buildCountTable renders a compact count table", () => {
-  assert.deepEqual(buildCountTable([{ label: "Languages", count: 16 }]), [
-    "| Label | Count |",
-    "| --- | ---: |",
-    "| Languages | 16 |",
-  ]);
-});
-
-test("buildSnapshotTable renders summary metrics", () => {
-  assert.deepEqual(
-    buildSnapshotTable({
-      total_builds: 16,
-      latest_build: {
-        build_number: 16,
-        date: "2026-06-28",
-        project_name: "File Duplicate Finder",
-      },
-      by_depth: [
-        { label: "Deep", count: 9 },
-        { label: "Expanded", count: 7 },
-      ],
-    }),
-    [
-      "| Completed | Latest Build | Deep Builds | Expanded Builds | Standard Builds |",
-      "| ---: | --- | ---: | ---: | ---: |",
-      "| 16 | #16 File Duplicate Finder | 9 | 7 | 0 |",
-    ],
-  );
 });
 
 test("createStatBadges renders Builds/Latest/Languages/Deep Builds as one badge row", () => {
@@ -278,10 +246,31 @@ test("createReadme includes build data when entries exist", () => {
     },
   ]);
 
-  assert.match(readme, /\| Completed \| Latest Build \| Deep Builds \|/);
+  assert.match(readme, /!\[Builds: 1\]/);
   assert.match(readme, /\[CSV Export\]\(exports\/builds\.csv\)/);
   assert.match(readme, /## By Technology/);
   assert.match(readme, /!\[Deep\]/);
+});
+
+test("createReadme no longer contains the old Summary/Distribution pipe tables", () => {
+  const readme = createReadme([
+    {
+      build_number: 14,
+      date: "2026-06-28",
+      project_name: "Contact Form Backend",
+      description: "Receives form data, validates, sends email, and stores records.",
+      repo_url: "https://github.com/breakingthebot/contact-form-backend",
+      technology: "PHP",
+      category: "Languages",
+      depth: "Deep",
+      notes: "",
+      stack: ["PHP", "MySQL"],
+    },
+  ]);
+
+  assert.equal(readme.includes("## Summary"), false);
+  assert.equal(readme.includes("### Distribution"), false);
+  assert.equal(readme.includes("| Label | Count |"), false);
 });
 
 test("createReadme includes the CI test badge linked to the Actions workflow", () => {

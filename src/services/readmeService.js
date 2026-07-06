@@ -173,48 +173,6 @@ function createCardList(entries) {
     }, []);
 }
 
-/**
- * Builds markdown table rows for simple label/count summaries.
- *
- * @param {Array<{label: string, count: number}>} counts - The grouped counts.
- * @returns {string[]} The markdown lines.
- */
-function buildCountTable(counts) {
-  if (counts.length === 0) {
-    return ["| Label | Count |", "| --- | ---: |", "| None yet | 0 |"];
-  }
-
-  return [
-    "| Label | Count |",
-    "| --- | ---: |",
-    ...counts.map((item) => `| ${item.label} | ${item.count} |`),
-  ];
-}
-
-/**
- * Builds the summary snapshot table for the README top section.
- *
- * @param {{total_builds: number, latest_build: ({build_number: number, date: string, project_name: string}|null), by_depth: Array<{label: string, count: number}>}} stats - The computed build stats.
- * @returns {string[]} The markdown lines.
- */
-function buildSnapshotTable(stats) {
-  const deepCount =
-    stats.by_depth.find((item) => item.label === "Deep")?.count || 0;
-  const expandedCount =
-    stats.by_depth.find((item) => item.label === "Expanded")?.count || 0;
-  const standardCount =
-    stats.by_depth.find((item) => item.label === "Standard")?.count || 0;
-  const latestBuildLabel = stats.latest_build
-    ? `#${stats.latest_build.build_number} ${stats.latest_build.project_name}`
-    : "None yet";
-
-  return [
-    "| Completed | Latest Build | Deep Builds | Expanded Builds | Standard Builds |",
-    "| ---: | --- | ---: | ---: | ---: |",
-    `| ${stats.total_builds} | ${latestBuildLabel} | ${deepCount} | ${expandedCount} | ${standardCount} |`,
-  ];
-}
-
 const STAT_BADGE_COLORS = {
   builds: "0ea5e9",
   latest: "16a34a",
@@ -361,9 +319,6 @@ function createReadme(entries) {
     "- The index is generated from `builds.json` and kept in sync with the tracker workbook.",
     "- Build dates shown here use the public GitHub push date.",
     "",
-    "## Summary",
-    ...buildSnapshotTable(stats),
-    "",
     "### Jump To",
     "- [Build Index](#build-index)",
     "- [Quick Views](#quick-views)",
@@ -372,16 +327,6 @@ function createReadme(entries) {
     "- [Build Pages](#build-pages)",
     "- [CSV Export](exports/builds.csv)",
     "- [Stats JSON](exports/stats.json)",
-    "",
-    "### Distribution",
-    "#### By Category",
-    ...buildCountTable(stats.by_category),
-    "",
-    "#### By Depth",
-    ...buildCountTable(stats.by_depth),
-    "",
-    "#### By Technology",
-    ...buildCountTable(stats.by_technology),
     "",
     "## Build Index",
     ...buildIndexLines,
@@ -454,8 +399,6 @@ function writeReadme(entries) {
 }
 
 module.exports = {
-  buildCountTable,
-  buildSnapshotTable,
   createDepthBadge,
   createBadge,
   createLabeledBadge,
