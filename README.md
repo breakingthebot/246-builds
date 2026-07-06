@@ -19,7 +19,7 @@ A public index of daily coding builds, each pulled from the 286-project list and
 ## Summary
 | Completed | Latest Build | Deep Builds | Expanded Builds | Standard Builds |
 | ---: | --- | ---: | ---: | ---: |
-| 21 | #21 Quick Notes Android App | 12 | 9 | 0 |
+| 23 | #23 Hammerspoon Config | 14 | 9 | 0 |
 
 ### Jump To
 - [Build Index](#build-index)
@@ -34,12 +34,12 @@ A public index of daily coding builds, each pulled from the 286-project list and
 #### By Category
 | Label | Count |
 | --- | ---: |
-| Languages | 21 |
+| Languages | 23 |
 
 #### By Depth
 | Label | Count |
 | --- | ---: |
-| Deep | 12 |
+| Deep | 14 |
 | Expanded | 9 |
 
 #### By Technology
@@ -52,6 +52,7 @@ A public index of daily coding builds, each pulled from the 286-project list and
 | JS async | 1 |
 | JS testing | 1 |
 | Kotlin | 1 |
+| Lua | 1 |
 | PHP | 1 |
 | Python (async) | 1 |
 | Python (automation) | 1 |
@@ -63,16 +64,35 @@ A public index of daily coding builds, each pulled from the 286-project list and
 | Python (testing) | 1 |
 | Ruby | 1 |
 | Rust | 1 |
+| Shell | 1 |
 | Swift | 1 |
 | TypeScript | 1 |
 | Vanilla JS | 1 |
 
 ## Build Index
 <details>
-<summary>All Builds (21)</summary>
+<summary>All Builds (23)</summary>
+
+#### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
+![Lua](https://img.shields.io/badge/Lua-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+
+Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
+
+[Repo →](https://github.com/breakingthebot/hammerspoon-config)
+
+---
+
+#### [#22 — Server Setup Script](builds/022-server-setup-script.md)
+![Shell](https://img.shields.io/badge/Shell-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+
+Bash server-setup automation with dependency install/verification, environment config templating, cron-scheduled health checks, systemd service generation, webhook failure notifications, and automatic rollback on error.
+
+[Repo →](https://github.com/breakingthebot/server-setup-script)
+
+---
 
 #### [#21 — Quick Notes Android App](builds/021-quick-notes-android-app.md)
-![Kotlin](https://img.shields.io/badge/Kotlin-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-04
+![Kotlin](https://img.shields.io/badge/Kotlin-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage.
 
@@ -264,8 +284,26 @@ Standard-library-only expense tracker with budgets, recurring templates, monthly
 <details>
 <summary>Most Recent 10 (10)</summary>
 
+#### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
+![Lua](https://img.shields.io/badge/Lua-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+
+Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
+
+[Repo →](https://github.com/breakingthebot/hammerspoon-config)
+
+---
+
+#### [#22 — Server Setup Script](builds/022-server-setup-script.md)
+![Shell](https://img.shields.io/badge/Shell-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+
+Bash server-setup automation with dependency install/verification, environment config templating, cron-scheduled health checks, systemd service generation, webhook failure notifications, and automatic rollback on error.
+
+[Repo →](https://github.com/breakingthebot/server-setup-script)
+
+---
+
 #### [#21 — Quick Notes Android App](builds/021-quick-notes-android-app.md)
-![Kotlin](https://img.shields.io/badge/Kotlin-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-04
+![Kotlin](https://img.shields.io/badge/Kotlin-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage.
 
@@ -334,31 +372,31 @@ Modular PHP backend for validating, storing, and emailing contact form submissio
 
 [Repo →](https://github.com/breakingthebot/php-contact-form-backend)
 
----
-
-#### [#13 — Tested String Utility Library](builds/013-tested-string-utility-library.md)
-![JS testing](https://img.shields.io/badge/JS_testing-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
-
-JavaScript string utility library with 20 modular helpers and a full Jest test suite.
-
-[Repo →](https://github.com/breakingthebot/string-utils-jest)
-
----
-
-#### [#12 — GitHub Profile Viewer](builds/012-github-profile-viewer.md)
-![JS async](https://img.shields.io/badge/JS_async-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-27
-
-Vanilla JS GitHub explorer with profile, repo, and activity views plus search, filter, sort, and full E2E coverage.
-
-[Repo →](https://github.com/breakingthebot/github-profile-viewer-vanilla-js)
-
 </details>
 
 <details>
-<summary>Deep Builds (12)</summary>
+<summary>Deep Builds (14)</summary>
+
+#### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
+![Lua](https://img.shields.io/badge/Lua-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+
+Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
+
+[Repo →](https://github.com/breakingthebot/hammerspoon-config)
+
+---
+
+#### [#22 — Server Setup Script](builds/022-server-setup-script.md)
+![Shell](https://img.shields.io/badge/Shell-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+
+Bash server-setup automation with dependency install/verification, environment config templating, cron-scheduled health checks, systemd service generation, webhook failure notifications, and automatic rollback on error.
+
+[Repo →](https://github.com/breakingthebot/server-setup-script)
+
+---
 
 #### [#21 — Quick Notes Android App](builds/021-quick-notes-android-app.md)
-![Kotlin](https://img.shields.io/badge/Kotlin-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-04
+![Kotlin](https://img.shields.io/badge/Kotlin-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage.
 
@@ -467,10 +505,28 @@ CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, a
 
 ## By Category
 <details>
-<summary>Languages (21)</summary>
+<summary>Languages (23)</summary>
+
+#### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
+![Lua](https://img.shields.io/badge/Lua-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+
+Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
+
+[Repo →](https://github.com/breakingthebot/hammerspoon-config)
+
+---
+
+#### [#22 — Server Setup Script](builds/022-server-setup-script.md)
+![Shell](https://img.shields.io/badge/Shell-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+
+Bash server-setup automation with dependency install/verification, environment config templating, cron-scheduled health checks, systemd service generation, webhook failure notifications, and automatic rollback on error.
+
+[Repo →](https://github.com/breakingthebot/server-setup-script)
+
+---
 
 #### [#21 — Quick Notes Android App](builds/021-quick-notes-android-app.md)
-![Kotlin](https://img.shields.io/badge/Kotlin-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-04
+![Kotlin](https://img.shields.io/badge/Kotlin-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage.
 
@@ -735,11 +791,23 @@ JavaScript string utility library with 20 modular helpers and a full Jest test s
 <summary>Kotlin (1)</summary>
 
 #### [#21 — Quick Notes Android App](builds/021-quick-notes-android-app.md)
-![Kotlin](https://img.shields.io/badge/Kotlin-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-04
+![Kotlin](https://img.shields.io/badge/Kotlin-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
 
 Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage.
 
 [Repo →](https://github.com/breakingthebot/quick-notes-android-compose)
+
+</details>
+
+<details>
+<summary>Lua (1)</summary>
+
+#### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
+![Lua](https://img.shields.io/badge/Lua-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+
+Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
+
+[Repo →](https://github.com/breakingthebot/hammerspoon-config)
 
 </details>
 
@@ -872,6 +940,18 @@ Ruby CLI for streaming server log analysis with gzip input, thresholds, trend bu
 CLI tool that walks a directory tree and finds duplicate files by hash.
 
 [Repo →](https://github.com/breakingthebot/file-duplicate-finder-rust)
+
+</details>
+
+<details>
+<summary>Shell (1)</summary>
+
+#### [#22 — Server Setup Script](builds/022-server-setup-script.md)
+![Shell](https://img.shields.io/badge/Shell-334155) ![Languages](https://img.shields.io/badge/Languages-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
+
+Bash server-setup automation with dependency install/verification, environment config templating, cron-scheduled health checks, systemd service generation, webhook failure notifications, and automatic rollback on error.
+
+[Repo →](https://github.com/breakingthebot/server-setup-script)
 
 </details>
 

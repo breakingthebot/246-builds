@@ -1,14 +1,14 @@
 {
-  "total_builds": 21,
+  "total_builds": 23,
   "latest_build": {
-    "build_number": 21,
-    "date": "2026-07-04",
-    "project_name": "Quick Notes Android App"
+    "build_number": 23,
+    "date": "2026-07-05",
+    "project_name": "Hammerspoon Config"
   },
   "by_category": [
     {
       "label": "Languages",
-      "count": 21
+      "count": 23
     }
   ],
   "by_technology": [
@@ -38,6 +38,10 @@
     },
     {
       "label": "Kotlin",
+      "count": 1
+    },
+    {
+      "label": "Lua",
       "count": 1
     },
     {
@@ -85,6 +89,10 @@
       "count": 1
     },
     {
+      "label": "Shell",
+      "count": 1
+    },
+    {
       "label": "Swift",
       "count": 1
     },
@@ -100,7 +108,7 @@
   "by_depth": [
     {
       "label": "Deep",
-      "count": 12
+      "count": 14
     },
     {
       "label": "Expanded",

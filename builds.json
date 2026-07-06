@@ -1,7 +1,37 @@
 [
   {
+    "build_number": 23,
+    "date": "2026-07-05",
+    "project_name": "Hammerspoon Config",
+    "description": "Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.",
+    "repo_url": "https://github.com/breakingthebot/hammerspoon-config",
+    "technology": "Lua",
+    "category": "Languages",
+    "stack": [
+      "Lua",
+      "Languages"
+    ],
+    "depth": "Deep",
+    "notes": "Window halves/thirds/maximize/center hotkeys, move-to-next/previous-screen with proportional resize across different-resolution monitors, app focus/launch/hide toggle, and GitHub Actions CI running the Lua test suite."
+  },
+  {
+    "build_number": 22,
+    "date": "2026-07-05",
+    "project_name": "Server Setup Script",
+    "description": "Bash server-setup automation with dependency install/verification, environment config templating, cron-scheduled health checks, systemd service generation, webhook failure notifications, and automatic rollback on error.",
+    "repo_url": "https://github.com/breakingthebot/server-setup-script",
+    "technology": "Shell",
+    "category": "Languages",
+    "stack": [
+      "Shell",
+      "Languages"
+    ],
+    "depth": "Deep",
+    "notes": "Bash automation script: package-manager-agnostic dependency install/verify, env.conf generation, config templating, cron-scheduled health checks, systemd service generator, Slack/Discord/webhook notifications, dry-run mode, and fail-safe rollback with diagnostic archiving."
+  },
+  {
     "build_number": 21,
-    "date": "2026-07-04",
+    "date": "2026-07-05",
     "project_name": "Quick Notes Android App",
     "description": "Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage.",
     "repo_url": "https://github.com/breakingthebot/quick-notes-android-compose",
