@@ -145,13 +145,13 @@ function createBuildDetailPage(entry) {
  * Writes the build entries as JSON data for the GitHub Pages site to fetch.
  *
  * @param {Array<{build_number: number, date: string, project_name: string, description: string, repo_url: string, technology: string, category: string, depth: string, notes: string}>} entries - The build entries.
+ * @param {string} [directoryPath] - The directory to write into. Defaults to the real site data directory; tests pass a temp directory instead so they never touch production data.
  * @returns {string} The written data file path.
  */
-function writeSiteData(entries) {
-  const siteDataDirectoryPath = getSiteDataDirectoryPath();
-  fs.mkdirSync(siteDataDirectoryPath, { recursive: true });
+function writeSiteData(entries, directoryPath = getSiteDataDirectoryPath()) {
+  fs.mkdirSync(directoryPath, { recursive: true });
 
-  const dataPath = path.join(siteDataDirectoryPath, "builds.json");
+  const dataPath = path.join(directoryPath, "builds.json");
   fs.writeFileSync(dataPath, `${JSON.stringify(entries, null, 2)}\n`);
 
   return dataPath;
@@ -161,13 +161,13 @@ function writeSiteData(entries) {
  * Writes the badge color config as JSON so the GitHub Pages site renders
  * technology/category/depth badges in the exact same colors as the README.
  *
+ * @param {string} [directoryPath] - The directory to write into. Defaults to the real site data directory; tests pass a temp directory instead so they never touch production data.
  * @returns {string} The written badge-colors file path.
  */
-function writeSiteBadgeColors() {
-  const siteDataDirectoryPath = getSiteDataDirectoryPath();
-  fs.mkdirSync(siteDataDirectoryPath, { recursive: true });
+function writeSiteBadgeColors(directoryPath = getSiteDataDirectoryPath()) {
+  fs.mkdirSync(directoryPath, { recursive: true });
 
-  const badgeColorsPath = path.join(siteDataDirectoryPath, "badge-colors.json");
+  const badgeColorsPath = path.join(directoryPath, "badge-colors.json");
   const payload = {
     technology: TECHNOLOGY_BADGE_COLORS,
     technology_python_default: PYTHON_BADGE_COLOR,
