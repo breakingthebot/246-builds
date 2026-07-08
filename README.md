@@ -2,22 +2,22 @@
 
 [![Test](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml/badge.svg)](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml)
 
-![Builds: 25](https://img.shields.io/badge/Builds-25-0ea5e9) ![Latest: #25](https://img.shields.io/badge/Latest-%2325-16a34a) ![Languages: 25](https://img.shields.io/badge/Languages-25-f59e0b) ![Deep Builds: 16](https://img.shields.io/badge/Deep_Builds-16-7c3aed)
+![Builds: 28](https://img.shields.io/badge/Builds-28-0ea5e9) ![Latest: #28](https://img.shields.io/badge/Latest-%2328-16a34a) ![Languages: 28](https://img.shields.io/badge/Languages-28-f59e0b) ![Deep Builds: 19](https://img.shields.io/badge/Deep_Builds-19-7c3aed)
 
 **[Browse & filter every build on the live site →](https://breakingthebot.github.io/286-builds/)**
 
 A public index of daily coding builds, each pulled from the 286-project list and built end-to-end in a single day, then expanded through multiple iterations with a full commit history pushed live. Together, the repos form a broad portfolio spanning multiple languages, problem types, and build depths.
 
 ## Tech Stack
-![C#](https://img.shields.io/badge/C%23-178600) ![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Go](https://img.shields.io/badge/Go-00ADD8) ![Java](https://img.shields.io/badge/Java-B07219) ![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Lua](https://img.shields.io/badge/Lua-000080) ![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![React](https://img.shields.io/badge/React-334155) ![Ruby](https://img.shields.io/badge/Ruby-701516) ![Rust](https://img.shields.io/badge/Rust-DEA584) ![Shell](https://img.shields.io/badge/Shell-89E051) ![Swift](https://img.shields.io/badge/Swift-F05138) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A)
+![C#](https://img.shields.io/badge/C%23-178600) ![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Go](https://img.shields.io/badge/Go-00ADD8) ![Java](https://img.shields.io/badge/Java-B07219) ![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Lua](https://img.shields.io/badge/Lua-000080) ![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![React](https://img.shields.io/badge/React-334155) ![React Router](https://img.shields.io/badge/React_Router-334155) ![Ruby](https://img.shields.io/badge/Ruby-701516) ![Rust](https://img.shields.io/badge/Rust-DEA584) ![Shell](https://img.shields.io/badge/Shell-89E051) ![Swift](https://img.shields.io/badge/Swift-F05138) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A) ![Zustand](https://img.shields.io/badge/Zustand-334155)
 
 ## Latest Build
-#### [#25 — FlavorFind Recipe Finder](builds/025-flavorfind-recipe-finder.md)
-![React](https://img.shields.io/badge/React-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
+#### [#28 — GitHub Dashboard](builds/028-github-dashboard.md)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-08
 
-React recipe search app to discover meals by ingredients, filter by dietary restrictions, manage custom recipes, use a step-by-step cook mode, and compile a consolidated shopping checklist.
+GitHub dashboard with cached search, background refetch, loading/error states, and pagination via TanStack Query, plus a per-repo detail view.
 
-[Repo →](https://github.com/breakingthebot/flavorfind-recipe-finder)
+[Repo →](https://github.com/breakingthebot/github-dashboard-react-query)
 
 ## What's in each build's repo
 - Every repo has a full README.
@@ -42,10 +42,37 @@ React recipe search app to discover meals by ingredients, filter by dietary rest
 
 ## Build Index
 <details>
-<summary>All Builds (25)</summary>
+<summary>All Builds (28)</summary>
+
+#### [#28 — GitHub Dashboard](builds/028-github-dashboard.md)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-08
+
+GitHub dashboard with cached search, background refetch, loading/error states, and pagination via TanStack Query, plus a per-repo detail view.
+
+[Repo →](https://github.com/breakingthebot/github-dashboard-react-query)
+
+---
+
+#### [#27 — Aetheric Space Shopping Cart](builds/027-aetheric-space-shopping-cart.md)
+![Zustand](https://img.shields.io/badge/Zustand-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-07
+
+Premium React and Zustand shopping cart with a product catalog, cart drawer, promo codes, free-shipping calculation, and a validation-backed checkout flow.
+
+[Repo →](https://github.com/breakingthebot/react-zustand-shopping-cart)
+
+---
+
+#### [#26 — Portfolio Site](builds/026-portfolio-site.md)
+![React Router](https://img.shields.io/badge/React_Router-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-07
+
+Personal portfolio site with home, projects, blog, and contact pages, client-side routing, a first-party GitHub activity widget, and a full accessibility pass.
+
+[Repo →](https://github.com/breakingthebot/portfolio-site)
+
+---
 
 #### [#25 — FlavorFind Recipe Finder](builds/025-flavorfind-recipe-finder.md)
-![React](https://img.shields.io/badge/React-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
+![React](https://img.shields.io/badge/React-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-07
 
 React recipe search app to discover meals by ingredients, filter by dietary restrictions, manage custom recipes, use a step-by-step cook mode, and compile a consolidated shopping checklist.
 
@@ -273,8 +300,35 @@ Standard-library-only expense tracker with budgets, recurring templates, monthly
 <details>
 <summary>Most Recent 10 (10)</summary>
 
+#### [#28 — GitHub Dashboard](builds/028-github-dashboard.md)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-08
+
+GitHub dashboard with cached search, background refetch, loading/error states, and pagination via TanStack Query, plus a per-repo detail view.
+
+[Repo →](https://github.com/breakingthebot/github-dashboard-react-query)
+
+---
+
+#### [#27 — Aetheric Space Shopping Cart](builds/027-aetheric-space-shopping-cart.md)
+![Zustand](https://img.shields.io/badge/Zustand-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-07
+
+Premium React and Zustand shopping cart with a product catalog, cart drawer, promo codes, free-shipping calculation, and a validation-backed checkout flow.
+
+[Repo →](https://github.com/breakingthebot/react-zustand-shopping-cart)
+
+---
+
+#### [#26 — Portfolio Site](builds/026-portfolio-site.md)
+![React Router](https://img.shields.io/badge/React_Router-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-07
+
+Personal portfolio site with home, projects, blog, and contact pages, client-side routing, a first-party GitHub activity widget, and a full accessibility pass.
+
+[Repo →](https://github.com/breakingthebot/portfolio-site)
+
+---
+
 #### [#25 — FlavorFind Recipe Finder](builds/025-flavorfind-recipe-finder.md)
-![React](https://img.shields.io/badge/React-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
+![React](https://img.shields.io/badge/React-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-07
 
 React recipe search app to discover meals by ingredients, filter by dietary restrictions, manage custom recipes, use a step-by-step cook mode, and compile a consolidated shopping checklist.
 
@@ -334,40 +388,40 @@ A .NET 8 console budget tracker with categories, monthly reports, and CSV export
 
 [Repo →](https://github.com/breakingthebot/budget-tracker-console-app)
 
----
-
-#### [#18 — Library Catalog](builds/018-library-catalog.md)
-![Java](https://img.shields.io/badge/Java-B07219) ![Desktop & Console Apps](https://img.shields.io/badge/Desktop_%26_Console_Apps-c2410c) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-30
-
-Java library catalog with Book and Member classes, checkout flows, file persistence, and JUnit coverage.
-
-[Repo →](https://github.com/breakingthebot/library-catalog-java)
-
----
-
-#### [#17 — Log File Analyzer](builds/017-log-file-analyzer.md)
-![Ruby](https://img.shields.io/badge/Ruby-701516) ![CLI Tools](https://img.shields.io/badge/CLI_Tools-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-06-30
-
-Ruby CLI for streaming server log analysis with gzip input, thresholds, trend buckets, comparison mode, config, and export support.
-
-[Repo →](https://github.com/breakingthebot/log-file-analyzer-ruby)
-
----
-
-#### [#16 — File Duplicate Finder](builds/016-file-duplicate-finder.md)
-![Rust](https://img.shields.io/badge/Rust-DEA584) ![CLI Tools](https://img.shields.io/badge/CLI_Tools-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-06-28
-
-CLI tool that walks a directory tree and finds duplicate files by hash.
-
-[Repo →](https://github.com/breakingthebot/file-duplicate-finder-rust)
-
 </details>
 
 <details>
-<summary>Deep Builds (16)</summary>
+<summary>Deep Builds (19)</summary>
+
+#### [#28 — GitHub Dashboard](builds/028-github-dashboard.md)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-08
+
+GitHub dashboard with cached search, background refetch, loading/error states, and pagination via TanStack Query, plus a per-repo detail view.
+
+[Repo →](https://github.com/breakingthebot/github-dashboard-react-query)
+
+---
+
+#### [#27 — Aetheric Space Shopping Cart](builds/027-aetheric-space-shopping-cart.md)
+![Zustand](https://img.shields.io/badge/Zustand-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-07
+
+Premium React and Zustand shopping cart with a product catalog, cart drawer, promo codes, free-shipping calculation, and a validation-backed checkout flow.
+
+[Repo →](https://github.com/breakingthebot/react-zustand-shopping-cart)
+
+---
+
+#### [#26 — Portfolio Site](builds/026-portfolio-site.md)
+![React Router](https://img.shields.io/badge/React_Router-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-07
+
+Personal portfolio site with home, projects, blog, and contact pages, client-side routing, a first-party GitHub activity widget, and a full accessibility pass.
+
+[Repo →](https://github.com/breakingthebot/portfolio-site)
+
+---
 
 #### [#25 — FlavorFind Recipe Finder](builds/025-flavorfind-recipe-finder.md)
-![React](https://img.shields.io/badge/React-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
+![React](https://img.shields.io/badge/React-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-07
 
 React recipe search app to discover meals by ingredients, filter by dietary restrictions, manage custom recipes, use a step-by-step cook mode, and compile a consolidated shopping checklist.
 
@@ -713,10 +767,37 @@ SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a w
 </details>
 
 <details>
-<summary>Web Frontend (5)</summary>
+<summary>Web Frontend (8)</summary>
+
+#### [#28 — GitHub Dashboard](builds/028-github-dashboard.md)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-08
+
+GitHub dashboard with cached search, background refetch, loading/error states, and pagination via TanStack Query, plus a per-repo detail view.
+
+[Repo →](https://github.com/breakingthebot/github-dashboard-react-query)
+
+---
+
+#### [#27 — Aetheric Space Shopping Cart](builds/027-aetheric-space-shopping-cart.md)
+![Zustand](https://img.shields.io/badge/Zustand-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-07
+
+Premium React and Zustand shopping cart with a product catalog, cart drawer, promo codes, free-shipping calculation, and a validation-backed checkout flow.
+
+[Repo →](https://github.com/breakingthebot/react-zustand-shopping-cart)
+
+---
+
+#### [#26 — Portfolio Site](builds/026-portfolio-site.md)
+![React Router](https://img.shields.io/badge/React_Router-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-07
+
+Personal portfolio site with home, projects, blog, and contact pages, client-side routing, a first-party GitHub activity widget, and a full accessibility pass.
+
+[Repo →](https://github.com/breakingthebot/portfolio-site)
+
+---
 
 #### [#25 — FlavorFind Recipe Finder](builds/025-flavorfind-recipe-finder.md)
-![React](https://img.shields.io/badge/React-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
+![React](https://img.shields.io/badge/React-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-07
 
 React recipe search app to discover meals by ingredients, filter by dietary restrictions, manage custom recipes, use a step-by-step cook mode, and compile a consolidated shopping checklist.
 
@@ -981,11 +1062,23 @@ Installable Python calculator package with CLI, batch processing, history, preci
 <summary>React (1)</summary>
 
 #### [#25 — FlavorFind Recipe Finder](builds/025-flavorfind-recipe-finder.md)
-![React](https://img.shields.io/badge/React-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
+![React](https://img.shields.io/badge/React-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-07
 
 React recipe search app to discover meals by ingredients, filter by dietary restrictions, manage custom recipes, use a step-by-step cook mode, and compile a consolidated shopping checklist.
 
 [Repo →](https://github.com/breakingthebot/flavorfind-recipe-finder)
+
+</details>
+
+<details>
+<summary>React Router (1)</summary>
+
+#### [#26 — Portfolio Site](builds/026-portfolio-site.md)
+![React Router](https://img.shields.io/badge/React_Router-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-07
+
+Personal portfolio site with home, projects, blog, and contact pages, client-side routing, a first-party GitHub activity widget, and a full accessibility pass.
+
+[Repo →](https://github.com/breakingthebot/portfolio-site)
 
 </details>
 
@@ -1038,6 +1131,18 @@ SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a w
 </details>
 
 <details>
+<summary>TanStack Query (1)</summary>
+
+#### [#28 — GitHub Dashboard](builds/028-github-dashboard.md)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-08
+
+GitHub dashboard with cached search, background refetch, loading/error states, and pagination via TanStack Query, plus a per-repo detail view.
+
+[Repo →](https://github.com/breakingthebot/github-dashboard-react-query)
+
+</details>
+
+<details>
 <summary>TypeScript (1)</summary>
 
 #### [#10 — Typed Task Manager](builds/010-typed-task-manager.md)
@@ -1058,6 +1163,18 @@ Strict TypeScript task manager with status-grouped views, import/export, backup 
 Dependency-free drag-and-drop Kanban board with labels, due dates, undo/redo, and accessibility-tested E2E coverage.
 
 [Repo →](https://github.com/breakingthebot/Kanban-Board-Vanilla-JS)
+
+</details>
+
+<details>
+<summary>Zustand (1)</summary>
+
+#### [#27 — Aetheric Space Shopping Cart](builds/027-aetheric-space-shopping-cart.md)
+![Zustand](https://img.shields.io/badge/Zustand-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-07
+
+Premium React and Zustand shopping cart with a product catalog, cart drawer, promo codes, free-shipping calculation, and a validation-backed checkout flow.
+
+[Repo →](https://github.com/breakingthebot/react-zustand-shopping-cart)
 
 </details>
 
@@ -1098,6 +1215,6 @@ This repo is an index repo and does not require a live deployment.
 This repo is the front door for the full build series. The reference files stay in `reference/`, the published build entries live in `builds.json`, and the README is generated from that JSON so the public index stays consistent. I kept the automation small on purpose: one CLI to add a build, one CLI to regenerate the README, and a handful of focused modules so the data, validation, formatting, and file writes stay separate and easy to audit.
 
 ## Notes
-- The tracker and README are synced to the 25 public build repos currently published under the `breakingthebot` GitHub account.
+- The tracker and README are synced to the 28 public build repos currently published under the `breakingthebot` GitHub account.
 - The tracker workbook currently contains 246 build rows even though the PDF is described as a 286-item master list. The automation uses the tracker rows that are actually marked complete.
 - The remaining unpublished build slots are intentionally left open for future custom build designs and additional portfolio work.

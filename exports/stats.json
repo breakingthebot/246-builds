@@ -1,18 +1,18 @@
 {
-  "total_builds": 25,
+  "total_builds": 28,
   "latest_build": {
-    "build_number": 25,
-    "date": "2026-07-06",
-    "project_name": "FlavorFind Recipe Finder"
+    "build_number": 28,
+    "date": "2026-07-08",
+    "project_name": "GitHub Dashboard"
   },
   "by_category": [
     {
-      "label": "CLI Tools",
-      "count": 6
+      "label": "Web Frontend",
+      "count": 8
     },
     {
-      "label": "Web Frontend",
-      "count": 5
+      "label": "CLI Tools",
+      "count": 6
     },
     {
       "label": "Backend & Networking",
@@ -117,6 +117,10 @@
       "count": 1
     },
     {
+      "label": "React Router",
+      "count": 1
+    },
+    {
       "label": "Ruby",
       "count": 1
     },
@@ -133,18 +137,26 @@
       "count": 1
     },
     {
+      "label": "TanStack Query",
+      "count": 1
+    },
+    {
       "label": "TypeScript",
       "count": 1
     },
     {
       "label": "Vanilla JS",
       "count": 1
+    },
+    {
+      "label": "Zustand",
+      "count": 1
     }
   ],
   "by_depth": [
     {
       "label": "Deep",
-      "count": 16
+      "count": 19
     },
     {
       "label": "Expanded",

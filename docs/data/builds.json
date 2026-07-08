@@ -1,7 +1,52 @@
 [
   {
+    "build_number": 28,
+    "date": "2026-07-08",
+    "project_name": "GitHub Dashboard",
+    "description": "GitHub dashboard with cached search, background refetch, loading/error states, and pagination via TanStack Query, plus a per-repo detail view.",
+    "repo_url": "https://github.com/breakingthebot/github-dashboard-react-query",
+    "technology": "TanStack Query",
+    "category": "Web Frontend",
+    "stack": [
+      "TanStack Query",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Every fetch goes through useQuery instead of a hand-rolled useEffect+fetch, giving real caching, a distinct loading-vs-refetching state, and structured error handling for free. Pagination reads GitHub's real Link response header instead of guessing from the current page number. The repo detail route (react-router-dom) fires three independent queries in parallel (details, languages, commits) so one slow or failed query never blocks the rest of the page. Deployed to Vercel with a vercel.json SPA rewrite so deep-linked detail routes survive a refresh."
+  },
+  {
+    "build_number": 27,
+    "date": "2026-07-07",
+    "project_name": "Aetheric Space Shopping Cart",
+    "description": "Premium React and Zustand shopping cart with a product catalog, cart drawer, promo codes, free-shipping calculation, and a validation-backed checkout flow.",
+    "repo_url": "https://github.com/breakingthebot/react-zustand-shopping-cart",
+    "technology": "Zustand",
+    "category": "Web Frontend",
+    "stack": [
+      "Zustand",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Zustand store with persist/partialize middleware so only real cart items survive a refresh, not transient UI state. Promo code system (percentage, flat, and free-shipping codes) with derived pricing getters so tax/shipping/discount math lives in one place. Toast notifications replaced a forced cart-drawer-open UX. Vitest + React Testing Library coverage across cartStore and toastStore."
+  },
+  {
+    "build_number": 26,
+    "date": "2026-07-07",
+    "project_name": "Portfolio Site",
+    "description": "Personal portfolio site with home, projects, blog, and contact pages, client-side routing, a first-party GitHub activity widget, and a full accessibility pass.",
+    "repo_url": "https://github.com/breakingthebot/portfolio-site",
+    "technology": "React Router",
+    "category": "Web Frontend",
+    "stack": [
+      "React Router",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Four-page site (Home, Projects, Blog, Contact) deployed to Vercel with a real Formspree-backed contact form. Replaced a stale third-party GitHub contribution chart with a first-party recent-activity widget after confirming the old one undercounted. Added per-page SEO titles, a generated sitemap.xml/robots.txt, and a WCAG contrast + heading-hierarchy + skip-link accessibility pass across 24 iterations."
+  },
+  {
     "build_number": 25,
-    "date": "2026-07-06",
+    "date": "2026-07-07",
     "project_name": "FlavorFind Recipe Finder",
     "description": "React recipe search app to discover meals by ingredients, filter by dietary restrictions, manage custom recipes, use a step-by-step cook mode, and compile a consolidated shopping checklist.",
     "repo_url": "https://github.com/breakingthebot/flavorfind-recipe-finder",
