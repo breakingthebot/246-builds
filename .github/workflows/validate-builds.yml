@@ -1,0 +1,78 @@
+name: Validate Build Repos
+
+# When this workflow runs:
+# - On every push to builds.json (your metadata file)
+# - Manually via "Run workflow" button in GitHub UI
+on:
+  push:
+    paths:
+      - 'builds.json'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Step 1: Download your repo code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Node.js (needed to run our validation script)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      # Step 3: Run the validation script
+      - name: Validate builds
+        id: validate
+        run: node .github/scripts/validate-builds.js
+        continue-on-error: true
+
+      # Step 4: If validation failed, create an issue to notify you
+      - name: Create issue if validation failed
+        if: steps.validate.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            
+            // Read the validation report we created
+            const report = JSON.parse(
+              fs.readFileSync('validation-report.json', 'utf8')
+            );
+            
+            // Build the issue description
+            let issueBody = '## 🚨 Build Validation Failed\n\n';
+            issueBody += `**Run**: [#${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})\n`;
+            issueBody += `**Commit**: [${{ github.sha }}](${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }})\n`;
+            issueBody += `**Time**: ${new Date().toISOString()}\n\n`;
+            
+            issueBody += '### Failed Builds\n\n';
+            
+            for (const failure of report.failures) {
+              issueBody += `#### Build #${failure.build_number} — ${failure.project_name}\n`;
+              issueBody += `**Repository**: [${failure.repo_url}](${failure.repo_url})\n\n`;
+              issueBody += `**Validation Errors**:\n`;
+              
+              for (const error of failure.errors) {
+                issueBody += `- ${error}\n`;
+              }
+              issueBody += '\n';
+            }
+            
+            issueBody += `---\n\n**Failing builds**: ${report.failures.map(f => `#${f.build_number}`).join(', ')}\n`;
+            issueBody += `**Total failures**: ${report.failures.length} / ${report.total_checked}\n\n`;
+            issueBody += `[View builds.json on this commit](${context.payload.repository.html_url}/blob/${{ github.sha }}/builds.json)\n`;
+            
+            // Create the issue
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '⚠️ Build Validation Failed',
+              body: issueBody,
+              labels: ['validation-failed', 'automated']
+            });
+            
+            core.setFailed('Build validation found errors');
