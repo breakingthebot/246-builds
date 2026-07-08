@@ -17,22 +17,35 @@ const fs = require('fs');
 const https = require('https');
 
 /**
- * Make an HTTPS HEAD request to check if a URL is accessible
+ * Make an HTTPS GET request to check if a URL is accessible
+ * (Using GET instead of HEAD because GitHub is more permissive with GET)
  * @param {string} url - The URL to check
  * @returns {Promise<boolean>} - true if accessible (2xx status), false otherwise
  */
-async function checkUrl(url, timeout = 8000) {
+async function checkUrl(url, timeout = 10000) {
   return new Promise((resolve) => {
     const request = https.request(
       url,
-      { method: 'HEAD', timeout },
+      {
+        method: 'GET',
+        timeout,
+        headers: {
+          'User-Agent': 'BuildValidator/1.0 (GitHub Actions)'
+        }
+      },
       (res) => {
         // Success if status is 2xx (200-299)
-        resolve(res.statusCode >= 200 && res.statusCode < 300);
+        const isSuccess = res.statusCode >= 200 && res.statusCode < 300;
+        
+        // Consume the response data to avoid memory leak
+        res.on('data', () => {});
+        res.on('end', () => {
+          resolve(isSuccess);
+        });
       }
     );
 
-    request.on('error', () => {
+    request.on('error', (err) => {
       resolve(false);
     });
 
