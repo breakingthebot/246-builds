@@ -1,5 +1,50 @@
 [
   {
+    "build_number": 31,
+    "date": "2026-07-12",
+    "project_name": "Mobile Expense Tracker",
+    "description": "React Native (Expo) expense tracker for logging and browsing expenses, stored locally on device.",
+    "repo_url": "https://github.com/breakingthebot/expense-tracker-build31",
+    "technology": "React Native (Expo)",
+    "category": "Mobile Apps",
+    "stack": [
+      "React Native (Expo)",
+      "Mobile Apps"
+    ],
+    "depth": "Standard",
+    "notes": "Iteration 1: Expense model with validation, an AsyncStorage-backed local storage service, and a single-screen Add Expense form plus list, with delete. Amounts stored as integer cents so future totals (e.g. a monthly chart) sum exactly. 15 Jest tests cover validation and storage CRUD."
+  },
+  {
+    "build_number": 30,
+    "date": "2026-07-11",
+    "project_name": "Remix Todo App",
+    "description": "Full-stack Remix (Vite) todo app with server-side rendering, nested routes, form actions, and optimistic UI.",
+    "repo_url": "https://github.com/breakingthebot/remix-todo-build30",
+    "technology": "Remix",
+    "category": "Web Frontend",
+    "stack": [
+      "Remix",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Nested routes for viewing/editing a single todo, each with its own loader/action and 404 handling. Optimistic UI on toggle/delete via useFetcher on both the list and detail routes. Data layer swapped from a hand-rolled JSON file to SQLite (better-sqlite3) without changing any exported function signatures, so no route or test code needed to change. GitHub Actions CI plus a Playwright smoke test."
+  },
+  {
+    "build_number": 29,
+    "date": "2026-07-11",
+    "project_name": "Next.js Blog Platform",
+    "description": "Next.js blog platform: statically generated posts, server-rendered post pages with live comments, and an API route for comments.",
+    "repo_url": "https://github.com/breakingthebot/nextjs-blog-platform",
+    "technology": "Next.js",
+    "category": "Web Frontend",
+    "stack": [
+      "Next.js",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Postgres-backed comments (Neon serverless driver) with per-IP rate limiting (hashed IPs, 5 writes/10min), self-service comment deletion via hashed delete tokens, and an admin override checked with a constant-time comparison. Optimistic comment submission via useOptimistic/useTransition. Post tags with a statically generated /tags/[tag] route (not a query param, to preserve SSG). GitHub Actions CI and component tests with jsdom."
+  },
+  {
     "build_number": 28,
     "date": "2026-07-08",
     "project_name": "GitHub Dashboard",
