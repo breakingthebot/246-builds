@@ -7,6 +7,7 @@
 
 const IGNORED_PUBLIC_REPOSITORIES = [
   "286-builds",
+  "286-builds-dashboard",
   "breakingthebot",
   "solar-system",
 ];
