@@ -17,6 +17,8 @@ const {
   createCardList,
   createCollapsibleFilteredSection,
   createLatestBuildSpotlight,
+  createSideProjectCard,
+  createSideProjectsSection,
   createStatBadges,
   createSyncNote,
   createTechCloud,
@@ -35,6 +37,15 @@ const SAMPLE_ENTRY = {
   depth: "Deep",
   notes: "",
   stack: ["Rust", "CLI"],
+};
+
+const SAMPLE_SIDE_PROJECT = {
+  name: "Shift Closer",
+  date: "2026-07-13",
+  description: "Logs out of work platforms and emails a shift summary.",
+  repo_url: "https://github.com/breakingthebot/shift-closer",
+  technology: "Python",
+  notes: "GCP Cloud Run Function.",
 };
 
 test("createBadge renders a shields.io badge image with an escaped label", () => {
@@ -356,4 +367,40 @@ test("createCollapsibleFilteredSection wraps a card list in a <details> accordio
   assert.equal(lines[1], "<summary>Languages (1)</summary>");
   assert.equal(lines[2], "");
   assert.equal(lines[lines.length - 2], "</details>");
+});
+
+test("createSideProjectCard links the title straight to the repo, with no build_number or depth badge", () => {
+  const lines = createSideProjectCard(SAMPLE_SIDE_PROJECT);
+
+  assert.equal(
+    lines[0],
+    "#### [Shift Closer](https://github.com/breakingthebot/shift-closer)",
+  );
+  assert.match(lines[1], /Python/);
+  assert.match(lines[1], /2026-07-13/);
+  assert.equal(lines[0].includes("#0"), false, "side projects have no build_number");
+});
+
+test("createSideProjectsSection returns an empty array when there are no side projects", () => {
+  assert.deepEqual(createSideProjectsSection([]), []);
+});
+
+test("createSideProjectsSection renders a heading and card for each entry", () => {
+  const lines = createSideProjectsSection([SAMPLE_SIDE_PROJECT]);
+
+  assert.equal(lines[0], "## Side Projects");
+  assert.ok(lines.some((line) => line.includes("Shift Closer")));
+});
+
+test("createReadme omits the Side Projects section when there are none", () => {
+  const readme = createReadme([SAMPLE_ENTRY]);
+  assert.equal(readme.includes("## Side Projects"), false);
+});
+
+test("createReadme includes the Side Projects section when entries are passed", () => {
+  const readme = createReadme([SAMPLE_ENTRY], [SAMPLE_SIDE_PROJECT]);
+
+  assert.match(readme, /## Side Projects/);
+  assert.match(readme, /Shift Closer/);
+  assert.match(readme, /- \[Side Projects\]\(#side-projects\)/);
 });

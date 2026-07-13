@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "add-build": "node add-build.js",
+    "add-side-project": "node add-side-project.js",
     "audit-builds": "node audit-builds.js",
     "generate-readme": "node generate-readme.js",
     "release-day": "node release-day.js",

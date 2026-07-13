@@ -1,7 +1,7 @@
 [
   {
     "build_number": 31,
-    "date": "2026-07-12",
+    "date": "2026-07-13",
     "project_name": "Mobile Expense Tracker",
     "description": "React Native (Expo) expense tracker for logging and browsing expenses, stored locally on device.",
     "repo_url": "https://github.com/breakingthebot/expense-tracker-build31",

@@ -1,7 +1,8 @@
 /*
  * src/services/readmeService.js
- * Generates the root README content from builds.json and writes it to disk.
- * Connects to: README.md, src/config/repositoryMetadata.js
+ * Generates the root README content from builds.json (and, for the Side
+ * Projects section, side-projects.json) and writes it to disk.
+ * Connects to: README.md, src/config/repositoryMetadata.js, src/services/sideProjectRepository.js
  * Created: 2026-06-28
  */
 
@@ -10,6 +11,7 @@ const path = require("node:path");
 
 const { slugifyProjectName } = require("./buildExportService");
 const { createBuildStats, findLatestEntry, groupBy } = require("./buildStatsService");
+const { loadSideProjectEntries } = require("./sideProjectRepository");
 
 const {
   ARCHITECTURE_NOTES,
@@ -226,6 +228,61 @@ function createLatestBuildSpotlight(entries) {
 }
 
 /**
+ * Creates a single markdown "card" for one side-project entry: a linked
+ * title (straight to the repo -- side projects don't get a generated
+ * builds/*.md detail page), a technology badge, the description, and a
+ * repo link. No depth badge (side projects aren't rated Standard/Expanded/
+ * Deep) and no build_number (they're not part of the numbered series).
+ *
+ * @param {{name: string, date: string, description: string, repo_url: string, technology: string}} entry - The side-project entry to render.
+ * @returns {string[]} The markdown lines for this card.
+ */
+function createSideProjectCard(entry) {
+  const badge = createBadge(entry.technology, resolveTechnologyBadgeColor(entry.technology));
+
+  return [
+    `#### [${entry.name}](${entry.repo_url})`,
+    `${badge} · ${entry.date}`,
+    "",
+    entry.description,
+    "",
+    `[Repo →](${entry.repo_url})`,
+  ];
+}
+
+/**
+ * Creates the "## Side Projects" section: exploratory or practice builds
+ * that aren't part of the numbered 286-build series (no build_number, not
+ * tracked in the GitHub-sync audit). Returns an empty array when there are
+ * none yet, so the section doesn't appear with nothing in it.
+ *
+ * @param {Array<{name: string, date: string, description: string, repo_url: string, technology: string}>} sideProjectEntries - The side-project entries to render.
+ * @returns {string[]} The markdown lines, or an empty array if there are none.
+ */
+function createSideProjectsSection(sideProjectEntries) {
+  if (sideProjectEntries.length === 0) {
+    return [];
+  }
+
+  const cards = sideProjectEntries
+    .map((entry) => createSideProjectCard(entry))
+    .reduce((lines, card, index) => {
+      if (index > 0) {
+        lines.push("", "---", "");
+      }
+      return lines.concat(card);
+    }, []);
+
+  return [
+    "## Side Projects",
+    "Exploratory or practice builds outside the numbered 286-build series -- not tracked in the build index, tracker workbook, or GitHub-sync audit above.",
+    "",
+    ...cards,
+    "",
+  ];
+}
+
+/**
  * Creates a one-line "tech cloud" of every distinct technology badge used
  * across all builds, for an instant breadth-of-skills impression before
  * scrolling down to the Build Index. Returns an empty array when there are
@@ -270,9 +327,10 @@ function createCollapsibleFilteredSection(heading, entries) {
  * Creates the full README markdown document.
  *
  * @param {Array<{build_number: number, date: string, project_name: string, description: string, repo_url: string, technology: string, category: string, stack: string[]}>} entries - The entries to render.
+ * @param {Array<{name: string, date: string, description: string, repo_url: string, technology: string}>} [sideProjectEntries] - Optional side-project entries to render in their own section.
  * @returns {string} The full README contents.
  */
-function createReadme(entries) {
+function createReadme(entries, sideProjectEntries = []) {
   const stats = createBuildStats(entries);
   const recentEntries = entries.slice(0, 10);
   const deepEntries = entries.filter((entry) => entry.depth === "Deep");
@@ -289,6 +347,7 @@ function createReadme(entries) {
       : createCollapsibleFilteredSection("All Builds", entries);
   const latestBuildSpotlight = createLatestBuildSpotlight(entries);
   const techCloud = createTechCloud(technologyGroups.map((group) => group.label));
+  const sideProjectsSection = createSideProjectsSection(sideProjectEntries);
 
   return [
     `# ${REPOSITORY_TITLE}`,
@@ -318,6 +377,7 @@ function createReadme(entries) {
     "- [By Category](#by-category)",
     "- [By Technology](#by-technology)",
     "- [Build Pages](#build-pages)",
+    "- [Side Projects](#side-projects)",
     "- [CSV Export](exports/builds.csv)",
     "- [Stats JSON](exports/stats.json)",
     "",
@@ -337,6 +397,7 @@ function createReadme(entries) {
     "## Build Pages",
     "Every build also gets a generated detail page under `builds/` for cleaner per-build reading.",
     "",
+    ...sideProjectsSection,
     "## Stack",
     "- Node.js",
     "- Built-in `node:test` for automation coverage",
@@ -380,13 +441,18 @@ function createReadme(entries) {
 }
 
 /**
- * Writes the generated README to disk.
+ * Writes the generated README to disk. Side-project entries are loaded
+ * internally (from side-projects.json, if present) so every existing
+ * caller -- add-build.js, generate-readme.js, releaseDayService.js --
+ * automatically includes the Side Projects section without needing to
+ * change their own call sites.
  *
  * @param {Array<{build_number: number, date: string, project_name: string, description: string, repo_url: string, technology: string, category: string, stack: string[]}>} entries - The entries to render.
  * @returns {string} The generated README contents.
  */
 function writeReadme(entries) {
-  const readmeContents = createReadme(entries);
+  const sideProjectEntries = loadSideProjectEntries();
+  const readmeContents = createReadme(entries, sideProjectEntries);
   fs.writeFileSync(getReadmeFilePath(), readmeContents);
   return readmeContents;
 }
@@ -399,6 +465,8 @@ module.exports = {
   createCardList,
   createCollapsibleFilteredSection,
   createLatestBuildSpotlight,
+  createSideProjectCard,
+  createSideProjectsSection,
   createStatBadges,
   createSyncNote,
   createTechCloud,

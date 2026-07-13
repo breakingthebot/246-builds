@@ -13,7 +13,7 @@ A public index of daily coding builds, each pulled from the 286-project list and
 
 ## Latest Build
 #### [#31 — Mobile Expense Tracker](builds/031-mobile-expense-tracker.md)
-![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-12
+![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-13
 
 React Native (Expo) expense tracker for logging and browsing expenses, stored locally on device.
 
@@ -37,6 +37,7 @@ React Native (Expo) expense tracker for logging and browsing expenses, stored lo
 - [By Category](#by-category)
 - [By Technology](#by-technology)
 - [Build Pages](#build-pages)
+- [Side Projects](#side-projects)
 - [CSV Export](exports/builds.csv)
 - [Stats JSON](exports/stats.json)
 
@@ -45,7 +46,7 @@ React Native (Expo) expense tracker for logging and browsing expenses, stored lo
 <summary>All Builds (31)</summary>
 
 #### [#31 — Mobile Expense Tracker](builds/031-mobile-expense-tracker.md)
-![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-12
+![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-13
 
 React Native (Expo) expense tracker for logging and browsing expenses, stored locally on device.
 
@@ -328,7 +329,7 @@ Standard-library-only expense tracker with budgets, recurring templates, monthly
 <summary>Most Recent 10 (10)</summary>
 
 #### [#31 — Mobile Expense Tracker](builds/031-mobile-expense-tracker.md)
-![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-12
+![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-13
 
 React Native (Expo) expense tracker for logging and browsing expenses, stored locally on device.
 
@@ -794,7 +795,7 @@ Installable Python calculator package with CLI, batch processing, history, preci
 <summary>Mobile Apps (3)</summary>
 
 #### [#31 — Mobile Expense Tracker](builds/031-mobile-expense-tracker.md)
-![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-12
+![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-13
 
 React Native (Expo) expense tracker for logging and browsing expenses, stored locally on device.
 
@@ -1158,7 +1159,7 @@ React recipe search app to discover meals by ingredients, filter by dietary rest
 <summary>React Native (Expo) (1)</summary>
 
 #### [#31 — Mobile Expense Tracker](builds/031-mobile-expense-tracker.md)
-![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-12
+![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-13
 
 React Native (Expo) expense tracker for logging and browsing expenses, stored locally on device.
 
@@ -1288,6 +1289,16 @@ Premium React and Zustand shopping cart with a product catalog, cart drawer, pro
 
 ## Build Pages
 Every build also gets a generated detail page under `builds/` for cleaner per-build reading.
+
+## Side Projects
+Exploratory or practice builds outside the numbered 286-build series -- not tracked in the build index, tracker workbook, or GitHub-sync audit above.
+
+#### [Shift Closer](https://github.com/breakingthebot/shift-closer)
+![Python](https://img.shields.io/badge/Python-3572A5) · 2026-07-13
+
+Scheduled Cloud Run Function that logs out of work platforms and emails an end-of-shift summary. Credentials via Secret Manager, not .env.
+
+[Repo →](https://github.com/breakingthebot/shift-closer)
 
 ## Stack
 - Node.js

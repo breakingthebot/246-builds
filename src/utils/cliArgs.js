@@ -6,9 +6,11 @@
  */
 
 const { validateBuildEntry } = require("../models/buildEntry");
+const { validateSideProject } = require("../models/sideProject");
 
 const { DEPTH_VALUES } = require("../models/buildEntry");
 const REQUIRED_FLAGS = ["num", "name", "desc", "url"];
+const SIDE_PROJECT_REQUIRED_FLAGS = ["name", "desc", "url", "tech"];
 
 /**
  * Returns the current local date in YYYY-MM-DD format.
@@ -148,6 +150,33 @@ function parseAddBuildArgs(argv) {
 }
 
 /**
+ * Parses and validates add-side-project CLI arguments. Unlike
+ * parseAddBuildArgs, there's no build_number, depth, or tracker payload --
+ * side projects are lighter-weight, non-numbered entries.
+ *
+ * @param {string[]} argv - The raw CLI arguments.
+ * @returns {{name: string, date: string, description: string, repo_url: string, technology: string, notes: string}} The normalized side-project entry.
+ */
+function parseAddSideProjectArgs(argv) {
+  const flags = parseFlagMap(argv);
+
+  for (const requiredFlag of SIDE_PROJECT_REQUIRED_FLAGS) {
+    if (!flags[requiredFlag]) {
+      throw new Error(`Missing required flag: --${requiredFlag}.`);
+    }
+  }
+
+  return validateSideProject({
+    name: flags.name,
+    date: flags.date || getCurrentDate(),
+    description: flags.desc,
+    repo_url: flags.url,
+    technology: flags.tech,
+    notes: flags.notes || "",
+  });
+}
+
+/**
  * Parses the release-day wrapper flags.
  *
  * @param {string[]} argv - The raw CLI arguments.
@@ -192,8 +221,10 @@ function parseReleaseDayArgs(argv) {
 module.exports = {
   DEPTH_VALUES,
   REQUIRED_FLAGS,
+  SIDE_PROJECT_REQUIRED_FLAGS,
   getCurrentDate,
   parseAddBuildArgs,
+  parseAddSideProjectArgs,
   parseFlagMap,
   parseReleaseDayArgs,
   resolveCliClassification,

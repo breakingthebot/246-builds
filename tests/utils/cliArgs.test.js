@@ -10,6 +10,7 @@ const assert = require("node:assert/strict");
 
 const {
   parseAddBuildArgs,
+  parseAddSideProjectArgs,
   parseFlagMap,
   parseReleaseDayArgs,
   resolveCliClassification,
@@ -144,4 +145,61 @@ test("parseReleaseDayArgs parses owner and skip-github flags", () => {
   assert.equal(parsedArgs.owner, "breakingthebot");
   assert.equal(parsedArgs.skipGitHub, true);
   assert.equal(parsedArgs.buildPayload.buildEntry.build_number, 17);
+});
+
+test("parseAddSideProjectArgs validates the add-side-project command", () => {
+  const parsedEntry = parseAddSideProjectArgs([
+    "--name",
+    "Shift Closer",
+    "--desc",
+    "Logs out of work platforms and emails a shift summary.",
+    "--url",
+    "https://github.com/breakingthebot/shift-closer",
+    "--tech",
+    "Python",
+    "--date",
+    "2026-07-13",
+    "--notes",
+    "GCP Cloud Run Function.",
+  ]);
+
+  assert.deepEqual(parsedEntry, {
+    name: "Shift Closer",
+    date: "2026-07-13",
+    description: "Logs out of work platforms and emails a shift summary.",
+    repo_url: "https://github.com/breakingthebot/shift-closer",
+    technology: "Python",
+    notes: "GCP Cloud Run Function.",
+  });
+});
+
+test("parseAddSideProjectArgs defaults the date when it is omitted", () => {
+  const parsedEntry = parseAddSideProjectArgs([
+    "--name",
+    "Shift Closer",
+    "--desc",
+    "Logs out of work platforms and emails a shift summary.",
+    "--url",
+    "https://github.com/breakingthebot/shift-closer",
+    "--tech",
+    "Python",
+  ]);
+
+  assert.match(parsedEntry.date, /^\d{4}-\d{2}-\d{2}$/);
+  assert.equal(parsedEntry.notes, "");
+});
+
+test("parseAddSideProjectArgs requires name, desc, url, and tech", () => {
+  assert.throws(
+    () =>
+      parseAddSideProjectArgs([
+        "--name",
+        "Shift Closer",
+        "--desc",
+        "Logs out of work platforms and emails a shift summary.",
+        "--url",
+        "https://github.com/breakingthebot/shift-closer",
+      ]),
+    /Missing required flag: --tech/,
+  );
 });

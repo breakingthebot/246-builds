@@ -6,10 +6,14 @@
  */
 
 const IGNORED_PUBLIC_REPOSITORIES = [
+  // Series tooling / personal repos -- not tracked anywhere in this repo.
   "286-builds",
   "286-builds-dashboard",
   "breakingthebot",
   "solar-system",
+  // Side projects -- tracked in side-projects.json instead of builds.json,
+  // so they're correctly outside this numbered-series sync audit too.
+  "shift-closer",
 ];
 
 module.exports = {
