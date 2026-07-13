@@ -5,6 +5,6 @@
     "description": "Scheduled Cloud Run Function that logs out of work platforms and emails an end-of-shift summary. Credentials via Secret Manager, not .env.",
     "repo_url": "https://github.com/breakingthebot/shift-closer",
     "technology": "Python",
-    "notes": "First build of a separate 60-build GCP-focused list. Platform integration is mocked (no real target platform) -- Secret Manager, Cloud Scheduler, and Cloud Run Function architecture are real. Not yet deployed (GCP billing was inactive on the target project)."
+    "notes": "First build of a separate 60-build GCP-focused list. Platform integration is mocked (no real target platform) -- Secret Manager, Cloud Scheduler, and Cloud Run Function architecture are real. Not yet deployed."
   }
 ]
