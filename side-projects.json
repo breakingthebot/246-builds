@@ -14,5 +14,13 @@
     "repo_url": "https://github.com/breakingthebot/web-scraper-bot",
     "technology": "Node.js",
     "notes": "Second build in the GCP 60-build list. Listing scrape is mocked (no real target site yet) -- Firestore price tracking, Secret Manager, Twilio SMS, and the new-crossing-only detection logic are real. Not yet deployed."
+  },
+  {
+    "name": "Discord Webhook Alerter",
+    "date": "2026-07-13",
+    "description": "Monitors your HTTP endpoints on a schedule and posts a Discord alert when one goes down. Go, Cloud Run Functions, Cloud Tasks fan-out with OIDC auth.",
+    "repo_url": "https://github.com/breakingthebot/discord-webhook-alerter",
+    "technology": "Go",
+    "notes": "Third build in the GCP 60-build list, first in Go. Two functions: Dispatch (Scheduler-triggered) fans out one Cloud Task per endpoint to Check (Cloud Tasks-triggered), giving per-endpoint retry independent of the others. The health check itself is real, not mocked. Not yet deployed."
   }
 ]

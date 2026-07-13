@@ -1309,6 +1309,15 @@ Cloud Run service that checks real estate listing prices daily and texts you whe
 
 [Repo →](https://github.com/breakingthebot/web-scraper-bot)
 
+---
+
+#### [Discord Webhook Alerter](https://github.com/breakingthebot/discord-webhook-alerter)
+![Go](https://img.shields.io/badge/Go-00ADD8) · 2026-07-13
+
+Monitors your HTTP endpoints on a schedule and posts a Discord alert when one goes down. Go, Cloud Run Functions, Cloud Tasks fan-out with OIDC auth.
+
+[Repo →](https://github.com/breakingthebot/discord-webhook-alerter)
+
 ## Stack
 - Node.js
 - Built-in `node:test` for automation coverage

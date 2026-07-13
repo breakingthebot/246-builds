@@ -15,6 +15,7 @@ const IGNORED_PUBLIC_REPOSITORIES = [
   // so they're correctly outside this numbered-series sync audit too.
   "shift-closer",
   "web-scraper-bot",
+  "discord-webhook-alerter",
 ];
 
 module.exports = {
