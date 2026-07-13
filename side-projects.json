@@ -6,5 +6,13 @@
     "repo_url": "https://github.com/breakingthebot/shift-closer",
     "technology": "Python",
     "notes": "First build of a separate 60-build GCP-focused list. Platform integration is mocked (no real target platform) -- Secret Manager, Cloud Scheduler, and Cloud Run Function architecture are real. Not yet deployed."
+  },
+  {
+    "name": "Web Scraper Bot",
+    "date": "2026-07-13",
+    "description": "Cloud Run service that checks real estate listing prices daily and texts you when one drops below threshold. Credentials via Secret Manager, not .env.",
+    "repo_url": "https://github.com/breakingthebot/web-scraper-bot",
+    "technology": "Node.js",
+    "notes": "Second build in the GCP 60-build list. Listing scrape is mocked (no real target site yet) -- Firestore price tracking, Secret Manager, Twilio SMS, and the new-crossing-only detection logic are real. Not yet deployed."
   }
 ]

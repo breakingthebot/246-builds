@@ -1300,6 +1300,15 @@ Scheduled Cloud Run Function that logs out of work platforms and emails an end-o
 
 [Repo →](https://github.com/breakingthebot/shift-closer)
 
+---
+
+#### [Web Scraper Bot](https://github.com/breakingthebot/web-scraper-bot)
+![Node.js](https://img.shields.io/badge/Node.js-334155) · 2026-07-13
+
+Cloud Run service that checks real estate listing prices daily and texts you when one drops below threshold. Credentials via Secret Manager, not .env.
+
+[Repo →](https://github.com/breakingthebot/web-scraper-bot)
+
 ## Stack
 - Node.js
 - Built-in `node:test` for automation coverage

@@ -14,6 +14,7 @@ const IGNORED_PUBLIC_REPOSITORIES = [
   // Side projects -- tracked in side-projects.json instead of builds.json,
   // so they're correctly outside this numbered-series sync audit too.
   "shift-closer",
+  "web-scraper-bot",
 ];
 
 module.exports = {
