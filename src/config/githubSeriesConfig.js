@@ -17,6 +17,7 @@ const IGNORED_PUBLIC_REPOSITORIES = [
   "web-scraper-bot",
   "discord-webhook-alerter",
   "automated-report-dispatcher",
+  "tiktok-auto-poster",
 ];
 
 module.exports = {

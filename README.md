@@ -1327,6 +1327,15 @@ Compiles monthly order stats into a PDF and emails it to stakeholders. Python, C
 
 [Repo →](https://github.com/breakingthebot/automated-report-dispatcher)
 
+---
+
+#### [TikTok Auto-Poster](https://github.com/breakingthebot/tiktok-auto-poster)
+![Node.js](https://img.shields.io/badge/Node.js-334155) · 2026-07-13
+
+Pulls drafted videos from a Firestore queue and posts them to TikTok's real Content Posting API, on a schedule you set. Node.js, Cloud Run Functions, Cloud Tasks fan-out.
+
+[Repo →](https://github.com/breakingthebot/tiktok-auto-poster)
+
 ## Stack
 - Node.js
 - Built-in `node:test` for automation coverage

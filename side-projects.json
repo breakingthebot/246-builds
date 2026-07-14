@@ -30,5 +30,13 @@
     "repo_url": "https://github.com/breakingthebot/automated-report-dispatcher",
     "technology": "Python",
     "notes": "Fourth build in the GCP 60-build list. Only the underlying order database is mocked -- stats aggregation, PDF generation (reportlab), and email sending (SendGrid) are all real. Not yet deployed."
+  },
+  {
+    "name": "TikTok Auto-Poster",
+    "date": "2026-07-13",
+    "description": "Pulls drafted videos from a Firestore queue and posts them to TikTok's real Content Posting API, on a schedule you set. Node.js, Cloud Run Functions, Cloud Tasks fan-out.",
+    "repo_url": "https://github.com/breakingthebot/tiktok-auto-poster",
+    "technology": "Node.js",
+    "notes": "Fifth build in the GCP 60-build list, scoped to TikTok specifically (real personal use case) instead of the original generic \"social APIs\" spec. Dispatch/Publish split like build #3; the TikTok API call itself is real code against TikTok's real Content Posting API, not mocked. Not yet deployed."
   }
 ]
