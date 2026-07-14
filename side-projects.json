@@ -22,5 +22,13 @@
     "repo_url": "https://github.com/breakingthebot/discord-webhook-alerter",
     "technology": "Go",
     "notes": "Third build in the GCP 60-build list, first in Go. Two functions: Dispatch (Scheduler-triggered) fans out one Cloud Task per endpoint to Check (Cloud Tasks-triggered), giving per-endpoint retry independent of the others. The health check itself is real, not mocked. Not yet deployed."
+  },
+  {
+    "name": "Automated Report Dispatcher",
+    "date": "2026-07-13",
+    "description": "Compiles monthly order stats into a PDF and emails it to stakeholders. Python, Cloud Run, SendGrid API, real PDF + email, mocked data source.",
+    "repo_url": "https://github.com/breakingthebot/automated-report-dispatcher",
+    "technology": "Python",
+    "notes": "Fourth build in the GCP 60-build list. Only the underlying order database is mocked -- stats aggregation, PDF generation (reportlab), and email sending (SendGrid) are all real. Not yet deployed."
   }
 ]

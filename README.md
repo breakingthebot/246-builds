@@ -1318,6 +1318,15 @@ Monitors your HTTP endpoints on a schedule and posts a Discord alert when one go
 
 [Repo →](https://github.com/breakingthebot/discord-webhook-alerter)
 
+---
+
+#### [Automated Report Dispatcher](https://github.com/breakingthebot/automated-report-dispatcher)
+![Python](https://img.shields.io/badge/Python-3572A5) · 2026-07-13
+
+Compiles monthly order stats into a PDF and emails it to stakeholders. Python, Cloud Run, SendGrid API, real PDF + email, mocked data source.
+
+[Repo →](https://github.com/breakingthebot/automated-report-dispatcher)
+
 ## Stack
 - Node.js
 - Built-in `node:test` for automation coverage

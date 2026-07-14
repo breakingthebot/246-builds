@@ -16,6 +16,7 @@ const IGNORED_PUBLIC_REPOSITORIES = [
   "shift-closer",
   "web-scraper-bot",
   "discord-webhook-alerter",
+  "automated-report-dispatcher",
 ];
 
 module.exports = {
