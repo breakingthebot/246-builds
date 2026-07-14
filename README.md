@@ -1293,6 +1293,15 @@ Every build also gets a generated detail page under `builds/` for cleaner per-bu
 ## Side Projects
 Exploratory or practice builds outside the numbered 286-build series -- not tracked in the build index, tracker workbook, or GitHub-sync audit above.
 
+#### [API Keymaster](https://github.com/breakingthebot/api-keymaster)
+![Python](https://img.shields.io/badge/Python-3572A5) · 2026-07-14
+
+Serves individual credentials from one consolidated Secret Manager secret over Cloud Run, so future builds don't each need their own separate secret. Python, Flask, Cloud Run.
+
+[Repo →](https://github.com/breakingthebot/api-keymaster)
+
+---
+
 #### [Shift Closer](https://github.com/breakingthebot/shift-closer)
 ![Python](https://img.shields.io/badge/Python-3572A5) · 2026-07-13
 

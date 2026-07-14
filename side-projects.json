@@ -1,5 +1,13 @@
 [
   {
+    "name": "API Keymaster",
+    "date": "2026-07-14",
+    "description": "Serves individual credentials from one consolidated Secret Manager secret over Cloud Run, so future builds don't each need their own separate secret. Python, Flask, Cloud Run.",
+    "repo_url": "https://github.com/breakingthebot/api-keymaster",
+    "technology": "Python",
+    "notes": "Sixth build in the GCP 60-build list (source list entry #41). Built to solve a real free-tier constraint: Secret Manager allows 6 active secret versions/month, and builds #1-5 had already claimed 5 separate secrets. Keymaster consolidates every credential into one shared secret (a JSON blob) served via GET /credentials/<key>. Not yet deployed."
+  },
+  {
     "name": "Shift Closer",
     "date": "2026-07-13",
     "description": "Scheduled Cloud Run Function that logs out of work platforms and emails an end-of-shift summary. Credentials via Secret Manager, not .env.",

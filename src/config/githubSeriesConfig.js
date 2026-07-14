@@ -18,6 +18,7 @@ const IGNORED_PUBLIC_REPOSITORIES = [
   "discord-webhook-alerter",
   "automated-report-dispatcher",
   "tiktok-auto-poster",
+  "api-keymaster",
 ];
 
 module.exports = {
