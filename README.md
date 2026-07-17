@@ -1293,6 +1293,15 @@ Every build also gets a generated detail page under `builds/` for cleaner per-bu
 ## Side Projects
 Exploratory or practice builds outside the numbered 286-build series -- not tracked in the build index, tracker workbook, or GitHub-sync audit above.
 
+#### [Dynamic DNS Updater](https://github.com/breakingthebot/dynamic-dns-updater)
+![Go](https://img.shields.io/badge/Go-00ADD8) · 2026-07-16
+
+Checks your home network's current public IP on a schedule and updates a DNS record to match. Go, Cloud Run Functions, Cloud Scheduler.
+
+[Repo →](https://github.com/breakingthebot/dynamic-dns-updater)
+
+---
+
 #### [API Keymaster](https://github.com/breakingthebot/api-keymaster)
 ![Python](https://img.shields.io/badge/Python-3572A5) · 2026-07-14
 

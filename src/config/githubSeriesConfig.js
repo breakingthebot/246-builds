@@ -19,6 +19,7 @@ const IGNORED_PUBLIC_REPOSITORIES = [
   "automated-report-dispatcher",
   "tiktok-auto-poster",
   "api-keymaster",
+  "dynamic-dns-updater",
 ];
 
 module.exports = {

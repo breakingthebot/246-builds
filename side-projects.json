@@ -1,5 +1,13 @@
 [
   {
+    "name": "Dynamic DNS Updater",
+    "date": "2026-07-16",
+    "description": "Checks your home network's current public IP on a schedule and updates a DNS record to match. Go, Cloud Run Functions, Cloud Scheduler.",
+    "repo_url": "https://github.com/breakingthebot/dynamic-dns-updater",
+    "technology": "Go",
+    "notes": "Sixth build in the GCP 60-build list (source list entry #6). The public-IP lookup (api.ipify.org) is real; the DNS provider write is mocked behind a DNSProvider interface, since no real domain/DNS host is targeted by this practice series yet. First single-function Go build in the series (no Cloud Tasks fan-out). Not yet deployed."
+  },
+  {
     "name": "API Keymaster",
     "date": "2026-07-14",
     "description": "Serves individual credentials from one consolidated Secret Manager secret over Cloud Run, so future builds don't each need their own separate secret. Python, Flask, Cloud Run.",
