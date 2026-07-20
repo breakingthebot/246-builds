@@ -1,14 +1,14 @@
 {
-  "total_builds": 34,
+  "total_builds": 35,
   "latest_build": {
-    "build_number": 34,
+    "build_number": 35,
     "date": "2026-07-20",
-    "project_name": "Real-Time Product Search Engine"
+    "project_name": "Angular Material Dashboard UI"
   },
   "by_category": [
     {
       "label": "Web Frontend",
-      "count": 13
+      "count": 14
     },
     {
       "label": "CLI Tools",
@@ -46,6 +46,10 @@
     },
     {
       "label": "Angular (RxJS)",
+      "count": 1
+    },
+    {
+      "label": "Angular Material",
       "count": 1
     },
     {
@@ -176,7 +180,7 @@
   "by_depth": [
     {
       "label": "Deep",
-      "count": 24
+      "count": 25
     },
     {
       "label": "Expanded",

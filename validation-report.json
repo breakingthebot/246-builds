@@ -1,0 +1,257 @@
+{
+  "timestamp": "2026-07-08T16:34:00.791Z",
+  "total_checked": 25,
+  "failures_count": 25,
+  "failures": [
+    {
+      "build_number": 25,
+      "project_name": "FlavorFind Recipe Finder",
+      "repo_url": "https://github.com/breakingthebot/flavorfind-recipe-finder",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/flavorfind-recipe-finder/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/flavorfind-recipe-finder/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 24,
+      "project_name": "SQL Analytics Query Library",
+      "repo_url": "https://github.com/breakingthebot/sql-analytics-library",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/sql-analytics-library/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/sql-analytics-library/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 23,
+      "project_name": "Hammerspoon Config",
+      "repo_url": "https://github.com/breakingthebot/hammerspoon-config",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/hammerspoon-config/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/hammerspoon-config/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 22,
+      "project_name": "Server Setup Script",
+      "repo_url": "https://github.com/breakingthebot/server-setup-script",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/server-setup-script/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/server-setup-script/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 21,
+      "project_name": "Quick Notes Android App",
+      "repo_url": "https://github.com/breakingthebot/quick-notes-android-compose",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/quick-notes-android-compose/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/quick-notes-android-compose/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 20,
+      "project_name": "Habit Tracker iOS App",
+      "repo_url": "https://github.com/breakingthebot/habit-tracker-ios-swiftui",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/habit-tracker-ios-swiftui/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/habit-tracker-ios-swiftui/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 19,
+      "project_name": "Budget Tracker Console App",
+      "repo_url": "https://github.com/breakingthebot/budget-tracker-console-app",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/budget-tracker-console-app/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/budget-tracker-console-app/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 18,
+      "project_name": "Library Catalog",
+      "repo_url": "https://github.com/breakingthebot/library-catalog-java",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/library-catalog-java/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/library-catalog-java/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 17,
+      "project_name": "Log File Analyzer",
+      "repo_url": "https://github.com/breakingthebot/log-file-analyzer-ruby",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/log-file-analyzer-ruby/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/log-file-analyzer-ruby/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 16,
+      "project_name": "File Duplicate Finder",
+      "repo_url": "https://github.com/breakingthebot/file-duplicate-finder-rust",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/file-duplicate-finder-rust/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/file-duplicate-finder-rust/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 15,
+      "project_name": "URL Shortener API",
+      "repo_url": "https://github.com/breakingthebot/url-shortener-api",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/url-shortener-api/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/url-shortener-api/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 14,
+      "project_name": "Contact Form Backend",
+      "repo_url": "https://github.com/breakingthebot/php-contact-form-backend",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/php-contact-form-backend/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/php-contact-form-backend/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 13,
+      "project_name": "Tested String Utility Library",
+      "repo_url": "https://github.com/breakingthebot/string-utils-jest",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/string-utils-jest/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/string-utils-jest/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 12,
+      "project_name": "GitHub Profile Viewer",
+      "repo_url": "https://github.com/breakingthebot/github-profile-viewer-vanilla-js",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/github-profile-viewer-vanilla-js/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/github-profile-viewer-vanilla-js/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 11,
+      "project_name": "Music Player",
+      "repo_url": "https://github.com/breakingthebot/music-player-es-modules",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/music-player-es-modules/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/music-player-es-modules/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 10,
+      "project_name": "Typed Task Manager",
+      "repo_url": "https://github.com/breakingthebot/Typed-Task-Manager",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/Typed-Task-Manager/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/Typed-Task-Manager/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 9,
+      "project_name": "Kanban Board",
+      "repo_url": "https://github.com/breakingthebot/Kanban-Board-Vanilla-JS",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/Kanban-Board-Vanilla-JS/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/Kanban-Board-Vanilla-JS/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 8,
+      "project_name": "Tested Calculator Library",
+      "repo_url": "https://github.com/breakingthebot/Python-testing",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/Python-testing/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/Python-testing/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 7,
+      "project_name": "Dev Toolkit",
+      "repo_url": "https://github.com/breakingthebot/Dev-toolkit",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/Dev-toolkit/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/Dev-toolkit/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 6,
+      "project_name": "House Price Predictor",
+      "repo_url": "https://github.com/breakingthebot/House-price-predictor",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/House-price-predictor/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/House-price-predictor/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 5,
+      "project_name": "Chat Server",
+      "repo_url": "https://github.com/breakingthebot/chat-server",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/chat-server/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/chat-server/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 4,
+      "project_name": "Folder Organizer",
+      "repo_url": "https://github.com/breakingthebot/file-organizer",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/file-organizer/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/file-organizer/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 3,
+      "project_name": "Sales Dashboard",
+      "repo_url": "https://github.com/breakingthebot/Sales-Dashboard",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/Sales-Dashboard/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/Sales-Dashboard/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 2,
+      "project_name": "Async News Aggregator",
+      "repo_url": "https://github.com/breakingthebot/Async-News-Aggregator",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/Async-News-Aggregator/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/Async-News-Aggregator/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    },
+    {
+      "build_number": 1,
+      "project_name": "Expense Tracker",
+      "repo_url": "https://github.com/breakingthebot/expense-tracker",
+      "errors": [
+        "❌ README.md not found: https://github.com/breakingthebot/expense-tracker/raw/main/README.md",
+        "❌ CHANGELOG.md not found: https://github.com/breakingthebot/expense-tracker/raw/main/CHANGELOG.md"
+      ],
+      "passed": false
+    }
+  ]
+}
