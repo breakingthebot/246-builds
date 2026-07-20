@@ -2,22 +2,22 @@
 
 [![Test](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml/badge.svg)](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml)
 
-![Builds: 31](https://img.shields.io/badge/Builds-31-0ea5e9) ![Latest: #31](https://img.shields.io/badge/Latest-%2331-16a34a) ![Languages: 31](https://img.shields.io/badge/Languages-31-f59e0b) ![Deep Builds: 21](https://img.shields.io/badge/Deep_Builds-21-7c3aed)
+![Builds: 34](https://img.shields.io/badge/Builds-34-0ea5e9) ![Latest: #34](https://img.shields.io/badge/Latest-%2334-16a34a) ![Languages: 33](https://img.shields.io/badge/Languages-33-f59e0b) ![Deep Builds: 24](https://img.shields.io/badge/Deep_Builds-24-7c3aed)
 
 **[Browse & filter every build on the live site →](https://breakingthebot.github.io/286-builds/)**
 
 A public index of daily coding builds, each pulled from the 286-project list and built end-to-end in a single day, then expanded through multiple iterations with a full commit history pushed live. Together, the repos form a broad portfolio spanning multiple languages, problem types, and build depths.
 
 ## Tech Stack
-![C#](https://img.shields.io/badge/C%23-178600) ![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Go](https://img.shields.io/badge/Go-00ADD8) ![Java](https://img.shields.io/badge/Java-B07219) ![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Lua](https://img.shields.io/badge/Lua-000080) ![Next.js](https://img.shields.io/badge/Next.js-334155) ![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![React](https://img.shields.io/badge/React-334155) ![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![React Router](https://img.shields.io/badge/React_Router-334155) ![Remix](https://img.shields.io/badge/Remix-334155) ![Ruby](https://img.shields.io/badge/Ruby-701516) ![Rust](https://img.shields.io/badge/Rust-DEA584) ![Shell](https://img.shields.io/badge/Shell-89E051) ![Swift](https://img.shields.io/badge/Swift-F05138) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A) ![Zustand](https://img.shields.io/badge/Zustand-334155)
+![Angular](https://img.shields.io/badge/Angular-334155) ![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![C#](https://img.shields.io/badge/C%23-178600) ![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Go](https://img.shields.io/badge/Go-00ADD8) ![Java](https://img.shields.io/badge/Java-B07219) ![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Lua](https://img.shields.io/badge/Lua-000080) ![Next.js](https://img.shields.io/badge/Next.js-334155) ![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![React](https://img.shields.io/badge/React-334155) ![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![React Router](https://img.shields.io/badge/React_Router-334155) ![Remix](https://img.shields.io/badge/Remix-334155) ![Ruby](https://img.shields.io/badge/Ruby-701516) ![Rust](https://img.shields.io/badge/Rust-DEA584) ![Shell](https://img.shields.io/badge/Shell-89E051) ![Swift](https://img.shields.io/badge/Swift-F05138) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A) ![Zustand](https://img.shields.io/badge/Zustand-334155)
 
 ## Latest Build
-#### [#31 — Mobile Expense Tracker](builds/031-mobile-expense-tracker.md)
-![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-13
+#### [#34 — Real-Time Product Search Engine](builds/034-real-time-product-search-engine.md)
+![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
 
-React Native (Expo) expense tracker for logging and browsing expenses, stored locally on device.
+High-fidelity product search application utilizing RxJS debounced query stream pipelines, category filters, sorting algorithms, and infinite scroll paging in Angular.
 
-[Repo →](https://github.com/breakingthebot/expense-tracker-build31)
+[Repo →](https://github.com/breakingthebot/realtime-search-rxjs)
 
 ## What's in each build's repo
 - Every repo has a full README.
@@ -43,7 +43,34 @@ React Native (Expo) expense tracker for logging and browsing expenses, stored lo
 
 ## Build Index
 <details>
-<summary>All Builds (31)</summary>
+<summary>All Builds (34)</summary>
+
+#### [#34 — Real-Time Product Search Engine](builds/034-real-time-product-search-engine.md)
+![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
+
+High-fidelity product search application utilizing RxJS debounced query stream pipelines, category filters, sorting algorithms, and infinite scroll paging in Angular.
+
+[Repo →](https://github.com/breakingthebot/realtime-search-rxjs)
+
+---
+
+#### [#33 — Multi-Section Admin Panel](builds/033-multi-section-admin-panel.md)
+![Angular](https://img.shields.io/badge/Angular-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
+
+Premium enterprise administration dashboard built on Angular 19, demonstrating advanced client-side routing, route guard protection, dynamic breadcrumbs navigation, and lazy-loaded components.
+
+[Repo →](https://github.com/breakingthebot/admin-panel-build33)
+
+---
+
+#### [#32 — Interactive Course Syllabus Viewer](builds/032-interactive-course-syllabus-viewer.md)
+![Angular](https://img.shields.io/badge/Angular-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
+
+Structured academic course syllabus viewer built with Angular 19, tracking weekly required readings, deadlines, and live syllabus customization via JSON payload editor.
+
+[Repo →](https://github.com/breakingthebot/syllabus-viewer-build32)
+
+---
 
 #### [#31 — Mobile Expense Tracker](builds/031-mobile-expense-tracker.md)
 ![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-13
@@ -328,6 +355,33 @@ Standard-library-only expense tracker with budgets, recurring templates, monthly
 <details>
 <summary>Most Recent 10 (10)</summary>
 
+#### [#34 — Real-Time Product Search Engine](builds/034-real-time-product-search-engine.md)
+![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
+
+High-fidelity product search application utilizing RxJS debounced query stream pipelines, category filters, sorting algorithms, and infinite scroll paging in Angular.
+
+[Repo →](https://github.com/breakingthebot/realtime-search-rxjs)
+
+---
+
+#### [#33 — Multi-Section Admin Panel](builds/033-multi-section-admin-panel.md)
+![Angular](https://img.shields.io/badge/Angular-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
+
+Premium enterprise administration dashboard built on Angular 19, demonstrating advanced client-side routing, route guard protection, dynamic breadcrumbs navigation, and lazy-loaded components.
+
+[Repo →](https://github.com/breakingthebot/admin-panel-build33)
+
+---
+
+#### [#32 — Interactive Course Syllabus Viewer](builds/032-interactive-course-syllabus-viewer.md)
+![Angular](https://img.shields.io/badge/Angular-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
+
+Structured academic course syllabus viewer built with Angular 19, tracking weekly required readings, deadlines, and live syllabus customization via JSON payload editor.
+
+[Repo →](https://github.com/breakingthebot/syllabus-viewer-build32)
+
+---
+
 #### [#31 — Mobile Expense Tracker](builds/031-mobile-expense-tracker.md)
 ![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-13
 
@@ -389,37 +443,37 @@ React recipe search app to discover meals by ingredients, filter by dietary rest
 
 [Repo →](https://github.com/breakingthebot/flavorfind-recipe-finder)
 
----
-
-#### [#24 — SQL Analytics Query Library](builds/024-sql-analytics-query-library.md)
-![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Data & Analytics](https://img.shields.io/badge/Data_%26_Analytics-ca8a04) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
-
-Python library of 20 complex analytical SQL queries against a mock e-commerce SQLite database, with a realistic data generator, benchmarking/profiling, an HTML dashboard, and an interactive CLI REPL.
-
-[Repo →](https://github.com/breakingthebot/sql-analytics-library)
-
----
-
-#### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
-![Lua](https://img.shields.io/badge/Lua-000080) ![Automation & DevOps](https://img.shields.io/badge/Automation_%26_DevOps-78350f) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-06
-
-Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
-
-[Repo →](https://github.com/breakingthebot/hammerspoon-config)
-
----
-
-#### [#22 — Server Setup Script](builds/022-server-setup-script.md)
-![Shell](https://img.shields.io/badge/Shell-89E051) ![Automation & DevOps](https://img.shields.io/badge/Automation_%26_DevOps-78350f) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-05
-
-Bash server-setup automation with dependency install/verification, environment config templating, cron-scheduled health checks, systemd service generation, webhook failure notifications, and automatic rollback on error.
-
-[Repo →](https://github.com/breakingthebot/server-setup-script)
-
 </details>
 
 <details>
-<summary>Deep Builds (21)</summary>
+<summary>Deep Builds (24)</summary>
+
+#### [#34 — Real-Time Product Search Engine](builds/034-real-time-product-search-engine.md)
+![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
+
+High-fidelity product search application utilizing RxJS debounced query stream pipelines, category filters, sorting algorithms, and infinite scroll paging in Angular.
+
+[Repo →](https://github.com/breakingthebot/realtime-search-rxjs)
+
+---
+
+#### [#33 — Multi-Section Admin Panel](builds/033-multi-section-admin-panel.md)
+![Angular](https://img.shields.io/badge/Angular-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
+
+Premium enterprise administration dashboard built on Angular 19, demonstrating advanced client-side routing, route guard protection, dynamic breadcrumbs navigation, and lazy-loaded components.
+
+[Repo →](https://github.com/breakingthebot/admin-panel-build33)
+
+---
+
+#### [#32 — Interactive Course Syllabus Viewer](builds/032-interactive-course-syllabus-viewer.md)
+![Angular](https://img.shields.io/badge/Angular-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
+
+Structured academic course syllabus viewer built with Angular 19, tracking weekly required readings, deadlines, and live syllabus customization via JSON payload editor.
+
+[Repo →](https://github.com/breakingthebot/syllabus-viewer-build32)
+
+---
 
 #### [#30 — Remix Todo App](builds/030-remix-todo-app.md)
 ![Remix](https://img.shields.io/badge/Remix-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-11
@@ -822,7 +876,34 @@ SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a w
 </details>
 
 <details>
-<summary>Web Frontend (10)</summary>
+<summary>Web Frontend (13)</summary>
+
+#### [#34 — Real-Time Product Search Engine](builds/034-real-time-product-search-engine.md)
+![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
+
+High-fidelity product search application utilizing RxJS debounced query stream pipelines, category filters, sorting algorithms, and infinite scroll paging in Angular.
+
+[Repo →](https://github.com/breakingthebot/realtime-search-rxjs)
+
+---
+
+#### [#33 — Multi-Section Admin Panel](builds/033-multi-section-admin-panel.md)
+![Angular](https://img.shields.io/badge/Angular-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
+
+Premium enterprise administration dashboard built on Angular 19, demonstrating advanced client-side routing, route guard protection, dynamic breadcrumbs navigation, and lazy-loaded components.
+
+[Repo →](https://github.com/breakingthebot/admin-panel-build33)
+
+---
+
+#### [#32 — Interactive Course Syllabus Viewer](builds/032-interactive-course-syllabus-viewer.md)
+![Angular](https://img.shields.io/badge/Angular-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
+
+Structured academic course syllabus viewer built with Angular 19, tracking weekly required readings, deadlines, and live syllabus customization via JSON payload editor.
+
+[Repo →](https://github.com/breakingthebot/syllabus-viewer-build32)
+
+---
 
 #### [#30 — Remix Todo App](builds/030-remix-todo-app.md)
 ![Remix](https://img.shields.io/badge/Remix-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-11
@@ -915,6 +996,39 @@ Dependency-free drag-and-drop Kanban board with labels, due dates, undo/redo, an
 </details>
 
 ## By Technology
+<details>
+<summary>Angular (2)</summary>
+
+#### [#33 — Multi-Section Admin Panel](builds/033-multi-section-admin-panel.md)
+![Angular](https://img.shields.io/badge/Angular-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
+
+Premium enterprise administration dashboard built on Angular 19, demonstrating advanced client-side routing, route guard protection, dynamic breadcrumbs navigation, and lazy-loaded components.
+
+[Repo →](https://github.com/breakingthebot/admin-panel-build33)
+
+---
+
+#### [#32 — Interactive Course Syllabus Viewer](builds/032-interactive-course-syllabus-viewer.md)
+![Angular](https://img.shields.io/badge/Angular-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
+
+Structured academic course syllabus viewer built with Angular 19, tracking weekly required readings, deadlines, and live syllabus customization via JSON payload editor.
+
+[Repo →](https://github.com/breakingthebot/syllabus-viewer-build32)
+
+</details>
+
+<details>
+<summary>Angular (RxJS) (1)</summary>
+
+#### [#34 — Real-Time Product Search Engine](builds/034-real-time-product-search-engine.md)
+![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
+
+High-fidelity product search application utilizing RxJS debounced query stream pipelines, category filters, sorting algorithms, and infinite scroll paging in Angular.
+
+[Repo →](https://github.com/breakingthebot/realtime-search-rxjs)
+
+</details>
+
 <details>
 <summary>C# (1)</summary>
 
@@ -1388,6 +1502,6 @@ This repo is an index repo and does not require a live deployment.
 This repo is the front door for the full build series. The reference files stay in `reference/`, the published build entries live in `builds.json`, and the README is generated from that JSON so the public index stays consistent. I kept the automation small on purpose: one CLI to add a build, one CLI to regenerate the README, and a handful of focused modules so the data, validation, formatting, and file writes stay separate and easy to audit.
 
 ## Notes
-- The tracker and README are synced to the 31 public build repos currently published under the `breakingthebot` GitHub account.
+- The tracker and README are synced to the 34 public build repos currently published under the `breakingthebot` GitHub account.
 - The tracker workbook currently contains 246 build rows even though the PDF is described as a 286-item master list. The automation uses the tracker rows that are actually marked complete.
 - The remaining unpublished build slots are intentionally left open for future custom build designs and additional portfolio work.

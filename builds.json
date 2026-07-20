@@ -1,5 +1,50 @@
 [
   {
+    "build_number": 34,
+    "date": "2026-07-20",
+    "project_name": "Real-Time Product Search Engine",
+    "description": "High-fidelity product search application utilizing RxJS debounced query stream pipelines, category filters, sorting algorithms, and infinite scroll paging in Angular.",
+    "repo_url": "https://github.com/breakingthebot/realtime-search-rxjs",
+    "technology": "Angular (RxJS)",
+    "category": "Web Frontend",
+    "stack": [
+      "Angular (RxJS)",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Features debounced search, memory caching, error boundary resilience, combineLatest state filters, local storage search history suggestion blurs, and infinite scrolling IntersectionObserver paging."
+  },
+  {
+    "build_number": 33,
+    "date": "2026-07-20",
+    "project_name": "Multi-Section Admin Panel",
+    "description": "Premium enterprise administration dashboard built on Angular 19, demonstrating advanced client-side routing, route guard protection, dynamic breadcrumbs navigation, and lazy-loaded components.",
+    "repo_url": "https://github.com/breakingthebot/admin-panel-build33",
+    "technology": "Angular",
+    "category": "Web Frontend",
+    "stack": [
+      "Angular",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Includes client-side auth state simulation, route protection guards, breadcrumbs state selectors, and lazy-loaded child route sub-bundles."
+  },
+  {
+    "build_number": 32,
+    "date": "2026-07-20",
+    "project_name": "Interactive Course Syllabus Viewer",
+    "description": "Structured academic course syllabus viewer built with Angular 19, tracking weekly required readings, deadlines, and live syllabus customization via JSON payload editor.",
+    "repo_url": "https://github.com/breakingthebot/syllabus-viewer-build32",
+    "technology": "Angular",
+    "category": "Web Frontend",
+    "stack": [
+      "Angular",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Features raw JSON payload uploading, schema structure validations, required reading checkbox checks, and dark theme variables toggle."
+  },
+  {
     "build_number": 31,
     "date": "2026-07-13",
     "project_name": "Mobile Expense Tracker",

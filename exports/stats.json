@@ -1,14 +1,14 @@
 {
-  "total_builds": 31,
+  "total_builds": 34,
   "latest_build": {
-    "build_number": 31,
-    "date": "2026-07-13",
-    "project_name": "Mobile Expense Tracker"
+    "build_number": 34,
+    "date": "2026-07-20",
+    "project_name": "Real-Time Product Search Engine"
   },
   "by_category": [
     {
       "label": "Web Frontend",
-      "count": 10
+      "count": 13
     },
     {
       "label": "CLI Tools",
@@ -40,6 +40,14 @@
     }
   ],
   "by_technology": [
+    {
+      "label": "Angular",
+      "count": 2
+    },
+    {
+      "label": "Angular (RxJS)",
+      "count": 1
+    },
     {
       "label": "C#",
       "count": 1
@@ -168,7 +176,7 @@
   "by_depth": [
     {
       "label": "Deep",
-      "count": 21
+      "count": 24
     },
     {
       "label": "Expanded",
