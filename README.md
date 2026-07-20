@@ -73,7 +73,7 @@ Structured academic course syllabus viewer built with Angular 19, tracking weekl
 ---
 
 #### [#31 — Mobile Expense Tracker](builds/031-mobile-expense-tracker.md)
-![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-13
+![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-13
 
 React Native (Expo) expense tracker for logging and browsing expenses, stored locally on device.
 
@@ -383,7 +383,7 @@ Structured academic course syllabus viewer built with Angular 19, tracking weekl
 ---
 
 #### [#31 — Mobile Expense Tracker](builds/031-mobile-expense-tracker.md)
-![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-13
+![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-13
 
 React Native (Expo) expense tracker for logging and browsing expenses, stored locally on device.
 
@@ -849,7 +849,7 @@ Installable Python calculator package with CLI, batch processing, history, preci
 <summary>Mobile Apps (3)</summary>
 
 #### [#31 — Mobile Expense Tracker](builds/031-mobile-expense-tracker.md)
-![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-13
+![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-13
 
 React Native (Expo) expense tracker for logging and browsing expenses, stored locally on device.
 
@@ -1273,7 +1273,7 @@ React recipe search app to discover meals by ingredients, filter by dietary rest
 <summary>React Native (Expo) (1)</summary>
 
 #### [#31 — Mobile Expense Tracker](builds/031-mobile-expense-tracker.md)
-![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-13
+![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-13
 
 React Native (Expo) expense tracker for logging and browsing expenses, stored locally on device.
 

@@ -6,7 +6,7 @@ React Native (Expo) expense tracker for logging and browsing expenses, stored lo
 - Date Pushed: 2026-07-13
 - Technology: React Native (Expo)
 - Category: Mobile Apps
-- Depth: Standard
+- Depth: Expanded
 - Repo: https://github.com/breakingthebot/expense-tracker-build31
 
 ## Notes

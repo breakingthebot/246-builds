@@ -56,7 +56,7 @@
       "React Native (Expo)",
       "Mobile Apps"
     ],
-    "depth": "Standard",
+    "depth": "Expanded",
     "notes": "Iteration 1: Expense model with validation, an AsyncStorage-backed local storage service, and a single-screen Add Expense form plus list, with delete. Amounts stored as integer cents so future totals (e.g. a monthly chart) sum exactly. 15 Jest tests cover validation and storage CRUD."
   },
   {
