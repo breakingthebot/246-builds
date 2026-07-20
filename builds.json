@@ -12,7 +12,7 @@
       "Web Frontend"
     ],
     "depth": "Deep",
-    "notes": "Premium administrative layouts featuring status counters, sorting search data tables, responsive charts, and input forms using full Angular Material component models."
+    "notes": "Premium administrative layouts featuring status counters, sorting search data tables, responsive charts, and input forms using full Angular Material component models. Deployed to Vercel."
   },
   {
     "build_number": 34,
@@ -27,7 +27,7 @@
       "Web Frontend"
     ],
     "depth": "Deep",
-    "notes": "Features debounced search, memory caching, error boundary resilience, combineLatest state filters, local storage search history suggestion blurs, and infinite scrolling IntersectionObserver paging."
+    "notes": "Features debounced search, memory caching, error boundary resilience, combineLatest state filters, local storage search history suggestion blurs, and infinite scrolling IntersectionObserver paging. Deployed to Vercel."
   },
   {
     "build_number": 33,
@@ -72,7 +72,7 @@
       "Mobile Apps"
     ],
     "depth": "Expanded",
-    "notes": "Iteration 1: Expense model with validation, an AsyncStorage-backed local storage service, and a single-screen Add Expense form plus list, with delete. Amounts stored as integer cents so future totals (e.g. a monthly chart) sum exactly. 15 Jest tests cover validation and storage CRUD."
+    "notes": "Iteration 1: Expense model with validation, an AsyncStorage-backed local storage service, and a single-screen Add Expense form plus list, with delete. Amounts stored as integer cents so future totals (e.g. a monthly chart) sum exactly. 15 Jest tests cover validation and storage CRUD. Deployed to Vercel."
   },
   {
     "build_number": 30,
@@ -102,7 +102,7 @@
       "Web Frontend"
     ],
     "depth": "Deep",
-    "notes": "Postgres-backed comments (Neon serverless driver) with per-IP rate limiting (hashed IPs, 5 writes/10min), self-service comment deletion via hashed delete tokens, and an admin override checked with a constant-time comparison. Optimistic comment submission via useOptimistic/useTransition. Post tags with a statically generated /tags/[tag] route (not a query param, to preserve SSG). GitHub Actions CI and component tests with jsdom."
+    "notes": "Postgres-backed comments (Neon serverless driver) with per-IP rate limiting (hashed IPs, 5 writes/10min), self-service comment deletion via hashed delete tokens, and an admin override checked with a constant-time comparison. Optimistic comment submission via useOptimistic/useTransition. Post tags with a statically generated /tags/[tag] route (not a query param, to preserve SSG). GitHub Actions CI and component tests with jsdom. Deployed to Vercel."
   },
   {
     "build_number": 28,
@@ -162,7 +162,7 @@
       "Web Frontend"
     ],
     "depth": "Deep",
-    "notes": "Recipe search/filter app with dietary restriction filters, custom recipe CRUD synced to localStorage, cook-mode step timers parsed via regex, and a shopping list aggregator that normalizes units and merges duplicate ingredients across recipes."
+    "notes": "Recipe search/filter app with dietary restriction filters, custom recipe CRUD synced to localStorage, cook-mode step timers parsed via regex, and a shopping list aggregator that normalizes units and merges duplicate ingredients across recipes. Deployed to Vercel."
   },
   {
     "build_number": 24,
@@ -357,7 +357,7 @@
       "Web Frontend"
     ],
     "depth": "Deep",
-    "notes": ""
+    "notes": " Deployed to Vercel."
   },
   {
     "build_number": 11,
@@ -372,7 +372,7 @@
       "Web Frontend"
     ],
     "depth": "Deep",
-    "notes": ""
+    "notes": " Deployed to Vercel."
   },
   {
     "build_number": 10,
@@ -387,7 +387,7 @@
       "Web Frontend"
     ],
     "depth": "Deep",
-    "notes": ""
+    "notes": " Deployed to Vercel."
   },
   {
     "build_number": 9,
@@ -402,7 +402,7 @@
       "Web Frontend"
     ],
     "depth": "Deep",
-    "notes": ""
+    "notes": " Deployed to Vercel."
   },
   {
     "build_number": 8,
