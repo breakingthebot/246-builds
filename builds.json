@@ -1,5 +1,35 @@
 [
   {
+    "build_number": 37,
+    "date": "2026-07-23",
+    "project_name": "PulseFit - PWA Fitness Tracker",
+    "description": "Standalone installable PWA fitness application built on Angular 19 and Ionic 8, tracking steps circular gauges, hydration waves, and workout histories.",
+    "repo_url": "https://github.com/breakingthebot/pulsefit-tracker",
+    "technology": "Ionic",
+    "category": "Mobile Apps",
+    "stack": [
+      "Ionic",
+      "Mobile Apps"
+    ],
+    "depth": "Deep",
+    "notes": "Configured standard PWA webmanifest configurations, offline Service Workers, expandable daily settings, SVG circular progress rings, rising hydration wave overlays, and vertical statistics graphs."
+  },
+  {
+    "build_number": 36,
+    "date": "2026-07-21",
+    "project_name": "PulseMarket - Reactive E-Commerce Platform",
+    "description": "Reactive e-commerce interface built with Angular 19, Angular Material, and NgRx store state management featuring catalog filtering, shopping carts, checkout wizards, and localStorage state hydration.",
+    "repo_url": "https://github.com/breakingthebot/angular-ngrx-store-ecommerce",
+    "technology": "NgRx",
+    "category": "Web Frontend",
+    "stack": [
+      "NgRx",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Features NgRx Store, Effects, Selectors, LocalStorage MetaReducer hydration, wishlist drawer grids, checkout step wizards, and Star Rating badges."
+  },
+  {
     "build_number": 35,
     "date": "2026-07-20",
     "project_name": "Angular Material Dashboard UI",
