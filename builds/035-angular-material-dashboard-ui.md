@@ -10,4 +10,4 @@ Premium administration dashboard interface built using Angular 19 and Angular Ma
 - Repo: https://github.com/breakingthebot/angular-material-dashboard
 
 ## Notes
-Premium administrative layouts featuring status counters, sorting search data tables, responsive charts, and input forms using full Angular Material component models.
+Premium administrative layouts featuring status counters, sorting search data tables, responsive charts, and input forms using full Angular Material component models. Deployed to Vercel.

@@ -10,4 +10,4 @@ React recipe search app to discover meals by ingredients, filter by dietary rest
 - Repo: https://github.com/breakingthebot/flavorfind-recipe-finder
 
 ## Notes
-Recipe search/filter app with dietary restriction filters, custom recipe CRUD synced to localStorage, cook-mode step timers parsed via regex, and a shopping list aggregator that normalizes units and merges duplicate ingredients across recipes.
+Recipe search/filter app with dietary restriction filters, custom recipe CRUD synced to localStorage, cook-mode step timers parsed via regex, and a shopping list aggregator that normalizes units and merges duplicate ingredients across recipes. Deployed to Vercel.

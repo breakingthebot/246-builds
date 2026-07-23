@@ -2,22 +2,22 @@
 
 [![Test](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml/badge.svg)](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml)
 
-![Builds: 37](https://img.shields.io/badge/Builds-37-0ea5e9) ![Latest: #37](https://img.shields.io/badge/Latest-%2337-16a34a) ![Languages: 36](https://img.shields.io/badge/Languages-36-f59e0b) ![Deep Builds: 27](https://img.shields.io/badge/Deep_Builds-27-7c3aed)
+![Builds: 38](https://img.shields.io/badge/Builds-38-0ea5e9) ![Latest: #38](https://img.shields.io/badge/Latest-%2338-16a34a) ![Languages: 37](https://img.shields.io/badge/Languages-37-f59e0b) ![Deep Builds: 27](https://img.shields.io/badge/Deep_Builds-27-7c3aed)
 
 **[Browse & filter every build on the live site →](https://breakingthebot.github.io/286-builds/)**
 
 A public index of daily coding builds, each pulled from the 286-project list and built end-to-end in a single day, then expanded through multiple iterations with a full commit history pushed live. Together, the repos form a broad portfolio spanning multiple languages, problem types, and build depths.
 
 ## Tech Stack
-![Angular](https://img.shields.io/badge/Angular-334155) ![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![Angular Material](https://img.shields.io/badge/Angular_Material-334155) ![C#](https://img.shields.io/badge/C%23-178600) ![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Go](https://img.shields.io/badge/Go-00ADD8) ![Ionic](https://img.shields.io/badge/Ionic-334155) ![Java](https://img.shields.io/badge/Java-B07219) ![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Lua](https://img.shields.io/badge/Lua-000080) ![Next.js](https://img.shields.io/badge/Next.js-334155) ![NgRx](https://img.shields.io/badge/NgRx-334155) ![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![React](https://img.shields.io/badge/React-334155) ![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![React Router](https://img.shields.io/badge/React_Router-334155) ![Remix](https://img.shields.io/badge/Remix-334155) ![Ruby](https://img.shields.io/badge/Ruby-701516) ![Rust](https://img.shields.io/badge/Rust-DEA584) ![Shell](https://img.shields.io/badge/Shell-89E051) ![Swift](https://img.shields.io/badge/Swift-F05138) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A) ![Zustand](https://img.shields.io/badge/Zustand-334155)
+![Angular](https://img.shields.io/badge/Angular-334155) ![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![Angular Material](https://img.shields.io/badge/Angular_Material-334155) ![C#](https://img.shields.io/badge/C%23-178600) ![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Go](https://img.shields.io/badge/Go-00ADD8) ![Ionic](https://img.shields.io/badge/Ionic-334155) ![Java](https://img.shields.io/badge/Java-B07219) ![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Lua](https://img.shields.io/badge/Lua-000080) ![Next.js](https://img.shields.io/badge/Next.js-334155) ![NgRx](https://img.shields.io/badge/NgRx-334155) ![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![React](https://img.shields.io/badge/React-334155) ![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![React Router](https://img.shields.io/badge/React_Router-334155) ![Remix](https://img.shields.io/badge/Remix-334155) ![Ruby](https://img.shields.io/badge/Ruby-701516) ![Rust](https://img.shields.io/badge/Rust-DEA584) ![Shell](https://img.shields.io/badge/Shell-89E051) ![Swift](https://img.shields.io/badge/Swift-F05138) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A) ![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Zustand](https://img.shields.io/badge/Zustand-334155)
 
 ## Latest Build
-#### [#37 — PulseFit - PWA Fitness Tracker](builds/037-pulsefit-pwa-fitness-tracker.md)
-![Ionic](https://img.shields.io/badge/Ionic-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-23
+#### [#38 — PulseMovie - Movie Watchlist](builds/038-pulsemovie-movie-watchlist.md)
+![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-23
 
-Standalone installable PWA fitness application built on Angular 19 and Ionic 8, tracking steps circular gauges, hydration waves, and workout histories.
+Movie watchlist dashboard built with Vue 3 and TypeScript, supporting TVMaze public API searches and LocalStorage cache checklists.
 
-[Repo →](https://github.com/breakingthebot/pulsefit-tracker)
+[Repo →](https://github.com/breakingthebot/movie-watchlist-vue)
 
 ## What's in each build's repo
 - Every repo has a full README.
@@ -43,7 +43,16 @@ Standalone installable PWA fitness application built on Angular 19 and Ionic 8, 
 
 ## Build Index
 <details>
-<summary>All Builds (37)</summary>
+<summary>All Builds (38)</summary>
+
+#### [#38 — PulseMovie - Movie Watchlist](builds/038-pulsemovie-movie-watchlist.md)
+![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-23
+
+Movie watchlist dashboard built with Vue 3 and TypeScript, supporting TVMaze public API searches and LocalStorage cache checklists.
+
+[Repo →](https://github.com/breakingthebot/movie-watchlist-vue)
+
+---
 
 #### [#37 — PulseFit - PWA Fitness Tracker](builds/037-pulsefit-pwa-fitness-tracker.md)
 ![Ionic](https://img.shields.io/badge/Ionic-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-23
@@ -382,6 +391,15 @@ Standard-library-only expense tracker with budgets, recurring templates, monthly
 <details>
 <summary>Most Recent 10 (10)</summary>
 
+#### [#38 — PulseMovie - Movie Watchlist](builds/038-pulsemovie-movie-watchlist.md)
+![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-23
+
+Movie watchlist dashboard built with Vue 3 and TypeScript, supporting TVMaze public API searches and LocalStorage cache checklists.
+
+[Repo →](https://github.com/breakingthebot/movie-watchlist-vue)
+
+---
+
 #### [#37 — PulseFit - PWA Fitness Tracker](builds/037-pulsefit-pwa-fitness-tracker.md)
 ![Ionic](https://img.shields.io/badge/Ionic-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-23
 
@@ -460,15 +478,6 @@ Full-stack Remix (Vite) todo app with server-side rendering, nested routes, form
 Next.js blog platform: statically generated posts, server-rendered post pages with live comments, and an API route for comments.
 
 [Repo →](https://github.com/breakingthebot/nextjs-blog-platform)
-
----
-
-#### [#28 — GitHub Dashboard](builds/028-github-dashboard.md)
-![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-08
-
-GitHub dashboard with cached search, background refetch, loading/error states, and pagination via TanStack Query, plus a per-repo detail view.
-
-[Repo →](https://github.com/breakingthebot/github-dashboard-react-query)
 
 </details>
 
@@ -935,6 +944,18 @@ Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows
 SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a weekly dashboard, home screen widgets, and XCTest coverage.
 
 [Repo →](https://github.com/breakingthebot/habit-tracker-ios-swiftui)
+
+</details>
+
+<details>
+<summary>Vue 3 (1)</summary>
+
+#### [#38 — PulseMovie - Movie Watchlist](builds/038-pulsemovie-movie-watchlist.md)
+![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-23
+
+Movie watchlist dashboard built with Vue 3 and TypeScript, supporting TVMaze public API searches and LocalStorage cache checklists.
+
+[Repo →](https://github.com/breakingthebot/movie-watchlist-vue)
 
 </details>
 
@@ -1507,6 +1528,18 @@ Dependency-free drag-and-drop Kanban board with labels, due dates, undo/redo, an
 </details>
 
 <details>
+<summary>Vue 3 core (1)</summary>
+
+#### [#38 — PulseMovie - Movie Watchlist](builds/038-pulsemovie-movie-watchlist.md)
+![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-23
+
+Movie watchlist dashboard built with Vue 3 and TypeScript, supporting TVMaze public API searches and LocalStorage cache checklists.
+
+[Repo →](https://github.com/breakingthebot/movie-watchlist-vue)
+
+</details>
+
+<details>
 <summary>Zustand (1)</summary>
 
 #### [#27 — Aetheric Space Shopping Cart](builds/027-aetheric-space-shopping-cart.md)
@@ -1619,6 +1652,6 @@ This repo is an index repo and does not require a live deployment.
 This repo is the front door for the full build series. The reference files stay in `reference/`, the published build entries live in `builds.json`, and the README is generated from that JSON so the public index stays consistent. I kept the automation small on purpose: one CLI to add a build, one CLI to regenerate the README, and a handful of focused modules so the data, validation, formatting, and file writes stay separate and easy to audit.
 
 ## Notes
-- The tracker and README are synced to the 37 public build repos currently published under the `breakingthebot` GitHub account.
+- The tracker and README are synced to the 38 public build repos currently published under the `breakingthebot` GitHub account.
 - The tracker workbook currently contains 246 build rows even though the PDF is described as a 286-item master list. The automation uses the tracker rows that are actually marked complete.
 - The remaining unpublished build slots are intentionally left open for future custom build designs and additional portfolio work.

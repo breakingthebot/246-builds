@@ -10,4 +10,4 @@ Vanilla JS GitHub explorer with profile, repo, and activity views plus search, f
 - Repo: https://github.com/breakingthebot/github-profile-viewer-vanilla-js
 
 ## Notes
-No extra build notes recorded yet.
+Deployed to Vercel.

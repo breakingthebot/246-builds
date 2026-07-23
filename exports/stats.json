@@ -1,9 +1,9 @@
 {
-  "total_builds": 37,
+  "total_builds": 38,
   "latest_build": {
-    "build_number": 37,
+    "build_number": 38,
     "date": "2026-07-23",
-    "project_name": "PulseFit - PWA Fitness Tracker"
+    "project_name": "PulseMovie - Movie Watchlist"
   },
   "by_category": [
     {
@@ -37,6 +37,10 @@
     {
       "label": "Libraries & Packages",
       "count": 2
+    },
+    {
+      "label": "Vue 3",
+      "count": 1
     }
   ],
   "by_technology": [
@@ -181,6 +185,10 @@
       "count": 1
     },
     {
+      "label": "Vue 3 core",
+      "count": 1
+    },
+    {
       "label": "Zustand",
       "count": 1
     }
@@ -193,6 +201,10 @@
     {
       "label": "Expanded",
       "count": 10
+    },
+    {
+      "label": "Standard",
+      "count": 1
     }
   ]
 }

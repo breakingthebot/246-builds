@@ -10,4 +10,4 @@ High-fidelity product search application utilizing RxJS debounced query stream p
 - Repo: https://github.com/breakingthebot/realtime-search-rxjs
 
 ## Notes
-Features debounced search, memory caching, error boundary resilience, combineLatest state filters, local storage search history suggestion blurs, and infinite scrolling IntersectionObserver paging.
+Features debounced search, memory caching, error boundary resilience, combineLatest state filters, local storage search history suggestion blurs, and infinite scrolling IntersectionObserver paging. Deployed to Vercel.

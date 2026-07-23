@@ -10,4 +10,4 @@ Dependency-free drag-and-drop Kanban board with labels, due dates, undo/redo, an
 - Repo: https://github.com/breakingthebot/Kanban-Board-Vanilla-JS
 
 ## Notes
-No extra build notes recorded yet.
+Deployed to Vercel.

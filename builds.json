@@ -1,5 +1,20 @@
 [
   {
+    "build_number": 38,
+    "date": "2026-07-23",
+    "project_name": "PulseMovie - Movie Watchlist",
+    "description": "Movie watchlist dashboard built with Vue 3 and TypeScript, supporting TVMaze public API searches and LocalStorage cache checklists.",
+    "repo_url": "https://github.com/breakingthebot/movie-watchlist-vue",
+    "technology": "Vue 3 core",
+    "category": "Vue 3",
+    "stack": [
+      "Vue 3 core",
+      "Vue 3"
+    ],
+    "depth": "Standard",
+    "notes": ""
+  },
+  {
     "build_number": 37,
     "date": "2026-07-23",
     "project_name": "PulseFit - PWA Fitness Tracker",
@@ -387,7 +402,7 @@
       "Web Frontend"
     ],
     "depth": "Deep",
-    "notes": " Deployed to Vercel."
+    "notes": "Deployed to Vercel."
   },
   {
     "build_number": 11,
@@ -402,7 +417,7 @@
       "Web Frontend"
     ],
     "depth": "Deep",
-    "notes": " Deployed to Vercel."
+    "notes": "Deployed to Vercel."
   },
   {
     "build_number": 10,
@@ -417,7 +432,7 @@
       "Web Frontend"
     ],
     "depth": "Deep",
-    "notes": " Deployed to Vercel."
+    "notes": "Deployed to Vercel."
   },
   {
     "build_number": 9,
@@ -432,7 +447,7 @@
       "Web Frontend"
     ],
     "depth": "Deep",
-    "notes": " Deployed to Vercel."
+    "notes": "Deployed to Vercel."
   },
   {
     "build_number": 8,

@@ -10,4 +10,4 @@ No-bundler ES module music player with queue, shuffle/repeat, favorites, local f
 - Repo: https://github.com/breakingthebot/music-player-es-modules
 
 ## Notes
-No extra build notes recorded yet.
+Deployed to Vercel.

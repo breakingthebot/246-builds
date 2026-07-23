@@ -10,4 +10,4 @@ Strict TypeScript task manager with status-grouped views, import/export, backup 
 - Repo: https://github.com/breakingthebot/Typed-Task-Manager
 
 ## Notes
-No extra build notes recorded yet.
+Deployed to Vercel.
