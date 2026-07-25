@@ -1,9 +1,9 @@
 {
-  "total_builds": 38,
+  "total_builds": 41,
   "latest_build": {
-    "build_number": 38,
-    "date": "2026-07-23",
-    "project_name": "PulseMovie - Movie Watchlist"
+    "build_number": 41,
+    "date": "2026-07-25",
+    "project_name": "GourmetPulse - SEO Recipe App"
   },
   "by_category": [
     {
@@ -27,6 +27,10 @@
       "count": 3
     },
     {
+      "label": "Vue 3",
+      "count": 3
+    },
+    {
       "label": "Automation & DevOps",
       "count": 2
     },
@@ -39,7 +43,7 @@
       "count": 2
     },
     {
-      "label": "Vue 3",
+      "label": "Nuxt 3",
       "count": 1
     }
   ],
@@ -101,7 +105,15 @@
       "count": 1
     },
     {
+      "label": "Nuxt.js",
+      "count": 1
+    },
+    {
       "label": "PHP",
+      "count": 1
+    },
+    {
+      "label": "Pinia",
       "count": 1
     },
     {
@@ -189,6 +201,10 @@
       "count": 1
     },
     {
+      "label": "Vue Router",
+      "count": 1
+    },
+    {
       "label": "Zustand",
       "count": 1
     }
@@ -200,11 +216,11 @@
     },
     {
       "label": "Expanded",
-      "count": 10
+      "count": 11
     },
     {
       "label": "Standard",
-      "count": 1
+      "count": 3
     }
   ]
 }

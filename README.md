@@ -2,22 +2,22 @@
 
 [![Test](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml/badge.svg)](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml)
 
-![Builds: 38](https://img.shields.io/badge/Builds-38-0ea5e9) ![Latest: #38](https://img.shields.io/badge/Latest-%2338-16a34a) ![Languages: 37](https://img.shields.io/badge/Languages-37-f59e0b) ![Deep Builds: 27](https://img.shields.io/badge/Deep_Builds-27-7c3aed)
+![Builds: 41](https://img.shields.io/badge/Builds-41-0ea5e9) ![Latest: #41](https://img.shields.io/badge/Latest-%2341-16a34a) ![Languages: 40](https://img.shields.io/badge/Languages-40-f59e0b) ![Deep Builds: 27](https://img.shields.io/badge/Deep_Builds-27-7c3aed)
 
 **[Browse & filter every build on the live site →](https://breakingthebot.github.io/286-builds/)**
 
 A public index of daily coding builds, each pulled from the 286-project list and built end-to-end in a single day, then expanded through multiple iterations with a full commit history pushed live. Together, the repos form a broad portfolio spanning multiple languages, problem types, and build depths.
 
 ## Tech Stack
-![Angular](https://img.shields.io/badge/Angular-334155) ![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![Angular Material](https://img.shields.io/badge/Angular_Material-334155) ![C#](https://img.shields.io/badge/C%23-178600) ![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Go](https://img.shields.io/badge/Go-00ADD8) ![Ionic](https://img.shields.io/badge/Ionic-334155) ![Java](https://img.shields.io/badge/Java-B07219) ![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Lua](https://img.shields.io/badge/Lua-000080) ![Next.js](https://img.shields.io/badge/Next.js-334155) ![NgRx](https://img.shields.io/badge/NgRx-334155) ![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![React](https://img.shields.io/badge/React-334155) ![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![React Router](https://img.shields.io/badge/React_Router-334155) ![Remix](https://img.shields.io/badge/Remix-334155) ![Ruby](https://img.shields.io/badge/Ruby-701516) ![Rust](https://img.shields.io/badge/Rust-DEA584) ![Shell](https://img.shields.io/badge/Shell-89E051) ![Swift](https://img.shields.io/badge/Swift-F05138) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A) ![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Zustand](https://img.shields.io/badge/Zustand-334155)
+![Angular](https://img.shields.io/badge/Angular-334155) ![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![Angular Material](https://img.shields.io/badge/Angular_Material-334155) ![C#](https://img.shields.io/badge/C%23-178600) ![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Go](https://img.shields.io/badge/Go-00ADD8) ![Ionic](https://img.shields.io/badge/Ionic-334155) ![Java](https://img.shields.io/badge/Java-B07219) ![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Lua](https://img.shields.io/badge/Lua-000080) ![Next.js](https://img.shields.io/badge/Next.js-334155) ![NgRx](https://img.shields.io/badge/NgRx-334155) ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Pinia](https://img.shields.io/badge/Pinia-334155) ![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![React](https://img.shields.io/badge/React-334155) ![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![React Router](https://img.shields.io/badge/React_Router-334155) ![Remix](https://img.shields.io/badge/Remix-334155) ![Ruby](https://img.shields.io/badge/Ruby-701516) ![Rust](https://img.shields.io/badge/Rust-DEA584) ![Shell](https://img.shields.io/badge/Shell-89E051) ![Swift](https://img.shields.io/badge/Swift-F05138) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A) ![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Zustand](https://img.shields.io/badge/Zustand-334155)
 
 ## Latest Build
-#### [#38 — PulseMovie - Movie Watchlist](builds/038-pulsemovie-movie-watchlist.md)
-![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-23
+#### [#41 — GourmetPulse - SEO Recipe App](builds/041-gourmetpulse-seo-recipe-app.md)
+![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![Nuxt 3](https://img.shields.io/badge/Nuxt_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
 
-Movie watchlist dashboard built with Vue 3 and TypeScript, supporting TVMaze public API searches and LocalStorage cache checklists.
+SEO-optimized Nuxt 3 culinary recipe app with Schema.org JSON-LD structured data, meta tags, and interactive serving scale calculator.
 
-[Repo →](https://github.com/breakingthebot/movie-watchlist-vue)
+[Repo →](https://github.com/breakingthebot/gourmetpulse-recipe-build41)
 
 ## What's in each build's repo
 - Every repo has a full README.
@@ -43,7 +43,34 @@ Movie watchlist dashboard built with Vue 3 and TypeScript, supporting TVMaze pub
 
 ## Build Index
 <details>
-<summary>All Builds (38)</summary>
+<summary>All Builds (41)</summary>
+
+#### [#41 — GourmetPulse - SEO Recipe App](builds/041-gourmetpulse-seo-recipe-app.md)
+![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![Nuxt 3](https://img.shields.io/badge/Nuxt_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
+
+SEO-optimized Nuxt 3 culinary recipe app with Schema.org JSON-LD structured data, meta tags, and interactive serving scale calculator.
+
+[Repo →](https://github.com/breakingthebot/gourmetpulse-recipe-build41)
+
+---
+
+#### [#40 — Task Manager Pinia](builds/040-task-manager-pinia.md)
+![Pinia](https://img.shields.io/badge/Pinia-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-25
+
+Pinia state task manager with Kanban board, calendar view, subtask reordering controls, recurring task scheduler, and audit history logs.
+
+[Repo →](https://github.com/breakingthebot/task-manager-pinia-build40)
+
+---
+
+#### [#39 — TravelPulse - Multi-Page Travel Blog](builds/039-travelpulse-multi-page-travel-blog.md)
+![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
+
+Vue Router multi-page travel journal with destination guides, region filters, photo gallery lightbox viewer, and reader comments.
+
+[Repo →](https://github.com/breakingthebot/travel-blog-router-build39)
+
+---
 
 #### [#38 — PulseMovie - Movie Watchlist](builds/038-pulsemovie-movie-watchlist.md)
 ![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-23
@@ -391,6 +418,33 @@ Standard-library-only expense tracker with budgets, recurring templates, monthly
 <details>
 <summary>Most Recent 10 (10)</summary>
 
+#### [#41 — GourmetPulse - SEO Recipe App](builds/041-gourmetpulse-seo-recipe-app.md)
+![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![Nuxt 3](https://img.shields.io/badge/Nuxt_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
+
+SEO-optimized Nuxt 3 culinary recipe app with Schema.org JSON-LD structured data, meta tags, and interactive serving scale calculator.
+
+[Repo →](https://github.com/breakingthebot/gourmetpulse-recipe-build41)
+
+---
+
+#### [#40 — Task Manager Pinia](builds/040-task-manager-pinia.md)
+![Pinia](https://img.shields.io/badge/Pinia-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-25
+
+Pinia state task manager with Kanban board, calendar view, subtask reordering controls, recurring task scheduler, and audit history logs.
+
+[Repo →](https://github.com/breakingthebot/task-manager-pinia-build40)
+
+---
+
+#### [#39 — TravelPulse - Multi-Page Travel Blog](builds/039-travelpulse-multi-page-travel-blog.md)
+![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
+
+Vue Router multi-page travel journal with destination guides, region filters, photo gallery lightbox viewer, and reader comments.
+
+[Repo →](https://github.com/breakingthebot/travel-blog-router-build39)
+
+---
+
 #### [#38 — PulseMovie - Movie Watchlist](builds/038-pulsemovie-movie-watchlist.md)
 ![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-23
 
@@ -451,33 +505,6 @@ Premium enterprise administration dashboard built on Angular 19, demonstrating a
 Structured academic course syllabus viewer built with Angular 19, tracking weekly required readings, deadlines, and live syllabus customization via JSON payload editor.
 
 [Repo →](https://github.com/breakingthebot/syllabus-viewer-build32)
-
----
-
-#### [#31 — Mobile Expense Tracker](builds/031-mobile-expense-tracker.md)
-![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-13
-
-React Native (Expo) expense tracker for logging and browsing expenses, stored locally on device.
-
-[Repo →](https://github.com/breakingthebot/expense-tracker-build31)
-
----
-
-#### [#30 — Remix Todo App](builds/030-remix-todo-app.md)
-![Remix](https://img.shields.io/badge/Remix-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-11
-
-Full-stack Remix (Vite) todo app with server-side rendering, nested routes, form actions, and optimistic UI.
-
-[Repo →](https://github.com/breakingthebot/remix-todo-build30)
-
----
-
-#### [#29 — Next.js Blog Platform](builds/029-next-js-blog-platform.md)
-![Next.js](https://img.shields.io/badge/Next.js-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-11
-
-Next.js blog platform: statically generated posts, server-rendered post pages with live comments, and an API route for comments.
-
-[Repo →](https://github.com/breakingthebot/nextjs-blog-platform)
 
 </details>
 
@@ -948,7 +975,37 @@ SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a w
 </details>
 
 <details>
-<summary>Vue 3 (1)</summary>
+<summary>Nuxt 3 (1)</summary>
+
+#### [#41 — GourmetPulse - SEO Recipe App](builds/041-gourmetpulse-seo-recipe-app.md)
+![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![Nuxt 3](https://img.shields.io/badge/Nuxt_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
+
+SEO-optimized Nuxt 3 culinary recipe app with Schema.org JSON-LD structured data, meta tags, and interactive serving scale calculator.
+
+[Repo →](https://github.com/breakingthebot/gourmetpulse-recipe-build41)
+
+</details>
+
+<details>
+<summary>Vue 3 (3)</summary>
+
+#### [#40 — Task Manager Pinia](builds/040-task-manager-pinia.md)
+![Pinia](https://img.shields.io/badge/Pinia-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-25
+
+Pinia state task manager with Kanban board, calendar view, subtask reordering controls, recurring task scheduler, and audit history logs.
+
+[Repo →](https://github.com/breakingthebot/task-manager-pinia-build40)
+
+---
+
+#### [#39 — TravelPulse - Multi-Page Travel Blog](builds/039-travelpulse-multi-page-travel-blog.md)
+![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
+
+Vue Router multi-page travel journal with destination guides, region filters, photo gallery lightbox viewer, and reader comments.
+
+[Repo →](https://github.com/breakingthebot/travel-blog-router-build39)
+
+---
 
 #### [#38 — PulseMovie - Movie Watchlist](builds/038-pulsemovie-movie-watchlist.md)
 ![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-23
@@ -1276,6 +1333,18 @@ Reactive e-commerce interface built with Angular 19, Angular Material, and NgRx 
 </details>
 
 <details>
+<summary>Nuxt.js (1)</summary>
+
+#### [#41 — GourmetPulse - SEO Recipe App](builds/041-gourmetpulse-seo-recipe-app.md)
+![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![Nuxt 3](https://img.shields.io/badge/Nuxt_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
+
+SEO-optimized Nuxt 3 culinary recipe app with Schema.org JSON-LD structured data, meta tags, and interactive serving scale calculator.
+
+[Repo →](https://github.com/breakingthebot/gourmetpulse-recipe-build41)
+
+</details>
+
+<details>
 <summary>PHP (1)</summary>
 
 #### [#14 — Contact Form Backend](builds/014-contact-form-backend.md)
@@ -1284,6 +1353,18 @@ Reactive e-commerce interface built with Angular 19, Angular Material, and NgRx 
 Modular PHP backend for validating, storing, and emailing contact form submissions.
 
 [Repo →](https://github.com/breakingthebot/php-contact-form-backend)
+
+</details>
+
+<details>
+<summary>Pinia (1)</summary>
+
+#### [#40 — Task Manager Pinia](builds/040-task-manager-pinia.md)
+![Pinia](https://img.shields.io/badge/Pinia-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-25
+
+Pinia state task manager with Kanban board, calendar view, subtask reordering controls, recurring task scheduler, and audit history logs.
+
+[Repo →](https://github.com/breakingthebot/task-manager-pinia-build40)
 
 </details>
 
@@ -1540,6 +1621,18 @@ Movie watchlist dashboard built with Vue 3 and TypeScript, supporting TVMaze pub
 </details>
 
 <details>
+<summary>Vue Router (1)</summary>
+
+#### [#39 — TravelPulse - Multi-Page Travel Blog](builds/039-travelpulse-multi-page-travel-blog.md)
+![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
+
+Vue Router multi-page travel journal with destination guides, region filters, photo gallery lightbox viewer, and reader comments.
+
+[Repo →](https://github.com/breakingthebot/travel-blog-router-build39)
+
+</details>
+
+<details>
 <summary>Zustand (1)</summary>
 
 #### [#27 — Aetheric Space Shopping Cart](builds/027-aetheric-space-shopping-cart.md)
@@ -1652,6 +1745,6 @@ This repo is an index repo and does not require a live deployment.
 This repo is the front door for the full build series. The reference files stay in `reference/`, the published build entries live in `builds.json`, and the README is generated from that JSON so the public index stays consistent. I kept the automation small on purpose: one CLI to add a build, one CLI to regenerate the README, and a handful of focused modules so the data, validation, formatting, and file writes stay separate and easy to audit.
 
 ## Notes
-- The tracker and README are synced to the 38 public build repos currently published under the `breakingthebot` GitHub account.
+- The tracker and README are synced to the 41 public build repos currently published under the `breakingthebot` GitHub account.
 - The tracker workbook currently contains 246 build rows even though the PDF is described as a 286-item master list. The automation uses the tracker rows that are actually marked complete.
 - The remaining unpublished build slots are intentionally left open for future custom build designs and additional portfolio work.

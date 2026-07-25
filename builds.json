@@ -1,5 +1,54 @@
 [
   {
+    "build_number": 41,
+    "date": "2026-07-25",
+    "project_name": "GourmetPulse - SEO Recipe App",
+    "description": "SEO-optimized Nuxt 3 culinary recipe app with Schema.org JSON-LD structured data, meta tags, and interactive serving scale calculator.",
+    "repo_url": "https://github.com/breakingthebot/gourmetpulse-recipe-build41",
+    "technology": "Nuxt.js",
+    "category": "Nuxt 3",
+    "stack": [
+      "Nuxt.js",
+      "Vue 3",
+      "Pinia",
+      "SSR"
+    ],
+    "depth": "Standard",
+    "notes": "Vercel: https://gourmetpulse-recipe-build41.vercel.app"
+  },
+  {
+    "build_number": 40,
+    "date": "2026-07-25",
+    "project_name": "Task Manager Pinia",
+    "description": "Pinia state task manager with Kanban board, calendar view, subtask reordering controls, recurring task scheduler, and audit history logs.",
+    "repo_url": "https://github.com/breakingthebot/task-manager-pinia-build40",
+    "technology": "Pinia",
+    "category": "Vue 3",
+    "stack": [
+      "Pinia",
+      "Vue 3",
+      "TypeScript"
+    ],
+    "depth": "Expanded",
+    "notes": "Vercel: https://task-manager-pinia-build40.vercel.app"
+  },
+  {
+    "build_number": 39,
+    "date": "2026-07-25",
+    "project_name": "TravelPulse - Multi-Page Travel Blog",
+    "description": "Vue Router multi-page travel journal with destination guides, region filters, photo gallery lightbox viewer, and reader comments.",
+    "repo_url": "https://github.com/breakingthebot/travel-blog-router-build39",
+    "technology": "Vue Router",
+    "category": "Vue 3",
+    "stack": [
+      "Vue Router",
+      "Vue 3",
+      "Pinia"
+    ],
+    "depth": "Standard",
+    "notes": "Vercel: https://travel-blog-router-build39.vercel.app"
+  },
+  {
     "build_number": 38,
     "date": "2026-07-23",
     "project_name": "PulseMovie - Movie Watchlist",
