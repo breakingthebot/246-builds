@@ -15,15 +15,15 @@ const { logInfo, logError } = require("./src/utils/logger");
 /**
  * Runs the add-build CLI workflow.
  *
- * @returns {void}
+ * @returns {Promise<void>}
  */
-function main() {
+async function main() {
   try {
     const { buildEntry, tracker } = parseAddBuildArgs(process.argv.slice(2));
     const entries = addBuildEntry(buildEntry);
     writeReadme(entries);
     writeBuildArtifacts(entries);
-    const trackerPaths = updateTrackerWorkbooks(buildEntry, tracker);
+    const trackerPaths = await updateTrackerWorkbooks(buildEntry, tracker);
 
     logInfo("build_added", {
       build_number: buildEntry.build_number,

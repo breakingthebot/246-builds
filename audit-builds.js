@@ -11,11 +11,11 @@ const { logError, logInfo } = require("./src/utils/logger");
 /**
  * Runs the local build audit.
  *
- * @returns {void}
+ * @returns {Promise<void>}
  */
-function main() {
+async function main() {
   try {
-    const auditResult = auditLocalBuildSources();
+    const auditResult = await auditLocalBuildSources();
 
     if (auditResult.issues.length > 0) {
       logError("build_audit_failed", auditResult);

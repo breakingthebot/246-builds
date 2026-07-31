@@ -7,7 +7,16 @@
 
 const fs = require("node:fs");
 const path = require("node:path");
-const { spawnSync } = require("node:child_process");
+const JSZip = require("jszip");
+
+const {
+  findAllRows,
+  findRowBlock,
+  parseSharedStrings,
+  readCellText,
+  resolveSheetEntryPath,
+  setInlineCellValue,
+} = require("../utils/sheetXml");
 
 const TRACKER_PRIMARY_FILE = path.join(
   process.cwd(),
@@ -18,26 +27,18 @@ const TRACKER_MIRROR_FILES = [
   path.join(process.cwd(), "286_projects_tracker - with dropdowns.xlsx"),
 ];
 
-/**
- * Executes a PowerShell script and returns stdout.
- *
- * @param {string} script - The PowerShell script to run.
- * @returns {string} The stdout text.
- */
-function runPowerShellScript(script) {
-  const result = spawnSync("powershell", ["-NoProfile", "-Command", script], {
-    cwd: process.cwd(),
-    encoding: "utf8",
-  });
-
-  if (result.status !== 0) {
-    throw new Error(
-      result.stderr.trim() || result.stdout.trim() || "PowerShell script failed.",
-    );
-  }
-
-  return result.stdout.trim();
-}
+const TRACKER_SHEET_NAME = "Tracker";
+const TRACKER_COMPLETED_STATUS = "Completed";
+const TRACKER_COLUMNS = {
+  BUILD_NUMBER: "A",
+  STATUS: "E",
+  DATE_PUSHED: "F",
+  GITHUB_LINK: "H",
+  NOTES: "I",
+};
+const SHARED_STRINGS_ENTRY = "xl/sharedStrings.xml";
+const WORKBOOK_ENTRY = "xl/workbook.xml";
+const WORKBOOK_RELS_ENTRY = "xl/_rels/workbook.xml.rels";
 
 /**
  * Resolves the tracker note text from depth and extra notes.
@@ -98,172 +99,78 @@ function syncTrackerMirrors(canonicalPath) {
 }
 
 /**
- * Builds the PowerShell payload used to patch tracker workbooks in place.
- *
- * @param {{ build_number: number, date: string, repo_url: string }} buildEntry - The build entry to sync.
- * @param {string} trackerNote - The formatted note text.
- * @param {string} trackerPath - The canonical tracker path to update.
- * @returns {string} The PowerShell script payload.
- */
-function createTrackerUpdateScript(buildEntry, trackerNote, trackerPath) {
-  const payload = {
-    rowNumber: buildEntry.build_number + 1,
-    date: buildEntry.date,
-    repoUrl: buildEntry.repo_url,
-    note: trackerNote,
-    trackerPath,
-  };
-
-  return `
-Add-Type -AssemblyName System.IO.Compression.FileSystem
-$payload = @'
-${JSON.stringify(payload)}
-'@ | ConvertFrom-Json
-
-function Set-InlineCellValue($xmlDoc, $ns, $rowNumber, $columnName, $value) {
-  $row = $xmlDoc.SelectSingleNode("//a:sheetData/a:row[@r='$rowNumber']", $ns)
-  if (-not $row) { throw "Missing row $rowNumber in tracker workbook." }
-
-  $cellRef = "$columnName$rowNumber"
-  $cell = $row.SelectSingleNode("a:c[@r='$cellRef']", $ns)
-  if (-not $cell) {
-    $cell = $xmlDoc.CreateElement('c', $ns.LookupNamespace('a'))
-    $null = $cell.SetAttribute('r', $cellRef)
-    $null = $row.AppendChild($cell)
-  }
-
-  $null = $cell.RemoveAll()
-  $null = $cell.SetAttribute('r', $cellRef)
-  $null = $cell.SetAttribute('t', 'inlineStr')
-
-  $isNode = $xmlDoc.CreateElement('is', $ns.LookupNamespace('a'))
-  $tNode = $xmlDoc.CreateElement('t', $ns.LookupNamespace('a'))
-  if ($value -match '^[\\s]|[\\s]$') {
-    $null = $tNode.SetAttribute('xml:space', 'http://www.w3.org/XML/1998/namespace', 'preserve')
-  }
-  $tNode.InnerText = $value
-  $null = $isNode.AppendChild($tNode)
-  $null = $cell.AppendChild($isNode)
-}
-
-function Update-Workbook($workbookPath, $payload) {
-  $tempDir = Join-Path $env:TEMP ([System.Guid]::NewGuid().ToString())
-  [System.IO.Directory]::CreateDirectory($tempDir) | Out-Null
-  $extractDir = Join-Path $tempDir 'unzipped'
-  [System.IO.Directory]::CreateDirectory($extractDir) | Out-Null
-
-  [System.IO.Compression.ZipFile]::ExtractToDirectory($workbookPath, $extractDir)
-
-  $sheetPath = Join-Path $extractDir 'xl\\worksheets\\sheet1.xml'
-  [xml]$sheetXml = Get-Content $sheetPath
-  $ns = New-Object System.Xml.XmlNamespaceManager($sheetXml.NameTable)
-  $ns.AddNamespace('a', 'http://schemas.openxmlformats.org/spreadsheetml/2006/main')
-
-  Set-InlineCellValue $sheetXml $ns $payload.rowNumber 'E' 'Completed'
-  Set-InlineCellValue $sheetXml $ns $payload.rowNumber 'F' $payload.date
-  Set-InlineCellValue $sheetXml $ns $payload.rowNumber 'H' $payload.repoUrl
-  if ($payload.note) {
-    Set-InlineCellValue $sheetXml $ns $payload.rowNumber 'I' $payload.note
-  }
-
-  $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
-  $writer = New-Object System.IO.StreamWriter($sheetPath, $false, $utf8NoBom)
-  $sheetXml.Save($writer)
-  $writer.Dispose()
-
-  Remove-Item -LiteralPath $workbookPath -Force
-  [System.IO.Compression.ZipFile]::CreateFromDirectory($extractDir, $workbookPath)
-  Remove-Item -LiteralPath $tempDir -Recurse -Force
-}
-
-Update-Workbook $payload.trackerPath $payload
-`;
-}
-
-/**
- * Builds the PowerShell payload used to read tracker workbook rows.
+ * Opens the tracker workbook zip and resolves the Tracker sheet's XML entry
+ * path. Pure Node (JSZip + regex-based SpreadsheetML edits) so this runs the
+ * same way on Windows, macOS, and Linux -- this used to shell out to
+ * PowerShell to edit the workbook's raw XML, which only worked on Windows
+ * and failed silently everywhere else.
  *
  * @param {string} trackerPath - The tracker workbook path.
- * @returns {string} The PowerShell script payload.
+ * @returns {Promise<{ zip: JSZip, sheetEntryPath: string }>} The opened zip and the Tracker sheet's entry path.
  */
-function createTrackerReadScript(trackerPath) {
-  return `
-Add-Type -AssemblyName System.IO.Compression.FileSystem
-$trackerPath = '${trackerPath.replace(/'/g, "''")}'
-$zip = [System.IO.Compression.ZipFile]::OpenRead($trackerPath)
-$sheetEntry = $zip.GetEntry('xl\\worksheets\\sheet1.xml')
-$sheetReader = New-Object System.IO.StreamReader($sheetEntry.Open())
-$content = $sheetReader.ReadToEnd()
-$sheetReader.Dispose()
-$sharedStrings = @()
-$sharedStringsEntry = $zip.GetEntry('xl\\sharedStrings.xml')
-if ($sharedStringsEntry) {
-  $sharedStringsReader = New-Object System.IO.StreamReader($sharedStringsEntry.Open())
-  [xml]$sharedStringsXml = $sharedStringsReader.ReadToEnd()
-  $sharedStringsReader.Dispose()
-  foreach ($stringItem in $sharedStringsXml.sst.si) {
-    if ($stringItem.t) {
-      $sharedStrings += [string]$stringItem.t
-    } elseif ($stringItem.r) {
-      $sharedStrings += (($stringItem.r | ForEach-Object { $_.t }) -join '')
-    } else {
-      $sharedStrings += ''
-    }
+async function openTrackerZip(trackerPath) {
+  const fileBuffer = await fs.promises.readFile(trackerPath);
+  const zip = await JSZip.loadAsync(fileBuffer);
+
+  const workbookXml = await zip.file(WORKBOOK_ENTRY).async("string");
+  const workbookRelsXml = await zip.file(WORKBOOK_RELS_ENTRY).async("string");
+  const sheetEntryPath = resolveSheetEntryPath(
+    workbookXml,
+    workbookRelsXml,
+    TRACKER_SHEET_NAME,
+  );
+
+  if (!sheetEntryPath || !zip.file(sheetEntryPath)) {
+    throw new Error(`Tracker workbook is missing the "${TRACKER_SHEET_NAME}" sheet.`);
   }
-}
-$zip.Dispose()
-[xml]$sheetXml = $content
-$ns = New-Object System.Xml.XmlNamespaceManager($sheetXml.NameTable)
-$ns.AddNamespace('a', 'http://schemas.openxmlformats.org/spreadsheetml/2006/main')
-$rows = @()
-foreach ($row in $sheetXml.SelectNodes('//a:sheetData/a:row[position()>1]', $ns)) {
-  $cells = @{}
-  foreach ($cell in $row.SelectNodes('a:c', $ns)) {
-    $columnName = ($cell.r -replace '\\d', '')
-    if ($cell.t -eq 'inlineStr' -and $cell.is -and $cell.is.t) {
-      $cells[$columnName] = [string]$cell.is.t
-    } elseif ($cell.t -eq 's' -and $cell.v) {
-      $cells[$columnName] = $sharedStrings[[int]$cell.v]
-    } elseif ($cell.v) {
-      $cells[$columnName] = [string]$cell.v
-    } else {
-      $cells[$columnName] = ''
-    }
-  }
-  if ($cells['E']) {
-    $rows += [pscustomobject]@{
-      build_number = [int]$cells['A']
-      status = $cells['E']
-      date = $cells['F']
-      repo_url = $cells['H']
-      notes = $cells['I']
-    }
-  }
-}
-$rows | ConvertTo-Json -Depth 3 -Compress
-`;
+
+  return { zip, sheetEntryPath };
 }
 
 /**
  * Reads the tracker workbook rows from the canonical tracker file.
  *
- * @returns {Array<{build_number: number, status: string, date: string, repo_url: string, notes: string}>} The tracker rows.
+ * @returns {Promise<Array<{build_number: number, status: string, date: string, repo_url: string, notes: string}>>} The tracker rows.
  */
-function readTrackerRows() {
+async function readTrackerRows() {
   const canonicalPath = getCanonicalTrackerPath();
 
   if (!canonicalPath) {
     return [];
   }
 
-  const stdout = runPowerShellScript(createTrackerReadScript(canonicalPath));
+  const { zip, sheetEntryPath } = await openTrackerZip(canonicalPath);
+  const sheetXml = await zip.file(sheetEntryPath).async("string");
+  const sharedStringsFile = zip.file(SHARED_STRINGS_ENTRY);
+  const sharedStrings = sharedStringsFile
+    ? parseSharedStrings(await sharedStringsFile.async("string"))
+    : [];
 
-  if (!stdout) {
-    return [];
+  const rows = [];
+
+  for (const { rowNumber, block } of findAllRows(sheetXml)) {
+    if (rowNumber === 1) {
+      continue;
+    }
+
+    const status = readCellText(block, TRACKER_COLUMNS.STATUS, rowNumber, sharedStrings);
+
+    if (!status) {
+      continue;
+    }
+
+    rows.push({
+      build_number: Number(
+        readCellText(block, TRACKER_COLUMNS.BUILD_NUMBER, rowNumber, sharedStrings),
+      ),
+      status,
+      date: readCellText(block, TRACKER_COLUMNS.DATE_PUSHED, rowNumber, sharedStrings),
+      repo_url: readCellText(block, TRACKER_COLUMNS.GITHUB_LINK, rowNumber, sharedStrings),
+      notes: readCellText(block, TRACKER_COLUMNS.NOTES, rowNumber, sharedStrings),
+    });
   }
 
-  const parsedRows = JSON.parse(stdout);
-  return Array.isArray(parsedRows) ? parsedRows : [parsedRows];
+  return rows;
 }
 
 /**
@@ -271,9 +178,9 @@ function readTrackerRows() {
  *
  * @param {{ build_number: number, date: string, repo_url: string }} buildEntry - The build entry to sync.
  * @param {{ depth?: string, notes?: string }} options - Optional tracker note data.
- * @returns {string[]} The updated tracker file paths.
+ * @returns {Promise<string[]>} The updated tracker file paths.
  */
-function updateTrackerWorkbooks(buildEntry, options = {}) {
+async function updateTrackerWorkbooks(buildEntry, options = {}) {
   const canonicalPath = getCanonicalTrackerPath();
 
   if (!canonicalPath) {
@@ -281,7 +188,56 @@ function updateTrackerWorkbooks(buildEntry, options = {}) {
   }
 
   const trackerNote = buildTrackerNote(options.depth, options.notes);
-  runPowerShellScript(createTrackerUpdateScript(buildEntry, trackerNote, canonicalPath));
+  const rowNumber = buildEntry.build_number + 1;
+
+  const { zip, sheetEntryPath } = await openTrackerZip(canonicalPath);
+  const sheetXml = await zip.file(sheetEntryPath).async("string");
+  const rowBlock = findRowBlock(sheetXml, rowNumber);
+
+  if (!rowBlock) {
+    throw new Error(`Missing row ${rowNumber} in tracker workbook.`);
+  }
+
+  let updatedRowXml = rowBlock.match;
+  updatedRowXml = setInlineCellValue(
+    updatedRowXml,
+    TRACKER_COLUMNS.STATUS,
+    rowNumber,
+    TRACKER_COMPLETED_STATUS,
+  );
+  updatedRowXml = setInlineCellValue(
+    updatedRowXml,
+    TRACKER_COLUMNS.DATE_PUSHED,
+    rowNumber,
+    buildEntry.date,
+  );
+  updatedRowXml = setInlineCellValue(
+    updatedRowXml,
+    TRACKER_COLUMNS.GITHUB_LINK,
+    rowNumber,
+    buildEntry.repo_url,
+  );
+
+  if (trackerNote) {
+    updatedRowXml = setInlineCellValue(
+      updatedRowXml,
+      TRACKER_COLUMNS.NOTES,
+      rowNumber,
+      trackerNote,
+    );
+  }
+
+  const updatedSheetXml =
+    sheetXml.slice(0, rowBlock.start) + updatedRowXml + sheetXml.slice(rowBlock.end);
+
+  zip.file(sheetEntryPath, updatedSheetXml);
+  const updatedBuffer = await zip.generateAsync({
+    type: "nodebuffer",
+    compression: "DEFLATE",
+    compressionOptions: { level: 6 },
+  });
+  await fs.promises.writeFile(canonicalPath, updatedBuffer);
+
   const mirroredPaths = syncTrackerMirrors(canonicalPath);
 
   return [canonicalPath, ...mirroredPaths];
@@ -289,14 +245,15 @@ function updateTrackerWorkbooks(buildEntry, options = {}) {
 
 module.exports = {
   buildTrackerNote,
-  createTrackerReadScript,
-  createTrackerUpdateScript,
   getCanonicalTrackerPath,
   getExistingTrackerPaths,
+  openTrackerZip,
   readTrackerRows,
-  runPowerShellScript,
   syncTrackerMirrors,
+  TRACKER_COLUMNS,
+  TRACKER_COMPLETED_STATUS,
   TRACKER_MIRROR_FILES,
   TRACKER_PRIMARY_FILE,
+  TRACKER_SHEET_NAME,
   updateTrackerWorkbooks,
 };

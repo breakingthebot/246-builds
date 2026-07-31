@@ -70,18 +70,18 @@ function getRepoState() {
  * Runs the release-day workflow.
  *
  * @param {{ buildPayload: {buildEntry: {build_number: number, date: string, project_name: string, description: string, repo_url: string, technology: string, category: string, stack: string[]}, tracker: {depth: string, notes: string}}, owner: string, skipGitHub: boolean }} options - The release-day options.
- * @returns {{ repo_state: {available: boolean, is_clean: boolean, changed_files: string[]}, build_number: number, tracker_files_updated: number, local_audit: {issues: string[], summary: {builds_count: number, readme_rows_count: number, tracker_rows_count: number}}, github_audit: ({missing_on_github: string[], missing_in_builds: string[], metadata_mismatches: string[], public_repo_count: number, build_count: number}|null) }} The workflow result.
+ * @returns {Promise<{ repo_state: {available: boolean, is_clean: boolean, changed_files: string[]}, build_number: number, tracker_files_updated: number, local_audit: {issues: string[], summary: {builds_count: number, readme_rows_count: number, tracker_rows_count: number}}, github_audit: ({missing_on_github: string[], missing_in_builds: string[], metadata_mismatches: string[], public_repo_count: number, build_count: number}|null) }>} The workflow result.
  */
-function runReleaseDayWorkflow(options) {
+async function runReleaseDayWorkflow(options) {
   const repoState = getRepoState();
   const entries = addBuildEntry(options.buildPayload.buildEntry);
   writeReadme(entries);
   writeBuildArtifacts(entries);
-  const trackerPaths = updateTrackerWorkbooks(
+  const trackerPaths = await updateTrackerWorkbooks(
     options.buildPayload.buildEntry,
     options.buildPayload.tracker,
   );
-  const localAudit = auditLocalBuildSources();
+  const localAudit = await auditLocalBuildSources();
 
   if (localAudit.issues.length > 0) {
     throw new Error(localAudit.issues.join(" "));

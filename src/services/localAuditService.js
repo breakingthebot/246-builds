@@ -100,13 +100,15 @@ function parseReadmeBuildRows(readmeContents) {
 /**
  * Audits local build sources and returns any drift findings.
  *
- * @returns {{issues: string[], summary: {builds_count: number, readme_rows_count: number, tracker_rows_count: number}}} The audit result.
+ * @returns {Promise<{issues: string[], summary: {builds_count: number, readme_rows_count: number, tracker_rows_count: number}}>} The audit result.
  */
-function auditLocalBuildSources() {
+async function auditLocalBuildSources() {
   const buildEntries = loadBuildEntries();
   const readmeContents = fs.readFileSync(getReadmeFilePath(), "utf8");
   const readmeRows = parseReadmeBuildRows(readmeContents);
-  const trackerRows = readTrackerRows().filter((row) => row.status === "Completed");
+  const trackerRows = (await readTrackerRows()).filter(
+    (row) => row.status === "Completed",
+  );
   const issues = [];
 
   if (buildEntries.length !== readmeRows.length) {

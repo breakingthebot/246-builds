@@ -11,5 +11,8 @@
     "release-day": "node release-day.js",
     "sync-github-builds": "node sync-github-builds.js",
     "test": "node --test"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1"
   }
 }

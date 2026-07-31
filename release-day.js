@@ -12,12 +12,12 @@ const { logError, logInfo } = require("./src/utils/logger");
 /**
  * Runs the release-day CLI workflow.
  *
- * @returns {void}
+ * @returns {Promise<void>}
  */
-function main() {
+async function main() {
   try {
     const options = parseReleaseDayArgs(process.argv.slice(2));
-    const result = runReleaseDayWorkflow(options);
+    const result = await runReleaseDayWorkflow(options);
 
     logInfo("release_day_completed", {
       build_number: result.build_number,
