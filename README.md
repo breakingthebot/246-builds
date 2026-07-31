@@ -1,4 +1,4 @@
-# 286 Builds
+# 246 Builds
 
 [![Test](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml/badge.svg)](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml)
 
@@ -6,7 +6,7 @@
 
 **[Browse & filter every build on the live site →](https://breakingthebot.github.io/286-builds/)**
 
-A public index of daily coding builds, each pulled from the 286-project list and built end-to-end in a single day, then expanded through multiple iterations with a full commit history pushed live. Together, the repos form a broad portfolio spanning multiple languages, problem types, and build depths.
+A public index of daily coding builds, each pulled from the 246-project list and built end-to-end in a single day, then expanded through multiple iterations with a full commit history pushed live. Together, the repos form a broad portfolio spanning multiple languages, problem types, and build depths.
 
 ## Tech Stack
 ![Alpine.js](https://img.shields.io/badge/Alpine.js-334155) ![Angular](https://img.shields.io/badge/Angular-334155) ![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![Angular Material](https://img.shields.io/badge/Angular_Material-334155) ![Astro](https://img.shields.io/badge/Astro-334155) ![C#](https://img.shields.io/badge/C%23-178600) ![CSS Modules](https://img.shields.io/badge/CSS_Modules-334155) ![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Go](https://img.shields.io/badge/Go-00ADD8) ![HTMX](https://img.shields.io/badge/HTMX-334155) ![Ionic](https://img.shields.io/badge/Ionic-334155) ![Java](https://img.shields.io/badge/Java-B07219) ![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Lit](https://img.shields.io/badge/Lit-334155) ![Lua](https://img.shields.io/badge/Lua-000080) ![Next.js](https://img.shields.io/badge/Next.js-334155) ![NgRx](https://img.shields.io/badge/NgRx-334155) ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Pinia](https://img.shields.io/badge/Pinia-334155) ![Pure CSS](https://img.shields.io/badge/Pure_CSS-334155) ![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![Qwik](https://img.shields.io/badge/Qwik-334155) ![React](https://img.shields.io/badge/React-334155) ![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![React Router](https://img.shields.io/badge/React_Router-334155) ![Remix](https://img.shields.io/badge/Remix-334155) ![Ruby](https://img.shields.io/badge/Ruby-701516) ![Rust](https://img.shields.io/badge/Rust-DEA584) ![Sass/SCSS](https://img.shields.io/badge/Sass%2FSCSS-334155) ![Shell](https://img.shields.io/badge/Shell-89E051) ![Solid.js](https://img.shields.io/badge/Solid.js-334155) ![Styled Components](https://img.shields.io/badge/Styled_Components-334155) ![Svelte](https://img.shields.io/badge/Svelte-334155) ![SvelteKit](https://img.shields.io/badge/SvelteKit-334155) ![Swift](https://img.shields.io/badge/Swift-F05138) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-334155) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A) ![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Zustand](https://img.shields.io/badge/Zustand-334155)
@@ -27,7 +27,7 @@ A public index of daily coding builds, each pulled from the 286-project list and
 
 ## How This Works
 - Each build is its own public GitHub repo.
-- This repo is the index for the full 286-build series.
+- This repo is the index for the full 246-build series.
 - The index is generated from `builds.json` and kept in sync with the tracker workbook.
 - Build dates shown here use the public GitHub push date.
 
