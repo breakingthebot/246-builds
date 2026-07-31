@@ -9,6 +9,9 @@ const IGNORED_PUBLIC_REPOSITORIES = [
   // Series tooling / personal repos -- not tracked anywhere in this repo.
   "286-builds",
   "286-builds-dashboard",
+  "master-builds-tracker",
+  "airtable-content-calendar",
+  "shared-workflows",
   "breakingthebot",
   "solar-system",
   // Side projects -- tracked in side-projects.json instead of builds.json,
