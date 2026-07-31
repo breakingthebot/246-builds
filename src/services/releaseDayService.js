@@ -27,7 +27,7 @@ function runCommand(command, args) {
     encoding: "utf8",
   });
 
-  if (result.status !== 0) {
+  if (result.status !== 0 || result.error) {
     const stderr = typeof result.stderr === "string" ? result.stderr.trim() : "";
     const stdout = typeof result.stdout === "string" ? result.stdout.trim() : "";
     const processError =

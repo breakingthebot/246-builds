@@ -30,13 +30,18 @@ function runPowerShellScript(script) {
     encoding: "utf8",
   });
 
-  if (result.status !== 0) {
+  if (result.status !== 0 || result.error) {
+    const stderr = typeof result.stderr === "string" ? result.stderr.trim() : "";
+    const stdout = typeof result.stdout === "string" ? result.stdout.trim() : "";
+    const processError =
+      result.error && result.error.message ? result.error.message : "";
+
     throw new Error(
-      result.stderr.trim() || result.stdout.trim() || "PowerShell script failed.",
+      processError || stderr || stdout || "PowerShell script failed.",
     );
   }
 
-  return result.stdout.trim();
+  return typeof result.stdout === "string" ? result.stdout.trim() : "";
 }
 
 /**
