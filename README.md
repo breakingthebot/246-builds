@@ -2,22 +2,22 @@
 
 [![Test](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml/badge.svg)](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml)
 
-![Builds: 41](https://img.shields.io/badge/Builds-41-0ea5e9) ![Latest: #41](https://img.shields.io/badge/Latest-%2341-16a34a) ![Languages: 40](https://img.shields.io/badge/Languages-40-f59e0b) ![Deep Builds: 27](https://img.shields.io/badge/Deep_Builds-27-7c3aed)
+![Builds: 54](https://img.shields.io/badge/Builds-54-0ea5e9) ![Latest: #54](https://img.shields.io/badge/Latest-%2354-16a34a) ![Languages: 53](https://img.shields.io/badge/Languages-53-f59e0b) ![Deep Builds: 40](https://img.shields.io/badge/Deep_Builds-40-7c3aed)
 
 **[Browse & filter every build on the live site →](https://breakingthebot.github.io/286-builds/)**
 
 A public index of daily coding builds, each pulled from the 286-project list and built end-to-end in a single day, then expanded through multiple iterations with a full commit history pushed live. Together, the repos form a broad portfolio spanning multiple languages, problem types, and build depths.
 
 ## Tech Stack
-![Angular](https://img.shields.io/badge/Angular-334155) ![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![Angular Material](https://img.shields.io/badge/Angular_Material-334155) ![C#](https://img.shields.io/badge/C%23-178600) ![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Go](https://img.shields.io/badge/Go-00ADD8) ![Ionic](https://img.shields.io/badge/Ionic-334155) ![Java](https://img.shields.io/badge/Java-B07219) ![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Lua](https://img.shields.io/badge/Lua-000080) ![Next.js](https://img.shields.io/badge/Next.js-334155) ![NgRx](https://img.shields.io/badge/NgRx-334155) ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Pinia](https://img.shields.io/badge/Pinia-334155) ![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![React](https://img.shields.io/badge/React-334155) ![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![React Router](https://img.shields.io/badge/React_Router-334155) ![Remix](https://img.shields.io/badge/Remix-334155) ![Ruby](https://img.shields.io/badge/Ruby-701516) ![Rust](https://img.shields.io/badge/Rust-DEA584) ![Shell](https://img.shields.io/badge/Shell-89E051) ![Swift](https://img.shields.io/badge/Swift-F05138) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A) ![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Zustand](https://img.shields.io/badge/Zustand-334155)
+![Alpine.js](https://img.shields.io/badge/Alpine.js-334155) ![Angular](https://img.shields.io/badge/Angular-334155) ![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![Angular Material](https://img.shields.io/badge/Angular_Material-334155) ![Astro](https://img.shields.io/badge/Astro-334155) ![C#](https://img.shields.io/badge/C%23-178600) ![CSS Modules](https://img.shields.io/badge/CSS_Modules-334155) ![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Go](https://img.shields.io/badge/Go-00ADD8) ![HTMX](https://img.shields.io/badge/HTMX-334155) ![Ionic](https://img.shields.io/badge/Ionic-334155) ![Java](https://img.shields.io/badge/Java-B07219) ![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Lit](https://img.shields.io/badge/Lit-334155) ![Lua](https://img.shields.io/badge/Lua-000080) ![Next.js](https://img.shields.io/badge/Next.js-334155) ![NgRx](https://img.shields.io/badge/NgRx-334155) ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Pinia](https://img.shields.io/badge/Pinia-334155) ![Pure CSS](https://img.shields.io/badge/Pure_CSS-334155) ![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![Qwik](https://img.shields.io/badge/Qwik-334155) ![React](https://img.shields.io/badge/React-334155) ![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![React Router](https://img.shields.io/badge/React_Router-334155) ![Remix](https://img.shields.io/badge/Remix-334155) ![Ruby](https://img.shields.io/badge/Ruby-701516) ![Rust](https://img.shields.io/badge/Rust-DEA584) ![Sass/SCSS](https://img.shields.io/badge/Sass%2FSCSS-334155) ![Shell](https://img.shields.io/badge/Shell-89E051) ![Solid.js](https://img.shields.io/badge/Solid.js-334155) ![Styled Components](https://img.shields.io/badge/Styled_Components-334155) ![Svelte](https://img.shields.io/badge/Svelte-334155) ![SvelteKit](https://img.shields.io/badge/SvelteKit-334155) ![Swift](https://img.shields.io/badge/Swift-F05138) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-334155) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A) ![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Zustand](https://img.shields.io/badge/Zustand-334155)
 
 ## Latest Build
-#### [#41 — GourmetPulse - SEO Recipe App](builds/041-gourmetpulse-seo-recipe-app.md)
-![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![Nuxt 3](https://img.shields.io/badge/Nuxt_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
+#### [#54 — Styled Components Theme-able UI Kit](builds/054-styled-components-theme-able-ui-kit.md)
+![Styled Components](https://img.shields.io/badge/Styled_Components-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-31
 
-SEO-optimized Nuxt 3 culinary recipe app with Schema.org JSON-LD structured data, meta tags, and interactive serving scale calculator.
+14-component React UI kit built with styled-components, demonstrating real-time light/dark theme switching and dynamic prop-based CSS-in-JS styling.
 
-[Repo →](https://github.com/breakingthebot/gourmetpulse-recipe-build41)
+[Repo →](https://github.com/breakingthebot/styled-components-theme-uikit-build54)
 
 ## What's in each build's repo
 - Every repo has a full README.
@@ -43,7 +43,124 @@ SEO-optimized Nuxt 3 culinary recipe app with Schema.org JSON-LD structured data
 
 ## Build Index
 <details>
-<summary>All Builds (41)</summary>
+<summary>All Builds (54)</summary>
+
+#### [#54 — Styled Components Theme-able UI Kit](builds/054-styled-components-theme-able-ui-kit.md)
+![Styled Components](https://img.shields.io/badge/Styled_Components-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-31
+
+14-component React UI kit built with styled-components, demonstrating real-time light/dark theme switching and dynamic prop-based CSS-in-JS styling.
+
+[Repo →](https://github.com/breakingthebot/styled-components-theme-uikit-build54)
+
+---
+
+#### [#53 — ModulaUI - React CSS Modules Component Library](builds/053-modulaui-react-css-modules-component-library.md)
+![CSS Modules](https://img.shields.io/badge/CSS_Modules-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-30
+
+22-component React UI library demonstrating scoped CSS Modules architecture with guaranteed style isolation across Button, Table, Drawer, Modal, and more.
+
+[Repo →](https://github.com/breakingthebot/react-css-modules-library-build53)
+
+---
+
+#### [#52 — ApexAdmin - Tailwind CSS Admin Dashboard](builds/052-apexadmin-tailwind-css-admin-dashboard.md)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-30
+
+Enterprise Tailwind CSS admin dashboard with API key management, an RBAC matrix, SLA heatmaps, and dark mode, built without custom CSS.
+
+[Repo →](https://github.com/breakingthebot/tailwind-admin-dashboard-build52)
+
+---
+
+#### [#51 — ApexUI - Sass/SCSS Design System](builds/051-apexui-sass-scss-design-system.md)
+![Sass/SCSS](https://img.shields.io/badge/Sass%2FSCSS-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-30
+
+Enterprise Sass/SCSS design system with design tokens, mixins, and 20+ component partials compiling to a single clean stylesheet, zero JavaScript.
+
+[Repo →](https://github.com/breakingthebot/sass-scss-design-system-build51)
+
+---
+
+#### [#50 — Breaking The Bot - Pure CSS Landing Page](builds/050-breaking-the-bot-pure-css-landing-page.md)
+![Pure CSS](https://img.shields.io/badge/Pure_CSS-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-29
+
+Zero-JavaScript TikTok character worldbuilding landing page built with pure HTML5/CSS3, using :target modals, clip-path sliders, and @property animated counters.
+
+[Repo →](https://github.com/breakingthebot/pure-css-landing-page-build50)
+
+---
+
+#### [#49 — Nexus Cyber - Qwik E-Commerce Product Page](builds/049-nexus-cyber-qwik-e-commerce-product-page.md)
+![Qwik](https://img.shields.io/badge/Qwik-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-29
+
+Instant-loading Qwik e-commerce product page with resumable state, a WebXR AR viewer, a sound equalizer, and a multi-currency cart.
+
+[Repo →](https://github.com/breakingthebot/qwik-ecommerce-product-page-build49)
+
+---
+
+#### [#48 — Nexus Lit Reusable Date Picker](builds/048-nexus-lit-reusable-date-picker.md)
+![Lit](https://img.shields.io/badge/Lit-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Framework-agnostic Shadow DOM date-range picker web component built with Lit 3, with presets, i18n, touch gestures, and calendar export.
+
+[Repo →](https://github.com/breakingthebot/lit-reusable-date-picker-build48)
+
+---
+
+#### [#47 — NexusCloud Alpine.js Interactive Knowledge Base](builds/047-nexuscloud-alpine-js-interactive-knowledge-base.md)
+![Alpine.js](https://img.shields.io/badge/Alpine.js-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Enterprise FAQ/knowledge base built with Alpine.js 3 and Express, with live search, quizzes, SLA escalation tickets, and keyboard navigation.
+
+[Repo →](https://github.com/breakingthebot/alpinejs-interactive-faq-build47)
+
+---
+
+#### [#46 — NexusCloud HTMX Contact Manager & Creator CRM](builds/046-nexuscloud-htmx-contact-manager-creator-crm.md)
+![HTMX](https://img.shields.io/badge/HTMX-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Zero-JS-framework Contact & Creator CRM built with HTMX and Express, featuring lead scoring, vCard export, duplicate merging, and audit timelines across 18 iterations.
+
+[Repo →](https://github.com/breakingthebot/htmx-contact-manager-build46)
+
+---
+
+#### [#45 — HyperScale Docs - Astro Documentation Site](builds/045-hyperscale-docs-astro-documentation-site.md)
+![Astro](https://img.shields.io/badge/Astro-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Astro + Starlight documentation site with static-generated MDX pages, offline Pagefind search, i18n locale switching, an OpenAPI viewer, and PDF export.
+
+[Repo →](https://github.com/breakingthebot/astro-docs-site-build45)
+
+---
+
+#### [#44 — Solid.js Real-Time Clock Dashboard](builds/044-solid-js-real-time-clock-dashboard.md)
+![Solid.js](https://img.shields.io/badge/Solid.js-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-26
+
+Fine-grained reactive multi-timezone clock dashboard built with Solid.js, featuring analog/digital displays, day/night badges, and pinned custom clocks.
+
+[Repo →](https://github.com/breakingthebot/solidjs-clock-dashboard-build44)
+
+---
+
+#### [#43 — SvelteKit Notes Vault](builds/043-sveltekit-notes-vault.md)
+![SvelteKit](https://img.shields.io/badge/SvelteKit-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-26
+
+Full-stack server-rendered notes app built with SvelteKit 5, using server-side data loading, Form Actions for zero-JS mutations, tag indexing, and pinning.
+
+[Repo →](https://github.com/breakingthebot/sveltekit-notes-build43)
+
+---
+
+#### [#42 — WordCraft - Reactive Word & Readability Counter](builds/042-wordcraft-reactive-word-readability-counter.md)
+![Svelte](https://img.shields.io/badge/Svelte-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-25
+
+Reactive Svelte 4 live text analysis tool with word/character/sentence counts, Flesch-Kincaid readability scoring, prose flaw scanning, and text-to-speech proofreading.
+
+[Repo →](https://github.com/breakingthebot/word-counter-build42)
+
+---
 
 #### [#41 — GourmetPulse - SEO Recipe App](builds/041-gourmetpulse-seo-recipe-app.md)
 ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![Nuxt 3](https://img.shields.io/badge/Nuxt_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
@@ -418,98 +535,215 @@ Standard-library-only expense tracker with budgets, recurring templates, monthly
 <details>
 <summary>Most Recent 10 (10)</summary>
 
-#### [#41 — GourmetPulse - SEO Recipe App](builds/041-gourmetpulse-seo-recipe-app.md)
-![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![Nuxt 3](https://img.shields.io/badge/Nuxt_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
+#### [#54 — Styled Components Theme-able UI Kit](builds/054-styled-components-theme-able-ui-kit.md)
+![Styled Components](https://img.shields.io/badge/Styled_Components-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-31
 
-SEO-optimized Nuxt 3 culinary recipe app with Schema.org JSON-LD structured data, meta tags, and interactive serving scale calculator.
+14-component React UI kit built with styled-components, demonstrating real-time light/dark theme switching and dynamic prop-based CSS-in-JS styling.
 
-[Repo →](https://github.com/breakingthebot/gourmetpulse-recipe-build41)
-
----
-
-#### [#40 — Task Manager Pinia](builds/040-task-manager-pinia.md)
-![Pinia](https://img.shields.io/badge/Pinia-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-25
-
-Pinia state task manager with Kanban board, calendar view, subtask reordering controls, recurring task scheduler, and audit history logs.
-
-[Repo →](https://github.com/breakingthebot/task-manager-pinia-build40)
+[Repo →](https://github.com/breakingthebot/styled-components-theme-uikit-build54)
 
 ---
 
-#### [#39 — TravelPulse - Multi-Page Travel Blog](builds/039-travelpulse-multi-page-travel-blog.md)
-![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
+#### [#53 — ModulaUI - React CSS Modules Component Library](builds/053-modulaui-react-css-modules-component-library.md)
+![CSS Modules](https://img.shields.io/badge/CSS_Modules-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-30
 
-Vue Router multi-page travel journal with destination guides, region filters, photo gallery lightbox viewer, and reader comments.
+22-component React UI library demonstrating scoped CSS Modules architecture with guaranteed style isolation across Button, Table, Drawer, Modal, and more.
 
-[Repo →](https://github.com/breakingthebot/travel-blog-router-build39)
-
----
-
-#### [#38 — PulseMovie - Movie Watchlist](builds/038-pulsemovie-movie-watchlist.md)
-![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-23
-
-Movie watchlist dashboard built with Vue 3 and TypeScript, supporting TVMaze public API searches and LocalStorage cache checklists.
-
-[Repo →](https://github.com/breakingthebot/movie-watchlist-vue)
+[Repo →](https://github.com/breakingthebot/react-css-modules-library-build53)
 
 ---
 
-#### [#37 — PulseFit - PWA Fitness Tracker](builds/037-pulsefit-pwa-fitness-tracker.md)
-![Ionic](https://img.shields.io/badge/Ionic-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-23
+#### [#52 — ApexAdmin - Tailwind CSS Admin Dashboard](builds/052-apexadmin-tailwind-css-admin-dashboard.md)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-30
 
-Standalone installable PWA fitness application built on Angular 19 and Ionic 8, tracking steps circular gauges, hydration waves, and workout histories.
+Enterprise Tailwind CSS admin dashboard with API key management, an RBAC matrix, SLA heatmaps, and dark mode, built without custom CSS.
 
-[Repo →](https://github.com/breakingthebot/pulsefit-tracker)
-
----
-
-#### [#36 — PulseMarket - Reactive E-Commerce Platform](builds/036-pulsemarket-reactive-e-commerce-platform.md)
-![NgRx](https://img.shields.io/badge/NgRx-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-21
-
-Reactive e-commerce interface built with Angular 19, Angular Material, and NgRx store state management featuring catalog filtering, shopping carts, checkout wizards, and localStorage state hydration.
-
-[Repo →](https://github.com/breakingthebot/angular-ngrx-store-ecommerce)
+[Repo →](https://github.com/breakingthebot/tailwind-admin-dashboard-build52)
 
 ---
 
-#### [#35 — Angular Material Dashboard UI](builds/035-angular-material-dashboard-ui.md)
-![Angular Material](https://img.shields.io/badge/Angular_Material-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
+#### [#51 — ApexUI - Sass/SCSS Design System](builds/051-apexui-sass-scss-design-system.md)
+![Sass/SCSS](https://img.shields.io/badge/Sass%2FSCSS-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-30
 
-Premium administration dashboard interface built using Angular 19 and Angular Material components featuring cards, tables, charts, and reactive form components.
+Enterprise Sass/SCSS design system with design tokens, mixins, and 20+ component partials compiling to a single clean stylesheet, zero JavaScript.
 
-[Repo →](https://github.com/breakingthebot/angular-material-dashboard)
-
----
-
-#### [#34 — Real-Time Product Search Engine](builds/034-real-time-product-search-engine.md)
-![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
-
-High-fidelity product search application utilizing RxJS debounced query stream pipelines, category filters, sorting algorithms, and infinite scroll paging in Angular.
-
-[Repo →](https://github.com/breakingthebot/realtime-search-rxjs)
+[Repo →](https://github.com/breakingthebot/sass-scss-design-system-build51)
 
 ---
 
-#### [#33 — Multi-Section Admin Panel](builds/033-multi-section-admin-panel.md)
-![Angular](https://img.shields.io/badge/Angular-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
+#### [#50 — Breaking The Bot - Pure CSS Landing Page](builds/050-breaking-the-bot-pure-css-landing-page.md)
+![Pure CSS](https://img.shields.io/badge/Pure_CSS-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-29
 
-Premium enterprise administration dashboard built on Angular 19, demonstrating advanced client-side routing, route guard protection, dynamic breadcrumbs navigation, and lazy-loaded components.
+Zero-JavaScript TikTok character worldbuilding landing page built with pure HTML5/CSS3, using :target modals, clip-path sliders, and @property animated counters.
 
-[Repo →](https://github.com/breakingthebot/admin-panel-build33)
+[Repo →](https://github.com/breakingthebot/pure-css-landing-page-build50)
 
 ---
 
-#### [#32 — Interactive Course Syllabus Viewer](builds/032-interactive-course-syllabus-viewer.md)
-![Angular](https://img.shields.io/badge/Angular-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-20
+#### [#49 — Nexus Cyber - Qwik E-Commerce Product Page](builds/049-nexus-cyber-qwik-e-commerce-product-page.md)
+![Qwik](https://img.shields.io/badge/Qwik-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-29
 
-Structured academic course syllabus viewer built with Angular 19, tracking weekly required readings, deadlines, and live syllabus customization via JSON payload editor.
+Instant-loading Qwik e-commerce product page with resumable state, a WebXR AR viewer, a sound equalizer, and a multi-currency cart.
 
-[Repo →](https://github.com/breakingthebot/syllabus-viewer-build32)
+[Repo →](https://github.com/breakingthebot/qwik-ecommerce-product-page-build49)
+
+---
+
+#### [#48 — Nexus Lit Reusable Date Picker](builds/048-nexus-lit-reusable-date-picker.md)
+![Lit](https://img.shields.io/badge/Lit-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Framework-agnostic Shadow DOM date-range picker web component built with Lit 3, with presets, i18n, touch gestures, and calendar export.
+
+[Repo →](https://github.com/breakingthebot/lit-reusable-date-picker-build48)
+
+---
+
+#### [#47 — NexusCloud Alpine.js Interactive Knowledge Base](builds/047-nexuscloud-alpine-js-interactive-knowledge-base.md)
+![Alpine.js](https://img.shields.io/badge/Alpine.js-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Enterprise FAQ/knowledge base built with Alpine.js 3 and Express, with live search, quizzes, SLA escalation tickets, and keyboard navigation.
+
+[Repo →](https://github.com/breakingthebot/alpinejs-interactive-faq-build47)
+
+---
+
+#### [#46 — NexusCloud HTMX Contact Manager & Creator CRM](builds/046-nexuscloud-htmx-contact-manager-creator-crm.md)
+![HTMX](https://img.shields.io/badge/HTMX-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Zero-JS-framework Contact & Creator CRM built with HTMX and Express, featuring lead scoring, vCard export, duplicate merging, and audit timelines across 18 iterations.
+
+[Repo →](https://github.com/breakingthebot/htmx-contact-manager-build46)
+
+---
+
+#### [#45 — HyperScale Docs - Astro Documentation Site](builds/045-hyperscale-docs-astro-documentation-site.md)
+![Astro](https://img.shields.io/badge/Astro-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Astro + Starlight documentation site with static-generated MDX pages, offline Pagefind search, i18n locale switching, an OpenAPI viewer, and PDF export.
+
+[Repo →](https://github.com/breakingthebot/astro-docs-site-build45)
 
 </details>
 
 <details>
-<summary>Deep Builds (27)</summary>
+<summary>Deep Builds (40)</summary>
+
+#### [#54 — Styled Components Theme-able UI Kit](builds/054-styled-components-theme-able-ui-kit.md)
+![Styled Components](https://img.shields.io/badge/Styled_Components-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-31
+
+14-component React UI kit built with styled-components, demonstrating real-time light/dark theme switching and dynamic prop-based CSS-in-JS styling.
+
+[Repo →](https://github.com/breakingthebot/styled-components-theme-uikit-build54)
+
+---
+
+#### [#53 — ModulaUI - React CSS Modules Component Library](builds/053-modulaui-react-css-modules-component-library.md)
+![CSS Modules](https://img.shields.io/badge/CSS_Modules-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-30
+
+22-component React UI library demonstrating scoped CSS Modules architecture with guaranteed style isolation across Button, Table, Drawer, Modal, and more.
+
+[Repo →](https://github.com/breakingthebot/react-css-modules-library-build53)
+
+---
+
+#### [#52 — ApexAdmin - Tailwind CSS Admin Dashboard](builds/052-apexadmin-tailwind-css-admin-dashboard.md)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-30
+
+Enterprise Tailwind CSS admin dashboard with API key management, an RBAC matrix, SLA heatmaps, and dark mode, built without custom CSS.
+
+[Repo →](https://github.com/breakingthebot/tailwind-admin-dashboard-build52)
+
+---
+
+#### [#51 — ApexUI - Sass/SCSS Design System](builds/051-apexui-sass-scss-design-system.md)
+![Sass/SCSS](https://img.shields.io/badge/Sass%2FSCSS-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-30
+
+Enterprise Sass/SCSS design system with design tokens, mixins, and 20+ component partials compiling to a single clean stylesheet, zero JavaScript.
+
+[Repo →](https://github.com/breakingthebot/sass-scss-design-system-build51)
+
+---
+
+#### [#50 — Breaking The Bot - Pure CSS Landing Page](builds/050-breaking-the-bot-pure-css-landing-page.md)
+![Pure CSS](https://img.shields.io/badge/Pure_CSS-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-29
+
+Zero-JavaScript TikTok character worldbuilding landing page built with pure HTML5/CSS3, using :target modals, clip-path sliders, and @property animated counters.
+
+[Repo →](https://github.com/breakingthebot/pure-css-landing-page-build50)
+
+---
+
+#### [#49 — Nexus Cyber - Qwik E-Commerce Product Page](builds/049-nexus-cyber-qwik-e-commerce-product-page.md)
+![Qwik](https://img.shields.io/badge/Qwik-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-29
+
+Instant-loading Qwik e-commerce product page with resumable state, a WebXR AR viewer, a sound equalizer, and a multi-currency cart.
+
+[Repo →](https://github.com/breakingthebot/qwik-ecommerce-product-page-build49)
+
+---
+
+#### [#48 — Nexus Lit Reusable Date Picker](builds/048-nexus-lit-reusable-date-picker.md)
+![Lit](https://img.shields.io/badge/Lit-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Framework-agnostic Shadow DOM date-range picker web component built with Lit 3, with presets, i18n, touch gestures, and calendar export.
+
+[Repo →](https://github.com/breakingthebot/lit-reusable-date-picker-build48)
+
+---
+
+#### [#47 — NexusCloud Alpine.js Interactive Knowledge Base](builds/047-nexuscloud-alpine-js-interactive-knowledge-base.md)
+![Alpine.js](https://img.shields.io/badge/Alpine.js-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Enterprise FAQ/knowledge base built with Alpine.js 3 and Express, with live search, quizzes, SLA escalation tickets, and keyboard navigation.
+
+[Repo →](https://github.com/breakingthebot/alpinejs-interactive-faq-build47)
+
+---
+
+#### [#46 — NexusCloud HTMX Contact Manager & Creator CRM](builds/046-nexuscloud-htmx-contact-manager-creator-crm.md)
+![HTMX](https://img.shields.io/badge/HTMX-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Zero-JS-framework Contact & Creator CRM built with HTMX and Express, featuring lead scoring, vCard export, duplicate merging, and audit timelines across 18 iterations.
+
+[Repo →](https://github.com/breakingthebot/htmx-contact-manager-build46)
+
+---
+
+#### [#45 — HyperScale Docs - Astro Documentation Site](builds/045-hyperscale-docs-astro-documentation-site.md)
+![Astro](https://img.shields.io/badge/Astro-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Astro + Starlight documentation site with static-generated MDX pages, offline Pagefind search, i18n locale switching, an OpenAPI viewer, and PDF export.
+
+[Repo →](https://github.com/breakingthebot/astro-docs-site-build45)
+
+---
+
+#### [#44 — Solid.js Real-Time Clock Dashboard](builds/044-solid-js-real-time-clock-dashboard.md)
+![Solid.js](https://img.shields.io/badge/Solid.js-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-26
+
+Fine-grained reactive multi-timezone clock dashboard built with Solid.js, featuring analog/digital displays, day/night badges, and pinned custom clocks.
+
+[Repo →](https://github.com/breakingthebot/solidjs-clock-dashboard-build44)
+
+---
+
+#### [#43 — SvelteKit Notes Vault](builds/043-sveltekit-notes-vault.md)
+![SvelteKit](https://img.shields.io/badge/SvelteKit-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-26
+
+Full-stack server-rendered notes app built with SvelteKit 5, using server-side data loading, Form Actions for zero-JS mutations, tag indexing, and pinning.
+
+[Repo →](https://github.com/breakingthebot/sveltekit-notes-build43)
+
+---
+
+#### [#42 — WordCraft - Reactive Word & Readability Counter](builds/042-wordcraft-reactive-word-readability-counter.md)
+![Svelte](https://img.shields.io/badge/Svelte-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-25
+
+Reactive Svelte 4 live text analysis tool with word/character/sentence counts, Flesch-Kincaid readability scoring, prose flaw scanning, and text-to-speech proofreading.
+
+[Repo →](https://github.com/breakingthebot/word-counter-build42)
+
+---
 
 #### [#37 — PulseFit - PWA Fitness Tracker](builds/037-pulsefit-pwa-fitness-tracker.md)
 ![Ionic](https://img.shields.io/badge/Ionic-334155) ![Mobile Apps](https://img.shields.io/badge/Mobile_Apps-0891b2) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-23
@@ -1017,7 +1251,124 @@ Movie watchlist dashboard built with Vue 3 and TypeScript, supporting TVMaze pub
 </details>
 
 <details>
-<summary>Web Frontend (15)</summary>
+<summary>Web Frontend (28)</summary>
+
+#### [#54 — Styled Components Theme-able UI Kit](builds/054-styled-components-theme-able-ui-kit.md)
+![Styled Components](https://img.shields.io/badge/Styled_Components-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-31
+
+14-component React UI kit built with styled-components, demonstrating real-time light/dark theme switching and dynamic prop-based CSS-in-JS styling.
+
+[Repo →](https://github.com/breakingthebot/styled-components-theme-uikit-build54)
+
+---
+
+#### [#53 — ModulaUI - React CSS Modules Component Library](builds/053-modulaui-react-css-modules-component-library.md)
+![CSS Modules](https://img.shields.io/badge/CSS_Modules-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-30
+
+22-component React UI library demonstrating scoped CSS Modules architecture with guaranteed style isolation across Button, Table, Drawer, Modal, and more.
+
+[Repo →](https://github.com/breakingthebot/react-css-modules-library-build53)
+
+---
+
+#### [#52 — ApexAdmin - Tailwind CSS Admin Dashboard](builds/052-apexadmin-tailwind-css-admin-dashboard.md)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-30
+
+Enterprise Tailwind CSS admin dashboard with API key management, an RBAC matrix, SLA heatmaps, and dark mode, built without custom CSS.
+
+[Repo →](https://github.com/breakingthebot/tailwind-admin-dashboard-build52)
+
+---
+
+#### [#51 — ApexUI - Sass/SCSS Design System](builds/051-apexui-sass-scss-design-system.md)
+![Sass/SCSS](https://img.shields.io/badge/Sass%2FSCSS-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-30
+
+Enterprise Sass/SCSS design system with design tokens, mixins, and 20+ component partials compiling to a single clean stylesheet, zero JavaScript.
+
+[Repo →](https://github.com/breakingthebot/sass-scss-design-system-build51)
+
+---
+
+#### [#50 — Breaking The Bot - Pure CSS Landing Page](builds/050-breaking-the-bot-pure-css-landing-page.md)
+![Pure CSS](https://img.shields.io/badge/Pure_CSS-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-29
+
+Zero-JavaScript TikTok character worldbuilding landing page built with pure HTML5/CSS3, using :target modals, clip-path sliders, and @property animated counters.
+
+[Repo →](https://github.com/breakingthebot/pure-css-landing-page-build50)
+
+---
+
+#### [#49 — Nexus Cyber - Qwik E-Commerce Product Page](builds/049-nexus-cyber-qwik-e-commerce-product-page.md)
+![Qwik](https://img.shields.io/badge/Qwik-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-29
+
+Instant-loading Qwik e-commerce product page with resumable state, a WebXR AR viewer, a sound equalizer, and a multi-currency cart.
+
+[Repo →](https://github.com/breakingthebot/qwik-ecommerce-product-page-build49)
+
+---
+
+#### [#48 — Nexus Lit Reusable Date Picker](builds/048-nexus-lit-reusable-date-picker.md)
+![Lit](https://img.shields.io/badge/Lit-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Framework-agnostic Shadow DOM date-range picker web component built with Lit 3, with presets, i18n, touch gestures, and calendar export.
+
+[Repo →](https://github.com/breakingthebot/lit-reusable-date-picker-build48)
+
+---
+
+#### [#47 — NexusCloud Alpine.js Interactive Knowledge Base](builds/047-nexuscloud-alpine-js-interactive-knowledge-base.md)
+![Alpine.js](https://img.shields.io/badge/Alpine.js-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Enterprise FAQ/knowledge base built with Alpine.js 3 and Express, with live search, quizzes, SLA escalation tickets, and keyboard navigation.
+
+[Repo →](https://github.com/breakingthebot/alpinejs-interactive-faq-build47)
+
+---
+
+#### [#46 — NexusCloud HTMX Contact Manager & Creator CRM](builds/046-nexuscloud-htmx-contact-manager-creator-crm.md)
+![HTMX](https://img.shields.io/badge/HTMX-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Zero-JS-framework Contact & Creator CRM built with HTMX and Express, featuring lead scoring, vCard export, duplicate merging, and audit timelines across 18 iterations.
+
+[Repo →](https://github.com/breakingthebot/htmx-contact-manager-build46)
+
+---
+
+#### [#45 — HyperScale Docs - Astro Documentation Site](builds/045-hyperscale-docs-astro-documentation-site.md)
+![Astro](https://img.shields.io/badge/Astro-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Astro + Starlight documentation site with static-generated MDX pages, offline Pagefind search, i18n locale switching, an OpenAPI viewer, and PDF export.
+
+[Repo →](https://github.com/breakingthebot/astro-docs-site-build45)
+
+---
+
+#### [#44 — Solid.js Real-Time Clock Dashboard](builds/044-solid-js-real-time-clock-dashboard.md)
+![Solid.js](https://img.shields.io/badge/Solid.js-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-26
+
+Fine-grained reactive multi-timezone clock dashboard built with Solid.js, featuring analog/digital displays, day/night badges, and pinned custom clocks.
+
+[Repo →](https://github.com/breakingthebot/solidjs-clock-dashboard-build44)
+
+---
+
+#### [#43 — SvelteKit Notes Vault](builds/043-sveltekit-notes-vault.md)
+![SvelteKit](https://img.shields.io/badge/SvelteKit-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-26
+
+Full-stack server-rendered notes app built with SvelteKit 5, using server-side data loading, Form Actions for zero-JS mutations, tag indexing, and pinning.
+
+[Repo →](https://github.com/breakingthebot/sveltekit-notes-build43)
+
+---
+
+#### [#42 — WordCraft - Reactive Word & Readability Counter](builds/042-wordcraft-reactive-word-readability-counter.md)
+![Svelte](https://img.shields.io/badge/Svelte-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-25
+
+Reactive Svelte 4 live text analysis tool with word/character/sentence counts, Flesch-Kincaid readability scoring, prose flaw scanning, and text-to-speech proofreading.
+
+[Repo →](https://github.com/breakingthebot/word-counter-build42)
+
+---
 
 #### [#36 — PulseMarket - Reactive E-Commerce Platform](builds/036-pulsemarket-reactive-e-commerce-platform.md)
 ![NgRx](https://img.shields.io/badge/NgRx-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-21
@@ -1156,6 +1507,18 @@ Dependency-free drag-and-drop Kanban board with labels, due dates, undo/redo, an
 
 ## By Technology
 <details>
+<summary>Alpine.js (1)</summary>
+
+#### [#47 — NexusCloud Alpine.js Interactive Knowledge Base](builds/047-nexuscloud-alpine-js-interactive-knowledge-base.md)
+![Alpine.js](https://img.shields.io/badge/Alpine.js-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Enterprise FAQ/knowledge base built with Alpine.js 3 and Express, with live search, quizzes, SLA escalation tickets, and keyboard navigation.
+
+[Repo →](https://github.com/breakingthebot/alpinejs-interactive-faq-build47)
+
+</details>
+
+<details>
 <summary>Angular (2)</summary>
 
 #### [#33 — Multi-Section Admin Panel](builds/033-multi-section-admin-panel.md)
@@ -1201,6 +1564,18 @@ Premium administration dashboard interface built using Angular 19 and Angular Ma
 </details>
 
 <details>
+<summary>Astro (1)</summary>
+
+#### [#45 — HyperScale Docs - Astro Documentation Site](builds/045-hyperscale-docs-astro-documentation-site.md)
+![Astro](https://img.shields.io/badge/Astro-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Astro + Starlight documentation site with static-generated MDX pages, offline Pagefind search, i18n locale switching, an OpenAPI viewer, and PDF export.
+
+[Repo →](https://github.com/breakingthebot/astro-docs-site-build45)
+
+</details>
+
+<details>
 <summary>C# (1)</summary>
 
 #### [#19 — Budget Tracker Console App](builds/019-budget-tracker-console-app.md)
@@ -1209,6 +1584,18 @@ Premium administration dashboard interface built using Angular 19 and Angular Ma
 A .NET 8 console budget tracker with categories, monthly reports, and CSV export.
 
 [Repo →](https://github.com/breakingthebot/budget-tracker-console-app)
+
+</details>
+
+<details>
+<summary>CSS Modules (1)</summary>
+
+#### [#53 — ModulaUI - React CSS Modules Component Library](builds/053-modulaui-react-css-modules-component-library.md)
+![CSS Modules](https://img.shields.io/badge/CSS_Modules-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-30
+
+22-component React UI library demonstrating scoped CSS Modules architecture with guaranteed style isolation across Button, Table, Drawer, Modal, and more.
+
+[Repo →](https://github.com/breakingthebot/react-css-modules-library-build53)
 
 </details>
 
@@ -1233,6 +1620,18 @@ No-bundler ES module music player with queue, shuffle/repeat, favorites, local f
 Go URL shortener API with PostgreSQL storage and click tracking.
 
 [Repo →](https://github.com/breakingthebot/url-shortener-api)
+
+</details>
+
+<details>
+<summary>HTMX (1)</summary>
+
+#### [#46 — NexusCloud HTMX Contact Manager & Creator CRM](builds/046-nexuscloud-htmx-contact-manager-creator-crm.md)
+![HTMX](https://img.shields.io/badge/HTMX-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Zero-JS-framework Contact & Creator CRM built with HTMX and Express, featuring lead scoring, vCard export, duplicate merging, and audit timelines across 18 iterations.
+
+[Repo →](https://github.com/breakingthebot/htmx-contact-manager-build46)
 
 </details>
 
@@ -1293,6 +1692,18 @@ JavaScript string utility library with 20 modular helpers and a full Jest test s
 Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows, search/sort, widgets, and UI test coverage.
 
 [Repo →](https://github.com/breakingthebot/quick-notes-android-compose)
+
+</details>
+
+<details>
+<summary>Lit (1)</summary>
+
+#### [#48 — Nexus Lit Reusable Date Picker](builds/048-nexus-lit-reusable-date-picker.md)
+![Lit](https://img.shields.io/badge/Lit-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+
+Framework-agnostic Shadow DOM date-range picker web component built with Lit 3, with presets, i18n, touch gestures, and calendar export.
+
+[Repo →](https://github.com/breakingthebot/lit-reusable-date-picker-build48)
 
 </details>
 
@@ -1365,6 +1776,18 @@ Modular PHP backend for validating, storing, and emailing contact form submissio
 Pinia state task manager with Kanban board, calendar view, subtask reordering controls, recurring task scheduler, and audit history logs.
 
 [Repo →](https://github.com/breakingthebot/task-manager-pinia-build40)
+
+</details>
+
+<details>
+<summary>Pure CSS (1)</summary>
+
+#### [#50 — Breaking The Bot - Pure CSS Landing Page](builds/050-breaking-the-bot-pure-css-landing-page.md)
+![Pure CSS](https://img.shields.io/badge/Pure_CSS-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-29
+
+Zero-JavaScript TikTok character worldbuilding landing page built with pure HTML5/CSS3, using :target modals, clip-path sliders, and @property animated counters.
+
+[Repo →](https://github.com/breakingthebot/pure-css-landing-page-build50)
 
 </details>
 
@@ -1477,6 +1900,18 @@ Installable Python calculator package with CLI, batch processing, history, preci
 </details>
 
 <details>
+<summary>Qwik (1)</summary>
+
+#### [#49 — Nexus Cyber - Qwik E-Commerce Product Page](builds/049-nexus-cyber-qwik-e-commerce-product-page.md)
+![Qwik](https://img.shields.io/badge/Qwik-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-29
+
+Instant-loading Qwik e-commerce product page with resumable state, a WebXR AR viewer, a sound equalizer, and a multi-currency cart.
+
+[Repo →](https://github.com/breakingthebot/qwik-ecommerce-product-page-build49)
+
+</details>
+
+<details>
 <summary>React (1)</summary>
 
 #### [#25 — FlavorFind Recipe Finder](builds/025-flavorfind-recipe-finder.md)
@@ -1549,6 +1984,18 @@ CLI tool that walks a directory tree and finds duplicate files by hash.
 </details>
 
 <details>
+<summary>Sass/SCSS (1)</summary>
+
+#### [#51 — ApexUI - Sass/SCSS Design System](builds/051-apexui-sass-scss-design-system.md)
+![Sass/SCSS](https://img.shields.io/badge/Sass%2FSCSS-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-30
+
+Enterprise Sass/SCSS design system with design tokens, mixins, and 20+ component partials compiling to a single clean stylesheet, zero JavaScript.
+
+[Repo →](https://github.com/breakingthebot/sass-scss-design-system-build51)
+
+</details>
+
+<details>
 <summary>Shell (1)</summary>
 
 #### [#22 — Server Setup Script](builds/022-server-setup-script.md)
@@ -1561,6 +2008,54 @@ Bash server-setup automation with dependency install/verification, environment c
 </details>
 
 <details>
+<summary>Solid.js (1)</summary>
+
+#### [#44 — Solid.js Real-Time Clock Dashboard](builds/044-solid-js-real-time-clock-dashboard.md)
+![Solid.js](https://img.shields.io/badge/Solid.js-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-26
+
+Fine-grained reactive multi-timezone clock dashboard built with Solid.js, featuring analog/digital displays, day/night badges, and pinned custom clocks.
+
+[Repo →](https://github.com/breakingthebot/solidjs-clock-dashboard-build44)
+
+</details>
+
+<details>
+<summary>Styled Components (1)</summary>
+
+#### [#54 — Styled Components Theme-able UI Kit](builds/054-styled-components-theme-able-ui-kit.md)
+![Styled Components](https://img.shields.io/badge/Styled_Components-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-31
+
+14-component React UI kit built with styled-components, demonstrating real-time light/dark theme switching and dynamic prop-based CSS-in-JS styling.
+
+[Repo →](https://github.com/breakingthebot/styled-components-theme-uikit-build54)
+
+</details>
+
+<details>
+<summary>Svelte (1)</summary>
+
+#### [#42 — WordCraft - Reactive Word & Readability Counter](builds/042-wordcraft-reactive-word-readability-counter.md)
+![Svelte](https://img.shields.io/badge/Svelte-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-25
+
+Reactive Svelte 4 live text analysis tool with word/character/sentence counts, Flesch-Kincaid readability scoring, prose flaw scanning, and text-to-speech proofreading.
+
+[Repo →](https://github.com/breakingthebot/word-counter-build42)
+
+</details>
+
+<details>
+<summary>SvelteKit (1)</summary>
+
+#### [#43 — SvelteKit Notes Vault](builds/043-sveltekit-notes-vault.md)
+![SvelteKit](https://img.shields.io/badge/SvelteKit-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-26
+
+Full-stack server-rendered notes app built with SvelteKit 5, using server-side data loading, Form Actions for zero-JS mutations, tag indexing, and pinning.
+
+[Repo →](https://github.com/breakingthebot/sveltekit-notes-build43)
+
+</details>
+
+<details>
 <summary>Swift (1)</summary>
 
 #### [#20 — Habit Tracker iOS App](builds/020-habit-tracker-ios-app.md)
@@ -1569,6 +2064,18 @@ Bash server-setup automation with dependency install/verification, environment c
 SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a weekly dashboard, home screen widgets, and XCTest coverage.
 
 [Repo →](https://github.com/breakingthebot/habit-tracker-ios-swiftui)
+
+</details>
+
+<details>
+<summary>Tailwind CSS (1)</summary>
+
+#### [#52 — ApexAdmin - Tailwind CSS Admin Dashboard](builds/052-apexadmin-tailwind-css-admin-dashboard.md)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-30
+
+Enterprise Tailwind CSS admin dashboard with API key management, an RBAC matrix, SLA heatmaps, and dark mode, built without custom CSS.
+
+[Repo →](https://github.com/breakingthebot/tailwind-admin-dashboard-build52)
 
 </details>
 
@@ -1745,6 +2252,6 @@ This repo is an index repo and does not require a live deployment.
 This repo is the front door for the full build series. The reference files stay in `reference/`, the published build entries live in `builds.json`, and the README is generated from that JSON so the public index stays consistent. I kept the automation small on purpose: one CLI to add a build, one CLI to regenerate the README, and a handful of focused modules so the data, validation, formatting, and file writes stay separate and easy to audit.
 
 ## Notes
-- The tracker and README are synced to the 41 public build repos currently published under the `breakingthebot` GitHub account.
+- The tracker and README are synced to the 54 public build repos currently published under the `breakingthebot` GitHub account.
 - The tracker workbook currently contains 246 build rows even though the PDF is described as a 286-item master list. The automation uses the tracker rows that are actually marked complete.
 - The remaining unpublished build slots are intentionally left open for future custom build designs and additional portfolio work.

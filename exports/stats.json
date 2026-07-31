@@ -1,14 +1,14 @@
 {
-  "total_builds": 41,
+  "total_builds": 54,
   "latest_build": {
-    "build_number": 41,
-    "date": "2026-07-25",
-    "project_name": "GourmetPulse - SEO Recipe App"
+    "build_number": 54,
+    "date": "2026-07-31",
+    "project_name": "Styled Components Theme-able UI Kit"
   },
   "by_category": [
     {
       "label": "Web Frontend",
-      "count": 15
+      "count": 28
     },
     {
       "label": "CLI Tools",
@@ -53,6 +53,10 @@
       "count": 2
     },
     {
+      "label": "Alpine.js",
+      "count": 1
+    },
+    {
       "label": "Angular (RxJS)",
       "count": 1
     },
@@ -61,7 +65,15 @@
       "count": 1
     },
     {
+      "label": "Astro",
+      "count": 1
+    },
+    {
       "label": "C#",
+      "count": 1
+    },
+    {
+      "label": "CSS Modules",
       "count": 1
     },
     {
@@ -70,6 +82,10 @@
     },
     {
       "label": "Go",
+      "count": 1
+    },
+    {
+      "label": "HTMX",
       "count": 1
     },
     {
@@ -90,6 +106,10 @@
     },
     {
       "label": "Kotlin",
+      "count": 1
+    },
+    {
+      "label": "Lit",
       "count": 1
     },
     {
@@ -114,6 +134,10 @@
     },
     {
       "label": "Pinia",
+      "count": 1
+    },
+    {
+      "label": "Pure CSS",
       "count": 1
     },
     {
@@ -153,6 +177,10 @@
       "count": 1
     },
     {
+      "label": "Qwik",
+      "count": 1
+    },
+    {
       "label": "React",
       "count": 1
     },
@@ -177,11 +205,35 @@
       "count": 1
     },
     {
+      "label": "Sass/SCSS",
+      "count": 1
+    },
+    {
       "label": "Shell",
       "count": 1
     },
     {
+      "label": "Solid.js",
+      "count": 1
+    },
+    {
+      "label": "Styled Components",
+      "count": 1
+    },
+    {
+      "label": "Svelte",
+      "count": 1
+    },
+    {
+      "label": "SvelteKit",
+      "count": 1
+    },
+    {
       "label": "Swift",
+      "count": 1
+    },
+    {
+      "label": "Tailwind CSS",
       "count": 1
     },
     {
@@ -212,7 +264,7 @@
   "by_depth": [
     {
       "label": "Deep",
-      "count": 27
+      "count": 40
     },
     {
       "label": "Expanded",

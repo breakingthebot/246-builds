@@ -1,5 +1,200 @@
 [
   {
+    "build_number": 54,
+    "date": "2026-07-31",
+    "project_name": "Styled Components Theme-able UI Kit",
+    "description": "14-component React UI kit built with styled-components, demonstrating real-time light/dark theme switching and dynamic prop-based CSS-in-JS styling.",
+    "repo_url": "https://github.com/breakingthebot/styled-components-theme-uikit-build54",
+    "technology": "Styled Components",
+    "category": "Web Frontend",
+    "stack": [
+      "Styled Components",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Vercel: https://styled-components-theme-uikit-build54.vercel.app"
+  },
+  {
+    "build_number": 53,
+    "date": "2026-07-30",
+    "project_name": "ModulaUI - React CSS Modules Component Library",
+    "description": "22-component React UI library demonstrating scoped CSS Modules architecture with guaranteed style isolation across Button, Table, Drawer, Modal, and more.",
+    "repo_url": "https://github.com/breakingthebot/react-css-modules-library-build53",
+    "technology": "CSS Modules",
+    "category": "Web Frontend",
+    "stack": [
+      "CSS Modules",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Vercel: https://react-css-modules-library-build53.vercel.app"
+  },
+  {
+    "build_number": 52,
+    "date": "2026-07-30",
+    "project_name": "ApexAdmin - Tailwind CSS Admin Dashboard",
+    "description": "Enterprise Tailwind CSS admin dashboard with API key management, an RBAC matrix, SLA heatmaps, and dark mode, built without custom CSS.",
+    "repo_url": "https://github.com/breakingthebot/tailwind-admin-dashboard-build52",
+    "technology": "Tailwind CSS",
+    "category": "Web Frontend",
+    "stack": [
+      "Tailwind CSS",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Vercel: https://tailwind-admin-dashboard-build52.vercel.app"
+  },
+  {
+    "build_number": 51,
+    "date": "2026-07-30",
+    "project_name": "ApexUI - Sass/SCSS Design System",
+    "description": "Enterprise Sass/SCSS design system with design tokens, mixins, and 20+ component partials compiling to a single clean stylesheet, zero JavaScript.",
+    "repo_url": "https://github.com/breakingthebot/sass-scss-design-system-build51",
+    "technology": "Sass/SCSS",
+    "category": "Web Frontend",
+    "stack": [
+      "Sass/SCSS",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Vercel: https://sass-scss-design-system-build51.vercel.app"
+  },
+  {
+    "build_number": 50,
+    "date": "2026-07-29",
+    "project_name": "Breaking The Bot - Pure CSS Landing Page",
+    "description": "Zero-JavaScript TikTok character worldbuilding landing page built with pure HTML5/CSS3, using :target modals, clip-path sliders, and @property animated counters.",
+    "repo_url": "https://github.com/breakingthebot/pure-css-landing-page-build50",
+    "technology": "Pure CSS",
+    "category": "Web Frontend",
+    "stack": [
+      "Pure CSS",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Vercel: https://pure-css-landing-page-build50.vercel.app"
+  },
+  {
+    "build_number": 49,
+    "date": "2026-07-29",
+    "project_name": "Nexus Cyber - Qwik E-Commerce Product Page",
+    "description": "Instant-loading Qwik e-commerce product page with resumable state, a WebXR AR viewer, a sound equalizer, and a multi-currency cart.",
+    "repo_url": "https://github.com/breakingthebot/qwik-ecommerce-product-page-build49",
+    "technology": "Qwik",
+    "category": "Web Frontend",
+    "stack": [
+      "Qwik",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Vercel: https://qwik-ecommerce-product-page-build49.vercel.app"
+  },
+  {
+    "build_number": 48,
+    "date": "2026-07-28",
+    "project_name": "Nexus Lit Reusable Date Picker",
+    "description": "Framework-agnostic Shadow DOM date-range picker web component built with Lit 3, with presets, i18n, touch gestures, and calendar export.",
+    "repo_url": "https://github.com/breakingthebot/lit-reusable-date-picker-build48",
+    "technology": "Lit",
+    "category": "Web Frontend",
+    "stack": [
+      "Lit",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Vercel: https://lit-reusable-date-picker-build48.vercel.app"
+  },
+  {
+    "build_number": 47,
+    "date": "2026-07-28",
+    "project_name": "NexusCloud Alpine.js Interactive Knowledge Base",
+    "description": "Enterprise FAQ/knowledge base built with Alpine.js 3 and Express, with live search, quizzes, SLA escalation tickets, and keyboard navigation.",
+    "repo_url": "https://github.com/breakingthebot/alpinejs-interactive-faq-build47",
+    "technology": "Alpine.js",
+    "category": "Web Frontend",
+    "stack": [
+      "Alpine.js",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Vercel: https://alpinejs-interactive-faq-build47.vercel.app"
+  },
+  {
+    "build_number": 46,
+    "date": "2026-07-28",
+    "project_name": "NexusCloud HTMX Contact Manager & Creator CRM",
+    "description": "Zero-JS-framework Contact & Creator CRM built with HTMX and Express, featuring lead scoring, vCard export, duplicate merging, and audit timelines across 18 iterations.",
+    "repo_url": "https://github.com/breakingthebot/htmx-contact-manager-build46",
+    "technology": "HTMX",
+    "category": "Web Frontend",
+    "stack": [
+      "HTMX",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Vercel: https://htmx-contact-manager-build46.vercel.app"
+  },
+  {
+    "build_number": 45,
+    "date": "2026-07-28",
+    "project_name": "HyperScale Docs - Astro Documentation Site",
+    "description": "Astro + Starlight documentation site with static-generated MDX pages, offline Pagefind search, i18n locale switching, an OpenAPI viewer, and PDF export.",
+    "repo_url": "https://github.com/breakingthebot/astro-docs-site-build45",
+    "technology": "Astro",
+    "category": "Web Frontend",
+    "stack": [
+      "Astro",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 44,
+    "date": "2026-07-26",
+    "project_name": "Solid.js Real-Time Clock Dashboard",
+    "description": "Fine-grained reactive multi-timezone clock dashboard built with Solid.js, featuring analog/digital displays, day/night badges, and pinned custom clocks.",
+    "repo_url": "https://github.com/breakingthebot/solidjs-clock-dashboard-build44",
+    "technology": "Solid.js",
+    "category": "Web Frontend",
+    "stack": [
+      "Solid.js",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Vercel: https://solidjs-clock-dashboard-build44.vercel.app"
+  },
+  {
+    "build_number": 43,
+    "date": "2026-07-26",
+    "project_name": "SvelteKit Notes Vault",
+    "description": "Full-stack server-rendered notes app built with SvelteKit 5, using server-side data loading, Form Actions for zero-JS mutations, tag indexing, and pinning.",
+    "repo_url": "https://github.com/breakingthebot/sveltekit-notes-build43",
+    "technology": "SvelteKit",
+    "category": "Web Frontend",
+    "stack": [
+      "SvelteKit",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Vercel: https://sveltekit-notes-build43.vercel.app"
+  },
+  {
+    "build_number": 42,
+    "date": "2026-07-25",
+    "project_name": "WordCraft - Reactive Word & Readability Counter",
+    "description": "Reactive Svelte 4 live text analysis tool with word/character/sentence counts, Flesch-Kincaid readability scoring, prose flaw scanning, and text-to-speech proofreading.",
+    "repo_url": "https://github.com/breakingthebot/word-counter-build42",
+    "technology": "Svelte",
+    "category": "Web Frontend",
+    "stack": [
+      "Svelte",
+      "Web Frontend"
+    ],
+    "depth": "Deep",
+    "notes": "Vercel: https://word-counter-build42.vercel.app"
+  },
+  {
     "build_number": 41,
     "date": "2026-07-25",
     "project_name": "GourmetPulse - SEO Recipe App",
@@ -9,9 +204,7 @@
     "category": "Nuxt 3",
     "stack": [
       "Nuxt.js",
-      "Vue 3",
-      "Pinia",
-      "SSR"
+      "Nuxt 3"
     ],
     "depth": "Standard",
     "notes": "Vercel: https://gourmetpulse-recipe-build41.vercel.app"
@@ -26,8 +219,7 @@
     "category": "Vue 3",
     "stack": [
       "Pinia",
-      "Vue 3",
-      "TypeScript"
+      "Vue 3"
     ],
     "depth": "Expanded",
     "notes": "Vercel: https://task-manager-pinia-build40.vercel.app"
@@ -42,8 +234,7 @@
     "category": "Vue 3",
     "stack": [
       "Vue Router",
-      "Vue 3",
-      "Pinia"
+      "Vue 3"
     ],
     "depth": "Standard",
     "notes": "Vercel: https://travel-blog-router-build39.vercel.app"
