@@ -2,22 +2,22 @@
 
 [![Test](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml/badge.svg)](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml)
 
-![Builds: 54](https://img.shields.io/badge/Builds-54-0ea5e9) ![Latest: #54](https://img.shields.io/badge/Latest-%2354-16a34a) ![Languages: 53](https://img.shields.io/badge/Languages-53-f59e0b) ![Deep Builds: 40](https://img.shields.io/badge/Deep_Builds-40-7c3aed)
+![Builds: 64](https://img.shields.io/badge/Builds-64-0ea5e9) ![Latest: #64](https://img.shields.io/badge/Latest-%2364-16a34a) ![Languages: 63](https://img.shields.io/badge/Languages-63-f59e0b) ![Deep Builds: 50](https://img.shields.io/badge/Deep_Builds-50-7c3aed)
 
 **[Browse & filter every build on the live site →](https://breakingthebot.github.io/286-builds/)**
 
 A public index of daily coding builds, each pulled from the 286-project list and built end-to-end in a single day, then expanded through multiple iterations with a full commit history pushed live. Together, the repos form a broad portfolio spanning multiple languages, problem types, and build depths.
 
 ## Tech Stack
-![Alpine.js](https://img.shields.io/badge/Alpine.js-334155) ![Angular](https://img.shields.io/badge/Angular-334155) ![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![Angular Material](https://img.shields.io/badge/Angular_Material-334155) ![Astro](https://img.shields.io/badge/Astro-334155) ![C#](https://img.shields.io/badge/C%23-178600) ![CSS Modules](https://img.shields.io/badge/CSS_Modules-334155) ![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Go](https://img.shields.io/badge/Go-00ADD8) ![HTMX](https://img.shields.io/badge/HTMX-334155) ![Ionic](https://img.shields.io/badge/Ionic-334155) ![Java](https://img.shields.io/badge/Java-B07219) ![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Lit](https://img.shields.io/badge/Lit-334155) ![Lua](https://img.shields.io/badge/Lua-000080) ![Next.js](https://img.shields.io/badge/Next.js-334155) ![NgRx](https://img.shields.io/badge/NgRx-334155) ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Pinia](https://img.shields.io/badge/Pinia-334155) ![Pure CSS](https://img.shields.io/badge/Pure_CSS-334155) ![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![Qwik](https://img.shields.io/badge/Qwik-334155) ![React](https://img.shields.io/badge/React-334155) ![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![React Router](https://img.shields.io/badge/React_Router-334155) ![Remix](https://img.shields.io/badge/Remix-334155) ![Ruby](https://img.shields.io/badge/Ruby-701516) ![Rust](https://img.shields.io/badge/Rust-DEA584) ![Sass/SCSS](https://img.shields.io/badge/Sass%2FSCSS-334155) ![Shell](https://img.shields.io/badge/Shell-89E051) ![Solid.js](https://img.shields.io/badge/Solid.js-334155) ![Styled Components](https://img.shields.io/badge/Styled_Components-334155) ![Svelte](https://img.shields.io/badge/Svelte-334155) ![SvelteKit](https://img.shields.io/badge/SvelteKit-334155) ![Swift](https://img.shields.io/badge/Swift-F05138) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-334155) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A) ![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Zustand](https://img.shields.io/badge/Zustand-334155)
+![Alpine.js](https://img.shields.io/badge/Alpine.js-334155) ![Angular](https://img.shields.io/badge/Angular-334155) ![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![Angular Material](https://img.shields.io/badge/Angular_Material-334155) ![Astro](https://img.shields.io/badge/Astro-334155) ![C#](https://img.shields.io/badge/C%23-178600) ![CSS Modules](https://img.shields.io/badge/CSS_Modules-334155) ![D3.js](https://img.shields.io/badge/D3.js-334155) ![Django](https://img.shields.io/badge/Django-334155) ![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Express](https://img.shields.io/badge/Express-334155) ![FastAPI](https://img.shields.io/badge/FastAPI-334155) ![Fastify](https://img.shields.io/badge/Fastify-334155) ![Flask](https://img.shields.io/badge/Flask-334155) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-334155) ![Go](https://img.shields.io/badge/Go-00ADD8) ![Hono](https://img.shields.io/badge/Hono-334155) ![HTMX](https://img.shields.io/badge/HTMX-334155) ![Ionic](https://img.shields.io/badge/Ionic-334155) ![Java](https://img.shields.io/badge/Java-B07219) ![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Lit](https://img.shields.io/badge/Lit-334155) ![Lua](https://img.shields.io/badge/Lua-000080) ![NestJS](https://img.shields.io/badge/NestJS-334155) ![Next.js](https://img.shields.io/badge/Next.js-334155) ![NgRx](https://img.shields.io/badge/NgRx-334155) ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Pinia](https://img.shields.io/badge/Pinia-334155) ![Pure CSS](https://img.shields.io/badge/Pure_CSS-334155) ![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![Qwik](https://img.shields.io/badge/Qwik-334155) ![React](https://img.shields.io/badge/React-334155) ![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![React Router](https://img.shields.io/badge/React_Router-334155) ![Remix](https://img.shields.io/badge/Remix-334155) ![Ruby](https://img.shields.io/badge/Ruby-701516) ![Rust](https://img.shields.io/badge/Rust-DEA584) ![Sass/SCSS](https://img.shields.io/badge/Sass%2FSCSS-334155) ![Shell](https://img.shields.io/badge/Shell-89E051) ![Solid.js](https://img.shields.io/badge/Solid.js-334155) ![Styled Components](https://img.shields.io/badge/Styled_Components-334155) ![Svelte](https://img.shields.io/badge/Svelte-334155) ![SvelteKit](https://img.shields.io/badge/SvelteKit-334155) ![Swift](https://img.shields.io/badge/Swift-F05138) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-334155) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![Three.js](https://img.shields.io/badge/Three.js-334155) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A) ![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Zustand](https://img.shields.io/badge/Zustand-334155)
 
 ## Latest Build
-#### [#54 — Styled Components Theme-able UI Kit](builds/054-styled-components-theme-able-ui-kit.md)
-![Styled Components](https://img.shields.io/badge/Styled_Components-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-31
+#### [#64 — Minimal URL Shortener](builds/064-minimal-url-shortener.md)
+![Flask](https://img.shields.io/badge/Flask-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
 
-14-component React UI kit built with styled-components, demonstrating real-time light/dark theme switching and dynamic prop-based CSS-in-JS styling.
+Minimal Python Flask & SQLite URL shortener featuring custom aliases, TTL link expiration, pure Python vector SVG QR codes, sliding-window rate limiting, and REST API in under 100 lines of code.
 
-[Repo →](https://github.com/breakingthebot/styled-components-theme-uikit-build54)
+[Repo →](https://github.com/breakingthebot/minimal-url-shortener-build64)
 
 ## What's in each build's repo
 - Every repo has a full README.
@@ -43,7 +43,97 @@ A public index of daily coding builds, each pulled from the 286-project list and
 
 ## Build Index
 <details>
-<summary>All Builds (54)</summary>
+<summary>All Builds (64)</summary>
+
+#### [#64 — Minimal URL Shortener](builds/064-minimal-url-shortener.md)
+![Flask](https://img.shields.io/badge/Flask-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
+
+Minimal Python Flask & SQLite URL shortener featuring custom aliases, TTL link expiration, pure Python vector SVG QR codes, sliding-window rate limiting, and REST API in under 100 lines of code.
+
+[Repo →](https://github.com/breakingthebot/minimal-url-shortener-build64)
+
+---
+
+#### [#63 — Django Full Content Management System](builds/063-django-full-content-management-system.md)
+![Django](https://img.shields.io/badge/Django-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
+
+Full Python/Django CMS — featuring models, Django admin panel, user auth, blog posts, categories, comments, and management CLI commands.
+
+[Repo →](https://github.com/breakingthebot/full-cms-build63)
+
+---
+
+#### [#62 — FastAPI Task Management API](builds/062-fastapi-task-management-api.md)
+![FastAPI](https://img.shields.io/badge/FastAPI-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
+
+FastAPI Task management API featuring full CRUD, OAuth2 JWT auth, background tasks, file uploads, Pydantic validation, and OpenAPI documentation.
+
+[Repo →](https://github.com/breakingthebot/fastapi-task-management-api-build62)
+
+---
+
+#### [#61 — Edge-Deployed URL Shortener](builds/061-edge-deployed-url-shortener.md)
+![Hono](https://img.shields.io/badge/Hono-334155) ![Serverless & Edge](https://img.shields.io/badge/Serverless_%26_Edge-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+Edge-deployed URL shortener built with Hono and Cloudflare Workers, delivering ultra-fast global redirection and analytics.
+
+[Repo →](https://github.com/breakingthebot/edgedeployed-url-shortener-build61)
+
+---
+
+#### [#60 — NestJS E-Commerce REST API](builds/060-nestjs-e-commerce-rest-api.md)
+![NestJS](https://img.shields.io/badge/NestJS-334155) ![Backend & APIs (Node/TS)](https://img.shields.io/badge/Backend_%26_APIs_(Node%2FTS)-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+Enterprise NestJS E-Commerce REST API showcasing modules, controllers, services, guards, interceptors, and full dependency injection pattern.
+
+[Repo →](https://github.com/breakingthebot/ecommerce-api-build60)
+
+---
+
+#### [#59 — High Performance Product Catalog API](builds/059-high-performance-product-catalog-api.md)
+![Fastify](https://img.shields.io/badge/Fastify-334155) ![Backend & APIs (Node/TS)](https://img.shields.io/badge/Backend_%26_APIs_(Node%2FTS)-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+High performance product catalog API built with Fastify — featuring JSON Schema validation, serialization, and benchmark vs Express.
+
+[Repo →](https://github.com/breakingthebot/high-performance-product-catalog-api-build59)
+
+---
+
+#### [#58 — Blog REST API with Express](builds/058-blog-rest-api-with-express.md)
+![Express](https://img.shields.io/badge/Express-334155) ![Backend & APIs (Node/TS)](https://img.shields.io/badge/Backend_%26_APIs_(Node%2FTS)-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+REST API for a blog built with Node.js and Express featuring post/comment CRUD, auth middleware, rate limiting, and comprehensive test suite.
+
+[Repo →](https://github.com/breakingthebot/blog-rest-api-express)
+
+---
+
+#### [#57 — COVID-19 Interactive Visual Analytics Dashboard](builds/057-covid-19-interactive-visual-analytics-dashboard.md)
+![D3.js](https://img.shields.io/badge/D3.js-334155) ![Visualization & Data](https://img.shields.io/badge/Visualization_%26_Data-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+Interactive COVID-19 Visual Analytics Dashboard powered by D3.js, featuring multi-series line charts, country ranking bar charts, and world choropleth maps.
+
+[Repo →](https://github.com/breakingthebot/covid-data-visualization-build57)
+
+---
+
+#### [#56 — Three.js Interactive 3D Product Viewer](builds/056-three-js-interactive-3d-product-viewer.md)
+![Three.js](https://img.shields.io/badge/Three.js-334155) ![Animation & 3D](https://img.shields.io/badge/Animation_%26_3D-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-01
+
+Interactive 3D product viewer built with React 19, Three.js, React Three Fiber, Drei, and Vite featuring real-time PBR materials, custom decal texture upload, 3D exploded view, and 3D hotspot annotations.
+
+[Repo →](https://github.com/breakingthebot/threejs-interactive-3d-product-viewer-build56)
+
+---
+
+#### [#55 — Framer Motion Animated Portfolio Showcase](builds/055-framer-motion-animated-portfolio-showcase.md)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-334155) ![Animation & 3D](https://img.shields.io/badge/Animation_%26_3D-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-31
+
+Interactive Framer Motion animated portfolio celebrating the 246 Daily Coding Builds ecosystem with page transitions, scroll animations, and interactive cards.
+
+[Repo →](https://github.com/breakingthebot/framer-motion-animated-portfolio-build55)
+
+---
 
 #### [#54 — Styled Components Theme-able UI Kit](builds/054-styled-components-theme-able-ui-kit.md)
 ![Styled Components](https://img.shields.io/badge/Styled_Components-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-31
@@ -535,98 +625,188 @@ Standard-library-only expense tracker with budgets, recurring templates, monthly
 <details>
 <summary>Most Recent 10 (10)</summary>
 
-#### [#54 — Styled Components Theme-able UI Kit](builds/054-styled-components-theme-able-ui-kit.md)
-![Styled Components](https://img.shields.io/badge/Styled_Components-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-31
+#### [#64 — Minimal URL Shortener](builds/064-minimal-url-shortener.md)
+![Flask](https://img.shields.io/badge/Flask-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
 
-14-component React UI kit built with styled-components, demonstrating real-time light/dark theme switching and dynamic prop-based CSS-in-JS styling.
+Minimal Python Flask & SQLite URL shortener featuring custom aliases, TTL link expiration, pure Python vector SVG QR codes, sliding-window rate limiting, and REST API in under 100 lines of code.
 
-[Repo →](https://github.com/breakingthebot/styled-components-theme-uikit-build54)
-
----
-
-#### [#53 — ModulaUI - React CSS Modules Component Library](builds/053-modulaui-react-css-modules-component-library.md)
-![CSS Modules](https://img.shields.io/badge/CSS_Modules-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-30
-
-22-component React UI library demonstrating scoped CSS Modules architecture with guaranteed style isolation across Button, Table, Drawer, Modal, and more.
-
-[Repo →](https://github.com/breakingthebot/react-css-modules-library-build53)
+[Repo →](https://github.com/breakingthebot/minimal-url-shortener-build64)
 
 ---
 
-#### [#52 — ApexAdmin - Tailwind CSS Admin Dashboard](builds/052-apexadmin-tailwind-css-admin-dashboard.md)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-30
+#### [#63 — Django Full Content Management System](builds/063-django-full-content-management-system.md)
+![Django](https://img.shields.io/badge/Django-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
 
-Enterprise Tailwind CSS admin dashboard with API key management, an RBAC matrix, SLA heatmaps, and dark mode, built without custom CSS.
+Full Python/Django CMS — featuring models, Django admin panel, user auth, blog posts, categories, comments, and management CLI commands.
 
-[Repo →](https://github.com/breakingthebot/tailwind-admin-dashboard-build52)
-
----
-
-#### [#51 — ApexUI - Sass/SCSS Design System](builds/051-apexui-sass-scss-design-system.md)
-![Sass/SCSS](https://img.shields.io/badge/Sass%2FSCSS-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-30
-
-Enterprise Sass/SCSS design system with design tokens, mixins, and 20+ component partials compiling to a single clean stylesheet, zero JavaScript.
-
-[Repo →](https://github.com/breakingthebot/sass-scss-design-system-build51)
+[Repo →](https://github.com/breakingthebot/full-cms-build63)
 
 ---
 
-#### [#50 — Breaking The Bot - Pure CSS Landing Page](builds/050-breaking-the-bot-pure-css-landing-page.md)
-![Pure CSS](https://img.shields.io/badge/Pure_CSS-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-29
+#### [#62 — FastAPI Task Management API](builds/062-fastapi-task-management-api.md)
+![FastAPI](https://img.shields.io/badge/FastAPI-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
 
-Zero-JavaScript TikTok character worldbuilding landing page built with pure HTML5/CSS3, using :target modals, clip-path sliders, and @property animated counters.
+FastAPI Task management API featuring full CRUD, OAuth2 JWT auth, background tasks, file uploads, Pydantic validation, and OpenAPI documentation.
 
-[Repo →](https://github.com/breakingthebot/pure-css-landing-page-build50)
-
----
-
-#### [#49 — Nexus Cyber - Qwik E-Commerce Product Page](builds/049-nexus-cyber-qwik-e-commerce-product-page.md)
-![Qwik](https://img.shields.io/badge/Qwik-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-29
-
-Instant-loading Qwik e-commerce product page with resumable state, a WebXR AR viewer, a sound equalizer, and a multi-currency cart.
-
-[Repo →](https://github.com/breakingthebot/qwik-ecommerce-product-page-build49)
+[Repo →](https://github.com/breakingthebot/fastapi-task-management-api-build62)
 
 ---
 
-#### [#48 — Nexus Lit Reusable Date Picker](builds/048-nexus-lit-reusable-date-picker.md)
-![Lit](https://img.shields.io/badge/Lit-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+#### [#61 — Edge-Deployed URL Shortener](builds/061-edge-deployed-url-shortener.md)
+![Hono](https://img.shields.io/badge/Hono-334155) ![Serverless & Edge](https://img.shields.io/badge/Serverless_%26_Edge-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
 
-Framework-agnostic Shadow DOM date-range picker web component built with Lit 3, with presets, i18n, touch gestures, and calendar export.
+Edge-deployed URL shortener built with Hono and Cloudflare Workers, delivering ultra-fast global redirection and analytics.
 
-[Repo →](https://github.com/breakingthebot/lit-reusable-date-picker-build48)
-
----
-
-#### [#47 — NexusCloud Alpine.js Interactive Knowledge Base](builds/047-nexuscloud-alpine-js-interactive-knowledge-base.md)
-![Alpine.js](https://img.shields.io/badge/Alpine.js-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
-
-Enterprise FAQ/knowledge base built with Alpine.js 3 and Express, with live search, quizzes, SLA escalation tickets, and keyboard navigation.
-
-[Repo →](https://github.com/breakingthebot/alpinejs-interactive-faq-build47)
+[Repo →](https://github.com/breakingthebot/edgedeployed-url-shortener-build61)
 
 ---
 
-#### [#46 — NexusCloud HTMX Contact Manager & Creator CRM](builds/046-nexuscloud-htmx-contact-manager-creator-crm.md)
-![HTMX](https://img.shields.io/badge/HTMX-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+#### [#60 — NestJS E-Commerce REST API](builds/060-nestjs-e-commerce-rest-api.md)
+![NestJS](https://img.shields.io/badge/NestJS-334155) ![Backend & APIs (Node/TS)](https://img.shields.io/badge/Backend_%26_APIs_(Node%2FTS)-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
 
-Zero-JS-framework Contact & Creator CRM built with HTMX and Express, featuring lead scoring, vCard export, duplicate merging, and audit timelines across 18 iterations.
+Enterprise NestJS E-Commerce REST API showcasing modules, controllers, services, guards, interceptors, and full dependency injection pattern.
 
-[Repo →](https://github.com/breakingthebot/htmx-contact-manager-build46)
+[Repo →](https://github.com/breakingthebot/ecommerce-api-build60)
 
 ---
 
-#### [#45 — HyperScale Docs - Astro Documentation Site](builds/045-hyperscale-docs-astro-documentation-site.md)
-![Astro](https://img.shields.io/badge/Astro-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-28
+#### [#59 — High Performance Product Catalog API](builds/059-high-performance-product-catalog-api.md)
+![Fastify](https://img.shields.io/badge/Fastify-334155) ![Backend & APIs (Node/TS)](https://img.shields.io/badge/Backend_%26_APIs_(Node%2FTS)-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
 
-Astro + Starlight documentation site with static-generated MDX pages, offline Pagefind search, i18n locale switching, an OpenAPI viewer, and PDF export.
+High performance product catalog API built with Fastify — featuring JSON Schema validation, serialization, and benchmark vs Express.
 
-[Repo →](https://github.com/breakingthebot/astro-docs-site-build45)
+[Repo →](https://github.com/breakingthebot/high-performance-product-catalog-api-build59)
+
+---
+
+#### [#58 — Blog REST API with Express](builds/058-blog-rest-api-with-express.md)
+![Express](https://img.shields.io/badge/Express-334155) ![Backend & APIs (Node/TS)](https://img.shields.io/badge/Backend_%26_APIs_(Node%2FTS)-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+REST API for a blog built with Node.js and Express featuring post/comment CRUD, auth middleware, rate limiting, and comprehensive test suite.
+
+[Repo →](https://github.com/breakingthebot/blog-rest-api-express)
+
+---
+
+#### [#57 — COVID-19 Interactive Visual Analytics Dashboard](builds/057-covid-19-interactive-visual-analytics-dashboard.md)
+![D3.js](https://img.shields.io/badge/D3.js-334155) ![Visualization & Data](https://img.shields.io/badge/Visualization_%26_Data-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+Interactive COVID-19 Visual Analytics Dashboard powered by D3.js, featuring multi-series line charts, country ranking bar charts, and world choropleth maps.
+
+[Repo →](https://github.com/breakingthebot/covid-data-visualization-build57)
+
+---
+
+#### [#56 — Three.js Interactive 3D Product Viewer](builds/056-three-js-interactive-3d-product-viewer.md)
+![Three.js](https://img.shields.io/badge/Three.js-334155) ![Animation & 3D](https://img.shields.io/badge/Animation_%26_3D-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-01
+
+Interactive 3D product viewer built with React 19, Three.js, React Three Fiber, Drei, and Vite featuring real-time PBR materials, custom decal texture upload, 3D exploded view, and 3D hotspot annotations.
+
+[Repo →](https://github.com/breakingthebot/threejs-interactive-3d-product-viewer-build56)
+
+---
+
+#### [#55 — Framer Motion Animated Portfolio Showcase](builds/055-framer-motion-animated-portfolio-showcase.md)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-334155) ![Animation & 3D](https://img.shields.io/badge/Animation_%26_3D-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-31
+
+Interactive Framer Motion animated portfolio celebrating the 246 Daily Coding Builds ecosystem with page transitions, scroll animations, and interactive cards.
+
+[Repo →](https://github.com/breakingthebot/framer-motion-animated-portfolio-build55)
 
 </details>
 
 <details>
-<summary>Deep Builds (40)</summary>
+<summary>Deep Builds (50)</summary>
+
+#### [#64 — Minimal URL Shortener](builds/064-minimal-url-shortener.md)
+![Flask](https://img.shields.io/badge/Flask-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
+
+Minimal Python Flask & SQLite URL shortener featuring custom aliases, TTL link expiration, pure Python vector SVG QR codes, sliding-window rate limiting, and REST API in under 100 lines of code.
+
+[Repo →](https://github.com/breakingthebot/minimal-url-shortener-build64)
+
+---
+
+#### [#63 — Django Full Content Management System](builds/063-django-full-content-management-system.md)
+![Django](https://img.shields.io/badge/Django-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
+
+Full Python/Django CMS — featuring models, Django admin panel, user auth, blog posts, categories, comments, and management CLI commands.
+
+[Repo →](https://github.com/breakingthebot/full-cms-build63)
+
+---
+
+#### [#62 — FastAPI Task Management API](builds/062-fastapi-task-management-api.md)
+![FastAPI](https://img.shields.io/badge/FastAPI-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
+
+FastAPI Task management API featuring full CRUD, OAuth2 JWT auth, background tasks, file uploads, Pydantic validation, and OpenAPI documentation.
+
+[Repo →](https://github.com/breakingthebot/fastapi-task-management-api-build62)
+
+---
+
+#### [#61 — Edge-Deployed URL Shortener](builds/061-edge-deployed-url-shortener.md)
+![Hono](https://img.shields.io/badge/Hono-334155) ![Serverless & Edge](https://img.shields.io/badge/Serverless_%26_Edge-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+Edge-deployed URL shortener built with Hono and Cloudflare Workers, delivering ultra-fast global redirection and analytics.
+
+[Repo →](https://github.com/breakingthebot/edgedeployed-url-shortener-build61)
+
+---
+
+#### [#60 — NestJS E-Commerce REST API](builds/060-nestjs-e-commerce-rest-api.md)
+![NestJS](https://img.shields.io/badge/NestJS-334155) ![Backend & APIs (Node/TS)](https://img.shields.io/badge/Backend_%26_APIs_(Node%2FTS)-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+Enterprise NestJS E-Commerce REST API showcasing modules, controllers, services, guards, interceptors, and full dependency injection pattern.
+
+[Repo →](https://github.com/breakingthebot/ecommerce-api-build60)
+
+---
+
+#### [#59 — High Performance Product Catalog API](builds/059-high-performance-product-catalog-api.md)
+![Fastify](https://img.shields.io/badge/Fastify-334155) ![Backend & APIs (Node/TS)](https://img.shields.io/badge/Backend_%26_APIs_(Node%2FTS)-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+High performance product catalog API built with Fastify — featuring JSON Schema validation, serialization, and benchmark vs Express.
+
+[Repo →](https://github.com/breakingthebot/high-performance-product-catalog-api-build59)
+
+---
+
+#### [#58 — Blog REST API with Express](builds/058-blog-rest-api-with-express.md)
+![Express](https://img.shields.io/badge/Express-334155) ![Backend & APIs (Node/TS)](https://img.shields.io/badge/Backend_%26_APIs_(Node%2FTS)-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+REST API for a blog built with Node.js and Express featuring post/comment CRUD, auth middleware, rate limiting, and comprehensive test suite.
+
+[Repo →](https://github.com/breakingthebot/blog-rest-api-express)
+
+---
+
+#### [#57 — COVID-19 Interactive Visual Analytics Dashboard](builds/057-covid-19-interactive-visual-analytics-dashboard.md)
+![D3.js](https://img.shields.io/badge/D3.js-334155) ![Visualization & Data](https://img.shields.io/badge/Visualization_%26_Data-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+Interactive COVID-19 Visual Analytics Dashboard powered by D3.js, featuring multi-series line charts, country ranking bar charts, and world choropleth maps.
+
+[Repo →](https://github.com/breakingthebot/covid-data-visualization-build57)
+
+---
+
+#### [#56 — Three.js Interactive 3D Product Viewer](builds/056-three-js-interactive-3d-product-viewer.md)
+![Three.js](https://img.shields.io/badge/Three.js-334155) ![Animation & 3D](https://img.shields.io/badge/Animation_%26_3D-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-01
+
+Interactive 3D product viewer built with React 19, Three.js, React Three Fiber, Drei, and Vite featuring real-time PBR materials, custom decal texture upload, 3D exploded view, and 3D hotspot annotations.
+
+[Repo →](https://github.com/breakingthebot/threejs-interactive-3d-product-viewer-build56)
+
+---
+
+#### [#55 — Framer Motion Animated Portfolio Showcase](builds/055-framer-motion-animated-portfolio-showcase.md)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-334155) ![Animation & 3D](https://img.shields.io/badge/Animation_%26_3D-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-31
+
+Interactive Framer Motion animated portfolio celebrating the 246 Daily Coding Builds ecosystem with page transitions, scroll animations, and interactive cards.
+
+[Repo →](https://github.com/breakingthebot/framer-motion-animated-portfolio-build55)
+
+---
 
 #### [#54 — Styled Components Theme-able UI Kit](builds/054-styled-components-theme-able-ui-kit.md)
 ![Styled Components](https://img.shields.io/badge/Styled_Components-334155) ![Web Frontend](https://img.shields.io/badge/Web_Frontend-2563eb) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-31
@@ -990,6 +1170,27 @@ CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, a
 
 ## By Category
 <details>
+<summary>Animation & 3D (2)</summary>
+
+#### [#56 — Three.js Interactive 3D Product Viewer](builds/056-three-js-interactive-3d-product-viewer.md)
+![Three.js](https://img.shields.io/badge/Three.js-334155) ![Animation & 3D](https://img.shields.io/badge/Animation_%26_3D-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-01
+
+Interactive 3D product viewer built with React 19, Three.js, React Three Fiber, Drei, and Vite featuring real-time PBR materials, custom decal texture upload, 3D exploded view, and 3D hotspot annotations.
+
+[Repo →](https://github.com/breakingthebot/threejs-interactive-3d-product-viewer-build56)
+
+---
+
+#### [#55 — Framer Motion Animated Portfolio Showcase](builds/055-framer-motion-animated-portfolio-showcase.md)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-334155) ![Animation & 3D](https://img.shields.io/badge/Animation_%26_3D-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-31
+
+Interactive Framer Motion animated portfolio celebrating the 246 Daily Coding Builds ecosystem with page transitions, scroll animations, and interactive cards.
+
+[Repo →](https://github.com/breakingthebot/framer-motion-animated-portfolio-build55)
+
+</details>
+
+<details>
 <summary>Automation & DevOps (2)</summary>
 
 #### [#23 — Hammerspoon Config](builds/023-hammerspoon-config.md)
@@ -1007,6 +1208,66 @@ Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-a
 Bash server-setup automation with dependency install/verification, environment config templating, cron-scheduled health checks, systemd service generation, webhook failure notifications, and automatic rollback on error.
 
 [Repo →](https://github.com/breakingthebot/server-setup-script)
+
+</details>
+
+<details>
+<summary>Backend - Python (3)</summary>
+
+#### [#64 — Minimal URL Shortener](builds/064-minimal-url-shortener.md)
+![Flask](https://img.shields.io/badge/Flask-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
+
+Minimal Python Flask & SQLite URL shortener featuring custom aliases, TTL link expiration, pure Python vector SVG QR codes, sliding-window rate limiting, and REST API in under 100 lines of code.
+
+[Repo →](https://github.com/breakingthebot/minimal-url-shortener-build64)
+
+---
+
+#### [#63 — Django Full Content Management System](builds/063-django-full-content-management-system.md)
+![Django](https://img.shields.io/badge/Django-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
+
+Full Python/Django CMS — featuring models, Django admin panel, user auth, blog posts, categories, comments, and management CLI commands.
+
+[Repo →](https://github.com/breakingthebot/full-cms-build63)
+
+---
+
+#### [#62 — FastAPI Task Management API](builds/062-fastapi-task-management-api.md)
+![FastAPI](https://img.shields.io/badge/FastAPI-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
+
+FastAPI Task management API featuring full CRUD, OAuth2 JWT auth, background tasks, file uploads, Pydantic validation, and OpenAPI documentation.
+
+[Repo →](https://github.com/breakingthebot/fastapi-task-management-api-build62)
+
+</details>
+
+<details>
+<summary>Backend & APIs (Node/TS) (3)</summary>
+
+#### [#60 — NestJS E-Commerce REST API](builds/060-nestjs-e-commerce-rest-api.md)
+![NestJS](https://img.shields.io/badge/NestJS-334155) ![Backend & APIs (Node/TS)](https://img.shields.io/badge/Backend_%26_APIs_(Node%2FTS)-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+Enterprise NestJS E-Commerce REST API showcasing modules, controllers, services, guards, interceptors, and full dependency injection pattern.
+
+[Repo →](https://github.com/breakingthebot/ecommerce-api-build60)
+
+---
+
+#### [#59 — High Performance Product Catalog API](builds/059-high-performance-product-catalog-api.md)
+![Fastify](https://img.shields.io/badge/Fastify-334155) ![Backend & APIs (Node/TS)](https://img.shields.io/badge/Backend_%26_APIs_(Node%2FTS)-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+High performance product catalog API built with Fastify — featuring JSON Schema validation, serialization, and benchmark vs Express.
+
+[Repo →](https://github.com/breakingthebot/high-performance-product-catalog-api-build59)
+
+---
+
+#### [#58 — Blog REST API with Express](builds/058-blog-rest-api-with-express.md)
+![Express](https://img.shields.io/badge/Express-334155) ![Backend & APIs (Node/TS)](https://img.shields.io/badge/Backend_%26_APIs_(Node%2FTS)-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+REST API for a blog built with Node.js and Express featuring post/comment CRUD, auth middleware, rate limiting, and comprehensive test suite.
+
+[Repo →](https://github.com/breakingthebot/blog-rest-api-express)
 
 </details>
 
@@ -1217,6 +1478,30 @@ SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a w
 SEO-optimized Nuxt 3 culinary recipe app with Schema.org JSON-LD structured data, meta tags, and interactive serving scale calculator.
 
 [Repo →](https://github.com/breakingthebot/gourmetpulse-recipe-build41)
+
+</details>
+
+<details>
+<summary>Serverless & Edge (1)</summary>
+
+#### [#61 — Edge-Deployed URL Shortener](builds/061-edge-deployed-url-shortener.md)
+![Hono](https://img.shields.io/badge/Hono-334155) ![Serverless & Edge](https://img.shields.io/badge/Serverless_%26_Edge-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+Edge-deployed URL shortener built with Hono and Cloudflare Workers, delivering ultra-fast global redirection and analytics.
+
+[Repo →](https://github.com/breakingthebot/edgedeployed-url-shortener-build61)
+
+</details>
+
+<details>
+<summary>Visualization & Data (1)</summary>
+
+#### [#57 — COVID-19 Interactive Visual Analytics Dashboard](builds/057-covid-19-interactive-visual-analytics-dashboard.md)
+![D3.js](https://img.shields.io/badge/D3.js-334155) ![Visualization & Data](https://img.shields.io/badge/Visualization_%26_Data-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+Interactive COVID-19 Visual Analytics Dashboard powered by D3.js, featuring multi-series line charts, country ranking bar charts, and world choropleth maps.
+
+[Repo →](https://github.com/breakingthebot/covid-data-visualization-build57)
 
 </details>
 
@@ -1600,6 +1885,30 @@ A .NET 8 console budget tracker with categories, monthly reports, and CSV export
 </details>
 
 <details>
+<summary>D3.js (1)</summary>
+
+#### [#57 — COVID-19 Interactive Visual Analytics Dashboard](builds/057-covid-19-interactive-visual-analytics-dashboard.md)
+![D3.js](https://img.shields.io/badge/D3.js-334155) ![Visualization & Data](https://img.shields.io/badge/Visualization_%26_Data-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+Interactive COVID-19 Visual Analytics Dashboard powered by D3.js, featuring multi-series line charts, country ranking bar charts, and world choropleth maps.
+
+[Repo →](https://github.com/breakingthebot/covid-data-visualization-build57)
+
+</details>
+
+<details>
+<summary>Django (1)</summary>
+
+#### [#63 — Django Full Content Management System](builds/063-django-full-content-management-system.md)
+![Django](https://img.shields.io/badge/Django-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
+
+Full Python/Django CMS — featuring models, Django admin panel, user auth, blog posts, categories, comments, and management CLI commands.
+
+[Repo →](https://github.com/breakingthebot/full-cms-build63)
+
+</details>
+
+<details>
 <summary>ES Modules (1)</summary>
 
 #### [#11 — Music Player](builds/011-music-player.md)
@@ -1612,6 +1921,66 @@ No-bundler ES module music player with queue, shuffle/repeat, favorites, local f
 </details>
 
 <details>
+<summary>Express (1)</summary>
+
+#### [#58 — Blog REST API with Express](builds/058-blog-rest-api-with-express.md)
+![Express](https://img.shields.io/badge/Express-334155) ![Backend & APIs (Node/TS)](https://img.shields.io/badge/Backend_%26_APIs_(Node%2FTS)-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+REST API for a blog built with Node.js and Express featuring post/comment CRUD, auth middleware, rate limiting, and comprehensive test suite.
+
+[Repo →](https://github.com/breakingthebot/blog-rest-api-express)
+
+</details>
+
+<details>
+<summary>FastAPI (1)</summary>
+
+#### [#62 — FastAPI Task Management API](builds/062-fastapi-task-management-api.md)
+![FastAPI](https://img.shields.io/badge/FastAPI-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
+
+FastAPI Task management API featuring full CRUD, OAuth2 JWT auth, background tasks, file uploads, Pydantic validation, and OpenAPI documentation.
+
+[Repo →](https://github.com/breakingthebot/fastapi-task-management-api-build62)
+
+</details>
+
+<details>
+<summary>Fastify (1)</summary>
+
+#### [#59 — High Performance Product Catalog API](builds/059-high-performance-product-catalog-api.md)
+![Fastify](https://img.shields.io/badge/Fastify-334155) ![Backend & APIs (Node/TS)](https://img.shields.io/badge/Backend_%26_APIs_(Node%2FTS)-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+High performance product catalog API built with Fastify — featuring JSON Schema validation, serialization, and benchmark vs Express.
+
+[Repo →](https://github.com/breakingthebot/high-performance-product-catalog-api-build59)
+
+</details>
+
+<details>
+<summary>Flask (1)</summary>
+
+#### [#64 — Minimal URL Shortener](builds/064-minimal-url-shortener.md)
+![Flask](https://img.shields.io/badge/Flask-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
+
+Minimal Python Flask & SQLite URL shortener featuring custom aliases, TTL link expiration, pure Python vector SVG QR codes, sliding-window rate limiting, and REST API in under 100 lines of code.
+
+[Repo →](https://github.com/breakingthebot/minimal-url-shortener-build64)
+
+</details>
+
+<details>
+<summary>Framer Motion (1)</summary>
+
+#### [#55 — Framer Motion Animated Portfolio Showcase](builds/055-framer-motion-animated-portfolio-showcase.md)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-334155) ![Animation & 3D](https://img.shields.io/badge/Animation_%26_3D-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-31
+
+Interactive Framer Motion animated portfolio celebrating the 246 Daily Coding Builds ecosystem with page transitions, scroll animations, and interactive cards.
+
+[Repo →](https://github.com/breakingthebot/framer-motion-animated-portfolio-build55)
+
+</details>
+
+<details>
 <summary>Go (1)</summary>
 
 #### [#15 — URL Shortener API](builds/015-url-shortener-api.md)
@@ -1620,6 +1989,18 @@ No-bundler ES module music player with queue, shuffle/repeat, favorites, local f
 Go URL shortener API with PostgreSQL storage and click tracking.
 
 [Repo →](https://github.com/breakingthebot/url-shortener-api)
+
+</details>
+
+<details>
+<summary>Hono (1)</summary>
+
+#### [#61 — Edge-Deployed URL Shortener](builds/061-edge-deployed-url-shortener.md)
+![Hono](https://img.shields.io/badge/Hono-334155) ![Serverless & Edge](https://img.shields.io/badge/Serverless_%26_Edge-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+Edge-deployed URL shortener built with Hono and Cloudflare Workers, delivering ultra-fast global redirection and analytics.
+
+[Repo →](https://github.com/breakingthebot/edgedeployed-url-shortener-build61)
 
 </details>
 
@@ -1716,6 +2097,18 @@ Framework-agnostic Shadow DOM date-range picker web component built with Lit 3, 
 Hammerspoon macOS automation with hotkey-driven window snapping, multi-monitor-aware window management, and an app launcher, with GitHub Actions CI.
 
 [Repo →](https://github.com/breakingthebot/hammerspoon-config)
+
+</details>
+
+<details>
+<summary>NestJS (1)</summary>
+
+#### [#60 — NestJS E-Commerce REST API](builds/060-nestjs-e-commerce-rest-api.md)
+![NestJS](https://img.shields.io/badge/NestJS-334155) ![Backend & APIs (Node/TS)](https://img.shields.io/badge/Backend_%26_APIs_(Node%2FTS)-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+
+Enterprise NestJS E-Commerce REST API showcasing modules, controllers, services, guards, interceptors, and full dependency injection pattern.
+
+[Repo →](https://github.com/breakingthebot/ecommerce-api-build60)
 
 </details>
 
@@ -2092,6 +2485,18 @@ GitHub dashboard with cached search, background refetch, loading/error states, a
 </details>
 
 <details>
+<summary>Three.js (1)</summary>
+
+#### [#56 — Three.js Interactive 3D Product Viewer](builds/056-three-js-interactive-3d-product-viewer.md)
+![Three.js](https://img.shields.io/badge/Three.js-334155) ![Animation & 3D](https://img.shields.io/badge/Animation_%26_3D-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-01
+
+Interactive 3D product viewer built with React 19, Three.js, React Three Fiber, Drei, and Vite featuring real-time PBR materials, custom decal texture upload, 3D exploded view, and 3D hotspot annotations.
+
+[Repo →](https://github.com/breakingthebot/threejs-interactive-3d-product-viewer-build56)
+
+</details>
+
+<details>
 <summary>TypeScript (1)</summary>
 
 #### [#10 — Typed Task Manager](builds/010-typed-task-manager.md)
@@ -2252,6 +2657,6 @@ This repo is an index repo and does not require a live deployment.
 This repo is the front door for the full build series. The reference files stay in `reference/`, the published build entries live in `builds.json`, and the README is generated from that JSON so the public index stays consistent. I kept the automation small on purpose: one CLI to add a build, one CLI to regenerate the README, and a handful of focused modules so the data, validation, formatting, and file writes stay separate and easy to audit.
 
 ## Notes
-- The tracker and README are synced to the 54 public build repos currently published under the `breakingthebot` GitHub account.
+- The tracker and README are synced to the 64 public build repos currently published under the `breakingthebot` GitHub account.
 - The tracker workbook currently contains 246 build rows even though the PDF is described as a 286-item master list. The automation uses the tracker rows that are actually marked complete.
 - The remaining unpublished build slots are intentionally left open for future custom build designs and additional portfolio work.

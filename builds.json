@@ -1,5 +1,155 @@
 [
   {
+    "build_number": 64,
+    "date": "2026-08-03",
+    "project_name": "Minimal URL Shortener",
+    "description": "Minimal Python Flask & SQLite URL shortener featuring custom aliases, TTL link expiration, pure Python vector SVG QR codes, sliding-window rate limiting, and REST API in under 100 lines of code.",
+    "repo_url": "https://github.com/breakingthebot/minimal-url-shortener-build64",
+    "technology": "Flask",
+    "category": "Backend - Python",
+    "stack": [
+      "Flask",
+      "Backend - Python"
+    ],
+    "depth": "Deep",
+    "notes": "Minimal Python Flask & SQLite URL shortener under 100 lines"
+  },
+  {
+    "build_number": 63,
+    "date": "2026-08-03",
+    "project_name": "Django Full Content Management System",
+    "description": "Full Python/Django CMS — featuring models, Django admin panel, user auth, blog posts, categories, comments, and management CLI commands.",
+    "repo_url": "https://github.com/breakingthebot/full-cms-build63",
+    "technology": "Django",
+    "category": "Backend - Python",
+    "stack": [
+      "Django",
+      "Backend - Python"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 62,
+    "date": "2026-08-03",
+    "project_name": "FastAPI Task Management API",
+    "description": "FastAPI Task management API featuring full CRUD, OAuth2 JWT auth, background tasks, file uploads, Pydantic validation, and OpenAPI documentation.",
+    "repo_url": "https://github.com/breakingthebot/fastapi-task-management-api-build62",
+    "technology": "FastAPI",
+    "category": "Backend - Python",
+    "stack": [
+      "FastAPI",
+      "Backend - Python"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 61,
+    "date": "2026-08-02",
+    "project_name": "Edge-Deployed URL Shortener",
+    "description": "Edge-deployed URL shortener built with Hono and Cloudflare Workers, delivering ultra-fast global redirection and analytics.",
+    "repo_url": "https://github.com/breakingthebot/edgedeployed-url-shortener-build61",
+    "technology": "Hono",
+    "category": "Serverless & Edge",
+    "stack": [
+      "Hono",
+      "Serverless & Edge"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 60,
+    "date": "2026-08-02",
+    "project_name": "NestJS E-Commerce REST API",
+    "description": "Enterprise NestJS E-Commerce REST API showcasing modules, controllers, services, guards, interceptors, and full dependency injection pattern.",
+    "repo_url": "https://github.com/breakingthebot/ecommerce-api-build60",
+    "technology": "NestJS",
+    "category": "Backend & APIs (Node/TS)",
+    "stack": [
+      "NestJS",
+      "Backend & APIs (Node/TS)"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 59,
+    "date": "2026-08-02",
+    "project_name": "High Performance Product Catalog API",
+    "description": "High performance product catalog API built with Fastify — featuring JSON Schema validation, serialization, and benchmark vs Express.",
+    "repo_url": "https://github.com/breakingthebot/high-performance-product-catalog-api-build59",
+    "technology": "Fastify",
+    "category": "Backend & APIs (Node/TS)",
+    "stack": [
+      "Fastify",
+      "Backend & APIs (Node/TS)"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 58,
+    "date": "2026-08-02",
+    "project_name": "Blog REST API with Express",
+    "description": "REST API for a blog built with Node.js and Express featuring post/comment CRUD, auth middleware, rate limiting, and comprehensive test suite.",
+    "repo_url": "https://github.com/breakingthebot/blog-rest-api-express",
+    "technology": "Express",
+    "category": "Backend & APIs (Node/TS)",
+    "stack": [
+      "Express",
+      "Backend & APIs (Node/TS)"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 57,
+    "date": "2026-08-02",
+    "project_name": "COVID-19 Interactive Visual Analytics Dashboard",
+    "description": "Interactive COVID-19 Visual Analytics Dashboard powered by D3.js, featuring multi-series line charts, country ranking bar charts, and world choropleth maps.",
+    "repo_url": "https://github.com/breakingthebot/covid-data-visualization-build57",
+    "technology": "D3.js",
+    "category": "Visualization & Data",
+    "stack": [
+      "D3.js",
+      "Visualization & Data"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 56,
+    "date": "2026-08-01",
+    "project_name": "Three.js Interactive 3D Product Viewer",
+    "description": "Interactive 3D product viewer built with React 19, Three.js, React Three Fiber, Drei, and Vite featuring real-time PBR materials, custom decal texture upload, 3D exploded view, and 3D hotspot annotations.",
+    "repo_url": "https://github.com/breakingthebot/threejs-interactive-3d-product-viewer-build56",
+    "technology": "Three.js",
+    "category": "Animation & 3D",
+    "stack": [
+      "Three.js",
+      "Animation & 3D"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
+    "build_number": 55,
+    "date": "2026-07-31",
+    "project_name": "Framer Motion Animated Portfolio Showcase",
+    "description": "Interactive Framer Motion animated portfolio celebrating the 246 Daily Coding Builds ecosystem with page transitions, scroll animations, and interactive cards.",
+    "repo_url": "https://github.com/breakingthebot/framer-motion-animated-portfolio-build55",
+    "technology": "Framer Motion",
+    "category": "Animation & 3D",
+    "stack": [
+      "Framer Motion",
+      "Animation & 3D"
+    ],
+    "depth": "Deep",
+    "notes": ""
+  },
+  {
     "build_number": 54,
     "date": "2026-07-31",
     "project_name": "Styled Components Theme-able UI Kit",
