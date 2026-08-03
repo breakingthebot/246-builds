@@ -5,8 +5,8 @@ SEO-optimized Nuxt 3 culinary recipe app with Schema.org JSON-LD structured data
 ## Snapshot
 - Date Pushed: 2026-07-25
 - Technology: Nuxt.js
-- Category: Nuxt 3
-- Depth: Standard
+- Category: Vue 3
+- Depth: Deep
 - Repo: https://github.com/breakingthebot/gourmetpulse-recipe-build41
 
 ## Notes

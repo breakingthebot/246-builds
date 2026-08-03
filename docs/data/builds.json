@@ -351,12 +351,12 @@
     "description": "SEO-optimized Nuxt 3 culinary recipe app with Schema.org JSON-LD structured data, meta tags, and interactive serving scale calculator.",
     "repo_url": "https://github.com/breakingthebot/gourmetpulse-recipe-build41",
     "technology": "Nuxt.js",
-    "category": "Nuxt 3",
+    "category": "Vue 3",
     "stack": [
       "Nuxt.js",
-      "Nuxt 3"
+      "Vue 3"
     ],
-    "depth": "Standard",
+    "depth": "Deep",
     "notes": "Vercel: https://gourmetpulse-recipe-build41.vercel.app"
   },
   {
@@ -386,7 +386,7 @@
       "Vue Router",
       "Vue 3"
     ],
-    "depth": "Standard",
+    "depth": "Deep",
     "notes": "Vercel: https://travel-blog-router-build39.vercel.app"
   },
   {
@@ -401,7 +401,7 @@
       "Vue 3 core",
       "Vue 3"
     ],
-    "depth": "Standard",
+    "depth": "Deep",
     "notes": ""
   },
   {

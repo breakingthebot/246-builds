@@ -19,6 +19,10 @@
       "count": 4
     },
     {
+      "label": "Vue 3",
+      "count": 4
+    },
+    {
       "label": "Backend - Python",
       "count": 3
     },
@@ -32,10 +36,6 @@
     },
     {
       "label": "Data & Analytics",
-      "count": 3
-    },
-    {
-      "label": "Vue 3",
       "count": 3
     },
     {
@@ -53,10 +53,6 @@
     {
       "label": "Libraries & Packages",
       "count": 2
-    },
-    {
-      "label": "Nuxt 3",
-      "count": 1
     },
     {
       "label": "Serverless & Edge",
@@ -324,15 +320,11 @@
   "by_depth": [
     {
       "label": "Deep",
-      "count": 50
+      "count": 53
     },
     {
       "label": "Expanded",
       "count": 11
-    },
-    {
-      "label": "Standard",
-      "count": 3
     }
   ]
 }

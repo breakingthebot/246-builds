@@ -2,7 +2,7 @@
 
 [![Test](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml/badge.svg)](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml)
 
-![Builds: 64](https://img.shields.io/badge/Builds-64-0ea5e9) ![Latest: #64](https://img.shields.io/badge/Latest-%2364-16a34a) ![Languages: 63](https://img.shields.io/badge/Languages-63-f59e0b) ![Deep Builds: 50](https://img.shields.io/badge/Deep_Builds-50-7c3aed)
+![Builds: 64](https://img.shields.io/badge/Builds-64-0ea5e9) ![Latest: #64](https://img.shields.io/badge/Latest-%2364-16a34a) ![Languages: 63](https://img.shields.io/badge/Languages-63-f59e0b) ![Deep Builds: 53](https://img.shields.io/badge/Deep_Builds-53-7c3aed)
 
 **[Browse & filter every build on the live site →](https://breakingthebot.github.io/286-builds/)**
 
@@ -253,7 +253,7 @@ Reactive Svelte 4 live text analysis tool with word/character/sentence counts, F
 ---
 
 #### [#41 — GourmetPulse - SEO Recipe App](builds/041-gourmetpulse-seo-recipe-app.md)
-![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![Nuxt 3](https://img.shields.io/badge/Nuxt_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
+![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-25
 
 SEO-optimized Nuxt 3 culinary recipe app with Schema.org JSON-LD structured data, meta tags, and interactive serving scale calculator.
 
@@ -271,7 +271,7 @@ Pinia state task manager with Kanban board, calendar view, subtask reordering co
 ---
 
 #### [#39 — TravelPulse - Multi-Page Travel Blog](builds/039-travelpulse-multi-page-travel-blog.md)
-![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
+![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-25
 
 Vue Router multi-page travel journal with destination guides, region filters, photo gallery lightbox viewer, and reader comments.
 
@@ -280,7 +280,7 @@ Vue Router multi-page travel journal with destination guides, region filters, ph
 ---
 
 #### [#38 — PulseMovie - Movie Watchlist](builds/038-pulsemovie-movie-watchlist.md)
-![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-23
+![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-23
 
 Movie watchlist dashboard built with Vue 3 and TypeScript, supporting TVMaze public API searches and LocalStorage cache checklists.
 
@@ -716,7 +716,7 @@ Interactive Framer Motion animated portfolio celebrating the 246 Daily Coding Bu
 </details>
 
 <details>
-<summary>Deep Builds (50)</summary>
+<summary>Deep Builds (53)</summary>
 
 #### [#64 — Minimal URL Shortener](builds/064-minimal-url-shortener.md)
 ![Flask](https://img.shields.io/badge/Flask-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
@@ -922,6 +922,33 @@ Full-stack server-rendered notes app built with SvelteKit 5, using server-side d
 Reactive Svelte 4 live text analysis tool with word/character/sentence counts, Flesch-Kincaid readability scoring, prose flaw scanning, and text-to-speech proofreading.
 
 [Repo →](https://github.com/breakingthebot/word-counter-build42)
+
+---
+
+#### [#41 — GourmetPulse - SEO Recipe App](builds/041-gourmetpulse-seo-recipe-app.md)
+![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-25
+
+SEO-optimized Nuxt 3 culinary recipe app with Schema.org JSON-LD structured data, meta tags, and interactive serving scale calculator.
+
+[Repo →](https://github.com/breakingthebot/gourmetpulse-recipe-build41)
+
+---
+
+#### [#39 — TravelPulse - Multi-Page Travel Blog](builds/039-travelpulse-multi-page-travel-blog.md)
+![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-25
+
+Vue Router multi-page travel journal with destination guides, region filters, photo gallery lightbox viewer, and reader comments.
+
+[Repo →](https://github.com/breakingthebot/travel-blog-router-build39)
+
+---
+
+#### [#38 — PulseMovie - Movie Watchlist](builds/038-pulsemovie-movie-watchlist.md)
+![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-23
+
+Movie watchlist dashboard built with Vue 3 and TypeScript, supporting TVMaze public API searches and LocalStorage cache checklists.
+
+[Repo →](https://github.com/breakingthebot/movie-watchlist-vue)
 
 ---
 
@@ -1470,18 +1497,6 @@ SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a w
 </details>
 
 <details>
-<summary>Nuxt 3 (1)</summary>
-
-#### [#41 — GourmetPulse - SEO Recipe App](builds/041-gourmetpulse-seo-recipe-app.md)
-![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![Nuxt 3](https://img.shields.io/badge/Nuxt_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
-
-SEO-optimized Nuxt 3 culinary recipe app with Schema.org JSON-LD structured data, meta tags, and interactive serving scale calculator.
-
-[Repo →](https://github.com/breakingthebot/gourmetpulse-recipe-build41)
-
-</details>
-
-<details>
 <summary>Serverless & Edge (1)</summary>
 
 #### [#61 — Edge-Deployed URL Shortener](builds/061-edge-deployed-url-shortener.md)
@@ -1506,7 +1521,16 @@ Interactive COVID-19 Visual Analytics Dashboard powered by D3.js, featuring mult
 </details>
 
 <details>
-<summary>Vue 3 (3)</summary>
+<summary>Vue 3 (4)</summary>
+
+#### [#41 — GourmetPulse - SEO Recipe App](builds/041-gourmetpulse-seo-recipe-app.md)
+![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-25
+
+SEO-optimized Nuxt 3 culinary recipe app with Schema.org JSON-LD structured data, meta tags, and interactive serving scale calculator.
+
+[Repo →](https://github.com/breakingthebot/gourmetpulse-recipe-build41)
+
+---
 
 #### [#40 — Task Manager Pinia](builds/040-task-manager-pinia.md)
 ![Pinia](https://img.shields.io/badge/Pinia-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-07-25
@@ -1518,7 +1542,7 @@ Pinia state task manager with Kanban board, calendar view, subtask reordering co
 ---
 
 #### [#39 — TravelPulse - Multi-Page Travel Blog](builds/039-travelpulse-multi-page-travel-blog.md)
-![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
+![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-25
 
 Vue Router multi-page travel journal with destination guides, region filters, photo gallery lightbox viewer, and reader comments.
 
@@ -1527,7 +1551,7 @@ Vue Router multi-page travel journal with destination guides, region filters, ph
 ---
 
 #### [#38 — PulseMovie - Movie Watchlist](builds/038-pulsemovie-movie-watchlist.md)
-![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-23
+![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-23
 
 Movie watchlist dashboard built with Vue 3 and TypeScript, supporting TVMaze public API searches and LocalStorage cache checklists.
 
@@ -2140,7 +2164,7 @@ Reactive e-commerce interface built with Angular 19, Angular Material, and NgRx 
 <summary>Nuxt.js (1)</summary>
 
 #### [#41 — GourmetPulse - SEO Recipe App](builds/041-gourmetpulse-seo-recipe-app.md)
-![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![Nuxt 3](https://img.shields.io/badge/Nuxt_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
+![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-25
 
 SEO-optimized Nuxt 3 culinary recipe app with Schema.org JSON-LD structured data, meta tags, and interactive serving scale calculator.
 
@@ -2524,7 +2548,7 @@ Dependency-free drag-and-drop Kanban board with labels, due dates, undo/redo, an
 <summary>Vue 3 core (1)</summary>
 
 #### [#38 — PulseMovie - Movie Watchlist](builds/038-pulsemovie-movie-watchlist.md)
-![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-23
+![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-23
 
 Movie watchlist dashboard built with Vue 3 and TypeScript, supporting TVMaze public API searches and LocalStorage cache checklists.
 
@@ -2536,7 +2560,7 @@ Movie watchlist dashboard built with Vue 3 and TypeScript, supporting TVMaze pub
 <summary>Vue Router (1)</summary>
 
 #### [#39 — TravelPulse - Multi-Page Travel Blog](builds/039-travelpulse-multi-page-travel-blog.md)
-![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Standard](https://img.shields.io/badge/Standard-6b7280) · 2026-07-25
+![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Vue 3](https://img.shields.io/badge/Vue_3-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-25
 
 Vue Router multi-page travel journal with destination guides, region filters, photo gallery lightbox viewer, and reader comments.
 
