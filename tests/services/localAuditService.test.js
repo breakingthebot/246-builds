@@ -24,7 +24,7 @@ const SAMPLE_ENTRY = {
 
 test("parseReadmeBuildRows extracts build rows from the Build Index accordion", () => {
   const readme = [
-    "# 286 Builds",
+    "# 246 Builds",
     "",
     "## Build Index",
     ...createCollapsibleFilteredSection("All Builds", [SAMPLE_ENTRY]),
@@ -38,7 +38,7 @@ test("parseReadmeBuildRows extracts build rows from the Build Index accordion", 
 
 test("parseReadmeBuildRows only reads the Build Index accordion, ignoring the same entries repeated in other sections", () => {
   const readme = [
-    "# 286 Builds",
+    "# 246 Builds",
     "",
     "## Build Index",
     ...createCollapsibleFilteredSection("All Builds", [SAMPLE_ENTRY]),

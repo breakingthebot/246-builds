@@ -275,7 +275,7 @@ function createSideProjectsSection(sideProjectEntries) {
 
   return [
     "## Side Projects",
-    "Exploratory or practice builds outside the numbered 286-build series -- not tracked in the build index, tracker workbook, or GitHub-sync audit above.",
+    "Exploratory or practice builds outside the numbered 246-build series -- not tracked in the build index, tracker workbook, or GitHub-sync audit above.",
     "",
     ...cards,
     "",
@@ -367,7 +367,7 @@ function createReadme(entries, sideProjectEntries = []) {
     "",
     "## How This Works",
     "- Each build is its own public GitHub repo.",
-    "- This repo is the index for the full 286-build series.",
+    "- This repo is the index for the full 246-build series.",
     "- The index is generated from `builds.json` and kept in sync with the tracker workbook.",
     "- Build dates shown here use the public GitHub push date.",
     "",

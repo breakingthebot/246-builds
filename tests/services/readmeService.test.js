@@ -249,7 +249,7 @@ test("createReadme includes an empty-state note when there are no published buil
   const readme = createReadme([]);
 
   assert.match(readme, /list is intentionally empty/);
-  assert.match(readme, /# 286 Builds/);
+  assert.match(readme, /# 246 Builds/);
 });
 
 test("createReadme includes build data when entries exist", () => {

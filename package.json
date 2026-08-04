@@ -1,7 +1,7 @@
 {
   "name": "286-builds",
   "version": "1.0.0",
-  "description": "Index repo for the 286 daily coding builds.",
+  "description": "Index repo for the 246 daily coding builds.",
   "private": true,
   "scripts": {
     "add-build": "node add-build.js",
