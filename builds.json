@@ -1,5 +1,239 @@
 [
   {
+    "build_number": 124,
+    "date": "2026-09-04",
+    "project_name": "PayPal Donations Platform",
+    "description": "Full-stack PayPal Donations Platform (v2 Orders & Subscriptions) featuring fundraising campaign drives, live goal progress bars, cryptographic webhook verification, MRR analytics, automated 501(c)(3) tax receipts, SQLite donor log, Click/Rich CLI, and FastAPI portal.",
+    "repo_url": "https://github.com/breakingthebot/paypal-donations-platform-build124",
+    "technology": "PayPal API",
+    "category": "APIs - Payments",
+    "stack": [
+      "PayPal API",
+      "APIs - Payments",
+      "FastAPI",
+      "Python"
+    ],
+    "depth": "Deep",
+    "notes": "v1.3.0 with fundraising campaign drives, goal progress meters, and MRR analytics"
+  },
+  {
+    "build_number": 96,
+    "date": "2026-09-02",
+    "project_name": "PDF Research Assistant",
+    "description": "Production-grade PDF Research Assistant built with LangChain, featuring multi-page PDF ingestion, multi-modal table & Markdown grid extraction, multi-document cross-comparison synthesizer (ComparativeSynthesizer), hierarchical citation metadata tracking, chunking with overlap, semantic vector retrieval, grounded question-answering pipeline (QAPipeline), FastAPI REST API, CLI tool suite (pdf-assistant ask/compare/tables/serve), and embedded Tailwind CSS research dashboard.",
+    "repo_url": "https://github.com/breakingthebot/langchain-pdf-research-assistant-build96",
+    "technology": "LangChain",
+    "category": "AI & ML - LLM/Agents",
+    "stack": [
+      "LangChain",
+      "AI & ML - LLM/Agents",
+      "FastAPI",
+      "Python"
+    ],
+    "depth": "Deep",
+    "notes": "Full PDF analysis pipeline with table extraction and citation tracking"
+  },
+  {
+    "build_number": 76,
+    "date": "2026-09-02",
+    "project_name": "PostgreSQL E-Commerce Relational Database",
+    "description": "Production-grade PostgreSQL e-commerce relational database featuring 12 normalized tables, UUID/BIGINT keys, JSONB variant attributes, inventory reservation concurrency locks, check constraints, PL/pgSQL triggers, analytical views, deterministic synthetic data generator, curated seed SQL dataset, 14-index advanced indexing suite, and Python CLI management suite.",
+    "repo_url": "https://github.com/breakingthebot/postgresql-ecommerce-database-build76",
+    "technology": "PostgreSQL",
+    "category": "Databases - Relational",
+    "stack": [
+      "PostgreSQL",
+      "Databases - Relational",
+      "Python",
+      "SQL"
+    ],
+    "depth": "Deep",
+    "notes": "Complex schema, advanced indexing suite, inventory reservation locks"
+  },
+  {
+    "build_number": 75,
+    "date": "2026-09-02",
+    "project_name": "Real-Time Collaborative Whiteboard",
+    "description": "Real-time collaborative vector whiteboard with OTP GenServer in-memory room state, durable disk snapshots, crash/reboot recovery, JSON board import/export, geometric shape tools, collaborative sticky notes, infinite pan & zoom navigation, minimap, sub-millisecond Phoenix Channel streaming, peer cursor awareness, and zero polling.",
+    "repo_url": "https://github.com/breakingthebot/realtime-collaborative-whiteboard-phoenix-build75",
+    "technology": "Elixir + Phoenix",
+    "category": "Backend - Other",
+    "stack": [
+      "Elixir + Phoenix",
+      "Backend - Other",
+      "WebSockets"
+    ],
+    "depth": "Deep",
+    "notes": "Zero-polling Phoenix Channels with OTP state and vector shapes"
+  },
+  {
+    "build_number": 74,
+    "date": "2026-08-28",
+    "project_name": "Fastest Possible JSON API",
+    "description": "Ultra-low-latency, zero-cost abstraction asynchronous JSON REST API built with Actix-Web in Rust featuring sub-millisecond response times, in-memory caching, and comprehensive benchmarks.",
+    "repo_url": "https://github.com/breakingthebot/fastest-json-api-actix-build74",
+    "technology": "Actix (Rust)",
+    "category": "Backend - Other",
+    "stack": [
+      "Actix (Rust)",
+      "Backend - Other",
+      "Rust"
+    ],
+    "depth": "Deep",
+    "notes": "High performance Rust Actix-web benchmarked REST API"
+  },
+  {
+    "build_number": 73,
+    "date": "2026-08-27",
+    "project_name": "Inventory Tracker API",
+    "description": "Inventory tracker REST API built with ASP.NET Core (.NET 8), Entity Framework Core, SQL Server/SQLite, stock level auditing, threshold notifications, and OpenAPI documentation.",
+    "repo_url": "https://github.com/breakingthebot/inventory-tracker-api-build73",
+    "technology": "ASP.NET Core",
+    "category": "Backend - Other",
+    "stack": [
+      "ASP.NET Core",
+      "Backend - Other",
+      "C#",
+      ".NET"
+    ],
+    "depth": "Expanded",
+    "notes": "C# .NET 8 Entity Framework Core inventory API"
+  },
+  {
+    "build_number": 72,
+    "date": "2026-08-22",
+    "project_name": "Employee Directory API (Enterprise)",
+    "description": "Enterprise employee directory service built with Spring Boot 3.3, Java 17, Spring Data JPA, H2 database, role-based access control, departmental analytics, and bulk CSV import/export.",
+    "repo_url": "https://github.com/breakingthebot/employee-directory-api-build72",
+    "technology": "Spring Boot",
+    "category": "Backend - Other",
+    "stack": [
+      "Spring Boot",
+      "Backend - Other",
+      "Java 17"
+    ],
+    "depth": "Deep",
+    "notes": "Spring Boot 3.3 JPA employee directory with RBAC and pagination"
+  },
+  {
+    "build_number": 71,
+    "date": "2026-08-20",
+    "project_name": "Employee Directory API with SSE & Backups",
+    "description": "Employee directory API built with Spring Boot 3.3, Java 17, Spring Data JPA, H2 Database, Spring Security 6, JWT Auth, Bucket4j rate limiting, Caffeine caching, automated backup scheduler, and real-time Server-Sent Events (SSE) streaming.",
+    "repo_url": "https://github.com/breakingthebot/employee-directory-api-build71",
+    "technology": "Spring Boot",
+    "category": "Backend - Other",
+    "stack": [
+      "Spring Boot",
+      "Backend - Other",
+      "Java 17",
+      "Spring Security"
+    ],
+    "depth": "Deep",
+    "notes": "Spring Boot 3.3, JWT auth, rate limiting, and real-time SSE streaming"
+  },
+  {
+    "build_number": 70,
+    "date": "2026-08-08",
+    "project_name": "Real-Time Leaderboard Service",
+    "description": "Real-time gaming leaderboard engine built with Go, Fiber, Redis sorted sets (ZSET), WebSocket broadcast updates, live rank calculation, and competitive gamer stats.",
+    "repo_url": "https://github.com/breakingthebot/real-time-leaderboard-build70",
+    "technology": "Go + Fiber",
+    "category": "Backend - Other",
+    "stack": [
+      "Go + Fiber",
+      "Backend - Other",
+      "Redis",
+      "WebSockets"
+    ],
+    "depth": "Deep",
+    "notes": "Redis sorted sets with WebSocket updates in Go Fiber"
+  },
+  {
+    "build_number": 69,
+    "date": "2026-08-08",
+    "project_name": "Authentication Service",
+    "description": "Production-ready authentication service featuring signed JWT bearer tokens, refresh token rotation, bcrypt password hashing, and PostgreSQL user storage with Gin framework in Go.",
+    "repo_url": "https://github.com/breakingthebot/authentication-service-build69",
+    "technology": "Go + Gin",
+    "category": "Backend - Other",
+    "stack": [
+      "Go + Gin",
+      "Backend - Other",
+      "PostgreSQL",
+      "JWT"
+    ],
+    "depth": "Deep",
+    "notes": "Go Gin authentication microservice with JWT and PostgreSQL"
+  },
+  {
+    "build_number": 68,
+    "date": "2026-08-06",
+    "project_name": "Minimal RESTful JSON API",
+    "description": "Minimal RESTful JSON API built with PHP 8.2, Slim 4 Framework, PSR-7 / PSR-15 Middleware, dependency injection, and PHPUnit test suite.",
+    "repo_url": "https://github.com/breakingthebot/minimal-json-api-build68",
+    "technology": "Slim",
+    "category": "Backend - PHP",
+    "stack": [
+      "Slim",
+      "Backend - PHP",
+      "PHP 8.2"
+    ],
+    "depth": "Expanded",
+    "notes": "PHP 8.2 Slim 4 framework PSR-7 REST API"
+  },
+  {
+    "build_number": 67,
+    "date": "2026-08-06",
+    "project_name": "Enterprise Inventory Management API",
+    "description": "Production-grade RESTful Inventory Management API built with Symfony 6.4 microkernel, Doctrine ORM, Multi-Warehouse Transfers, FEFO Expiration Tracking, Automated Purchase Orders, CSV Import/Export, Bearer Auth, Rate Limiting, and Twig Admin Dashboard.",
+    "repo_url": "https://github.com/breakingthebot/inventory-management-api-build67",
+    "technology": "Symfony",
+    "category": "Backend - PHP",
+    "stack": [
+      "Symfony",
+      "Backend - PHP",
+      "Doctrine ORM",
+      "PHP 8.2"
+    ],
+    "depth": "Deep",
+    "notes": "Symfony 6.4 microkernel with multi-warehouse FEFO inventory"
+  },
+  {
+    "build_number": 66,
+    "date": "2026-08-05",
+    "project_name": "Laravel Modern Blog Platform",
+    "description": "Modern blog platform built with Laravel 11, featuring Eloquent ORM relationships, Blade templates, authentication, administrative dashboard, tag/category management, and REST API endpoints.",
+    "repo_url": "https://github.com/breakingthebot/blog-platform-build66",
+    "technology": "Laravel",
+    "category": "Backend - PHP",
+    "stack": [
+      "Laravel",
+      "Backend - PHP",
+      "Eloquent ORM",
+      "PHP 8.2"
+    ],
+    "depth": "Deep",
+    "notes": "Laravel 11 blog platform with Blade, Eloquent, and admin panel"
+  },
+  {
+    "build_number": 65,
+    "date": "2026-08-04",
+    "project_name": "Starlette WebSocket Chat Server",
+    "description": "Async Starlette WebSocket chat server featuring room isolation, real-time message broadcasting, connection management, channel events, and REST inspection endpoints.",
+    "repo_url": "https://github.com/breakingthebot/websocket-chat-server-build65",
+    "technology": "Starlette",
+    "category": "Backend - Python",
+    "stack": [
+      "Starlette",
+      "Backend - Python",
+      "WebSockets",
+      "Python"
+    ],
+    "depth": "Deep",
+    "notes": "Async Starlette WebSocket server with room broadcasting"
+  },
+  {
     "build_number": 64,
     "date": "2026-08-03",
     "project_name": "Minimal URL Shortener",

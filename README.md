@@ -2,22 +2,22 @@
 
 [![Test](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml/badge.svg)](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml)
 
-![Builds: 64](https://img.shields.io/badge/Builds-64-0ea5e9) ![Latest: #64](https://img.shields.io/badge/Latest-%2364-16a34a) ![Languages: 63](https://img.shields.io/badge/Languages-63-f59e0b) ![Deep Builds: 53](https://img.shields.io/badge/Deep_Builds-53-7c3aed)
+![Builds: 78](https://img.shields.io/badge/Builds-78-0ea5e9) ![Latest: #124](https://img.shields.io/badge/Latest-%23124-16a34a) ![Languages: 76](https://img.shields.io/badge/Languages-76-f59e0b) ![Deep Builds: 65](https://img.shields.io/badge/Deep_Builds-65-7c3aed)
 
 **[Browse & filter every build on the live site →](https://breakingthebot.github.io/286-builds/)**
 
 A public index of daily coding builds, each pulled from the 246-project list and built end-to-end in a single day, then expanded through multiple iterations with a full commit history pushed live. Together, the repos form a broad portfolio spanning multiple languages, problem types, and build depths.
 
 ## Tech Stack
-![Alpine.js](https://img.shields.io/badge/Alpine.js-334155) ![Angular](https://img.shields.io/badge/Angular-334155) ![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![Angular Material](https://img.shields.io/badge/Angular_Material-334155) ![Astro](https://img.shields.io/badge/Astro-334155) ![C#](https://img.shields.io/badge/C%23-178600) ![CSS Modules](https://img.shields.io/badge/CSS_Modules-334155) ![D3.js](https://img.shields.io/badge/D3.js-334155) ![Django](https://img.shields.io/badge/Django-334155) ![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Express](https://img.shields.io/badge/Express-334155) ![FastAPI](https://img.shields.io/badge/FastAPI-334155) ![Fastify](https://img.shields.io/badge/Fastify-334155) ![Flask](https://img.shields.io/badge/Flask-334155) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-334155) ![Go](https://img.shields.io/badge/Go-00ADD8) ![Hono](https://img.shields.io/badge/Hono-334155) ![HTMX](https://img.shields.io/badge/HTMX-334155) ![Ionic](https://img.shields.io/badge/Ionic-334155) ![Java](https://img.shields.io/badge/Java-B07219) ![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![Lit](https://img.shields.io/badge/Lit-334155) ![Lua](https://img.shields.io/badge/Lua-000080) ![NestJS](https://img.shields.io/badge/NestJS-334155) ![Next.js](https://img.shields.io/badge/Next.js-334155) ![NgRx](https://img.shields.io/badge/NgRx-334155) ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Pinia](https://img.shields.io/badge/Pinia-334155) ![Pure CSS](https://img.shields.io/badge/Pure_CSS-334155) ![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![Qwik](https://img.shields.io/badge/Qwik-334155) ![React](https://img.shields.io/badge/React-334155) ![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![React Router](https://img.shields.io/badge/React_Router-334155) ![Remix](https://img.shields.io/badge/Remix-334155) ![Ruby](https://img.shields.io/badge/Ruby-701516) ![Rust](https://img.shields.io/badge/Rust-DEA584) ![Sass/SCSS](https://img.shields.io/badge/Sass%2FSCSS-334155) ![Shell](https://img.shields.io/badge/Shell-89E051) ![Solid.js](https://img.shields.io/badge/Solid.js-334155) ![Styled Components](https://img.shields.io/badge/Styled_Components-334155) ![Svelte](https://img.shields.io/badge/Svelte-334155) ![SvelteKit](https://img.shields.io/badge/SvelteKit-334155) ![Swift](https://img.shields.io/badge/Swift-F05138) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-334155) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![Three.js](https://img.shields.io/badge/Three.js-334155) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A) ![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Zustand](https://img.shields.io/badge/Zustand-334155)
+![Actix (Rust)](https://img.shields.io/badge/Actix_(Rust)-334155) ![Alpine.js](https://img.shields.io/badge/Alpine.js-334155) ![Angular](https://img.shields.io/badge/Angular-334155) ![Angular (RxJS)](https://img.shields.io/badge/Angular_(RxJS)-334155) ![Angular Material](https://img.shields.io/badge/Angular_Material-334155) ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-334155) ![Astro](https://img.shields.io/badge/Astro-334155) ![C#](https://img.shields.io/badge/C%23-178600) ![CSS Modules](https://img.shields.io/badge/CSS_Modules-334155) ![D3.js](https://img.shields.io/badge/D3.js-334155) ![Django](https://img.shields.io/badge/Django-334155) ![Elixir + Phoenix](https://img.shields.io/badge/Elixir_%2B_Phoenix-334155) ![ES Modules](https://img.shields.io/badge/ES_Modules-F1E05A) ![Express](https://img.shields.io/badge/Express-334155) ![FastAPI](https://img.shields.io/badge/FastAPI-334155) ![Fastify](https://img.shields.io/badge/Fastify-334155) ![Flask](https://img.shields.io/badge/Flask-334155) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-334155) ![Go](https://img.shields.io/badge/Go-00ADD8) ![Go + Fiber](https://img.shields.io/badge/Go_%2B_Fiber-334155) ![Go + Gin](https://img.shields.io/badge/Go_%2B_Gin-334155) ![Hono](https://img.shields.io/badge/Hono-334155) ![HTMX](https://img.shields.io/badge/HTMX-334155) ![Ionic](https://img.shields.io/badge/Ionic-334155) ![Java](https://img.shields.io/badge/Java-B07219) ![JS async](https://img.shields.io/badge/JS_async-F1E05A) ![JS testing](https://img.shields.io/badge/JS_testing-F1E05A) ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF) ![LangChain](https://img.shields.io/badge/LangChain-334155) ![Laravel](https://img.shields.io/badge/Laravel-334155) ![Lit](https://img.shields.io/badge/Lit-334155) ![Lua](https://img.shields.io/badge/Lua-000080) ![NestJS](https://img.shields.io/badge/NestJS-334155) ![Next.js](https://img.shields.io/badge/Next.js-334155) ![NgRx](https://img.shields.io/badge/NgRx-334155) ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-334155) ![PayPal API](https://img.shields.io/badge/PayPal_API-334155) ![PHP](https://img.shields.io/badge/PHP-4F5D95) ![Pinia](https://img.shields.io/badge/Pinia-334155) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-334155) ![Pure CSS](https://img.shields.io/badge/Pure_CSS-334155) ![Python (async)](https://img.shields.io/badge/Python_(async)-3572A5) ![Python (automation)](https://img.shields.io/badge/Python_(automation)-3572A5) ![Python (CLI tools)](https://img.shields.io/badge/Python_(CLI_tools)-3572A5) ![Python (Core)](https://img.shields.io/badge/Python_(Core)-3572A5) ![Python (data)](https://img.shields.io/badge/Python_(data)-3572A5) ![Python (ML)](https://img.shields.io/badge/Python_(ML)-3572A5) ![Python (networking)](https://img.shields.io/badge/Python_(networking)-3572A5) ![Python (SQL)](https://img.shields.io/badge/Python_(SQL)-3572A5) ![Python (testing)](https://img.shields.io/badge/Python_(testing)-3572A5) ![Qwik](https://img.shields.io/badge/Qwik-334155) ![React](https://img.shields.io/badge/React-334155) ![React Native (Expo)](https://img.shields.io/badge/React_Native_(Expo)-334155) ![React Router](https://img.shields.io/badge/React_Router-334155) ![Remix](https://img.shields.io/badge/Remix-334155) ![Ruby](https://img.shields.io/badge/Ruby-701516) ![Rust](https://img.shields.io/badge/Rust-DEA584) ![Sass/SCSS](https://img.shields.io/badge/Sass%2FSCSS-334155) ![Shell](https://img.shields.io/badge/Shell-89E051) ![Slim](https://img.shields.io/badge/Slim-334155) ![Solid.js](https://img.shields.io/badge/Solid.js-334155) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-334155) ![Starlette](https://img.shields.io/badge/Starlette-334155) ![Styled Components](https://img.shields.io/badge/Styled_Components-334155) ![Svelte](https://img.shields.io/badge/Svelte-334155) ![SvelteKit](https://img.shields.io/badge/SvelteKit-334155) ![Swift](https://img.shields.io/badge/Swift-F05138) ![Symfony](https://img.shields.io/badge/Symfony-334155) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-334155) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-334155) ![Three.js](https://img.shields.io/badge/Three.js-334155) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-F1E05A) ![Vue 3 core](https://img.shields.io/badge/Vue_3_core-334155) ![Vue Router](https://img.shields.io/badge/Vue_Router-334155) ![Zustand](https://img.shields.io/badge/Zustand-334155)
 
 ## Latest Build
-#### [#64 — Minimal URL Shortener](builds/064-minimal-url-shortener.md)
-![Flask](https://img.shields.io/badge/Flask-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
+#### [#124 — PayPal Donations Platform](builds/124-paypal-donations-platform.md)
+![PayPal API](https://img.shields.io/badge/PayPal_API-334155) ![APIs - Payments](https://img.shields.io/badge/APIs_--_Payments-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-04
 
-Minimal Python Flask & SQLite URL shortener featuring custom aliases, TTL link expiration, pure Python vector SVG QR codes, sliding-window rate limiting, and REST API in under 100 lines of code.
+Full-stack PayPal Donations Platform (v2 Orders & Subscriptions) featuring fundraising campaign drives, live goal progress bars, cryptographic webhook verification, MRR analytics, automated 501(c)(3) tax receipts, SQLite donor log, Click/Rich CLI, and FastAPI portal.
 
-[Repo →](https://github.com/breakingthebot/minimal-url-shortener-build64)
+[Repo →](https://github.com/breakingthebot/paypal-donations-platform-build124)
 
 ## What's in each build's repo
 - Every repo has a full README.
@@ -43,7 +43,133 @@ Minimal Python Flask & SQLite URL shortener featuring custom aliases, TTL link e
 
 ## Build Index
 <details>
-<summary>All Builds (64)</summary>
+<summary>All Builds (78)</summary>
+
+#### [#124 — PayPal Donations Platform](builds/124-paypal-donations-platform.md)
+![PayPal API](https://img.shields.io/badge/PayPal_API-334155) ![APIs - Payments](https://img.shields.io/badge/APIs_--_Payments-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-04
+
+Full-stack PayPal Donations Platform (v2 Orders & Subscriptions) featuring fundraising campaign drives, live goal progress bars, cryptographic webhook verification, MRR analytics, automated 501(c)(3) tax receipts, SQLite donor log, Click/Rich CLI, and FastAPI portal.
+
+[Repo →](https://github.com/breakingthebot/paypal-donations-platform-build124)
+
+---
+
+#### [#96 — PDF Research Assistant](builds/096-pdf-research-assistant.md)
+![LangChain](https://img.shields.io/badge/LangChain-334155) ![AI & ML - LLM/Agents](https://img.shields.io/badge/AI_%26_ML_--_LLM%2FAgents-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-02
+
+Production-grade PDF Research Assistant built with LangChain, featuring multi-page PDF ingestion, multi-modal table & Markdown grid extraction, multi-document cross-comparison synthesizer (ComparativeSynthesizer), hierarchical citation metadata tracking, chunking with overlap, semantic vector retrieval, grounded question-answering pipeline (QAPipeline), FastAPI REST API, CLI tool suite (pdf-assistant ask/compare/tables/serve), and embedded Tailwind CSS research dashboard.
+
+[Repo →](https://github.com/breakingthebot/langchain-pdf-research-assistant-build96)
+
+---
+
+#### [#76 — PostgreSQL E-Commerce Relational Database](builds/076-postgresql-e-commerce-relational-database.md)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-334155) ![Databases - Relational](https://img.shields.io/badge/Databases_--_Relational-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-02
+
+Production-grade PostgreSQL e-commerce relational database featuring 12 normalized tables, UUID/BIGINT keys, JSONB variant attributes, inventory reservation concurrency locks, check constraints, PL/pgSQL triggers, analytical views, deterministic synthetic data generator, curated seed SQL dataset, 14-index advanced indexing suite, and Python CLI management suite.
+
+[Repo →](https://github.com/breakingthebot/postgresql-ecommerce-database-build76)
+
+---
+
+#### [#75 — Real-Time Collaborative Whiteboard](builds/075-real-time-collaborative-whiteboard.md)
+![Elixir + Phoenix](https://img.shields.io/badge/Elixir_%2B_Phoenix-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-02
+
+Real-time collaborative vector whiteboard with OTP GenServer in-memory room state, durable disk snapshots, crash/reboot recovery, JSON board import/export, geometric shape tools, collaborative sticky notes, infinite pan & zoom navigation, minimap, sub-millisecond Phoenix Channel streaming, peer cursor awareness, and zero polling.
+
+[Repo →](https://github.com/breakingthebot/realtime-collaborative-whiteboard-phoenix-build75)
+
+---
+
+#### [#74 — Fastest Possible JSON API](builds/074-fastest-possible-json-api.md)
+![Actix (Rust)](https://img.shields.io/badge/Actix_(Rust)-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-28
+
+Ultra-low-latency, zero-cost abstraction asynchronous JSON REST API built with Actix-Web in Rust featuring sub-millisecond response times, in-memory caching, and comprehensive benchmarks.
+
+[Repo →](https://github.com/breakingthebot/fastest-json-api-actix-build74)
+
+---
+
+#### [#73 — Inventory Tracker API](builds/073-inventory-tracker-api.md)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-08-27
+
+Inventory tracker REST API built with ASP.NET Core (.NET 8), Entity Framework Core, SQL Server/SQLite, stock level auditing, threshold notifications, and OpenAPI documentation.
+
+[Repo →](https://github.com/breakingthebot/inventory-tracker-api-build73)
+
+---
+
+#### [#72 — Employee Directory API (Enterprise)](builds/072-employee-directory-api-enterprise.md)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-22
+
+Enterprise employee directory service built with Spring Boot 3.3, Java 17, Spring Data JPA, H2 database, role-based access control, departmental analytics, and bulk CSV import/export.
+
+[Repo →](https://github.com/breakingthebot/employee-directory-api-build72)
+
+---
+
+#### [#71 — Employee Directory API with SSE & Backups](builds/071-employee-directory-api-with-sse-backups.md)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-20
+
+Employee directory API built with Spring Boot 3.3, Java 17, Spring Data JPA, H2 Database, Spring Security 6, JWT Auth, Bucket4j rate limiting, Caffeine caching, automated backup scheduler, and real-time Server-Sent Events (SSE) streaming.
+
+[Repo →](https://github.com/breakingthebot/employee-directory-api-build71)
+
+---
+
+#### [#70 — Real-Time Leaderboard Service](builds/070-real-time-leaderboard-service.md)
+![Go + Fiber](https://img.shields.io/badge/Go_%2B_Fiber-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-08
+
+Real-time gaming leaderboard engine built with Go, Fiber, Redis sorted sets (ZSET), WebSocket broadcast updates, live rank calculation, and competitive gamer stats.
+
+[Repo →](https://github.com/breakingthebot/real-time-leaderboard-build70)
+
+---
+
+#### [#69 — Authentication Service](builds/069-authentication-service.md)
+![Go + Gin](https://img.shields.io/badge/Go_%2B_Gin-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-08
+
+Production-ready authentication service featuring signed JWT bearer tokens, refresh token rotation, bcrypt password hashing, and PostgreSQL user storage with Gin framework in Go.
+
+[Repo →](https://github.com/breakingthebot/authentication-service-build69)
+
+---
+
+#### [#68 — Minimal RESTful JSON API](builds/068-minimal-restful-json-api.md)
+![Slim](https://img.shields.io/badge/Slim-334155) ![Backend - PHP](https://img.shields.io/badge/Backend_--_PHP-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-08-06
+
+Minimal RESTful JSON API built with PHP 8.2, Slim 4 Framework, PSR-7 / PSR-15 Middleware, dependency injection, and PHPUnit test suite.
+
+[Repo →](https://github.com/breakingthebot/minimal-json-api-build68)
+
+---
+
+#### [#67 — Enterprise Inventory Management API](builds/067-enterprise-inventory-management-api.md)
+![Symfony](https://img.shields.io/badge/Symfony-334155) ![Backend - PHP](https://img.shields.io/badge/Backend_--_PHP-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-06
+
+Production-grade RESTful Inventory Management API built with Symfony 6.4 microkernel, Doctrine ORM, Multi-Warehouse Transfers, FEFO Expiration Tracking, Automated Purchase Orders, CSV Import/Export, Bearer Auth, Rate Limiting, and Twig Admin Dashboard.
+
+[Repo →](https://github.com/breakingthebot/inventory-management-api-build67)
+
+---
+
+#### [#66 — Laravel Modern Blog Platform](builds/066-laravel-modern-blog-platform.md)
+![Laravel](https://img.shields.io/badge/Laravel-334155) ![Backend - PHP](https://img.shields.io/badge/Backend_--_PHP-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-05
+
+Modern blog platform built with Laravel 11, featuring Eloquent ORM relationships, Blade templates, authentication, administrative dashboard, tag/category management, and REST API endpoints.
+
+[Repo →](https://github.com/breakingthebot/blog-platform-build66)
+
+---
+
+#### [#65 — Starlette WebSocket Chat Server](builds/065-starlette-websocket-chat-server.md)
+![Starlette](https://img.shields.io/badge/Starlette-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-04
+
+Async Starlette WebSocket chat server featuring room isolation, real-time message broadcasting, connection management, channel events, and REST inspection endpoints.
+
+[Repo →](https://github.com/breakingthebot/websocket-chat-server-build65)
+
+---
 
 #### [#64 — Minimal URL Shortener](builds/064-minimal-url-shortener.md)
 ![Flask](https://img.shields.io/badge/Flask-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
@@ -625,98 +751,206 @@ Standard-library-only expense tracker with budgets, recurring templates, monthly
 <details>
 <summary>Most Recent 10 (10)</summary>
 
-#### [#64 — Minimal URL Shortener](builds/064-minimal-url-shortener.md)
-![Flask](https://img.shields.io/badge/Flask-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
+#### [#124 — PayPal Donations Platform](builds/124-paypal-donations-platform.md)
+![PayPal API](https://img.shields.io/badge/PayPal_API-334155) ![APIs - Payments](https://img.shields.io/badge/APIs_--_Payments-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-04
 
-Minimal Python Flask & SQLite URL shortener featuring custom aliases, TTL link expiration, pure Python vector SVG QR codes, sliding-window rate limiting, and REST API in under 100 lines of code.
+Full-stack PayPal Donations Platform (v2 Orders & Subscriptions) featuring fundraising campaign drives, live goal progress bars, cryptographic webhook verification, MRR analytics, automated 501(c)(3) tax receipts, SQLite donor log, Click/Rich CLI, and FastAPI portal.
 
-[Repo →](https://github.com/breakingthebot/minimal-url-shortener-build64)
-
----
-
-#### [#63 — Django Full Content Management System](builds/063-django-full-content-management-system.md)
-![Django](https://img.shields.io/badge/Django-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
-
-Full Python/Django CMS — featuring models, Django admin panel, user auth, blog posts, categories, comments, and management CLI commands.
-
-[Repo →](https://github.com/breakingthebot/full-cms-build63)
+[Repo →](https://github.com/breakingthebot/paypal-donations-platform-build124)
 
 ---
 
-#### [#62 — FastAPI Task Management API](builds/062-fastapi-task-management-api.md)
-![FastAPI](https://img.shields.io/badge/FastAPI-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
+#### [#96 — PDF Research Assistant](builds/096-pdf-research-assistant.md)
+![LangChain](https://img.shields.io/badge/LangChain-334155) ![AI & ML - LLM/Agents](https://img.shields.io/badge/AI_%26_ML_--_LLM%2FAgents-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-02
 
-FastAPI Task management API featuring full CRUD, OAuth2 JWT auth, background tasks, file uploads, Pydantic validation, and OpenAPI documentation.
+Production-grade PDF Research Assistant built with LangChain, featuring multi-page PDF ingestion, multi-modal table & Markdown grid extraction, multi-document cross-comparison synthesizer (ComparativeSynthesizer), hierarchical citation metadata tracking, chunking with overlap, semantic vector retrieval, grounded question-answering pipeline (QAPipeline), FastAPI REST API, CLI tool suite (pdf-assistant ask/compare/tables/serve), and embedded Tailwind CSS research dashboard.
 
-[Repo →](https://github.com/breakingthebot/fastapi-task-management-api-build62)
-
----
-
-#### [#61 — Edge-Deployed URL Shortener](builds/061-edge-deployed-url-shortener.md)
-![Hono](https://img.shields.io/badge/Hono-334155) ![Serverless & Edge](https://img.shields.io/badge/Serverless_%26_Edge-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
-
-Edge-deployed URL shortener built with Hono and Cloudflare Workers, delivering ultra-fast global redirection and analytics.
-
-[Repo →](https://github.com/breakingthebot/edgedeployed-url-shortener-build61)
+[Repo →](https://github.com/breakingthebot/langchain-pdf-research-assistant-build96)
 
 ---
 
-#### [#60 — NestJS E-Commerce REST API](builds/060-nestjs-e-commerce-rest-api.md)
-![NestJS](https://img.shields.io/badge/NestJS-334155) ![Backend & APIs (Node/TS)](https://img.shields.io/badge/Backend_%26_APIs_(Node%2FTS)-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+#### [#76 — PostgreSQL E-Commerce Relational Database](builds/076-postgresql-e-commerce-relational-database.md)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-334155) ![Databases - Relational](https://img.shields.io/badge/Databases_--_Relational-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-02
 
-Enterprise NestJS E-Commerce REST API showcasing modules, controllers, services, guards, interceptors, and full dependency injection pattern.
+Production-grade PostgreSQL e-commerce relational database featuring 12 normalized tables, UUID/BIGINT keys, JSONB variant attributes, inventory reservation concurrency locks, check constraints, PL/pgSQL triggers, analytical views, deterministic synthetic data generator, curated seed SQL dataset, 14-index advanced indexing suite, and Python CLI management suite.
 
-[Repo →](https://github.com/breakingthebot/ecommerce-api-build60)
-
----
-
-#### [#59 — High Performance Product Catalog API](builds/059-high-performance-product-catalog-api.md)
-![Fastify](https://img.shields.io/badge/Fastify-334155) ![Backend & APIs (Node/TS)](https://img.shields.io/badge/Backend_%26_APIs_(Node%2FTS)-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
-
-High performance product catalog API built with Fastify — featuring JSON Schema validation, serialization, and benchmark vs Express.
-
-[Repo →](https://github.com/breakingthebot/high-performance-product-catalog-api-build59)
+[Repo →](https://github.com/breakingthebot/postgresql-ecommerce-database-build76)
 
 ---
 
-#### [#58 — Blog REST API with Express](builds/058-blog-rest-api-with-express.md)
-![Express](https://img.shields.io/badge/Express-334155) ![Backend & APIs (Node/TS)](https://img.shields.io/badge/Backend_%26_APIs_(Node%2FTS)-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
+#### [#75 — Real-Time Collaborative Whiteboard](builds/075-real-time-collaborative-whiteboard.md)
+![Elixir + Phoenix](https://img.shields.io/badge/Elixir_%2B_Phoenix-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-02
 
-REST API for a blog built with Node.js and Express featuring post/comment CRUD, auth middleware, rate limiting, and comprehensive test suite.
+Real-time collaborative vector whiteboard with OTP GenServer in-memory room state, durable disk snapshots, crash/reboot recovery, JSON board import/export, geometric shape tools, collaborative sticky notes, infinite pan & zoom navigation, minimap, sub-millisecond Phoenix Channel streaming, peer cursor awareness, and zero polling.
 
-[Repo →](https://github.com/breakingthebot/blog-rest-api-express)
-
----
-
-#### [#57 — COVID-19 Interactive Visual Analytics Dashboard](builds/057-covid-19-interactive-visual-analytics-dashboard.md)
-![D3.js](https://img.shields.io/badge/D3.js-334155) ![Visualization & Data](https://img.shields.io/badge/Visualization_%26_Data-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-02
-
-Interactive COVID-19 Visual Analytics Dashboard powered by D3.js, featuring multi-series line charts, country ranking bar charts, and world choropleth maps.
-
-[Repo →](https://github.com/breakingthebot/covid-data-visualization-build57)
+[Repo →](https://github.com/breakingthebot/realtime-collaborative-whiteboard-phoenix-build75)
 
 ---
 
-#### [#56 — Three.js Interactive 3D Product Viewer](builds/056-three-js-interactive-3d-product-viewer.md)
-![Three.js](https://img.shields.io/badge/Three.js-334155) ![Animation & 3D](https://img.shields.io/badge/Animation_%26_3D-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-01
+#### [#74 — Fastest Possible JSON API](builds/074-fastest-possible-json-api.md)
+![Actix (Rust)](https://img.shields.io/badge/Actix_(Rust)-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-28
 
-Interactive 3D product viewer built with React 19, Three.js, React Three Fiber, Drei, and Vite featuring real-time PBR materials, custom decal texture upload, 3D exploded view, and 3D hotspot annotations.
+Ultra-low-latency, zero-cost abstraction asynchronous JSON REST API built with Actix-Web in Rust featuring sub-millisecond response times, in-memory caching, and comprehensive benchmarks.
 
-[Repo →](https://github.com/breakingthebot/threejs-interactive-3d-product-viewer-build56)
+[Repo →](https://github.com/breakingthebot/fastest-json-api-actix-build74)
 
 ---
 
-#### [#55 — Framer Motion Animated Portfolio Showcase](builds/055-framer-motion-animated-portfolio-showcase.md)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-334155) ![Animation & 3D](https://img.shields.io/badge/Animation_%26_3D-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-07-31
+#### [#73 — Inventory Tracker API](builds/073-inventory-tracker-api.md)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-08-27
 
-Interactive Framer Motion animated portfolio celebrating the 246 Daily Coding Builds ecosystem with page transitions, scroll animations, and interactive cards.
+Inventory tracker REST API built with ASP.NET Core (.NET 8), Entity Framework Core, SQL Server/SQLite, stock level auditing, threshold notifications, and OpenAPI documentation.
 
-[Repo →](https://github.com/breakingthebot/framer-motion-animated-portfolio-build55)
+[Repo →](https://github.com/breakingthebot/inventory-tracker-api-build73)
+
+---
+
+#### [#72 — Employee Directory API (Enterprise)](builds/072-employee-directory-api-enterprise.md)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-22
+
+Enterprise employee directory service built with Spring Boot 3.3, Java 17, Spring Data JPA, H2 database, role-based access control, departmental analytics, and bulk CSV import/export.
+
+[Repo →](https://github.com/breakingthebot/employee-directory-api-build72)
+
+---
+
+#### [#71 — Employee Directory API with SSE & Backups](builds/071-employee-directory-api-with-sse-backups.md)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-20
+
+Employee directory API built with Spring Boot 3.3, Java 17, Spring Data JPA, H2 Database, Spring Security 6, JWT Auth, Bucket4j rate limiting, Caffeine caching, automated backup scheduler, and real-time Server-Sent Events (SSE) streaming.
+
+[Repo →](https://github.com/breakingthebot/employee-directory-api-build71)
+
+---
+
+#### [#70 — Real-Time Leaderboard Service](builds/070-real-time-leaderboard-service.md)
+![Go + Fiber](https://img.shields.io/badge/Go_%2B_Fiber-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-08
+
+Real-time gaming leaderboard engine built with Go, Fiber, Redis sorted sets (ZSET), WebSocket broadcast updates, live rank calculation, and competitive gamer stats.
+
+[Repo →](https://github.com/breakingthebot/real-time-leaderboard-build70)
+
+---
+
+#### [#69 — Authentication Service](builds/069-authentication-service.md)
+![Go + Gin](https://img.shields.io/badge/Go_%2B_Gin-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-08
+
+Production-ready authentication service featuring signed JWT bearer tokens, refresh token rotation, bcrypt password hashing, and PostgreSQL user storage with Gin framework in Go.
+
+[Repo →](https://github.com/breakingthebot/authentication-service-build69)
 
 </details>
 
 <details>
-<summary>Deep Builds (53)</summary>
+<summary>Deep Builds (65)</summary>
+
+#### [#124 — PayPal Donations Platform](builds/124-paypal-donations-platform.md)
+![PayPal API](https://img.shields.io/badge/PayPal_API-334155) ![APIs - Payments](https://img.shields.io/badge/APIs_--_Payments-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-04
+
+Full-stack PayPal Donations Platform (v2 Orders & Subscriptions) featuring fundraising campaign drives, live goal progress bars, cryptographic webhook verification, MRR analytics, automated 501(c)(3) tax receipts, SQLite donor log, Click/Rich CLI, and FastAPI portal.
+
+[Repo →](https://github.com/breakingthebot/paypal-donations-platform-build124)
+
+---
+
+#### [#96 — PDF Research Assistant](builds/096-pdf-research-assistant.md)
+![LangChain](https://img.shields.io/badge/LangChain-334155) ![AI & ML - LLM/Agents](https://img.shields.io/badge/AI_%26_ML_--_LLM%2FAgents-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-02
+
+Production-grade PDF Research Assistant built with LangChain, featuring multi-page PDF ingestion, multi-modal table & Markdown grid extraction, multi-document cross-comparison synthesizer (ComparativeSynthesizer), hierarchical citation metadata tracking, chunking with overlap, semantic vector retrieval, grounded question-answering pipeline (QAPipeline), FastAPI REST API, CLI tool suite (pdf-assistant ask/compare/tables/serve), and embedded Tailwind CSS research dashboard.
+
+[Repo →](https://github.com/breakingthebot/langchain-pdf-research-assistant-build96)
+
+---
+
+#### [#76 — PostgreSQL E-Commerce Relational Database](builds/076-postgresql-e-commerce-relational-database.md)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-334155) ![Databases - Relational](https://img.shields.io/badge/Databases_--_Relational-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-02
+
+Production-grade PostgreSQL e-commerce relational database featuring 12 normalized tables, UUID/BIGINT keys, JSONB variant attributes, inventory reservation concurrency locks, check constraints, PL/pgSQL triggers, analytical views, deterministic synthetic data generator, curated seed SQL dataset, 14-index advanced indexing suite, and Python CLI management suite.
+
+[Repo →](https://github.com/breakingthebot/postgresql-ecommerce-database-build76)
+
+---
+
+#### [#75 — Real-Time Collaborative Whiteboard](builds/075-real-time-collaborative-whiteboard.md)
+![Elixir + Phoenix](https://img.shields.io/badge/Elixir_%2B_Phoenix-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-02
+
+Real-time collaborative vector whiteboard with OTP GenServer in-memory room state, durable disk snapshots, crash/reboot recovery, JSON board import/export, geometric shape tools, collaborative sticky notes, infinite pan & zoom navigation, minimap, sub-millisecond Phoenix Channel streaming, peer cursor awareness, and zero polling.
+
+[Repo →](https://github.com/breakingthebot/realtime-collaborative-whiteboard-phoenix-build75)
+
+---
+
+#### [#74 — Fastest Possible JSON API](builds/074-fastest-possible-json-api.md)
+![Actix (Rust)](https://img.shields.io/badge/Actix_(Rust)-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-28
+
+Ultra-low-latency, zero-cost abstraction asynchronous JSON REST API built with Actix-Web in Rust featuring sub-millisecond response times, in-memory caching, and comprehensive benchmarks.
+
+[Repo →](https://github.com/breakingthebot/fastest-json-api-actix-build74)
+
+---
+
+#### [#72 — Employee Directory API (Enterprise)](builds/072-employee-directory-api-enterprise.md)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-22
+
+Enterprise employee directory service built with Spring Boot 3.3, Java 17, Spring Data JPA, H2 database, role-based access control, departmental analytics, and bulk CSV import/export.
+
+[Repo →](https://github.com/breakingthebot/employee-directory-api-build72)
+
+---
+
+#### [#71 — Employee Directory API with SSE & Backups](builds/071-employee-directory-api-with-sse-backups.md)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-20
+
+Employee directory API built with Spring Boot 3.3, Java 17, Spring Data JPA, H2 Database, Spring Security 6, JWT Auth, Bucket4j rate limiting, Caffeine caching, automated backup scheduler, and real-time Server-Sent Events (SSE) streaming.
+
+[Repo →](https://github.com/breakingthebot/employee-directory-api-build71)
+
+---
+
+#### [#70 — Real-Time Leaderboard Service](builds/070-real-time-leaderboard-service.md)
+![Go + Fiber](https://img.shields.io/badge/Go_%2B_Fiber-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-08
+
+Real-time gaming leaderboard engine built with Go, Fiber, Redis sorted sets (ZSET), WebSocket broadcast updates, live rank calculation, and competitive gamer stats.
+
+[Repo →](https://github.com/breakingthebot/real-time-leaderboard-build70)
+
+---
+
+#### [#69 — Authentication Service](builds/069-authentication-service.md)
+![Go + Gin](https://img.shields.io/badge/Go_%2B_Gin-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-08
+
+Production-ready authentication service featuring signed JWT bearer tokens, refresh token rotation, bcrypt password hashing, and PostgreSQL user storage with Gin framework in Go.
+
+[Repo →](https://github.com/breakingthebot/authentication-service-build69)
+
+---
+
+#### [#67 — Enterprise Inventory Management API](builds/067-enterprise-inventory-management-api.md)
+![Symfony](https://img.shields.io/badge/Symfony-334155) ![Backend - PHP](https://img.shields.io/badge/Backend_--_PHP-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-06
+
+Production-grade RESTful Inventory Management API built with Symfony 6.4 microkernel, Doctrine ORM, Multi-Warehouse Transfers, FEFO Expiration Tracking, Automated Purchase Orders, CSV Import/Export, Bearer Auth, Rate Limiting, and Twig Admin Dashboard.
+
+[Repo →](https://github.com/breakingthebot/inventory-management-api-build67)
+
+---
+
+#### [#66 — Laravel Modern Blog Platform](builds/066-laravel-modern-blog-platform.md)
+![Laravel](https://img.shields.io/badge/Laravel-334155) ![Backend - PHP](https://img.shields.io/badge/Backend_--_PHP-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-05
+
+Modern blog platform built with Laravel 11, featuring Eloquent ORM relationships, Blade templates, authentication, administrative dashboard, tag/category management, and REST API endpoints.
+
+[Repo →](https://github.com/breakingthebot/blog-platform-build66)
+
+---
+
+#### [#65 — Starlette WebSocket Chat Server](builds/065-starlette-websocket-chat-server.md)
+![Starlette](https://img.shields.io/badge/Starlette-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-04
+
+Async Starlette WebSocket chat server featuring room isolation, real-time message broadcasting, connection management, channel events, and REST inspection endpoints.
+
+[Repo →](https://github.com/breakingthebot/websocket-chat-server-build65)
+
+---
 
 #### [#64 — Minimal URL Shortener](builds/064-minimal-url-shortener.md)
 ![Flask](https://img.shields.io/badge/Flask-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
@@ -1197,6 +1431,18 @@ CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, a
 
 ## By Category
 <details>
+<summary>AI & ML - LLM/Agents (1)</summary>
+
+#### [#96 — PDF Research Assistant](builds/096-pdf-research-assistant.md)
+![LangChain](https://img.shields.io/badge/LangChain-334155) ![AI & ML - LLM/Agents](https://img.shields.io/badge/AI_%26_ML_--_LLM%2FAgents-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-02
+
+Production-grade PDF Research Assistant built with LangChain, featuring multi-page PDF ingestion, multi-modal table & Markdown grid extraction, multi-document cross-comparison synthesizer (ComparativeSynthesizer), hierarchical citation metadata tracking, chunking with overlap, semantic vector retrieval, grounded question-answering pipeline (QAPipeline), FastAPI REST API, CLI tool suite (pdf-assistant ask/compare/tables/serve), and embedded Tailwind CSS research dashboard.
+
+[Repo →](https://github.com/breakingthebot/langchain-pdf-research-assistant-build96)
+
+</details>
+
+<details>
 <summary>Animation & 3D (2)</summary>
 
 #### [#56 — Three.js Interactive 3D Product Viewer](builds/056-three-js-interactive-3d-product-viewer.md)
@@ -1214,6 +1460,18 @@ Interactive 3D product viewer built with React 19, Three.js, React Three Fiber, 
 Interactive Framer Motion animated portfolio celebrating the 246 Daily Coding Builds ecosystem with page transitions, scroll animations, and interactive cards.
 
 [Repo →](https://github.com/breakingthebot/framer-motion-animated-portfolio-build55)
+
+</details>
+
+<details>
+<summary>APIs - Payments (1)</summary>
+
+#### [#124 — PayPal Donations Platform](builds/124-paypal-donations-platform.md)
+![PayPal API](https://img.shields.io/badge/PayPal_API-334155) ![APIs - Payments](https://img.shields.io/badge/APIs_--_Payments-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-04
+
+Full-stack PayPal Donations Platform (v2 Orders & Subscriptions) featuring fundraising campaign drives, live goal progress bars, cryptographic webhook verification, MRR analytics, automated 501(c)(3) tax receipts, SQLite donor log, Click/Rich CLI, and FastAPI portal.
+
+[Repo →](https://github.com/breakingthebot/paypal-donations-platform-build124)
 
 </details>
 
@@ -1239,7 +1497,112 @@ Bash server-setup automation with dependency install/verification, environment c
 </details>
 
 <details>
-<summary>Backend - Python (3)</summary>
+<summary>Backend - Other (7)</summary>
+
+#### [#75 — Real-Time Collaborative Whiteboard](builds/075-real-time-collaborative-whiteboard.md)
+![Elixir + Phoenix](https://img.shields.io/badge/Elixir_%2B_Phoenix-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-02
+
+Real-time collaborative vector whiteboard with OTP GenServer in-memory room state, durable disk snapshots, crash/reboot recovery, JSON board import/export, geometric shape tools, collaborative sticky notes, infinite pan & zoom navigation, minimap, sub-millisecond Phoenix Channel streaming, peer cursor awareness, and zero polling.
+
+[Repo →](https://github.com/breakingthebot/realtime-collaborative-whiteboard-phoenix-build75)
+
+---
+
+#### [#74 — Fastest Possible JSON API](builds/074-fastest-possible-json-api.md)
+![Actix (Rust)](https://img.shields.io/badge/Actix_(Rust)-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-28
+
+Ultra-low-latency, zero-cost abstraction asynchronous JSON REST API built with Actix-Web in Rust featuring sub-millisecond response times, in-memory caching, and comprehensive benchmarks.
+
+[Repo →](https://github.com/breakingthebot/fastest-json-api-actix-build74)
+
+---
+
+#### [#73 — Inventory Tracker API](builds/073-inventory-tracker-api.md)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-08-27
+
+Inventory tracker REST API built with ASP.NET Core (.NET 8), Entity Framework Core, SQL Server/SQLite, stock level auditing, threshold notifications, and OpenAPI documentation.
+
+[Repo →](https://github.com/breakingthebot/inventory-tracker-api-build73)
+
+---
+
+#### [#72 — Employee Directory API (Enterprise)](builds/072-employee-directory-api-enterprise.md)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-22
+
+Enterprise employee directory service built with Spring Boot 3.3, Java 17, Spring Data JPA, H2 database, role-based access control, departmental analytics, and bulk CSV import/export.
+
+[Repo →](https://github.com/breakingthebot/employee-directory-api-build72)
+
+---
+
+#### [#71 — Employee Directory API with SSE & Backups](builds/071-employee-directory-api-with-sse-backups.md)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-20
+
+Employee directory API built with Spring Boot 3.3, Java 17, Spring Data JPA, H2 Database, Spring Security 6, JWT Auth, Bucket4j rate limiting, Caffeine caching, automated backup scheduler, and real-time Server-Sent Events (SSE) streaming.
+
+[Repo →](https://github.com/breakingthebot/employee-directory-api-build71)
+
+---
+
+#### [#70 — Real-Time Leaderboard Service](builds/070-real-time-leaderboard-service.md)
+![Go + Fiber](https://img.shields.io/badge/Go_%2B_Fiber-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-08
+
+Real-time gaming leaderboard engine built with Go, Fiber, Redis sorted sets (ZSET), WebSocket broadcast updates, live rank calculation, and competitive gamer stats.
+
+[Repo →](https://github.com/breakingthebot/real-time-leaderboard-build70)
+
+---
+
+#### [#69 — Authentication Service](builds/069-authentication-service.md)
+![Go + Gin](https://img.shields.io/badge/Go_%2B_Gin-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-08
+
+Production-ready authentication service featuring signed JWT bearer tokens, refresh token rotation, bcrypt password hashing, and PostgreSQL user storage with Gin framework in Go.
+
+[Repo →](https://github.com/breakingthebot/authentication-service-build69)
+
+</details>
+
+<details>
+<summary>Backend - PHP (3)</summary>
+
+#### [#68 — Minimal RESTful JSON API](builds/068-minimal-restful-json-api.md)
+![Slim](https://img.shields.io/badge/Slim-334155) ![Backend - PHP](https://img.shields.io/badge/Backend_--_PHP-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-08-06
+
+Minimal RESTful JSON API built with PHP 8.2, Slim 4 Framework, PSR-7 / PSR-15 Middleware, dependency injection, and PHPUnit test suite.
+
+[Repo →](https://github.com/breakingthebot/minimal-json-api-build68)
+
+---
+
+#### [#67 — Enterprise Inventory Management API](builds/067-enterprise-inventory-management-api.md)
+![Symfony](https://img.shields.io/badge/Symfony-334155) ![Backend - PHP](https://img.shields.io/badge/Backend_--_PHP-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-06
+
+Production-grade RESTful Inventory Management API built with Symfony 6.4 microkernel, Doctrine ORM, Multi-Warehouse Transfers, FEFO Expiration Tracking, Automated Purchase Orders, CSV Import/Export, Bearer Auth, Rate Limiting, and Twig Admin Dashboard.
+
+[Repo →](https://github.com/breakingthebot/inventory-management-api-build67)
+
+---
+
+#### [#66 — Laravel Modern Blog Platform](builds/066-laravel-modern-blog-platform.md)
+![Laravel](https://img.shields.io/badge/Laravel-334155) ![Backend - PHP](https://img.shields.io/badge/Backend_--_PHP-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-05
+
+Modern blog platform built with Laravel 11, featuring Eloquent ORM relationships, Blade templates, authentication, administrative dashboard, tag/category management, and REST API endpoints.
+
+[Repo →](https://github.com/breakingthebot/blog-platform-build66)
+
+</details>
+
+<details>
+<summary>Backend - Python (4)</summary>
+
+#### [#65 — Starlette WebSocket Chat Server](builds/065-starlette-websocket-chat-server.md)
+![Starlette](https://img.shields.io/badge/Starlette-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-04
+
+Async Starlette WebSocket chat server featuring room isolation, real-time message broadcasting, connection management, channel events, and REST inspection endpoints.
+
+[Repo →](https://github.com/breakingthebot/websocket-chat-server-build65)
+
+---
 
 #### [#64 — Minimal URL Shortener](builds/064-minimal-url-shortener.md)
 ![Flask](https://img.shields.io/badge/Flask-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-03
@@ -1412,6 +1775,18 @@ California housing prediction toolkit with selectable models, batch validation, 
 CSV-driven sales analytics tool with pandas and matplotlib reporting, exports, and a Streamlit app.
 
 [Repo →](https://github.com/breakingthebot/Sales-Dashboard)
+
+</details>
+
+<details>
+<summary>Databases - Relational (1)</summary>
+
+#### [#76 — PostgreSQL E-Commerce Relational Database](builds/076-postgresql-e-commerce-relational-database.md)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-334155) ![Databases - Relational](https://img.shields.io/badge/Databases_--_Relational-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-02
+
+Production-grade PostgreSQL e-commerce relational database featuring 12 normalized tables, UUID/BIGINT keys, JSONB variant attributes, inventory reservation concurrency locks, check constraints, PL/pgSQL triggers, analytical views, deterministic synthetic data generator, curated seed SQL dataset, 14-index advanced indexing suite, and Python CLI management suite.
+
+[Repo →](https://github.com/breakingthebot/postgresql-ecommerce-database-build76)
 
 </details>
 
@@ -1816,6 +2191,18 @@ Dependency-free drag-and-drop Kanban board with labels, due dates, undo/redo, an
 
 ## By Technology
 <details>
+<summary>Actix (Rust) (1)</summary>
+
+#### [#74 — Fastest Possible JSON API](builds/074-fastest-possible-json-api.md)
+![Actix (Rust)](https://img.shields.io/badge/Actix_(Rust)-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-28
+
+Ultra-low-latency, zero-cost abstraction asynchronous JSON REST API built with Actix-Web in Rust featuring sub-millisecond response times, in-memory caching, and comprehensive benchmarks.
+
+[Repo →](https://github.com/breakingthebot/fastest-json-api-actix-build74)
+
+</details>
+
+<details>
 <summary>Alpine.js (1)</summary>
 
 #### [#47 — NexusCloud Alpine.js Interactive Knowledge Base](builds/047-nexuscloud-alpine-js-interactive-knowledge-base.md)
@@ -1869,6 +2256,18 @@ High-fidelity product search application utilizing RxJS debounced query stream p
 Premium administration dashboard interface built using Angular 19 and Angular Material components featuring cards, tables, charts, and reactive form components.
 
 [Repo →](https://github.com/breakingthebot/angular-material-dashboard)
+
+</details>
+
+<details>
+<summary>ASP.NET Core (1)</summary>
+
+#### [#73 — Inventory Tracker API](builds/073-inventory-tracker-api.md)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-08-27
+
+Inventory tracker REST API built with ASP.NET Core (.NET 8), Entity Framework Core, SQL Server/SQLite, stock level auditing, threshold notifications, and OpenAPI documentation.
+
+[Repo →](https://github.com/breakingthebot/inventory-tracker-api-build73)
 
 </details>
 
@@ -1929,6 +2328,18 @@ Interactive COVID-19 Visual Analytics Dashboard powered by D3.js, featuring mult
 Full Python/Django CMS — featuring models, Django admin panel, user auth, blog posts, categories, comments, and management CLI commands.
 
 [Repo →](https://github.com/breakingthebot/full-cms-build63)
+
+</details>
+
+<details>
+<summary>Elixir + Phoenix (1)</summary>
+
+#### [#75 — Real-Time Collaborative Whiteboard](builds/075-real-time-collaborative-whiteboard.md)
+![Elixir + Phoenix](https://img.shields.io/badge/Elixir_%2B_Phoenix-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-02
+
+Real-time collaborative vector whiteboard with OTP GenServer in-memory room state, durable disk snapshots, crash/reboot recovery, JSON board import/export, geometric shape tools, collaborative sticky notes, infinite pan & zoom navigation, minimap, sub-millisecond Phoenix Channel streaming, peer cursor awareness, and zero polling.
+
+[Repo →](https://github.com/breakingthebot/realtime-collaborative-whiteboard-phoenix-build75)
 
 </details>
 
@@ -2017,6 +2428,30 @@ Go URL shortener API with PostgreSQL storage and click tracking.
 </details>
 
 <details>
+<summary>Go + Fiber (1)</summary>
+
+#### [#70 — Real-Time Leaderboard Service](builds/070-real-time-leaderboard-service.md)
+![Go + Fiber](https://img.shields.io/badge/Go_%2B_Fiber-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-08
+
+Real-time gaming leaderboard engine built with Go, Fiber, Redis sorted sets (ZSET), WebSocket broadcast updates, live rank calculation, and competitive gamer stats.
+
+[Repo →](https://github.com/breakingthebot/real-time-leaderboard-build70)
+
+</details>
+
+<details>
+<summary>Go + Gin (1)</summary>
+
+#### [#69 — Authentication Service](builds/069-authentication-service.md)
+![Go + Gin](https://img.shields.io/badge/Go_%2B_Gin-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-08
+
+Production-ready authentication service featuring signed JWT bearer tokens, refresh token rotation, bcrypt password hashing, and PostgreSQL user storage with Gin framework in Go.
+
+[Repo →](https://github.com/breakingthebot/authentication-service-build69)
+
+</details>
+
+<details>
 <summary>Hono (1)</summary>
 
 #### [#61 — Edge-Deployed URL Shortener](builds/061-edge-deployed-url-shortener.md)
@@ -2101,6 +2536,30 @@ Kotlin Android notes app with Jetpack Compose, Room storage, tags, archive flows
 </details>
 
 <details>
+<summary>LangChain (1)</summary>
+
+#### [#96 — PDF Research Assistant](builds/096-pdf-research-assistant.md)
+![LangChain](https://img.shields.io/badge/LangChain-334155) ![AI & ML - LLM/Agents](https://img.shields.io/badge/AI_%26_ML_--_LLM%2FAgents-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-02
+
+Production-grade PDF Research Assistant built with LangChain, featuring multi-page PDF ingestion, multi-modal table & Markdown grid extraction, multi-document cross-comparison synthesizer (ComparativeSynthesizer), hierarchical citation metadata tracking, chunking with overlap, semantic vector retrieval, grounded question-answering pipeline (QAPipeline), FastAPI REST API, CLI tool suite (pdf-assistant ask/compare/tables/serve), and embedded Tailwind CSS research dashboard.
+
+[Repo →](https://github.com/breakingthebot/langchain-pdf-research-assistant-build96)
+
+</details>
+
+<details>
+<summary>Laravel (1)</summary>
+
+#### [#66 — Laravel Modern Blog Platform](builds/066-laravel-modern-blog-platform.md)
+![Laravel](https://img.shields.io/badge/Laravel-334155) ![Backend - PHP](https://img.shields.io/badge/Backend_--_PHP-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-05
+
+Modern blog platform built with Laravel 11, featuring Eloquent ORM relationships, Blade templates, authentication, administrative dashboard, tag/category management, and REST API endpoints.
+
+[Repo →](https://github.com/breakingthebot/blog-platform-build66)
+
+</details>
+
+<details>
 <summary>Lit (1)</summary>
 
 #### [#48 — Nexus Lit Reusable Date Picker](builds/048-nexus-lit-reusable-date-picker.md)
@@ -2173,6 +2632,18 @@ SEO-optimized Nuxt 3 culinary recipe app with Schema.org JSON-LD structured data
 </details>
 
 <details>
+<summary>PayPal API (1)</summary>
+
+#### [#124 — PayPal Donations Platform](builds/124-paypal-donations-platform.md)
+![PayPal API](https://img.shields.io/badge/PayPal_API-334155) ![APIs - Payments](https://img.shields.io/badge/APIs_--_Payments-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-04
+
+Full-stack PayPal Donations Platform (v2 Orders & Subscriptions) featuring fundraising campaign drives, live goal progress bars, cryptographic webhook verification, MRR analytics, automated 501(c)(3) tax receipts, SQLite donor log, Click/Rich CLI, and FastAPI portal.
+
+[Repo →](https://github.com/breakingthebot/paypal-donations-platform-build124)
+
+</details>
+
+<details>
 <summary>PHP (1)</summary>
 
 #### [#14 — Contact Form Backend](builds/014-contact-form-backend.md)
@@ -2193,6 +2664,18 @@ Modular PHP backend for validating, storing, and emailing contact form submissio
 Pinia state task manager with Kanban board, calendar view, subtask reordering controls, recurring task scheduler, and audit history logs.
 
 [Repo →](https://github.com/breakingthebot/task-manager-pinia-build40)
+
+</details>
+
+<details>
+<summary>PostgreSQL (1)</summary>
+
+#### [#76 — PostgreSQL E-Commerce Relational Database](builds/076-postgresql-e-commerce-relational-database.md)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-334155) ![Databases - Relational](https://img.shields.io/badge/Databases_--_Relational-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-09-02
+
+Production-grade PostgreSQL e-commerce relational database featuring 12 normalized tables, UUID/BIGINT keys, JSONB variant attributes, inventory reservation concurrency locks, check constraints, PL/pgSQL triggers, analytical views, deterministic synthetic data generator, curated seed SQL dataset, 14-index advanced indexing suite, and Python CLI management suite.
+
+[Repo →](https://github.com/breakingthebot/postgresql-ecommerce-database-build76)
 
 </details>
 
@@ -2425,6 +2908,18 @@ Bash server-setup automation with dependency install/verification, environment c
 </details>
 
 <details>
+<summary>Slim (1)</summary>
+
+#### [#68 — Minimal RESTful JSON API](builds/068-minimal-restful-json-api.md)
+![Slim](https://img.shields.io/badge/Slim-334155) ![Backend - PHP](https://img.shields.io/badge/Backend_--_PHP-0f766e) ![Expanded](https://img.shields.io/badge/Expanded-0284c7) · 2026-08-06
+
+Minimal RESTful JSON API built with PHP 8.2, Slim 4 Framework, PSR-7 / PSR-15 Middleware, dependency injection, and PHPUnit test suite.
+
+[Repo →](https://github.com/breakingthebot/minimal-json-api-build68)
+
+</details>
+
+<details>
 <summary>Solid.js (1)</summary>
 
 #### [#44 — Solid.js Real-Time Clock Dashboard](builds/044-solid-js-real-time-clock-dashboard.md)
@@ -2433,6 +2928,39 @@ Bash server-setup automation with dependency install/verification, environment c
 Fine-grained reactive multi-timezone clock dashboard built with Solid.js, featuring analog/digital displays, day/night badges, and pinned custom clocks.
 
 [Repo →](https://github.com/breakingthebot/solidjs-clock-dashboard-build44)
+
+</details>
+
+<details>
+<summary>Spring Boot (2)</summary>
+
+#### [#72 — Employee Directory API (Enterprise)](builds/072-employee-directory-api-enterprise.md)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-22
+
+Enterprise employee directory service built with Spring Boot 3.3, Java 17, Spring Data JPA, H2 database, role-based access control, departmental analytics, and bulk CSV import/export.
+
+[Repo →](https://github.com/breakingthebot/employee-directory-api-build72)
+
+---
+
+#### [#71 — Employee Directory API with SSE & Backups](builds/071-employee-directory-api-with-sse-backups.md)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-334155) ![Backend - Other](https://img.shields.io/badge/Backend_--_Other-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-20
+
+Employee directory API built with Spring Boot 3.3, Java 17, Spring Data JPA, H2 Database, Spring Security 6, JWT Auth, Bucket4j rate limiting, Caffeine caching, automated backup scheduler, and real-time Server-Sent Events (SSE) streaming.
+
+[Repo →](https://github.com/breakingthebot/employee-directory-api-build71)
+
+</details>
+
+<details>
+<summary>Starlette (1)</summary>
+
+#### [#65 — Starlette WebSocket Chat Server](builds/065-starlette-websocket-chat-server.md)
+![Starlette](https://img.shields.io/badge/Starlette-334155) ![Backend - Python](https://img.shields.io/badge/Backend_--_Python-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-04
+
+Async Starlette WebSocket chat server featuring room isolation, real-time message broadcasting, connection management, channel events, and REST inspection endpoints.
+
+[Repo →](https://github.com/breakingthebot/websocket-chat-server-build65)
 
 </details>
 
@@ -2481,6 +3009,18 @@ Full-stack server-rendered notes app built with SvelteKit 5, using server-side d
 SwiftUI habit tracker with search and filters, streaks, reminder scheduling, a weekly dashboard, home screen widgets, and XCTest coverage.
 
 [Repo →](https://github.com/breakingthebot/habit-tracker-ios-swiftui)
+
+</details>
+
+<details>
+<summary>Symfony (1)</summary>
+
+#### [#67 — Enterprise Inventory Management API](builds/067-enterprise-inventory-management-api.md)
+![Symfony](https://img.shields.io/badge/Symfony-334155) ![Backend - PHP](https://img.shields.io/badge/Backend_--_PHP-0f766e) ![Deep](https://img.shields.io/badge/Deep-7c3aed) · 2026-08-06
+
+Production-grade RESTful Inventory Management API built with Symfony 6.4 microkernel, Doctrine ORM, Multi-Warehouse Transfers, FEFO Expiration Tracking, Automated Purchase Orders, CSV Import/Export, Bearer Auth, Rate Limiting, and Twig Admin Dashboard.
+
+[Repo →](https://github.com/breakingthebot/inventory-management-api-build67)
 
 </details>
 
@@ -2681,6 +3221,6 @@ This repo is an index repo and does not require a live deployment.
 This repo is the front door for the full build series. The reference files stay in `reference/`, the published build entries live in `builds.json`, and the README is generated from that JSON so the public index stays consistent. I kept the automation small on purpose: one CLI to add a build, one CLI to regenerate the README, and a handful of focused modules so the data, validation, formatting, and file writes stay separate and easy to audit.
 
 ## Notes
-- The tracker and README are synced to the 64 public build repos currently published under the `breakingthebot` GitHub account.
+- The tracker and README are synced to the 78 public build repos currently published under the `breakingthebot` GitHub account.
 - The tracker workbook contains 246 build rows for the complete 246 Daily Coding Builds series. The automation uses the tracker rows that are actually marked complete.
 - The remaining unpublished build slots are intentionally left open for future custom build designs and additional portfolio work.

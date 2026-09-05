@@ -1,9 +1,9 @@
 {
-  "total_builds": 64,
+  "total_builds": 78,
   "latest_build": {
-    "build_number": 64,
-    "date": "2026-08-03",
-    "project_name": "Minimal URL Shortener"
+    "build_number": 124,
+    "date": "2026-09-04",
+    "project_name": "PayPal Donations Platform"
   },
   "by_category": [
     {
@@ -11,8 +11,16 @@
       "count": 28
     },
     {
+      "label": "Backend - Other",
+      "count": 7
+    },
+    {
       "label": "CLI Tools",
       "count": 6
+    },
+    {
+      "label": "Backend - Python",
+      "count": 4
     },
     {
       "label": "Mobile Apps",
@@ -23,7 +31,7 @@
       "count": 4
     },
     {
-      "label": "Backend - Python",
+      "label": "Backend - PHP",
       "count": 3
     },
     {
@@ -55,6 +63,18 @@
       "count": 2
     },
     {
+      "label": "AI & ML - LLM/Agents",
+      "count": 1
+    },
+    {
+      "label": "APIs - Payments",
+      "count": 1
+    },
+    {
+      "label": "Databases - Relational",
+      "count": 1
+    },
+    {
       "label": "Serverless & Edge",
       "count": 1
     },
@@ -69,6 +89,14 @@
       "count": 2
     },
     {
+      "label": "Spring Boot",
+      "count": 2
+    },
+    {
+      "label": "Actix (Rust)",
+      "count": 1
+    },
+    {
       "label": "Alpine.js",
       "count": 1
     },
@@ -78,6 +106,10 @@
     },
     {
       "label": "Angular Material",
+      "count": 1
+    },
+    {
+      "label": "ASP.NET Core",
       "count": 1
     },
     {
@@ -98,6 +130,10 @@
     },
     {
       "label": "Django",
+      "count": 1
+    },
+    {
+      "label": "Elixir + Phoenix",
       "count": 1
     },
     {
@@ -129,6 +165,14 @@
       "count": 1
     },
     {
+      "label": "Go + Fiber",
+      "count": 1
+    },
+    {
+      "label": "Go + Gin",
+      "count": 1
+    },
+    {
       "label": "Hono",
       "count": 1
     },
@@ -157,6 +201,14 @@
       "count": 1
     },
     {
+      "label": "LangChain",
+      "count": 1
+    },
+    {
+      "label": "Laravel",
+      "count": 1
+    },
+    {
       "label": "Lit",
       "count": 1
     },
@@ -181,11 +233,19 @@
       "count": 1
     },
     {
+      "label": "PayPal API",
+      "count": 1
+    },
+    {
       "label": "PHP",
       "count": 1
     },
     {
       "label": "Pinia",
+      "count": 1
+    },
+    {
+      "label": "PostgreSQL",
       "count": 1
     },
     {
@@ -265,7 +325,15 @@
       "count": 1
     },
     {
+      "label": "Slim",
+      "count": 1
+    },
+    {
       "label": "Solid.js",
+      "count": 1
+    },
+    {
+      "label": "Starlette",
       "count": 1
     },
     {
@@ -282,6 +350,10 @@
     },
     {
       "label": "Swift",
+      "count": 1
+    },
+    {
+      "label": "Symfony",
       "count": 1
     },
     {
@@ -320,11 +392,11 @@
   "by_depth": [
     {
       "label": "Deep",
-      "count": 53
+      "count": 65
     },
     {
       "label": "Expanded",
-      "count": 11
+      "count": 13
     }
   ]
 }
