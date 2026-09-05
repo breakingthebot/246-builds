@@ -1,10 +1,10 @@
 # 246 Builds
 
-[![Test](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml/badge.svg)](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml)
+[![Test](https://github.com/breakingthebot/246-builds/actions/workflows/test.yml/badge.svg)](https://github.com/breakingthebot/246-builds/actions/workflows/test.yml)
 
 ![Builds: 78](https://img.shields.io/badge/Builds-78-0ea5e9) ![Latest: #124](https://img.shields.io/badge/Latest-%23124-16a34a) ![Languages: 76](https://img.shields.io/badge/Languages-76-f59e0b) ![Deep Builds: 65](https://img.shields.io/badge/Deep_Builds-65-7c3aed)
 
-**[Browse & filter every build on the live site →](https://breakingthebot.github.io/286-builds/)**
+**[Browse & filter every build on the live site →](https://breakingthebot.github.io/246-builds/)**
 
 A public index of daily coding builds, each pulled from the 246-project list and built end-to-end in a single day, then expanded through multiple iterations with a full commit history pushed live. Together, the repos form a broad portfolio spanning multiple languages, problem types, and build depths.
 

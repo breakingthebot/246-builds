@@ -300,14 +300,14 @@ test("createReadme includes the CI test badge linked to the Actions workflow", (
 
   assert.match(
     readme,
-    /\[!\[Test\]\(https:\/\/github\.com\/breakingthebot\/286-builds\/actions\/workflows\/test\.yml\/badge\.svg\)\]\(https:\/\/github\.com\/breakingthebot\/286-builds\/actions\/workflows\/test\.yml\)/,
+    /\[!\[Test\]\(https:\/\/github\.com\/breakingthebot\/246-builds\/actions\/workflows\/test\.yml\/badge\.svg\)\]\(https:\/\/github\.com\/breakingthebot\/246-builds\/actions\/workflows\/test\.yml\)/,
   );
 });
 
 test("createReadme links to the live GitHub Pages site", () => {
   const readme = createReadme([]);
 
-  assert.match(readme, /\[Browse & filter every build on the live site →\]\(https:\/\/breakingthebot\.github\.io\/286-builds\/\)/);
+  assert.match(readme, /\[Browse & filter every build on the live site →\]\(https:\/\/breakingthebot\.github\.io\/246-builds\/\)/);
 });
 
 test("createSyncNote computes the published repo count instead of using a hardcoded number", () => {

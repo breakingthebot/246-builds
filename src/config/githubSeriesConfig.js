@@ -1,14 +1,14 @@
 /*
  * src/config/githubSeriesConfig.js
- * Stores GitHub reconciliation settings for the 286 build series.
+ * Stores GitHub reconciliation settings for the 246 build series.
  * Connects to: src/services/githubSyncService.js
  * Created: 2026-06-28
  */
 
 const IGNORED_PUBLIC_REPOSITORIES = [
   // Series tooling / personal repos -- not tracked anywhere in this repo.
-  "286-builds",
-  "286-builds-dashboard",
+  "246-builds",
+  "246-builds-dashboard",
   "master-builds-tracker",
   "airtable-content-calendar",
   "shared-workflows",

@@ -352,11 +352,11 @@ function createReadme(entries, sideProjectEntries = []) {
   return [
     `# ${REPOSITORY_TITLE}`,
     "",
-    "[![Test](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml/badge.svg)](https://github.com/breakingthebot/286-builds/actions/workflows/test.yml)",
+    "[![Test](https://github.com/breakingthebot/246-builds/actions/workflows/test.yml/badge.svg)](https://github.com/breakingthebot/246-builds/actions/workflows/test.yml)",
     "",
     statBadges,
     "",
-    "**[Browse & filter every build on the live site →](https://breakingthebot.github.io/286-builds/)**",
+    "**[Browse & filter every build on the live site →](https://breakingthebot.github.io/246-builds/)**",
     "",
     INTRO_PARAGRAPH,
     "",
